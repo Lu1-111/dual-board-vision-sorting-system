@@ -1,0 +1,17 @@
+#!/bin/sh
+# Physical CAN0 for both boards; the receiver application starts afterwards.
+set -eu
+case "${1:-}" in
+start)
+    n=0
+    while [ ! -d /sys/class/net/can0 ]; do
+        n=$((n+1)); [ "$n" -lt 50 ] || { echo 'CAN0 device unavailable'; exit 1; }
+        sleep 0.1
+    done
+    /opt/can-monitor/setup_can.sh physical can0
+    ;;
+stop) ip link set can0 down ;;
+restart) "$0" stop; "$0" start ;;
+status) ip -details -statistics link show can0 ;;
+*) echo 'Usage: S70can-link start|stop|restart|status'; exit 2 ;;
+esac

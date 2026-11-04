@@ -1,0 +1,245 @@
+{
+  "correct": 16,
+  "total": 18,
+  "accuracy": 0.8888888888888888,
+  "classes": [
+    "empty",
+    "object_present",
+    "hand_present"
+  ],
+  "confusion_matrix": [
+    [
+      6,
+      0,
+      0
+    ],
+    [
+      2,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      6
+    ]
+  ],
+  "rows": [
+    {
+      "image": "T01.jpg",
+      "label": "empty",
+      "prediction": "empty",
+      "correct": true,
+      "probabilities": {
+        "empty": 0.9996325969696045,
+        "object_present": 0.00023620524734724313,
+        "hand_present": 0.0001311886153416708
+      },
+      "sha256": "6566faf6aa52b86224378adecc10335e493c396a3ee73ffefce03e4240bbc7dd"
+    },
+    {
+      "image": "T02.jpg",
+      "label": "object_present",
+      "prediction": "object_present",
+      "correct": true,
+      "probabilities": {
+        "empty": 0.00015469419304281473,
+        "object_present": 0.9995880722999573,
+        "hand_present": 0.0002572844095993787
+      },
+      "sha256": "b624323994797f574ae19774b9bafd512917bc3a5524d7682fa09108a8e4f551"
+    },
+    {
+      "image": "T03.jpg",
+      "label": "hand_present",
+      "prediction": "hand_present",
+      "correct": true,
+      "probabilities": {
+        "empty": 0.0004963368410244584,
+        "object_present": 0.0005758843617513776,
+        "hand_present": 0.9989277720451355
+      },
+      "sha256": "e579ce51b36d7e85089b1532efbb81bef25af7adecb12789456b8a2f5d8c8bf3"
+    },
+    {
+      "image": "T04.jpg",
+      "label": "empty",
+      "prediction": "empty",
+      "correct": true,
+      "probabilities": {
+        "empty": 0.9996557235717773,
+        "object_present": 0.00021433578513097018,
+        "hand_present": 0.0001299118739552796
+      },
+      "sha256": "57fbcc4f2c4db5c4053b4d11ce25d170def28d62fd54d86106f733a674782041"
+    },
+    {
+      "image": "T05.jpg",
+      "label": "object_present",
+      "prediction": "empty",
+      "correct": false,
+      "probabilities": {
+        "empty": 0.9211536049842834,
+        "object_present": 0.07614865154027939,
+        "hand_present": 0.0026977271772921085
+      },
+      "sha256": "d6f23fe80cc6c9228048ff798932b51f0d91022f4d762b23131b15fbef12ab66"
+    },
+    {
+      "image": "T06.jpg",
+      "label": "hand_present",
+      "prediction": "hand_present",
+      "correct": true,
+      "probabilities": {
+        "empty": 0.009546060115098953,
+        "object_present": 0.03777693584561348,
+        "hand_present": 0.9526770114898682
+      },
+      "sha256": "7ada6320a18d72400047d0542b632976461db6a9f74c5738003499b3c830c662"
+    },
+    {
+      "image": "T07.jpg",
+      "label": "empty",
+      "prediction": "empty",
+      "correct": true,
+      "probabilities": {
+        "empty": 0.9995467066764832,
+        "object_present": 0.00026416193577460945,
+        "hand_present": 0.00018914863176178187
+      },
+      "sha256": "3b70108fc4afe269abccd5b957fb7405a0c46eabc6583f2136caf65e37bef115"
+    },
+    {
+      "image": "T08.jpg",
+      "label": "object_present",
+      "prediction": "object_present",
+      "correct": true,
+      "probabilities": {
+        "empty": 0.006424205843359232,
+        "object_present": 0.9925373196601868,
+        "hand_present": 0.0010384598281234503
+      },
+      "sha256": "ee95814363b732745b0ca47194d571284d7e6f8b85fae4e23ca921c68e087d4b"
+    },
+    {
+      "image": "T09.jpg",
+      "label": "hand_present",
+      "prediction": "hand_present",
+      "correct": true,
+      "probabilities": {
+        "empty": 0.0031465855427086353,
+        "object_present": 0.0003163528745062649,
+        "hand_present": 0.9965370893478394
+      },
+      "sha256": "adfc0f25bda7ee898f7a6fbab4a3bcfe47e60169ecc417670e200211a3cbef16"
+    },
+    {
+      "image": "T10.jpg",
+      "label": "empty",
+      "prediction": "empty",
+      "correct": true,
+      "probabilities": {
+        "empty": 0.9992496371269226,
+        "object_present": 0.00040660289232619107,
+        "hand_present": 0.0003438255225773901
+      },
+      "sha256": "d41133a7e452f8fda284b049b1493c1260e5eb1583f426c1ea2c0c98f1d3d1fc"
+    },
+    {
+      "image": "T11.jpg",
+      "label": "object_present",
+      "prediction": "empty",
+      "correct": false,
+      "probabilities": {
+        "empty": 0.5049283504486084,
+        "object_present": 0.48634499311447144,
+        "hand_present": 0.008726745843887329
+      },
+      "sha256": "70a96054a151639598057e87f2132fc4b07ebdd26fc1a03b5e5a10d4f1a7b530"
+    },
+    {
+      "image": "T12.jpg",
+      "label": "hand_present",
+      "prediction": "hand_present",
+      "correct": true,
+      "probabilities": {
+        "empty": 0.01884748972952366,
+        "object_present": 0.05450672656297684,
+        "hand_present": 0.9266457557678223
+      },
+      "sha256": "8427c4c136776b8f1803d7a507795032f0e0ef09b45d8f5303f91e195578e4ea"
+    },
+    {
+      "image": "T13.jpg",
+      "label": "empty",
+      "prediction": "empty",
+      "correct": true,
+      "probabilities": {
+        "empty": 0.999401330947876,
+        "object_present": 0.00036941998405382037,
+        "hand_present": 0.0002292314893566072
+      },
+      "sha256": "063ae7d9756b856bebeabfb99aac8fafb4e5807412704f0b0d17517c1d1141a6"
+    },
+    {
+      "image": "T14.jpg",
+      "label": "object_present",
+      "prediction": "object_present",
+      "correct": true,
+      "probabilities": {
+        "empty": 0.00019987452833447605,
+        "object_present": 0.9995248317718506,
+        "hand_present": 0.0002753214503172785
+      },
+      "sha256": "f8bd04af63ba1dfb6044d3b688927cddbd083d01bc9a26dc5c7cc4bd2d09f345"
+    },
+    {
+      "image": "T15.jpg",
+      "label": "hand_present",
+      "prediction": "hand_present",
+      "correct": true,
+      "probabilities": {
+        "empty": 0.0003951644175685942,
+        "object_present": 0.0006679401267319918,
+        "hand_present": 0.9989369511604309
+      },
+      "sha256": "2f766877dfb9e6c339c3567d3935f74827a330c356da9a0d6cc3d107db3f739b"
+    },
+    {
+      "image": "T16.jpg",
+      "label": "empty",
+      "prediction": "empty",
+      "correct": true,
+      "probabilities": {
+        "empty": 0.9932774901390076,
+        "object_present": 0.003823282662779093,
+        "hand_present": 0.0028991715516895056
+      },
+      "sha256": "acb3d3c6351e1b0746626fe6d8b4fc850cdbaec2e40d0557aff8fce5fa47928f"
+    },
+    {
+      "image": "T17.jpg",
+      "label": "object_present",
+      "prediction": "object_present",
+      "correct": true,
+      "probabilities": {
+        "empty": 0.022795792669057846,
+        "object_present": 0.9732470512390137,
+        "hand_present": 0.0039571779780089855
+      },
+      "sha256": "9a7504aa25619ecfeb0dc4f4f24f8772efc5f52898df6d87bf7c2a4c2c57d672"
+    },
+    {
+      "image": "T18.jpg",
+      "label": "hand_present",
+      "prediction": "hand_present",
+      "correct": true,
+      "probabilities": {
+        "empty": 0.002892593154683709,
+        "object_present": 0.022236840799450874,
+        "hand_present": 0.9748705625534058
+      },
+      "sha256": "a78c0d4b7773940a645bd7adce19a2c9b1f5d673f5a2c13d748383decc721367"
+    }
+  ]
+}

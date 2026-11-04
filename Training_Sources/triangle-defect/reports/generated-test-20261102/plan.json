@@ -1,0 +1,209 @@
+{
+  "created_at": "2026-11-02T03:13:31.431891+00:00",
+  "generator": "built-in image_gen",
+  "planned_count": 20,
+  "planned_counts": {
+    "normal": 10,
+    "triangle_defect": 10
+  },
+  "test_only": true,
+  "train_manifest_sha256": "d7122a210e7f75baf2195d4f7b1c096375e0a591fb72937e3f4da31d84c7335e",
+  "frozen_model": {
+    "version": "V28",
+    "original_frozen_at": "2026-11-02T10:45:12.667723+08:00",
+    "selected_epoch": 95,
+    "threshold": 0.88,
+    "weights_sha256": "49eb907aaeee7733715083b60230c382ec6628ceb4de7678da011c9f3cc38f76",
+    "torchscript_sha256": "12132fef2dc03bd3902ec4cf27686d3911f1260675b5869f1b36e2ef3ded8de9",
+    "config_sha256": "6610c89dec5fcd814f29cdc2a8c7b345954e4812b94c1ff054868911b69a17a7",
+    "scope": "Only triangular corner defects; all main961 images preserved",
+    "evaluation_limitation": "Weights, threshold, preprocessing and aggregation fixed before142-image V28 regression evaluation. The retained142-image holdout was exposed during earlier development, so results are internal regression, not independent field validation. Model selection and threshold use only the146-image validation split.",
+    "reorganization": "Model parameter files unchanged. Source entrypoints and data paths moved; full dataset and inference parity checked separately."
+  },
+  "primary_preprocessing": "Existing Predictor: PIL grayscale L -> bilinear320 -> float32/255",
+  "secondary_probe": "Predeclared resolution sensitivity only: PIL grayscale L -> bilinear224 -> bilinear320 -> float32/255; never used to select a threshold or replace primary results",
+  "review_rule": "Inspect generated visual content and lock actual labels before inference. Keep every generated sample. If ambiguous or out of scope, record reason and report separately regardless of model score. Do not regenerate based on classifier output.",
+  "scope": "Reference-conditioned synthetic robustness batch, not independent real-camera field validation. References come from the training split. Not added to training or used for optimization.",
+  "cases": [
+    {
+      "id": "N01",
+      "planned_label": 0,
+      "scenario": "标准正常",
+      "reference": "data/images/train/normal/blue_005_historic.png",
+      "reference_sha256": "49e9127c83c6420b25d6e29dc1064558e34554a355ca46a14dbdfb0cbf6e0c95",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Intact rectangular cuboid, three visible straight edges meet at sharp, complete vertices. Neutral medium exposure. Fresh capture, slightly different belt surface grain and block angle.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/N01.png"
+    },
+    {
+      "id": "N02",
+      "planned_label": 0,
+      "scenario": "正常·偏暗",
+      "reference": "data/images/train/normal/blue_005_historic.png",
+      "reference_sha256": "49e9127c83c6420b25d6e29dc1064558e34554a355ca46a14dbdfb0cbf6e0c95",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Intact block, about 15 percent dimmer exposure than reference, but all edges and corners remain fully discernible. No material missing. Slightly different belt grain.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/N02.png"
+    },
+    {
+      "id": "N03",
+      "planned_label": 0,
+      "scenario": "正常·偏亮",
+      "reference": "data/images/train/normal/blue_005_historic.png",
+      "reference_sha256": "49e9127c83c6420b25d6e29dc1064558e34554a355ca46a14dbdfb0cbf6e0c95",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Intact block, about 15 percent brighter exposure with a mild highlight on the distant metal guide rail. Preserve complete straight edges and all corners.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/N03.png"
+    },
+    {
+      "id": "N04",
+      "planned_label": 0,
+      "scenario": "正常·旋转视角",
+      "reference": "data/images/train/normal/blue_002_historic.png",
+      "reference_sha256": "2fadc14fd90e6c084a6254bf9123e79d684f2bd788db51e58566f5dfe2f07dce",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Intact block, rotate in the belt plane about 12 degrees clockwise from the reference, showing a broad front face and narrow side face. All vertices complete.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/N04.png"
+    },
+    {
+      "id": "N05",
+      "planned_label": 0,
+      "scenario": "正常·较小占比",
+      "reference": "data/images/train/normal/blue_002_historic.png",
+      "reference_sha256": "2fadc14fd90e6c084a6254bf9123e79d684f2bd788db51e58566f5dfe2f07dce",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Intact block, modestly smaller framing, block spans about 65 percent of square image width, entirely visible. Keep inspection-camera perspective and all corners complete.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/N05.png"
+    },
+    {
+      "id": "N06",
+      "planned_label": 0,
+      "scenario": "正常·较大占比",
+      "reference": "data/images/train/normal/blue_005_historic.png",
+      "reference_sha256": "49e9127c83c6420b25d6e29dc1064558e34554a355ca46a14dbdfb0cbf6e0c95",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Intact block, modestly tighter framing, spans about 85 percent of square image width, entirely visible with margin on every side. All corners complete.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/N06.png"
+    },
+    {
+      "id": "N07",
+      "planned_label": 0,
+      "scenario": "正常·斜向阴影",
+      "reference": "data/images/train/normal/blue_005_historic.png",
+      "reference_sha256": "49e9127c83c6420b25d6e29dc1064558e34554a355ca46a14dbdfb0cbf6e0c95",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Intact block with a gentle diagonal illumination shadow across the front surface; continuous flat planes, absolutely no cut, gouge or chipped material. Corner geometry must stay intact. The shadow alone is not a defect.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/N07.png"
+    },
+    {
+      "id": "N08",
+      "planned_label": 0,
+      "scenario": "正常·表面斑驳",
+      "reference": "data/images/train/normal/blue_002_historic.png",
+      "reference_sha256": "2fadc14fd90e6c084a6254bf9123e79d684f2bd788db51e58566f5dfe2f07dce",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Intact block with subtle mottled grayscale surface tone and fine surface texture on its otherwise flat faces. The mottling is only reflectance variation. Absolutely no missing material or broken corner.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/N08.png"
+    },
+    {
+      "id": "N09",
+      "planned_label": 0,
+      "scenario": "正常·边缘反光",
+      "reference": "data/images/train/normal/blue_005_historic.png",
+      "reference_sha256": "49e9127c83c6420b25d6e29dc1064558e34554a355ca46a14dbdfb0cbf6e0c95",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Intact block with a narrow mild highlight along one edge and a bright but thin conveyor rail near the top image border. Smooth uninterrupted edge geometry; no missing material.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/N09.png"
+    },
+    {
+      "id": "N10",
+      "planned_label": 0,
+      "scenario": "正常·轻微失焦",
+      "reference": "data/images/train/normal/blue_002_historic.png",
+      "reference_sha256": "2fadc14fd90e6c084a6254bf9123e79d684f2bd788db51e58566f5dfe2f07dce",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Intact block in a slightly different angle with very mild inspection-camera defocus and noise, while edges and complete vertices remain easy to see. No severe blur, no missing corner.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/N10.png"
+    },
+    {
+      "id": "D01",
+      "planned_label": 1,
+      "scenario": "标准三角缺角",
+      "reference": "data/images/train/triangle_defect/blue_051_historic.png",
+      "reference_sha256": "197922ff7d7ec9a1916c55fc8229f5b7b60b884abe7aee25aee14cd36a88e558",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Exactly one triangular chipped vertex on the lower central vertical corner, same defect topology and scale as reference: a shallow triangular diagonal fracture facet truncates the convex corner. Rough matte same-material fracture, clear missing corner; other edges intact.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/D01.png"
+    },
+    {
+      "id": "D02",
+      "planned_label": 1,
+      "scenario": "较小三角缺角",
+      "reference": "data/images/train/triangle_defect/blue_051_historic.png",
+      "reference_sha256": "197922ff7d7ec9a1916c55fc8229f5b7b60b884abe7aee25aee14cd36a88e558",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Exactly one triangular chipped vertex at the lower central corner. Chip footprint roughly 60 percent of the reference chip linear size, still clearly visible and resolved. Maintain a triangular truncation of a convex vertex with rough same-material fracture, not a V notch in the middle of an edge.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/D02.png"
+    },
+    {
+      "id": "D03",
+      "planned_label": 1,
+      "scenario": "较大三角缺角",
+      "reference": "data/images/train/triangle_defect/blue_051_historic.png",
+      "reference_sha256": "197922ff7d7ec9a1916c55fc8229f5b7b60b884abe7aee25aee14cd36a88e558",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Exactly one triangular chipped vertex at the lower central corner. Chip footprint roughly 130 percent of the reference chip linear size, same triangular diagonal fracture shape. Clearly absent material at one convex vertex, all remaining block faces intact.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/D03.png"
+    },
+    {
+      "id": "D04",
+      "planned_label": 1,
+      "scenario": "三角缺角·细腻断面",
+      "reference": "data/images/train/triangle_defect/blue_051_historic.png",
+      "reference_sha256": "197922ff7d7ec9a1916c55fc8229f5b7b60b884abe7aee25aee14cd36a88e558",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Exactly one triangular chipped vertex at the lower corner at the original reference scale. Fracture surface is relatively fine-grained and low contrast, but diagonal truncation and actual missing vertex are clearly visible. Same-material gray surface, no white interior.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/D04.png"
+    },
+    {
+      "id": "D05",
+      "planned_label": 1,
+      "scenario": "三角缺角·粗糙断面",
+      "reference": "data/images/train/triangle_defect/blue_051_historic.png",
+      "reference_sha256": "197922ff7d7ec9a1916c55fc8229f5b7b60b884abe7aee25aee14cd36a88e558",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Exactly one triangular chipped vertex at the lower corner at the original reference scale. Fracture surface is rougher and more granular than reference, still contained within a single triangular cut facet. Preserve the overall triangular outline, no random large jagged holes.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/D05.png"
+    },
+    {
+      "id": "D06",
+      "planned_label": 1,
+      "scenario": "上部三角缺角",
+      "reference": "data/images/train/triangle_defect/blue_062_historic.png",
+      "reference_sha256": "0eec38ae36f527b3d151a67698ef71c4181c3baed861bddbd3b96a7b70ed8b45",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Exactly one triangular chipped upper-left visible vertex matching the reference, with a clear triangular oblique fracture facet truncating that convex corner. Slightly change the block pose and background grain; keep all other corners intact.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/D06.png"
+    },
+    {
+      "id": "D07",
+      "planned_label": 1,
+      "scenario": "顶角三角缺角",
+      "reference": "data/images/train/triangle_defect/blue_079_historic.png",
+      "reference_sha256": "3229e7f32abf1befe9f5470f156d931f2a1d5d04f919b9ca10640e897c5c3ba0",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Exactly one triangular chipped top apex matching reference topology. Show a triangular diagonal fractured facet where two broad faces meet at the upper corner. Both the missing corner geometry and mildly rough fracture remain visible.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/D07.png"
+    },
+    {
+      "id": "D08",
+      "planned_label": 1,
+      "scenario": "三角缺角·偏暗",
+      "reference": "data/images/train/triangle_defect/blue_051_historic.png",
+      "reference_sha256": "197922ff7d7ec9a1916c55fc8229f5b7b60b884abe7aee25aee14cd36a88e558",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Exactly one triangular chipped lower vertex matching reference size and geometry, under about 15 percent dimmer exposure. Chip must remain visibly resolved, not hidden by shadow. Grain and fracture texture may vary.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/D08.png"
+    },
+    {
+      "id": "D09",
+      "planned_label": 1,
+      "scenario": "三角缺角·偏亮",
+      "reference": "data/images/train/triangle_defect/blue_062_historic.png",
+      "reference_sha256": "0eec38ae36f527b3d151a67698ef71c4181c3baed861bddbd3b96a7b70ed8b45",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Exactly one triangular chipped upper-left vertex matching reference size and geometry, under about 15 percent brighter exposure with a mild belt highlight. Preserve the visible diagonal fracture and missing-material geometry.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/D09.png"
+    },
+    {
+      "id": "D10",
+      "planned_label": 1,
+      "scenario": "三角缺角·斜视",
+      "reference": "data/images/train/triangle_defect/blue_051_historic.png",
+      "reference_sha256": "197922ff7d7ec9a1916c55fc8229f5b7b60b884abe7aee25aee14cd36a88e558",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one held-out synthetic machine-vision test photograph, not a collage or report.\nInput image role: reference for the original inspection scene, workpiece geometry, material, cropping and defect topology. Generate a fresh capture, not a pixel-identical copy.\nScene: a single matte medium-gray rectangular cuboid workpiece on a dark textured conveyor belt, sometimes a thin metal guide rail at the far border, viewed obliquely from above exactly like the reference crop. Square close crop containing one whole block with a small visible background margin. No other objects.\nStyle: monochrome grayscale industrial inspection camera photograph, modest contrast, slight sensor noise and soft low-cost camera detail matching the reference. No color. Not a clean studio product render, not a stylized drawing, not a dramatic cinematic photograph.\nRequired case: Exactly one triangular chipped lower vertex matching reference size and shape, block yaw changed modestly about 12 degrees to show more side face. The chipped corner remains unobstructed and fully visible, with mild inspection-camera softness.\nConstraints: same block proportions and inspection scene as reference; vary pose/lighting only as specified. For any defective case use ONLY one triangular corner truncation at a convex vertex, matching the original reference. A dark painted triangle without missing geometry is not a chip. No holes, cracks, rectangular or U-shaped notches, serrated cuts, multiple chips, exposed white filler, detached chunks, hands, rulers, labels, arrows, text or watermarks. Return one square full-frame photograph.",
+      "image": "images/D10.png"
+    }
+  ]
+}

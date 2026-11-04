@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-11-02T10:52:19.435417+08:00",
+  "project_name": "triangle-defect",
+  "curated_images": 1009,
+  "main_images": 961,
+  "original_capture_images": 101,
+  "counts": {
+    "train": {
+      "0": 342,
+      "1": 379
+    },
+    "val": {
+      "0": 69,
+      "1": 77
+    },
+    "test": {
+      "0": 67,
+      "1": 75
+    }
+  },
+  "file_bytes_preserved": true,
+  "retained_model": "V28, selected epoch95, unchanged threshold0.88",
+  "cleanup_pending": false,
+  "cleanup_completed_at": "2026-11-02T02:58:00.945614+00:00"
+}

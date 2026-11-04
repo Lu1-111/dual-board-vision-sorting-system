@@ -1,0 +1,21 @@
+Command: project Python -m unittest discover -s tests -v
+Geometry fixtures check software behavior only; they are not defect-accuracy data.
+
+test_actual_photos_annotation_and_export (test_fullframe.InspectionTests.test_actual_photos_annotation_and_export) ... ok
+test_cli_batch_reports_bad_files_and_keeps_sources (test_fullframe.InspectionTests.test_cli_batch_reports_bad_files_and_keeps_sources) ... ok
+test_crop_mode_preserves_prediction_without_inventing_coordinates (test_fullframe.InspectionTests.test_crop_mode_preserves_prediction_without_inventing_coordinates) ... ok
+test_frame_edge_requires_review_and_crop_is_clipped (test_fullframe.InspectionTests.test_frame_edge_requires_review_and_crop_is_clipped) ... ok
+test_empty_grayscale_and_small_speck (test_fullframe.LocatorTests.test_empty_grayscale_and_small_speck) ... ok
+test_separated_objects_original_coordinates_and_other_colors (test_fullframe.LocatorTests.test_separated_objects_original_coordinates_and_other_colors) ... ok
+test_fullframe_crop_preview_and_export (test_gui.GuiTests.test_fullframe_crop_preview_and_export) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 5.194s
+
+OK
+
+Frozen-release regression: all142 decisions unchanged; max score difference0.0;
+max TorchScript difference0.0. See legacy_regression.json for every sample.
+Project verification:1009 curated images,101 originals,118 disjoint groups passed;
+released weights, config, TorchScript and training initialization hashes unchanged.
+Annotation examples visually inspected at original1920x1080 resolution.

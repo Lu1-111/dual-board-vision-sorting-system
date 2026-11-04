@@ -1,0 +1,9 @@
+QT += core gui
+QT -= widgets
+CONFIG += console c++11 release
+CONFIG -= app_bundle
+TEMPLATE = app
+TARGET = capture_once
+SOURCES += capture_once.cpp capture_worker.cpp dataset_store.cpp
+HEADERS += capture_worker.hpp dataset_store.hpp
+LIBS += -lpthread

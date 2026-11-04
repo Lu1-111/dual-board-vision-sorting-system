@@ -1,0 +1,9 @@
+QT += core gui network
+QT -= widgets
+CONFIG += console c++11
+CONFIG -= app_bundle
+TEMPLATE = app
+TARGET = camera_preview_smoke
+SOURCES += camera_preview_smoke.cpp ../camerapreviewclient.cpp
+HEADERS += ../camerapreviewclient.h
+QMAKE_CXXFLAGS += -Wall -Wextra

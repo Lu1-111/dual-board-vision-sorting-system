@@ -1,0 +1,11 @@
+{
+  "selected_epoch": 20,
+  "trained_epochs": 100,
+  "training_seconds": 32.34922170639038,
+  "checkpoint_sha256": "a29bf3994197273e8a2262cd59b901c6e04038750be9760433314030d0c6fe73",
+  "cuda_peak_allocated_mib": 119.66455078125,
+  "cuda_peak_reserved_mib": 202.0,
+  "frozen_unix_time": 1793590779.605495,
+  "known_batch02_used_for_selection": true,
+  "new_test_images_used_for_training_or_selection": false
+}

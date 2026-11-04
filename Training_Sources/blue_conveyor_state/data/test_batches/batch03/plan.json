@@ -1,0 +1,231 @@
+{
+  "batch": "batch03",
+  "designed_before_inference": true,
+  "threshold": 0.8,
+  "scope": "New post-optimization held-out fixed conveyor tests, blue cubes only. No model or threshold updates using this batch.",
+  "tests": [
+    {
+      "id": "b03_01_cool_dim_left",
+      "expected_class": "empty",
+      "suite": "classification",
+      "condition": "cool_dim_left",
+      "title": "空带＋左侧冷暗光",
+      "prompt": "Use case: precise-object-edit. Asset: a single photorealistic fixed-camera inspection frame, edited from Input Image 1. Preserve the EXACT same green conveyor, silver rail geometry, cardboard, cables, black base plate, right-side tabletop, camera angle and landscape framing. Do not shift the camera or change equipment/background layout. Only change movable blue cube/hand and illumination as requested. Keep the same palm-size BLUE foam cube scale/material. No other-color cubes, added objects, text, captions, arrows, annotations, grids, collage or watermark. Natural sensor texture and physical contact shadows. Remove the blue cube completely. No hand or arm anywhere. The belt is completely empty. Low-exposure cool bluish ambient light from the left, approximately one stop dimmer, but all belt geometry remains clearly visible.",
+      "reference_paths": [
+        "data/reference/images/S01_blue_normal.png"
+      ],
+      "path": "images/b03_01_cool_dim_left.png"
+    },
+    {
+      "id": "b03_02_cool_hard_shadow",
+      "expected_class": "empty",
+      "suite": "classification",
+      "condition": "cool_hard_shadow",
+      "title": "空带＋冷光斜阴影",
+      "prompt": "Use case: precise-object-edit. Asset: a single photorealistic fixed-camera inspection frame, edited from Input Image 1. Preserve the EXACT same green conveyor, silver rail geometry, cardboard, cables, black base plate, right-side tabletop, camera angle and landscape framing. Do not shift the camera or change equipment/background layout. Only change movable blue cube/hand and illumination as requested. Keep the same palm-size BLUE foam cube scale/material. No other-color cubes, added objects, text, captions, arrows, annotations, grids, collage or watermark. Natural sensor texture and physical contact shadows. Remove cube, no hand or arm. Entirely empty belt. Cold indoor white light with a diagonal shadow across the lower half of belt. No object casting the shadow is in frame.",
+      "reference_paths": [
+        "data/reference/images/S01_blue_normal.png"
+      ],
+      "path": "images/b03_02_cool_hard_shadow.png"
+    },
+    {
+      "id": "b03_03_warm_glare",
+      "expected_class": "empty",
+      "suite": "classification",
+      "condition": "warm_glare",
+      "title": "空带＋暖光反射",
+      "prompt": "Use case: precise-object-edit. Asset: a single photorealistic fixed-camera inspection frame, edited from Input Image 1. Preserve the EXACT same green conveyor, silver rail geometry, cardboard, cables, black base plate, right-side tabletop, camera angle and landscape framing. Do not shift the camera or change equipment/background layout. Only change movable blue cube/hand and illumination as requested. Keep the same palm-size BLUE foam cube scale/material. No other-color cubes, added objects, text, captions, arrows, annotations, grids, collage or watermark. Natural sensor texture and physical contact shadows. Remove cube, no hand or arm. Empty belt. Warm desk lighting and a localized broad reflection in the right belt surface; retain natural green belt texture.",
+      "reference_paths": [
+        "data/reference/images/S01_blue_normal.png"
+      ],
+      "path": "images/b03_03_warm_glare.png"
+    },
+    {
+      "id": "b03_04_bright_cool",
+      "expected_class": "empty",
+      "suite": "classification",
+      "condition": "bright_cool",
+      "title": "空带＋明亮冷光",
+      "prompt": "Use case: precise-object-edit. Asset: a single photorealistic fixed-camera inspection frame, edited from Input Image 1. Preserve the EXACT same green conveyor, silver rail geometry, cardboard, cables, black base plate, right-side tabletop, camera angle and landscape framing. Do not shift the camera or change equipment/background layout. Only change movable blue cube/hand and illumination as requested. Keep the same palm-size BLUE foam cube scale/material. No other-color cubes, added objects, text, captions, arrows, annotations, grids, collage or watermark. Natural sensor texture and physical contact shadows. Remove cube, no hand or arm. Empty belt. Bright cool daylight color cast, slight silver rail glare, keep image correctly exposed without saturation.",
+      "reference_paths": [
+        "data/reference/images/S01_blue_normal.png"
+      ],
+      "path": "images/b03_04_bright_cool.png"
+    },
+    {
+      "id": "b03_05_mixed_light",
+      "expected_class": "empty",
+      "suite": "classification",
+      "condition": "mixed_light",
+      "title": "空带＋混合光",
+      "prompt": "Use case: precise-object-edit. Asset: a single photorealistic fixed-camera inspection frame, edited from Input Image 1. Preserve the EXACT same green conveyor, silver rail geometry, cardboard, cables, black base plate, right-side tabletop, camera angle and landscape framing. Do not shift the camera or change equipment/background layout. Only change movable blue cube/hand and illumination as requested. Keep the same palm-size BLUE foam cube scale/material. No other-color cubes, added objects, text, captions, arrows, annotations, grids, collage or watermark. Natural sensor texture and physical contact shadows. Remove cube, no hand or arm. Empty belt. Soft warm lighting from left and slightly cooler lighting from right, gently varying illumination, unchanged background.",
+      "reference_paths": [
+        "data/reference/images/S01_blue_normal.png"
+      ],
+      "path": "images/b03_05_mixed_light.png"
+    },
+    {
+      "id": "b03_06_dim_sensor_grain",
+      "expected_class": "empty",
+      "suite": "classification",
+      "condition": "dim_sensor_grain",
+      "title": "空带＋暗光颗粒",
+      "prompt": "Use case: precise-object-edit. Asset: a single photorealistic fixed-camera inspection frame, edited from Input Image 1. Preserve the EXACT same green conveyor, silver rail geometry, cardboard, cables, black base plate, right-side tabletop, camera angle and landscape framing. Do not shift the camera or change equipment/background layout. Only change movable blue cube/hand and illumination as requested. Keep the same palm-size BLUE foam cube scale/material. No other-color cubes, added objects, text, captions, arrows, annotations, grids, collage or watermark. Natural sensor texture and physical contact shadows. Remove cube, no hand or arm. Empty belt. Neutral dim light about 1 stop below reference, subtle natural sensor noise visible in shadows, no artificial patterns.",
+      "reference_paths": [
+        "data/reference/images/S01_blue_normal.png"
+      ],
+      "path": "images/b03_06_dim_sensor_grain.png"
+    },
+    {
+      "id": "b03_07_lower_left_warm",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "condition": "lower_left_warm",
+      "title": "暖光＋蓝块靠左下边轨",
+      "prompt": "Use case: precise-object-edit. Asset: a single photorealistic fixed-camera inspection frame, edited from Input Image 1. Preserve the EXACT same green conveyor, silver rail geometry, cardboard, cables, black base plate, right-side tabletop, camera angle and landscape framing. Do not shift the camera or change equipment/background layout. Only change movable blue cube/hand and illumination as requested. Keep the same palm-size BLUE foam cube scale/material. No other-color cubes, added objects, text, captions, arrows, annotations, grids, collage or watermark. Natural sensor texture and physical contact shadows. Exactly one blue cube, no hand or arm. Move cube to left-lower belt area, center about x=.32W,y=.66H. Its entire base is inside and supported by the green belt, with a small clearly visible strip of belt before lower rail. Warm light from upper left.",
+      "reference_paths": [
+        "data/reference/images/S01_blue_normal.png"
+      ],
+      "path": "images/b03_07_lower_left_warm.png"
+    },
+    {
+      "id": "b03_08_lower_center_cool",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "condition": "lower_center_cool",
+      "title": "冷光＋蓝块靠下边轨",
+      "prompt": "Use case: precise-object-edit. Asset: a single photorealistic fixed-camera inspection frame, edited from Input Image 1. Preserve the EXACT same green conveyor, silver rail geometry, cardboard, cables, black base plate, right-side tabletop, camera angle and landscape framing. Do not shift the camera or change equipment/background layout. Only change movable blue cube/hand and illumination as requested. Keep the same palm-size BLUE foam cube scale/material. No other-color cubes, added objects, text, captions, arrows, annotations, grids, collage or watermark. Natural sensor texture and physical contact shadows. Exactly one blue cube, no hand or arm. Place cube near lower rail at x=.48W,y=.62H, entirely on green belt and not straddling rail. Rotate cube 15 degrees. Cool slightly dim light.",
+      "reference_paths": [
+        "data/reference/images/S01_blue_normal.png"
+      ],
+      "path": "images/b03_08_lower_center_cool.png"
+    },
+    {
+      "id": "b03_09_far_left_shadow",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "condition": "far_left_shadow",
+      "title": "左端蓝块＋阴影",
+      "prompt": "Use case: precise-object-edit. Asset: a single photorealistic fixed-camera inspection frame, edited from Input Image 1. Preserve the EXACT same green conveyor, silver rail geometry, cardboard, cables, black base plate, right-side tabletop, camera angle and landscape framing. Do not shift the camera or change equipment/background layout. Only change movable blue cube/hand and illumination as requested. Keep the same palm-size BLUE foam cube scale/material. No other-color cubes, added objects, text, captions, arrows, annotations, grids, collage or watermark. Natural sensor texture and physical contact shadows. Exactly one blue cube, no hand or arm. Place cube at far left end of belt center about x=.16W,y=.64H, fully in frame and safely supported by belt. Soft wide shadow over left side.",
+      "reference_paths": [
+        "data/reference/images/S01_blue_normal.png"
+      ],
+      "path": "images/b03_09_far_left_shadow.png"
+    },
+    {
+      "id": "b03_10_right_end_dim",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "condition": "right_end_dim",
+      "title": "右端蓝块＋暗光",
+      "prompt": "Use case: precise-object-edit. Asset: a single photorealistic fixed-camera inspection frame, edited from Input Image 1. Preserve the EXACT same green conveyor, silver rail geometry, cardboard, cables, black base plate, right-side tabletop, camera angle and landscape framing. Do not shift the camera or change equipment/background layout. Only change movable blue cube/hand and illumination as requested. Keep the same palm-size BLUE foam cube scale/material. No other-color cubes, added objects, text, captions, arrows, annotations, grids, collage or watermark. Natural sensor texture and physical contact shadows. Exactly one blue cube, no hand or arm. Position on right end of belt at x=.68W,y=.45H, fully on belt. One stop dim neutral room light; cube remains blue and visible.",
+      "reference_paths": [
+        "data/reference/images/S01_blue_normal.png"
+      ],
+      "path": "images/b03_10_right_end_dim.png"
+    },
+    {
+      "id": "b03_11_upper_rotated",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "condition": "upper_rotated",
+      "title": "上侧蓝块＋旋转",
+      "prompt": "Use case: precise-object-edit. Asset: a single photorealistic fixed-camera inspection frame, edited from Input Image 1. Preserve the EXACT same green conveyor, silver rail geometry, cardboard, cables, black base plate, right-side tabletop, camera angle and landscape framing. Do not shift the camera or change equipment/background layout. Only change movable blue cube/hand and illumination as requested. Keep the same palm-size BLUE foam cube scale/material. No other-color cubes, added objects, text, captions, arrows, annotations, grids, collage or watermark. Natural sensor texture and physical contact shadows. Exactly one blue cube, no hand or arm. Place cube close to upper rail at x=.43W,y=.44H, its full base inside green belt with gap from rail. Rotate it 30 degrees. Soft neutral lighting.",
+      "reference_paths": [
+        "data/reference/images/S01_blue_normal.png"
+      ],
+      "path": "images/b03_11_upper_rotated.png"
+    },
+    {
+      "id": "b03_12_chipped_lower_warm",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "condition": "chipped_lower_warm",
+      "title": "缺角蓝块＋下侧暖光",
+      "prompt": "Use case: precise-object-edit. Asset: a single photorealistic fixed-camera inspection frame, edited from Input Image 1. Preserve the EXACT same green conveyor, silver rail geometry, cardboard, cables, black base plate, right-side tabletop, camera angle and landscape framing. Do not shift the camera or change equipment/background layout. Only change movable blue cube/hand and illumination as requested. Keep the same palm-size BLUE foam cube scale/material. No other-color cubes, added objects, text, captions, arrows, annotations, grids, collage or watermark. Natural sensor texture and physical contact shadows. Exactly one blue cube, no hand or arm. Move cube near lower center of belt x=.43W,y=.65H, full base supported by belt. Small realistic chipped top corner. Warm bright light, clear separation from lower rail.",
+      "reference_paths": [
+        "data/reference/images/S01_blue_normal.png"
+      ],
+      "path": "images/b03_12_chipped_lower_warm.png"
+    },
+    {
+      "id": "b03_13_blue_sleeve_left",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "condition": "blue_sleeve_left",
+      "title": "蓝袖口左手捏蓝块",
+      "prompt": "Use case: precise-object-edit. Asset: a single photorealistic fixed-camera inspection frame, edited from Input Image 1. Preserve the EXACT same green conveyor, silver rail geometry, cardboard, cables, black base plate, right-side tabletop, camera angle and landscape framing. Do not shift the camera or change equipment/background layout. Only change movable blue cube/hand and illumination as requested. Keep the same palm-size BLUE foam cube scale/material. No other-color cubes, added objects, text, captions, arrows, annotations, grids, collage or watermark. Natural sensor texture and physical contact shadows. Exactly one blue cube on central belt. Add a natural bare LEFT hand entering from upper left, with blue sweatshirt cuff, pinching top edge of cube. Expose real skin and anatomically correct fingers; hand overlaps belt. Neutral light.",
+      "reference_paths": [
+        "data/reference/images/S01_blue_normal.png"
+      ],
+      "path": "images/b03_13_blue_sleeve_left.png"
+    },
+    {
+      "id": "b03_14_blue_sleeve_right_cool",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "condition": "blue_sleeve_right_cool",
+      "title": "冷光＋蓝袖口右手扶蓝块",
+      "prompt": "Use case: precise-object-edit. Asset: a single photorealistic fixed-camera inspection frame, edited from Input Image 1. Preserve the EXACT same green conveyor, silver rail geometry, cardboard, cables, black base plate, right-side tabletop, camera angle and landscape framing. Do not shift the camera or change equipment/background layout. Only change movable blue cube/hand and illumination as requested. Keep the same palm-size BLUE foam cube scale/material. No other-color cubes, added objects, text, captions, arrows, annotations, grids, collage or watermark. Natural sensor texture and physical contact shadows. Exactly one blue cube on right half of belt. Natural bare RIGHT hand with a navy blue sweatshirt cuff enters from right and steadies the cube, visible fingers and back of hand. Cool moderately dim lighting.",
+      "reference_paths": [
+        "data/reference/images/S01_blue_normal.png"
+      ],
+      "path": "images/b03_14_blue_sleeve_right_cool.png"
+    },
+    {
+      "id": "b03_15_blue_sleeve_empty",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "condition": "blue_sleeve_empty",
+      "title": "空带＋蓝袖口手部",
+      "prompt": "Use case: precise-object-edit. Asset: a single photorealistic fixed-camera inspection frame, edited from Input Image 1. Preserve the EXACT same green conveyor, silver rail geometry, cardboard, cables, black base plate, right-side tabletop, camera angle and landscape framing. Do not shift the camera or change equipment/background layout. Only change movable blue cube/hand and illumination as requested. Keep the same palm-size BLUE foam cube scale/material. No other-color cubes, added objects, text, captions, arrows, annotations, grids, collage or watermark. Natural sensor texture and physical contact shadows. Remove cube completely. A natural bare hand with blue sweatshirt cuff enters from lower left, palm down and fingers reaching across lower rail into empty belt, clearly visible skin. Neutral lighting, no objects.",
+      "reference_paths": [
+        "data/reference/images/S01_blue_normal.png"
+      ],
+      "path": "images/b03_15_blue_sleeve_empty.png"
+    },
+    {
+      "id": "b03_16_fingers_upper_empty",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "condition": "fingers_upper_empty",
+      "title": "空带＋上侧伸入手指",
+      "prompt": "Use case: precise-object-edit. Asset: a single photorealistic fixed-camera inspection frame, edited from Input Image 1. Preserve the EXACT same green conveyor, silver rail geometry, cardboard, cables, black base plate, right-side tabletop, camera angle and landscape framing. Do not shift the camera or change equipment/background layout. Only change movable blue cube/hand and illumination as requested. Keep the same palm-size BLUE foam cube scale/material. No other-color cubes, added objects, text, captions, arrows, annotations, grids, collage or watermark. Natural sensor texture and physical contact shadows. Remove cube. Bare adult hand enters from top edge and over upper rail, two extended fingers visibly inside green belt near x=.46W, visible partial knuckles. Other fingers folded naturally. No cube, cool light.",
+      "reference_paths": [
+        "data/reference/images/S01_blue_normal.png"
+      ],
+      "path": "images/b03_16_fingers_upper_empty.png"
+    },
+    {
+      "id": "b03_17_dim_grasp",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "condition": "dim_grasp",
+      "title": "暗光抓取蓝块",
+      "prompt": "Use case: precise-object-edit. Asset: a single photorealistic fixed-camera inspection frame, edited from Input Image 1. Preserve the EXACT same green conveyor, silver rail geometry, cardboard, cables, black base plate, right-side tabletop, camera angle and landscape framing. Do not shift the camera or change equipment/background layout. Only change movable blue cube/hand and illumination as requested. Keep the same palm-size BLUE foam cube scale/material. No other-color cubes, added objects, text, captions, arrows, annotations, grids, collage or watermark. Natural sensor texture and physical contact shadows. Exactly one blue cube center belt. Natural bare adult hand grasps it from lower right. One stop darker neutral illumination and soft hand shadow. Clearly identifiable hand, realistic skin.",
+      "reference_paths": [
+        "data/reference/images/S01_blue_normal.png"
+      ],
+      "path": "images/b03_17_dim_grasp.png"
+    },
+    {
+      "id": "b03_18_forearm_cool_empty",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "condition": "forearm_cool_empty",
+      "title": "冷光空带＋前臂伸入",
+      "prompt": "Use case: precise-object-edit. Asset: a single photorealistic fixed-camera inspection frame, edited from Input Image 1. Preserve the EXACT same green conveyor, silver rail geometry, cardboard, cables, black base plate, right-side tabletop, camera angle and landscape framing. Do not shift the camera or change equipment/background layout. Only change movable blue cube/hand and illumination as requested. Keep the same palm-size BLUE foam cube scale/material. No other-color cubes, added objects, text, captions, arrows, annotations, grids, collage or watermark. Natural sensor texture and physical contact shadows. Remove cube completely. A bare forearm and hand enter from left across empty belt. Fingers naturally relaxed over belt, no glove, no object. Cool room illumination.",
+      "reference_paths": [
+        "data/reference/images/S01_blue_normal.png"
+      ],
+      "path": "images/b03_18_forearm_cool_empty.png"
+    }
+  ],
+  "model_hashes": {
+    "best.pt": "a29bf3994197273e8a2262cd59b901c6e04038750be9760433314030d0c6fe73",
+    "workcell_tiny_fp32.onnx": "1e1325ff056d80fe1e36aea4d2f01e7c83d8f8ff6f12f46302cd59820b4915b4",
+    "workcell_tiny_int8_qdq.onnx": "c13d238c21a36bd641ad2711b6e22b16abc763989cbdce1f857e6a85de08940a"
+  },
+  "frozen_unix_time": 1793590905.373158,
+  "model_revision": "optimization_v2"
+}

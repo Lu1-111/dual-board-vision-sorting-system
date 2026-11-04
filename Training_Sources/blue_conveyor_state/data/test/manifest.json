@@ -1,0 +1,382 @@
+[
+  {
+    "id": "empty_01",
+    "expected_class": "empty",
+    "suite": "classification",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. Remove the cube entirely. Absolutely no cube, hand, forearm or other movable object. Natural warm afternoon light with a soft diagonal shadow across the left belt.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/empty_01.png",
+    "visual_review": "accepted before model inference: class content and fixed conveyor scene are visible",
+    "generated_after_model_frozen": true,
+    "sha256": "a42374bc22c9e1643b0b679cfbdc26a0506dd7da5ba914181ac82de962a2d011",
+    "generated_unix_time": 1793587027.3960912,
+    "generator_output_filename": "exec-ad8c7444-cfd7-4fb4-ae53-7da716f52a7b.png"
+  },
+  {
+    "id": "empty_02",
+    "expected_class": "empty",
+    "suite": "classification",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. Remove the cube entirely. No cube or hands. Dim indoor exposure, belt texture and rails still clearly visible, a broad diffuse shadow on the right half.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/empty_02.png",
+    "visual_review": "accepted before model inference: class content and fixed conveyor scene are visible",
+    "generated_after_model_frozen": true,
+    "sha256": "367cc72cb077d70ff3c3a62785e2dcbbf487e89dae23fbf72e15be2dda1bb460",
+    "generated_unix_time": 1793587095.513331,
+    "generator_output_filename": "exec-b2c92fc1-f3ba-484a-8fe9-93f3866e2a45.png"
+  },
+  {
+    "id": "empty_03",
+    "expected_class": "empty",
+    "suite": "classification",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. Remove the cube entirely. No cube or hands. Cooler overhead fluorescent lighting, modest bright reflection on the metal rails, realistic slight camera grain.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/empty_03.png",
+    "visual_review": "accepted before model inference: class content and fixed conveyor scene are visible",
+    "generated_after_model_frozen": true,
+    "sha256": "bfa3dd91442795f06bf2391ccb2d446342fb070eadb4e6a18425370357b476a1",
+    "generated_unix_time": 1793587140.8268251,
+    "generator_output_filename": "exec-30a4488f-caf7-4307-b757-0771d4ed5ec9.png"
+  },
+  {
+    "id": "empty_04",
+    "expected_class": "empty",
+    "suite": "classification",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. Remove the cube entirely. No cube or hands. Normal light with a large soft equipment shadow near the center and a few tiny harmless dust specks on the belt.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/empty_04.png",
+    "visual_review": "accepted before model inference: class content and fixed conveyor scene are visible",
+    "generated_after_model_frozen": true,
+    "sha256": "ff9f578818f0146e35302b7e8cf636ba17216594c02cf53786bec18ec35567c8",
+    "generated_unix_time": 1793587357.4814067,
+    "generator_output_filename": "exec-77cf7a40-d218-4c62-90a7-7adbacbfd232.png"
+  },
+  {
+    "id": "empty_05",
+    "expected_class": "empty",
+    "suite": "classification",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. Remove the cube entirely. No cube, hand or forearm. Preserve the exact fixed camera and background. A narrow soft shadow falls across the lower-left belt, normal exposure.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/empty_05.png",
+    "visual_review": "accepted before model inference: class content and fixed conveyor scene are visible",
+    "generated_after_model_frozen": true,
+    "sha256": "ec5f9be3752549550ad2466a671d8a2e0fc6971a78d163904a1c819363fe1bfb",
+    "generated_unix_time": 1793587261.2684805,
+    "generator_output_filename": "exec-2700d078-475b-4ac9-b30a-fa091f21dde0.png"
+  },
+  {
+    "id": "empty_06",
+    "expected_class": "empty",
+    "suite": "classification",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. Remove the cube entirely. No cube, hand or forearm. Preserve the exact fixed camera and background. Mildly brighter overhead illumination with realistic metal reflections, no overexposure.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/empty_06.png",
+    "visual_review": "accepted before model inference: expected class and fixed scene visible",
+    "generated_after_model_frozen": true,
+    "sha256": "0f80c50a9891ca2923344165e337ce00ca1b3e7c4fc52b9cb89a523c9d0e9599",
+    "generated_unix_time": 1793587396.6749692,
+    "generator_output_filename": "exec-162d08ec-e314-4c94-a06f-876274de4772.png"
+  },
+  {
+    "id": "object_01",
+    "expected_class": "object_present",
+    "suite": "classification",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. Exactly one intact blue foam cube, no hands/arms. Move it from the original location to the LEFT-CENTER of the green belt, fully supported between the rails. Warm light.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/object_01.png",
+    "visual_review": "accepted before model inference: class content and fixed conveyor scene are visible",
+    "generated_after_model_frozen": true,
+    "sha256": "3a8fe9b204fb55e824208b378eec04cf527f5601dc5278a977ba63566f69f476",
+    "generated_unix_time": 1793587005.652334,
+    "generator_output_filename": "exec-6db1c33f-bd6c-4bb5-a3f3-94808aabbb02.png"
+  },
+  {
+    "id": "object_02",
+    "expected_class": "object_present",
+    "suite": "classification",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. Exactly one blue foam cube with a small visibly missing corner, no hands/arms. Place it at belt center, rotated about 30 degrees, all of its base supported by the belt.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/object_02.png",
+    "visual_review": "accepted before model inference: class content and fixed conveyor scene are visible",
+    "generated_after_model_frozen": true,
+    "sha256": "1d91fa4a40ec2aa2c2a7f620e87ea8989e190fb875498d452d68bbf16ca29f04",
+    "generated_unix_time": 1793587117.6770835,
+    "generator_output_filename": "exec-f39ea211-cc88-4a5d-a8bd-2aa049cb3811.png"
+  },
+  {
+    "id": "object_03",
+    "expected_class": "object_present",
+    "suite": "classification",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. Exactly one intact blue foam cube on the belt, no hands/arms. Place it farther toward the upper-right belt end but entirely between rails, with normal perspective and a soft shadow. Dim but readable exposure.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/object_03.png",
+    "visual_review": "accepted before model inference: class content and fixed conveyor scene are visible",
+    "generated_after_model_frozen": true,
+    "sha256": "45084fa4b490cc705c50b684dd9c9ddb66cf9b95e6cf49f1fd6d7aedef75d6fa",
+    "generated_unix_time": 1793587160.820602,
+    "generator_output_filename": "exec-248242f4-680f-4b32-abbd-fce3ef6f7a1a.png"
+  },
+  {
+    "id": "object_04",
+    "expected_class": "object_present",
+    "suite": "classification",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. Exactly one intact blue foam cube on the belt, no hands/arms. Place it slightly toward the lower-left, rotated 45 degrees in the belt plane, near a rail but fully inside and fully supported. Cool overhead light.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/object_04.png",
+    "visual_review": "accepted before model inference: class content and fixed conveyor scene are visible",
+    "generated_after_model_frozen": true,
+    "sha256": "aa6f6cd096b765701314f3eee56d7e89dfbf59649486eaee108f4ed753de0b61",
+    "generated_unix_time": 1793587311.5259197,
+    "generator_output_filename": "exec-96ed007d-db4c-4ca0-8777-caa75242dd24.png"
+  },
+  {
+    "id": "object_05",
+    "expected_class": "object_present",
+    "suite": "classification",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. Exactly one intact blue foam cube, no hand or forearm. Preserve the exact fixed camera and background. Cube fully supported between the rails, slightly right of belt center, rotated 60 degrees, warm neutral light.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/object_05.png",
+    "visual_review": "accepted before model inference: class content and fixed conveyor scene are visible; requested 60-degree rotation was not visibly realized, retained as generated without performance filtering",
+    "generated_after_model_frozen": true,
+    "sha256": "b2a4548ea4e53236f15e611e8b1a628fde619d56c986e45ce54df1daec792e90",
+    "generated_unix_time": 1793587287.4411886,
+    "generator_output_filename": "exec-a80f127e-0012-456d-bf67-30270d81eb9c.png"
+  },
+  {
+    "id": "object_06",
+    "expected_class": "object_present",
+    "suite": "classification",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. Exactly one blue foam cube with a small missing corner, no hand or forearm. Preserve exact fixed camera and background. Cube at left-center of belt, fully supported, cool light and soft shadow.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/object_06.png",
+    "visual_review": "accepted before model inference: expected class and fixed scene visible",
+    "generated_after_model_frozen": true,
+    "sha256": "3f0b9f47dbb4ccd79867720a3c937154a4ee887c52c9d184b97bf5903ae0bae9",
+    "generated_unix_time": 1793587416.3807492,
+    "generator_output_filename": "exec-d3eb71e3-768d-4ffc-b3f5-1857e0073910.png"
+  },
+  {
+    "id": "hand_01",
+    "expected_class": "hand_present",
+    "suite": "classification",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. A realistic bare LEFT hand and wrist enter from the lower-left and grasp one blue cube resting on the belt. Natural five-finger anatomy, some fingers can be occluded by cube. Clearly visible hand, normal light.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/hand_01.png",
+    "visual_review": "accepted before model inference: class content and fixed conveyor scene are visible",
+    "generated_after_model_frozen": true,
+    "sha256": "2133a1d29f4a0191f192a41a3c7b2bd757e299c4b43f5a9cb4a1692dcb636b3f",
+    "generated_unix_time": 1793587051.2708247,
+    "generator_output_filename": "exec-57bfba3f-0bc7-4a5b-a3a3-66746d53ef8e.png"
+  },
+  {
+    "id": "hand_02",
+    "expected_class": "hand_present",
+    "suite": "classification",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. A realistic bare right hand and forearm enter from right and lift a blue foam cube a short distance above belt. Natural grip, contact shadows, no anatomical deformities. Dim but readable light.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/hand_02.png",
+    "visual_review": "accepted before model inference: class content and fixed conveyor scene are visible",
+    "generated_after_model_frozen": true,
+    "sha256": "e6417a8611343f2b98226a065376bda854a230f9b327c6b17999f4f004959760",
+    "generated_unix_time": 1793587184.8853333,
+    "generator_output_filename": "exec-fbc9b5c4-cdb0-4ee2-b174-623568a9be6a.png"
+  },
+  {
+    "id": "hand_03",
+    "expected_class": "hand_present",
+    "suite": "classification",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. Remove the blue cube. A clearly visible bare hand and wrist enter from the bottom and hover over the EMPTY green belt, palm angled down. No cubes anywhere.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/hand_03.png",
+    "visual_review": "accepted before model inference: class content and fixed conveyor scene are visible",
+    "generated_after_model_frozen": true,
+    "sha256": "63f55024caec6212faf76b736bd9460dc55a9f11721e8051a638659aca0f2569",
+    "generated_unix_time": 1793587209.3180604,
+    "generator_output_filename": "exec-5b213081-25c7-4b72-9e13-f6358feba813.png"
+  },
+  {
+    "id": "hand_04",
+    "expected_class": "hand_present",
+    "suite": "classification",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. One blue cube remains on belt. A bare hand enters from upper-left, with clearly visible wrist and all four fingers touching the belt next to cube, not grasping it. Natural anatomy and cool lighting.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/hand_04.png",
+    "visual_review": "accepted before model inference: class content and fixed conveyor scene are visible",
+    "generated_after_model_frozen": true,
+    "sha256": "0cd4ebf21c57f080d42fa9e8ca654a4a40fd497686765bf520c7778c37bc61ed",
+    "generated_unix_time": 1793587242.4226909,
+    "generator_output_filename": "exec-a24d6b82-0f7b-4fd0-8c54-7b1c4082c0d4.png"
+  },
+  {
+    "id": "hand_05",
+    "expected_class": "hand_present",
+    "suite": "classification",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. A bare right hand with wrist and a dark gray sleeve enters from the right and adjusts one blue cube on belt. Preserve the exact fixed camera and background, warm neutral light, correct hand anatomy.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/hand_05.png",
+    "visual_review": "accepted before model inference: class content and fixed conveyor scene are visible",
+    "generated_after_model_frozen": true,
+    "sha256": "0b2a6764f8300bc4c5598e5812d5950cc6e546de12c9c32676cd1588b68ec6d2",
+    "generated_unix_time": 1793587331.6916945,
+    "generator_output_filename": "exec-8e7fdb84-f495-45f3-867b-28e7ecd9d7fb.png"
+  },
+  {
+    "id": "hand_06",
+    "expected_class": "hand_present",
+    "suite": "classification",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. No cube. A clearly visible bare left hand and forearm extend over the empty belt from bottom-left, fingers relaxed naturally. Preserve the exact fixed camera and background, cool indoor light.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/hand_06.png",
+    "visual_review": "accepted before model inference: expected class and fixed scene visible",
+    "generated_after_model_frozen": true,
+    "sha256": "7202e01feb83e4ccc315c8be295d58962b7d8eacb68ea582def36f2f8a6ac198",
+    "generated_unix_time": 1793587455.802309,
+    "generator_output_filename": "exec-c2f549f9-8e65-46a4-9eb5-3b9493266b37.png"
+  },
+  {
+    "id": "challenge_off_belt",
+    "expected_class": null,
+    "suite": "out_of_scope",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. Remove the cube from belt. Place exactly one blue cube entirely on the brown cardboard OUTSIDE the lower-right metal rail, visibly not touching the green belt. No hand/arm. Empty belt, normal indoor light.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/challenge_off_belt.png",
+    "visual_review": "accepted before model inference: blue cube visibly outside belt or straddling rail; no trained class assigned",
+    "generated_after_model_frozen": true,
+    "sha256": "740deea48f9be192c14877de08367f333340bd2a55a23273a6874148d8f74394",
+    "generated_unix_time": 1793587434.946542,
+    "generator_output_filename": "exec-4104d772-4bd6-4e03-a990-f06514f0f6c4.png"
+  },
+  {
+    "id": "challenge_rail",
+    "expected_class": null,
+    "suite": "out_of_scope",
+    "condition": "reference",
+    "prompt": "Use case: photorealistic-natural. Produce exactly ONE realistic indoor fixed-camera workcell photograph, landscape 16:9, no collage/panels/text/watermarks/arrows/boxes. Industrial laboratory scene: a green textured conveyor belt runs diagonally from lower left to upper right between aluminum side rails, standing on brown cardboard on a workbench, black mounting plate and loose black and red cables at the top, pale blue tabletop at right and a tape roll at upper right. Camera looks downward at an oblique angle. Ordinary sensor noise and realistic modest indoor exposure, no studio beautification. The blue object, when present, is a palm-sized blue foam cube. Hands, when requested, must have realistic anatomy and contact shadows. Input image is a scene reference and edit target: preserve its conveyor, camera framing, workbench and cable layout except for specified lighting and movable content. Place exactly one blue foam cube precariously straddling the LOWER-RIGHT aluminum side rail, half outside the belt and tilted, clearly not correctly supported on belt. No hands or arms. Normal indoor light.",
+    "reference_paths": [
+      "data/reference/images/S01_blue_normal.png"
+    ],
+    "generator": "builtin_image_gen",
+    "generator_version": "not_exposed",
+    "seed": null,
+    "path": "images/challenge_rail.png",
+    "visual_review": "accepted before model inference: blue cube visibly outside belt or straddling rail; no trained class assigned",
+    "generated_after_model_frozen": true,
+    "sha256": "b98f09e2e53814c944e141946aea06a3334f130b6b96037bdc3da025b5e09a2f",
+    "generated_unix_time": 1793587498.7728295,
+    "generator_output_filename": "exec-ff901d62-9e6a-4165-9daa-6d6e36ab7244.png"
+  }
+]

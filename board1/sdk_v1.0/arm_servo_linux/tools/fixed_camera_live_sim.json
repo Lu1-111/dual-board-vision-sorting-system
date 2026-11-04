@@ -1,0 +1,86 @@
+{
+  "measured": false,
+  "camera": {
+    "position_cm": [
+      22,
+      0,
+      40
+    ],
+    "yaw_deg": 0,
+    "fx": 3000,
+    "fy": 3000,
+    "cx": 960,
+    "cy": 540,
+    "image_size": [
+      1920,
+      1080
+    ],
+    "input_fraction": 1
+  },
+  "block_top_z_cm": 3,
+  "workspace_xy_cm": [
+    [
+      15,
+      30
+    ],
+    [
+      -8,
+      8
+    ]
+  ],
+  "min_confidence": 0.6,
+  "stability_cm": 0.5,
+  "motion": {
+    "pick_z_cm": 1.4103444358822321,
+    "safe_lift_z_cm": 2.410344435882232,
+    "pitch_deg": -45,
+    "gripper_open_deg": 30,
+    "gripper_closed_deg": 60,
+    "wrist_roll_deg": 90,
+    "move_ms": 1500,
+    "grip_ms": 700,
+    "settle_ms": 300
+  },
+  "zones": {
+    "red": {
+      "zone": "common",
+      "place_xyz_cm": [
+        26.3275298809746,
+        3,
+        1.4103444358822321
+      ]
+    },
+    "yellow": {
+      "zone": "common",
+      "place_xyz_cm": [
+        26.3275298809746,
+        3,
+        1.4103444358822321
+      ]
+    },
+    "blue": {
+      "zone": "common",
+      "place_xyz_cm": [
+        26.3275298809746,
+        3,
+        1.4103444358822321
+      ]
+    },
+    "green_good": {
+      "zone": "common",
+      "place_xyz_cm": [
+        26.3275298809746,
+        3,
+        1.4103444358822321
+      ]
+    },
+    "green_defect": {
+      "zone": "common",
+      "place_xyz_cm": [
+        26.3275298809746,
+        3,
+        1.4103444358822321
+      ]
+    }
+  }
+}

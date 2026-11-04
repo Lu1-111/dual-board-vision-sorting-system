@@ -1,0 +1,4 @@
+interface:
+  display_name: "安路 TD / FD MCP"
+  short_description: "检查工程、管理后台构建任务并核对报告、时序与生成产物"
+  default_prompt: "使用 $anlogic-mcp-workflow 根据当前工程证据完成请求的开发或调试任务。"

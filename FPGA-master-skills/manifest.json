@@ -1,0 +1,292 @@
+{
+  "name": "安路 FPGA/FPSoC 技能与 MCP 套件",
+  "created_date": "2026-11-04",
+  "timezone": "Asia/Shanghai",
+  "skills": 10,
+  "new_skills": 8,
+  "archived_skills": 2,
+  "mcp_servers": [
+    "anlogic-td",
+    "anlogic-fd"
+  ],
+  "reference_documents_indexed": 111,
+  "reference_archives_indexed": 40,
+  "project_evidence_files_indexed": 13,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2371,
+      "sha256": "81b2d325f91eda3ec4c05d8ed6109521c1dd9e463d9b72fc6e6085b9879f74ff"
+    },
+    {
+      "path": "config/codex-mcp.example.toml",
+      "bytes": 571,
+      "sha256": "37c88574c7a08dfd2dc803a1b72c4b665d86a6405610bdf23b3bfa2df41ead3b"
+    },
+    {
+      "path": "config/mcp-stdio.example.json",
+      "bytes": 739,
+      "sha256": "8e40ef8f8785626344bfe088aaf499ae78b2b1a965f8ed86fd622628be1439be"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 2364,
+      "sha256": "f767f1b4ef48bc87172a484a8b229e6d75be4f7b824cbadd675702f191dba820"
+    },
+    {
+      "path": "docs/installed-inventory.md",
+      "bytes": 1553,
+      "sha256": "c7db2dbd8df9c75c41240245ca700124d206d1965e6086600362ac0f5c257615"
+    },
+    {
+      "path": "docs/project-evidence-catalog.json",
+      "bytes": 2658,
+      "sha256": "9a33bf57404377d02e1d3a491759eba2f9bd4db1f0901d14e8d0d80a2d01cca4"
+    },
+    {
+      "path": "docs/reference-catalog.json",
+      "bytes": 34871,
+      "sha256": "a88e0b9cb93fa174ca22b0dc35b5cda97e87a04f6c3a9afe2cf93fa9c88a413b"
+    },
+    {
+      "path": "install-skills.ps1",
+      "bytes": 1936,
+      "sha256": "9d7aed050164e7e6cc7bbcdb7f285bfcf966aba51d52e77e8f966d315aff9a02"
+    },
+    {
+      "path": "mcp/anlogic_mcp/README.md",
+      "bytes": 6881,
+      "sha256": "666d7177c72a910720d5ba2e8d51fe7ff8f94af2dac870e93aae158aff330d15"
+    },
+    {
+      "path": "mcp/anlogic_mcp/install.ps1",
+      "bytes": 2109,
+      "sha256": "71aa64e31395f862f4168938b7d0d0fac89a5017a5c42b53030807baccee4b2b"
+    },
+    {
+      "path": "mcp/anlogic_mcp/requirements-resolved.txt",
+      "bytes": 595,
+      "sha256": "eadc1a24d1a946e33d1c0e9b1b09a9bcf0c9f3ff46d4259dcfe311bae751481d"
+    },
+    {
+      "path": "mcp/anlogic_mcp/requirements.txt",
+      "bytes": 26,
+      "sha256": "964461e2e5fc64699229bc3e710152bd8be8b3b269b63db09428c2aabd89e6fc"
+    },
+    {
+      "path": "mcp/anlogic_mcp/server.py",
+      "bytes": 21811,
+      "sha256": "e24195f662bc12a14334721d0bafff10573fb788076b2ce0f5f702780edca197"
+    },
+    {
+      "path": "mcp/anlogic_mcp/smoke_test.py",
+      "bytes": 3941,
+      "sha256": "187562910b8147786c15e1722d2a58dce4ee813000a7d53657ddde06cd5bf052"
+    },
+    {
+      "path": "mcp/anlogic_mcp/test_server.py",
+      "bytes": 4856,
+      "sha256": "df070beb8ebdcb24a160e223ea281261c2c703995bc1917b770b54457ab94e46"
+    },
+    {
+      "path": "mcp/anlogic_mcp/verify_mcp.py",
+      "bytes": 2120,
+      "sha256": "b10cfe9f7da5195734759512afa346aa8715c63362169ca1bb65bf8041bc3497"
+    },
+    {
+      "path": "mcp/anlogic_mcp/worker.py",
+      "bytes": 4968,
+      "sha256": "4e5a1bfee14bbec44cc3e2b161b8d7fe440efde73e9fa9b86ab67e5c04731ae3"
+    },
+    {
+      "path": "skills/anlogic-fpga-workflow/SKILL.md",
+      "bytes": 4082,
+      "sha256": "c2a85a9343ff9a693123656160a932f827246aac118b996660db8254e45b9d14"
+    },
+    {
+      "path": "skills/anlogic-fpga-workflow/agents/openai.yaml",
+      "bytes": 274,
+      "sha256": "c84c4f7a5c14bc3cc7dbc821909de81d3d4ea58212e954fdd30d0485da6c77ea"
+    },
+    {
+      "path": "skills/anlogic-fpga-workflow/references/reference-map.md",
+      "bytes": 2073,
+      "sha256": "4bd23e2e1fc05f276d399dbd4af6d11ba74d76695d82e179483deead010f0f52"
+    },
+    {
+      "path": "skills/anlogic-mcp-workflow/SKILL.md",
+      "bytes": 3382,
+      "sha256": "71e7291c9086a89cb00bc1f2e1dbf95437d2464319b6159b55e51f64c35889eb"
+    },
+    {
+      "path": "skills/anlogic-mcp-workflow/agents/openai.yaml",
+      "bytes": 263,
+      "sha256": "c4081c6dac956ef1623f6c3a3e33b010ef40460f8ba1a71bc683f098184f46be"
+    },
+    {
+      "path": "skills/anlogic-mcp-workflow/references/setup.md",
+      "bytes": 2340,
+      "sha256": "d7dbe0ae9b59b3a35192fc30e1e46a4efaf9a943c22568392c4eac482199a0e9"
+    },
+    {
+      "path": "skills/anlogic-npu-deploy/SKILL.md",
+      "bytes": 3557,
+      "sha256": "18de6750359d7712fde2a2ab1087338c16fc1927ba14fc40873737c22e3370a1"
+    },
+    {
+      "path": "skills/anlogic-npu-deploy/agents/openai.yaml",
+      "bytes": 279,
+      "sha256": "c29caa3a1ba873be418c4cfa39d4a921306e2c4abc001b9a99f0bd3d932a9b5f"
+    },
+    {
+      "path": "skills/anlogic-npu-deploy/references/deployment.md",
+      "bytes": 7333,
+      "sha256": "8355a7685e0c5c7569a886836bc9d495b63a9b4ed435157f47ab4c646e1d5e3b"
+    },
+    {
+      "path": "skills/anlogic-npu-deploy/references/support-and-sources.md",
+      "bytes": 6749,
+      "sha256": "c77609a4c37862af144bcc1d56e6de4e2ca54c5bdac9b7da7bace4c7bb34bcd0"
+    },
+    {
+      "path": "skills/anlogic-npu-quant-debug/SKILL.md",
+      "bytes": 2925,
+      "sha256": "f3e8c38dbbd1eccc767597284e091236b1f15ab00ed05b4eee9ecfdff63845b8"
+    },
+    {
+      "path": "skills/anlogic-npu-quant-debug/agents/openai.yaml",
+      "bytes": 276,
+      "sha256": "c5c1bc72c62db1469a849cb68e4a78cca98819af819e3f895b84ab61490ec1e0"
+    },
+    {
+      "path": "skills/anlogic-npu-quant-debug/references/evidence.md",
+      "bytes": 6749,
+      "sha256": "c77609a4c37862af144bcc1d56e6de4e2ca54c5bdac9b7da7bace4c7bb34bcd0"
+    },
+    {
+      "path": "skills/anlogic-npu-quant-debug/references/triage.md",
+      "bytes": 8943,
+      "sha256": "fd13ec28583bfd01f46a8e3642f63a7c760871c9cac20aeb72d7826e5c69f1c4"
+    },
+    {
+      "path": "skills/anlogic-pl-debug/SKILL.md",
+      "bytes": 5272,
+      "sha256": "d3ee609deed1ccd159ed01c67db5967c6fe6448bc79568d57282fa28f662bbba"
+    },
+    {
+      "path": "skills/anlogic-pl-debug/agents/openai.yaml",
+      "bytes": 302,
+      "sha256": "0f500ebc870fe8fdfa6d8dd6e7ebb24cfc62acc9b479c8a96e216fb619d8bfa9"
+    },
+    {
+      "path": "skills/anlogic-pl-debug/references/evidence.md",
+      "bytes": 4021,
+      "sha256": "41dec4af71d33b2434b71ea0ff0dc6d7833f48e82962a142d9d7c4cf7aca3943"
+    },
+    {
+      "path": "skills/anlogic-pl-debug/references/simulation-and-chipwatcher.md",
+      "bytes": 5127,
+      "sha256": "ba4a93d549a400f97d649ed20434961a294894649b05e1059b4b03653aeb49e1"
+    },
+    {
+      "path": "skills/anlogic-pl-design/SKILL.md",
+      "bytes": 5459,
+      "sha256": "21e19b86a7df3005071d31d656a836f23c220236b81f561a6a97f4f5d53fb480"
+    },
+    {
+      "path": "skills/anlogic-pl-design/agents/openai.yaml",
+      "bytes": 299,
+      "sha256": "3658feec43d97bb55001ba7e46106704adb8fabd676e87b879219ef819bbf03d"
+    },
+    {
+      "path": "skills/anlogic-pl-design/references/constraints-and-build.md",
+      "bytes": 5451,
+      "sha256": "d3c50ae52d30bd36254332f459661b8545c79d69431950857ec8320cc51ff743"
+    },
+    {
+      "path": "skills/anlogic-pl-design/references/evidence.md",
+      "bytes": 6536,
+      "sha256": "b8e9d74e6ed7b320f621afb679d510bce9c9516061064d648c5346a8ab7bd034"
+    },
+    {
+      "path": "skills/anlogic-ps-development/SKILL.md",
+      "bytes": 3076,
+      "sha256": "a2780377a3a3dcc87d27d75bd0df70e5a9aaeb33d498cddb4fd73751c58569cc"
+    },
+    {
+      "path": "skills/anlogic-ps-development/agents/openai.yaml",
+      "bytes": 272,
+      "sha256": "1923b7b2ee3b2ee715d819b8527e5b9bdf65ec3778e98b31b81c28174a7c4a40"
+    },
+    {
+      "path": "skills/anlogic-ps-development/references/baremetal-fd.md",
+      "bytes": 4639,
+      "sha256": "047816e4839947bf7e45f58d42ccda65117459cd997dedf1db6a78448b51bb63"
+    },
+    {
+      "path": "skills/anlogic-ps-development/references/linux-boot.md",
+      "bytes": 4624,
+      "sha256": "c9bd8285ea7a940027d2e5259bd333f19467baa402fe91049e2c70dc9b5aaaca"
+    },
+    {
+      "path": "skills/anlogic-ps-development/references/sources.md",
+      "bytes": 2804,
+      "sha256": "404f57f1e882aa18a21cb30abe00012fac99a6ef6b75f781cab1b58a859c0daa"
+    },
+    {
+      "path": "skills/anlogic-soc-debug/SKILL.md",
+      "bytes": 2974,
+      "sha256": "0507f5e35d3b634dcffddf02c77cf64d2e1c4cdfa36994082d05c163f0deef56"
+    },
+    {
+      "path": "skills/anlogic-soc-debug/agents/openai.yaml",
+      "bytes": 261,
+      "sha256": "29a57ad5216e4f6b7accada489515604c6dde8500acb62b3964bc29b83697060"
+    },
+    {
+      "path": "skills/anlogic-soc-debug/references/axi-irq.md",
+      "bytes": 4690,
+      "sha256": "202fdafe1a8d0c8054ae3e576d363697cb38e7d2d720c365c1fee0b439d1320b"
+    },
+    {
+      "path": "skills/anlogic-soc-debug/references/boot-runtime.md",
+      "bytes": 3595,
+      "sha256": "69dfee5c8a7ee2b2ac8779a88e103e0353a550d7095a87c749edb824b051fd19"
+    },
+    {
+      "path": "skills/anlogic-soc-debug/references/dma-cache.md",
+      "bytes": 4521,
+      "sha256": "c4c4221fd5d173337efe8e2ab970ecd4cb097b1458de4269fce83d9358c341df"
+    },
+    {
+      "path": "skills/anlogic-soc-debug/references/sources.md",
+      "bytes": 2231,
+      "sha256": "96ba0e993975c6ca08f546358ea6fb2e97851de1a39d3a622bdaecb820574c90"
+    },
+    {
+      "path": "skills/putty-dr1m90-serial/SKILL.md",
+      "bytes": 3083,
+      "sha256": "e362b800566f937fc1bb8bd867ee48404da73ddccfa8eaacf05cd94a6031b9c2"
+    },
+    {
+      "path": "skills/putty-dr1m90-serial/agents/openai.yaml",
+      "bytes": 136,
+      "sha256": "60ae1bc71785a0efcf54f0a7c8b2257b5b412f862dd657c5e85a36e24740dc54"
+    },
+    {
+      "path": "skills/putty-dr1m90-serial/scripts/dr1-serial.ps1",
+      "bytes": 3061,
+      "sha256": "17d6f956a920ddc7f6bacd74da90f92f1bfa84eaf797438915d805ba5b339126"
+    },
+    {
+      "path": "skills/vmware-uisrc/SKILL.md",
+      "bytes": 2057,
+      "sha256": "e65c3899ad72e552b883c427665b730e436b871bbb36d8c9de1f8a13ef58817b"
+    },
+    {
+      "path": "skills/vmware-uisrc/scripts/invoke-vmrun.ps1",
+      "bytes": 4371,
+      "sha256": "39e465f741e8e45ec0e8be20c6ab8b3b62b23f1f6fd483e54509139f67a80175"
+    }
+  ]
+}

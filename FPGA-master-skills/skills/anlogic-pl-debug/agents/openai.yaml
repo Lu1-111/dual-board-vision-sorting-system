@@ -1,0 +1,4 @@
+interface:
+  display_name: "安路 PL 仿真与调试"
+  short_description: "依据实际日志、仿真和 ChipWatcher 波形定位安路 PL 故障并复验修复"
+  default_prompt: "使用 $anlogic-pl-debug 定位当前安路 PL 故障，建立最小复现并记录仿真、时序和板测证据。"

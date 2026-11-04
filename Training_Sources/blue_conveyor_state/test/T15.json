@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "T15",
+    "index": 15,
+    "lighting": "亮光",
+    "expected_class": "hand_present",
+    "instruction": "亮光：一只手握住中央蓝块，保持不动",
+    "camera_pose": "fixed_session_A",
+    "split": "independent_real_validation"
+  },
+  "photo": {
+    "captured_utc": "1970-01-01T02:34:59.490Z",
+    "format": "jpg",
+    "frame_sequence": "39809",
+    "height": 1080,
+    "photo_id": "bd8316d6-cdac-4c16-bc49-677492cc2b5e",
+    "sha256": "2f766877dfb9e6c339c3567d3935f74827a330c356da9a0d6cc3d107db3f739b",
+    "size": 200643,
+    "source": "imx415",
+    "width": 1920
+  },
+  "host_received_at": "2026-11-02T09:22:13.214653+00:00",
+  "split": "independent_real_validation",
+  "label_review_status": "visually_confirmed",
+  "model_freeze": {
+    "fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+    "selected_run": "scratch_v3"
+  },
+  "plan_sha256": "f364735c6c7adc4ca8e9edc1a0f24e6eee4105a67eafaf67b202205949c336e9",
+  "review_note": "亮光计划组，手指触碰并扶住中央蓝块，大部分手可见，记录为 hand_present。"
+}

@@ -1,0 +1,160 @@
+{
+  "train_count": 477,
+  "test_count": 18,
+  "train_counts": {
+    "empty": 115,
+    "object_present": 143,
+    "hand_present": 219
+  },
+  "excluded": [
+    {
+      "image": "/home/lululu/blue_conveyor_state/all_images/T01.jpg",
+      "label": "empty"
+    },
+    {
+      "image": "/home/lululu/blue_conveyor_state/all_images/T02.jpg",
+      "label": "object_present"
+    },
+    {
+      "image": "/home/lululu/blue_conveyor_state/all_images/T03.jpg",
+      "label": "hand_present"
+    },
+    {
+      "image": "/home/lululu/blue_conveyor_state/all_images/T04.jpg",
+      "label": "empty"
+    },
+    {
+      "image": "/home/lululu/blue_conveyor_state/all_images/T05.jpg",
+      "label": "object_present"
+    },
+    {
+      "image": "/home/lululu/blue_conveyor_state/all_images/T06.jpg",
+      "label": "hand_present"
+    },
+    {
+      "image": "/home/lululu/blue_conveyor_state/all_images/T07.jpg",
+      "label": "empty"
+    },
+    {
+      "image": "/home/lululu/blue_conveyor_state/all_images/T08.jpg",
+      "label": "object_present"
+    },
+    {
+      "image": "/home/lululu/blue_conveyor_state/all_images/T09.jpg",
+      "label": "hand_present"
+    },
+    {
+      "image": "/home/lululu/blue_conveyor_state/all_images/T10.jpg",
+      "label": "empty"
+    },
+    {
+      "image": "/home/lululu/blue_conveyor_state/all_images/T11.jpg",
+      "label": "object_present"
+    },
+    {
+      "image": "/home/lululu/blue_conveyor_state/all_images/T12.jpg",
+      "label": "hand_present"
+    },
+    {
+      "image": "/home/lululu/blue_conveyor_state/all_images/T13.jpg",
+      "label": "empty"
+    },
+    {
+      "image": "/home/lululu/blue_conveyor_state/all_images/T14.jpg",
+      "label": "object_present"
+    },
+    {
+      "image": "/home/lululu/blue_conveyor_state/all_images/T15.jpg",
+      "label": "hand_present"
+    },
+    {
+      "image": "/home/lululu/blue_conveyor_state/all_images/T16.jpg",
+      "label": "empty"
+    },
+    {
+      "image": "/home/lululu/blue_conveyor_state/all_images/T17.jpg",
+      "label": "object_present"
+    },
+    {
+      "image": "/home/lululu/blue_conveyor_state/all_images/T18.jpg",
+      "label": "hand_present"
+    }
+  ],
+  "test": [
+    {
+      "image": "T01.jpg",
+      "label": "empty"
+    },
+    {
+      "image": "T02.jpg",
+      "label": "object_present"
+    },
+    {
+      "image": "T03.jpg",
+      "label": "hand_present"
+    },
+    {
+      "image": "T04.jpg",
+      "label": "empty"
+    },
+    {
+      "image": "T05.jpg",
+      "label": "object_present"
+    },
+    {
+      "image": "T06.jpg",
+      "label": "hand_present"
+    },
+    {
+      "image": "T07.jpg",
+      "label": "empty"
+    },
+    {
+      "image": "T08.jpg",
+      "label": "object_present"
+    },
+    {
+      "image": "T09.jpg",
+      "label": "hand_present"
+    },
+    {
+      "image": "T10.jpg",
+      "label": "empty"
+    },
+    {
+      "image": "T11.jpg",
+      "label": "object_present"
+    },
+    {
+      "image": "T12.jpg",
+      "label": "hand_present"
+    },
+    {
+      "image": "T13.jpg",
+      "label": "empty"
+    },
+    {
+      "image": "T14.jpg",
+      "label": "object_present"
+    },
+    {
+      "image": "T15.jpg",
+      "label": "hand_present"
+    },
+    {
+      "image": "T16.jpg",
+      "label": "empty"
+    },
+    {
+      "image": "T17.jpg",
+      "label": "object_present"
+    },
+    {
+      "image": "T18.jpg",
+      "label": "hand_present"
+    }
+  ],
+  "initialization": "ImageNet pretrained; not previous workcell checkpoint",
+  "epochs": 10,
+  "seed": 42
+}

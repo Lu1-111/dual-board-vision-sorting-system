@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "T16",
+    "index": 16,
+    "lighting": "亮光",
+    "expected_class": "empty",
+    "instruction": "亮光：移走蓝块和手，再次保持空带",
+    "camera_pose": "fixed_session_A",
+    "split": "independent_real_validation"
+  },
+  "photo": {
+    "captured_utc": "1970-01-01T02:37:06.859Z",
+    "format": "jpg",
+    "frame_sequence": "42055",
+    "height": 1080,
+    "photo_id": "082fde9e-6254-47a6-b0c5-aa0981d6cdb1",
+    "sha256": "acb3d3c6351e1b0746626fe6d8b4fc850cdbaec2e40d0557aff8fce5fa47928f",
+    "size": 200461,
+    "source": "imx415",
+    "width": 1920
+  },
+  "host_received_at": "2026-11-02T09:24:20.563115+00:00",
+  "split": "independent_real_validation",
+  "label_review_status": "visually_confirmed",
+  "model_freeze": {
+    "fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+    "selected_run": "scratch_v3"
+  },
+  "plan_sha256": "f364735c6c7adc4ca8e9edc1a0f24e6eee4105a67eafaf67b202205949c336e9",
+  "review_note": "亮光计划组，空带且无手；与T13相比机位/构图发生可见位移与小角度变化，仍计空带分类，不能作严格固定机位光照对照。"
+}

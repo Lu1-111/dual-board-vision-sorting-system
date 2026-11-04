@@ -1,0 +1,1011 @@
+{
+  "epoch": 20,
+  "internal": {
+    "n": 67,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        21,
+        0
+      ],
+      [
+        0,
+        0,
+        34
+      ]
+    ],
+    "per_class": [
+      {
+        "class_name": "empty",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 12
+      },
+      {
+        "class_name": "object_present",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 21
+      },
+      {
+        "class_name": "hand_present",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 34
+      }
+    ],
+    "loss": 0.025576987595700505,
+    "uncertain_count": 1
+  },
+  "known_dev": {
+    "n": 24,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        8,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        0,
+        8
+      ]
+    ],
+    "per_class": [
+      {
+        "class_name": "empty",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 8
+      },
+      {
+        "class_name": "object_present",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 8
+      },
+      {
+        "class_name": "hand_present",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 8
+      }
+    ],
+    "loss": 0.05106417338053385,
+    "uncertain_count": 1
+  },
+  "internal_predictions": [
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9770639538764954,
+        0.004289614502340555,
+        0.018646351993083954
+      ],
+      "sample_id": "syn_S00_0013"
+    },
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9602937698364258,
+        0.004819872789084911,
+        0.03488628566265106
+      ],
+      "sample_id": "syn_S00_0014"
+    },
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9585800766944885,
+        0.0074880956672132015,
+        0.03393186256289482
+      ],
+      "sample_id": "syn_S00_0015"
+    },
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9717178344726562,
+        0.006319609470665455,
+        0.021962493658065796
+      ],
+      "sample_id": "syn_S00_0080"
+    },
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9737792611122131,
+        0.004683066159486771,
+        0.021537717431783676
+      ],
+      "sample_id": "syn_S00_0086"
+    },
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9657388925552368,
+        0.007394834421575069,
+        0.026866238564252853
+      ],
+      "sample_id": "syn_S00_0099"
+    },
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9737295508384705,
+        0.0044583710841834545,
+        0.02181200496852398
+      ],
+      "sample_id": "syn_S00_0123"
+    },
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9351110458374023,
+        0.011320401914417744,
+        0.0535685233771801
+      ],
+      "sample_id": "syn_S00_0160"
+    },
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9767168760299683,
+        0.004620627500116825,
+        0.018662502989172935
+      ],
+      "sample_id": "syn_S00_0186"
+    },
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9729876518249512,
+        0.004539416637271643,
+        0.022472847253084183
+      ],
+      "sample_id": "syn_S00_0187"
+    },
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9763760566711426,
+        0.004300450906157494,
+        0.019323445856571198
+      ],
+      "sample_id": "syn_S00_0189"
+    },
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9775332808494568,
+        0.004573414567857981,
+        0.017893292009830475
+      ],
+      "sample_id": "syn_S00_0191"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.001698710024356842,
+        0.9695343375205994,
+        0.028766926378011703
+      ],
+      "sample_id": "syn_S01_0008"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.004449746105819941,
+        0.9731489419937134,
+        0.022401338443160057
+      ],
+      "sample_id": "syn_S01_0013"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0010988465510308743,
+        0.983109176158905,
+        0.015792010352015495
+      ],
+      "sample_id": "syn_S01_0032"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.013855643570423126,
+        0.8273828625679016,
+        0.15876148641109467
+      ],
+      "sample_id": "syn_S01_0036"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.001075427164323628,
+        0.97978276014328,
+        0.01914181374013424
+      ],
+      "sample_id": "syn_S01_0041"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0014025218551978469,
+        0.9907498955726624,
+        0.007847602479159832
+      ],
+      "sample_id": "syn_S01_0054"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0028731245547533035,
+        0.9701139330863953,
+        0.027013001963496208
+      ],
+      "sample_id": "syn_S01_0062"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.003911897074431181,
+        0.9452857971191406,
+        0.05080235004425049
+      ],
+      "sample_id": "syn_S01_extra_0004"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0008807635167613626,
+        0.977554440498352,
+        0.021564709022641182
+      ],
+      "sample_id": "syn_S01_extra_0008"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0019326736219227314,
+        0.9568912386894226,
+        0.041176095604896545
+      ],
+      "sample_id": "syn_S01_extra_0016"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0010216940427199006,
+        0.9724170565605164,
+        0.026561260223388672
+      ],
+      "sample_id": "syn_S01_extra_0019"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0018739491933956742,
+        0.9755565524101257,
+        0.022569453343749046
+      ],
+      "sample_id": "syn_S02_0020"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0017711337422952056,
+        0.9795365333557129,
+        0.018692312762141228
+      ],
+      "sample_id": "syn_S02_0021"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.00026854625320993364,
+        0.9939729571342468,
+        0.00575850298628211
+      ],
+      "sample_id": "syn_S02_0030"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0008974006632342935,
+        0.9863085150718689,
+        0.01279409509152174
+      ],
+      "sample_id": "syn_S02_extra_0004"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0072731501422822475,
+        0.8952537178993225,
+        0.0974731519818306
+      ],
+      "sample_id": "syn_S02_extra_0007"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0009721793467178941,
+        0.9823057055473328,
+        0.016722040250897408
+      ],
+      "sample_id": "syn_S02_extra_0011"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0008268994279205799,
+        0.9641125202178955,
+        0.0350605845451355
+      ],
+      "sample_id": "syn_S02_extra_0023"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0007851278642192483,
+        0.9882383942604065,
+        0.010976504534482956
+      ],
+      "sample_id": "syn_S02_extra_0027"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0003827265463769436,
+        0.9885127544403076,
+        0.011104559525847435
+      ],
+      "sample_id": "syn_S02_extra_0032"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0013740676222369075,
+        0.9770434498786926,
+        0.021582460030913353
+      ],
+      "sample_id": "syn_S02_extra_0033"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.0002250777033623308,
+        0.00037916991277597845,
+        0.9993957281112671
+      ],
+      "sample_id": "syn_S03_0005"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.0005869396845810115,
+        0.003028159262612462,
+        0.9963849782943726
+      ],
+      "sample_id": "syn_S03_0017"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.00013775184925179929,
+        0.00018073254614137113,
+        0.9996814727783203
+      ],
+      "sample_id": "syn_S03_0022"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.00027526982012204826,
+        0.00027594793937169015,
+        0.999448835849762
+      ],
+      "sample_id": "syn_S03_0053"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.00514888996258378,
+        0.36670878529548645,
+        0.6281422972679138
+      ],
+      "sample_id": "syn_S03_0058"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.0007121229427866638,
+        0.002658083336427808,
+        0.9966297745704651
+      ],
+      "sample_id": "syn_S03_0062"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.0006635193130932748,
+        0.0005701763438992202,
+        0.998766303062439
+      ],
+      "sample_id": "syn_S03_0068"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        3.904984987457283e-05,
+        0.0001931039587361738,
+        0.9997678399085999
+      ],
+      "sample_id": "syn_S03_0083"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.00019752635853365064,
+        0.0004967928980477154,
+        0.9993057250976562
+      ],
+      "sample_id": "syn_S04_0002"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.00030025150044821203,
+        0.008352716453373432,
+        0.9913470149040222
+      ],
+      "sample_id": "syn_S04_0009"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        9.014420356834307e-06,
+        6.629633571719751e-05,
+        0.9999246597290039
+      ],
+      "sample_id": "syn_S04_0012"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.0004947157576680183,
+        0.02664630301296711,
+        0.9728589653968811
+      ],
+      "sample_id": "syn_S04_0015"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        3.192037183907814e-05,
+        0.00023298419546335936,
+        0.9997350573539734
+      ],
+      "sample_id": "syn_S04_0026"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.00015716358029749244,
+        0.001092121354304254,
+        0.9987506866455078
+      ],
+      "sample_id": "syn_S04_0028"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        1.362801867799135e-05,
+        3.81132704205811e-05,
+        0.999948263168335
+      ],
+      "sample_id": "syn_S04_0064"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        4.1582901758374646e-05,
+        0.0001895630412036553,
+        0.9997687935829163
+      ],
+      "sample_id": "syn_S04_0067"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.00014662380272056907,
+        0.0003699571534525603,
+        0.9994833469390869
+      ],
+      "sample_id": "syn_S05_0002"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.00011301302583888173,
+        0.0006748769665136933,
+        0.9992120265960693
+      ],
+      "sample_id": "syn_S05_0011"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.0003223917738068849,
+        0.0009791008196771145,
+        0.9986984729766846
+      ],
+      "sample_id": "syn_S05_0013"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.00022370908118318766,
+        0.0009956208523362875,
+        0.9987806677818298
+      ],
+      "sample_id": "syn_S05_0017"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.0010259984992444515,
+        0.0011862503597512841,
+        0.9977877140045166
+      ],
+      "sample_id": "syn_S05_0023"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.000347612367477268,
+        0.0014955078950151801,
+        0.9981569647789001
+      ],
+      "sample_id": "syn_S05_0027"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        9.937313006957993e-05,
+        0.0004095318727195263,
+        0.9994910955429077
+      ],
+      "sample_id": "syn_S05_0047"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.00038179897819645703,
+        0.0008212662651203573,
+        0.998796820640564
+      ],
+      "sample_id": "syn_S05_0057"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.0011479498352855444,
+        0.022942988201975822,
+        0.9759090542793274
+      ],
+      "sample_id": "syn_S05_0059"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        7.850001566112041e-05,
+        5.879290620214306e-05,
+        0.9998626708984375
+      ],
+      "sample_id": "syn_S06_0002"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.001192851341329515,
+        0.0003477303253021091,
+        0.9984594583511353
+      ],
+      "sample_id": "syn_S06_0003"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.0008362769731320441,
+        0.0002512462961021811,
+        0.9989124536514282
+      ],
+      "sample_id": "syn_S06_0005"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.0006654089665971696,
+        0.00031913811108097434,
+        0.9990154504776001
+      ],
+      "sample_id": "syn_S06_0007"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.00014936285151634365,
+        0.00019247426826041192,
+        0.9996582269668579
+      ],
+      "sample_id": "syn_S06_0016"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.0008425858104601502,
+        0.0003053553227800876,
+        0.9988521337509155
+      ],
+      "sample_id": "syn_S06_0023"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        6.055345511413179e-05,
+        3.415952596697025e-05,
+        0.9999052286148071
+      ],
+      "sample_id": "syn_S06_0036"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.0005550471250899136,
+        0.00026997202076017857,
+        0.9991748929023743
+      ],
+      "sample_id": "syn_S06_0038"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.015469104051589966,
+        0.004061080981045961,
+        0.9804698824882507
+      ],
+      "sample_id": "syn_S06_0057"
+    }
+  ],
+  "known_dev_predictions": [
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9752179980278015,
+        0.004886748269200325,
+        0.019895166158676147
+      ],
+      "id": "b02_01_empty_diagonal_hard_shadow"
+    },
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9794166088104248,
+        0.004087615292519331,
+        0.01649581454694271
+      ],
+      "id": "b02_02_empty_hand_shaped_shadow"
+    },
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9846541881561279,
+        0.003518595127388835,
+        0.01182725839316845
+      ],
+      "id": "b02_03_empty_warm_bright"
+    },
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9729248881340027,
+        0.005388529039919376,
+        0.021686581894755363
+      ],
+      "id": "b02_04_empty_cool_dim"
+    },
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9246425628662109,
+        0.007890689186751842,
+        0.06746676564216614
+      ],
+      "id": "b02_05_empty_localized_glare"
+    },
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9753468632698059,
+        0.005110032390803099,
+        0.019543129950761795
+      ],
+      "id": "b02_06_empty_soft_focus"
+    },
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9827094078063965,
+        0.003273486625403166,
+        0.014017169363796711
+      ],
+      "id": "b02_07_empty_grain_low_light"
+    },
+    {
+      "label": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9763224124908447,
+        0.004818632733076811,
+        0.018858909606933594
+      ],
+      "id": "b02_08_empty_banded_shadow"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0028775918763130903,
+        0.9871467351913452,
+        0.009975653141736984
+      ],
+      "id": "b02_09_object_far_left"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0014106587041169405,
+        0.9108640551567078,
+        0.08772530406713486
+      ],
+      "id": "b02_10_object_near_upper_rail"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.29835644364356995,
+        0.5624967813491821,
+        0.13914676010608673
+      ],
+      "id": "b02_11_object_near_lower_rail"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.000739466748200357,
+        0.9895465970039368,
+        0.00971398688852787
+      ],
+      "id": "b02_12_object_far_right_dim"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.003579274984076619,
+        0.9466871619224548,
+        0.049733567982912064
+      ],
+      "id": "b02_13_object_rotated_center"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0006650295690633357,
+        0.9941526055335999,
+        0.005182316526770592
+      ],
+      "id": "b02_14_object_defect_left"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.001962651265785098,
+        0.9521376490592957,
+        0.04589967429637909
+      ],
+      "id": "b02_15_object_shadow_over_cube"
+    },
+    {
+      "label": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.0013320489088073373,
+        0.9575667977333069,
+        0.041101135313510895
+      ],
+      "id": "b02_16_object_slight_motion_blur"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        9.854753443505615e-05,
+        0.006273290142416954,
+        0.9936281442642212
+      ],
+      "id": "b02_17_hand_two_fingertips"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.03412716090679169,
+        0.002170903142541647,
+        0.9637019038200378
+      ],
+      "id": "b02_18_hand_partial_palm_empty"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.00032200044370256364,
+        0.00023683143081143498,
+        0.9994410872459412
+      ],
+      "id": "b02_19_hand_forearm_empty"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.004722802434116602,
+        0.02258407324552536,
+        0.972693145275116
+      ],
+      "id": "b02_20_hand_left_pinch"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.0006725846906192601,
+        0.0027805559802800417,
+        0.9965468049049377
+      ],
+      "id": "b02_21_hand_dark_skin"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.0006755042704753578,
+        0.06373875588178635,
+        0.9355856776237488
+      ],
+      "id": "b02_22_hand_blue_sleeve"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.00025308612384833395,
+        0.0007740300497971475,
+        0.9989728927612305
+      ],
+      "id": "b02_23_hand_shadowed_hand"
+    },
+    {
+      "label": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.003513024188578129,
+        0.0005850126035511494,
+        0.995901882648468
+      ],
+      "id": "b02_24_hand_hand_over_empty_upper"
+    }
+  ]
+}

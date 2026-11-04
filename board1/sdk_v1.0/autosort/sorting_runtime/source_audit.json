@@ -1,0 +1,22 @@
+{
+  "scope": "Isolated native and cross compilation in authorized Ubuntu VM; no board access",
+  "mode": "observe_only",
+  "mechanical_execution": "always locked; --single-cycle exits3 before IO",
+  "configuration": "measured=false, no active region, proposal only",
+  "static_checks": "PASS no motion command paths; explicit status-only adapter; source producer contract matched",
+  "native_tests": "PASS23 Qt fixture groups and fake local Unix-socket readonly CLI",
+  "board_validation": "NOT PERFORMED",
+  "sources": {
+    "configuration_reference.json": "c7b10bf83887f81dec4d8c060b242c0e3742e4835532c523ce2e78be5d06bcb6",
+    "main.cpp": "e0e77077c9c7e2a1e0db258068c8a61fbf2f885afd5c59eb112168080b63fcd7",
+    "README.txt": "5307613c65c384411f750b863a20e6ba4b291f3fd3b08e50cd02f6a8c06e6d07",
+    "sorting_observer.cpp": "2b635a29464bc94deca3b162c27d60354e1d4cef4517d513d09640202feb6cfe",
+    "sorting_observer.hpp": "710a7143eb10ea1506c42ec8cc8b566273f67a641bb6b0633123acd715ccca5e",
+    "sorting_observer.pro": "a3d3bcc762ecef03234a8b6dd8c629611af76f605e11a4590fc05c8be9c8f350",
+    "test_observer.cpp": "54aa6ddc6722e05e3ed1791e9736c9e28ccf443feef6f240dadb47a869c442ab",
+    "test_observer.pro": "430c01c95f4fff715badd6d5241803067f2670a16f4e19d6841d7193b235858a",
+    "test_readonly_cli.py": "90f546e03a38e2488db2ff7c363e71416d998b4d74e528fb5ba48b3aaaf90f84"
+  },
+  "cross_build": "PASS AArch64 Qt5.13.2 zero warnings",
+  "binary_sha256": "1bae1ca4dabf9f1bd60917b943489d8041a8acdcdbeaf650a424bca425116cae"
+}

@@ -1,0 +1,10 @@
+{
+  "pretrained_source": "https://download.pytorch.org/models/mobilenet_v3_small-047dcff4.pth",
+  "documentation": "https://docs.pytorch.org/vision/main/models/generated/torchvision.models.mobilenet_v3_small.html",
+  "pretrained_sha256": "047dcff4addef86ea5bc2eff13c9614dc11f47ab1160d0a71a25e7db994f4e1f",
+  "backbone_used": "features0..8, not original classification head",
+  "image_pipeline": "grayscale, bilinear320, /255; inside model repeated gray3channels normalized ImageNet mean/std",
+  "features_sha256": "806cee46a7a05ea0101849839ffb7edcad0a564c655bb86ead972698ee7c5db6",
+  "purpose": "Offline training initialization only; not a second defect classifier",
+  "features_bytes": 836211
+}

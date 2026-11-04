@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "T14",
+    "index": 14,
+    "lighting": "亮光",
+    "expected_class": "object_present",
+    "instruction": "亮光：蓝块放在传送带中央，手移出画面",
+    "camera_pose": "fixed_session_A",
+    "split": "independent_real_validation"
+  },
+  "photo": {
+    "captured_utc": "1970-01-01T02:31:55.782Z",
+    "format": "jpg",
+    "frame_sequence": "36567",
+    "height": 1080,
+    "photo_id": "8b68ccbe-0464-4583-80af-48a5df8cdedd",
+    "sha256": "f8bd04af63ba1dfb6044d3b688927cddbd083d01bc9a26dc5c7cc4bd2d09f345",
+    "size": 203394,
+    "source": "imx415",
+    "width": 1920
+  },
+  "host_received_at": "2026-11-02T09:19:09.920493+00:00",
+  "split": "independent_real_validation",
+  "label_review_status": "visually_confirmed",
+  "model_freeze": {
+    "fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+    "selected_run": "scratch_v3"
+  },
+  "plan_sha256": "f364735c6c7adc4ca8e9edc1a0f24e6eee4105a67eafaf67b202205949c336e9",
+  "review_note": "亮光计划组，带面中央偏右有蓝块，画面无手，记录为 object_present。"
+}

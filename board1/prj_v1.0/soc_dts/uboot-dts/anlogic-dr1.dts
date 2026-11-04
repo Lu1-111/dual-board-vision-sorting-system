@@ -1,0 +1,171 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+
+/*
+ * Copyright (c) 2022 Anlogic Inc.
+ */
+/dts-v1/;
+
+#include "anlogic-dr1m90.dts"
+
+/ {
+	model = "Anlogic dr1m90 demo board";
+	compatible = "anlogic, dr1m90-fpga";
+
+	aliases {
+		console = &uart1;
+		serial0 = &uart1;
+		mmc0 = &sdhci0;
+		mmc1 = &sdhci1;
+		ethernet0 = &ethernet0;
+		spi0 = &QSPI0;
+	};
+};
+
+&memory {
+	reg = <0 0x40000000>;
+};
+
+&uart0 {
+	status = "disabled";
+};
+
+&uart1 {
+	status = "okay";
+};
+
+&spi0 {
+	status = "disabled";
+};
+
+&spi1 {
+	status = "disabled";
+};
+
+&i2c0 {
+	status = "okay";
+
+	i2c-mux@74 {
+		compatible = "nxp,pca9548";
+		#address-cells = <1>;
+		#size-cells = <0>;
+		reg = <0x74>;
+		status = "okay";
+
+		i2c@2 {
+			#address-cells = <1>;
+			#size-cells = <0>;
+			reg = <2>;
+			/*
+			 * IIC_EEPROM 1kB memory which uses 256B blocks
+			 * where every block has different address.
+			 *    0 - 256B address 0x54
+			 * 256B - 512B address 0x55
+			 * 512B - 768B address 0x56
+			 * 768B - 1024B address 0x57
+			 */
+			m24c08: eeprom@54 {
+				compatible = "atmel,24c08";
+				reg = <0x54>;
+				pagesize = <16>;
+				address-width = <8>;
+				status = "okay";
+			};
+		};
+
+		i2c@3 {
+			#address-cells = <1>;
+			#size-cells = <0>;
+			reg = <3>;
+			ds1337: rtc@68 {
+				compatible = "dallas,ds1337";
+				reg = <0x68>;
+				trickle-resistor-ohms = <250>;
+				status = "okay";
+			};
+		};
+
+	};
+};
+
+&i2c1 {
+	status = "okay";
+};
+
+&gpio {
+	status = "okay";
+};
+
+&sdhci0 {
+	rx_clk_phase = <0>;
+	status = "okay";
+};
+
+&sdhci1 {
+	rx_clk_phase = <6>;
+	status = "okay";
+};
+
+&QSPI0 {
+	u-boot,dm-pre-reloc; 
+	rx-sample-delay = <1>;
+	spi-max-frequency = <AL_QSPI_MAX_FREQUENCY>;
+	status = "okay";
+
+	flash0: flash@0 {
+		u-boot,dm-pre-reloc;
+		compatible = "gd25lb256e","jedec,spi-nor";
+		reg = <0x0>;
+		spi-tx-bus-width = <4>;
+		spi-rx-bus-width = <4>;
+		spi-max-frequency = <AL_QSPI_MAX_FREQUENCY>;
+	};
+};
+
+&nand0 {
+	status = "disabled";
+};
+
+&smcc {
+	status = "disabled";
+};
+
+&ethernet0 {
+	phy-handle = <&phy1>;
+	status = "okay";
+};
+
+&phy0 {
+	/* Realtek RTL8211F (0x001cc916) */
+	status = "disabled";
+};
+
+&phy1 {
+	/* Motorcomm YT8531 (0x4f51e91b) */
+	/* Reset gbe phy, 1: active low */
+	reset-gpios = <&portb 19 1>;
+	status = "okay";
+};
+
+&ethernet1 {
+	phy-handle = <&phy2>;
+	status = "disabled";
+};
+
+&phy2 {
+	/* Realtek RTL8211F (0x001cc916) */
+	status = "disabled";
+};
+
+&phy3 {
+	/* Motorcomm YT8531 (0x4f51e91b) */
+	status = "disabled";
+};
+
+&usb_otg0 {
+	status = "okay";
+	/* Reset usb phy, 1: active low */
+	dr_mode = "host"; 
+	reset-gpios = <&portb 14 1>;
+	reset-delays = <10>;
+};
+

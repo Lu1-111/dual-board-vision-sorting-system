@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "window_hidden": true,
+  "checked": "Load frozen model; infer2 images; populate result table; render photo and localization circle; no UI shown to user."
+}

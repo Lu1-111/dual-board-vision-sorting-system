@@ -1,0 +1,725 @@
+{
+  "scope": "Fixed conveyor, fixed viewpoint. Newly generated after freezing model; images not used for training, selection, calibration or threshold tuning.",
+  "model_checkpoint_sha256": "1c48eba4c01271c51fcb1571e21e037fe3024923537a6625124bb8cbe23437ae",
+  "test_count": 20,
+  "classification_count": 18,
+  "challenge_count": 2,
+  "all_preplanned_images_included": true,
+  "exact_duplicates_with_training": 0,
+  "evaluated_unix_time": 1793587995.563446,
+  "predictions": [
+    {
+      "id": "empty_01",
+      "expected_class": "empty",
+      "suite": "classification",
+      "path": "images/empty_01.png",
+      "sha256": "a42374bc22c9e1643b0b679cfbdc26a0506dd7da5ba914181ac82de962a2d011",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "empty",
+        "confidence": 0.9674087166786194,
+        "probabilities": [
+          0.9674087166786194,
+          0.014972241595387459,
+          0.01761898770928383
+        ],
+        "state": "empty",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "empty",
+        "confidence": 0.9730567932128906,
+        "probabilities": [
+          0.9730567932128906,
+          0.014233054593205452,
+          0.012710148468613625
+        ],
+        "state": "empty",
+        "correct": true
+      }
+    },
+    {
+      "id": "empty_02",
+      "expected_class": "empty",
+      "suite": "classification",
+      "path": "images/empty_02.png",
+      "sha256": "367cc72cb077d70ff3c3a62785e2dcbbf487e89dae23fbf72e15be2dda1bb460",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "empty",
+        "confidence": 0.8761413097381592,
+        "probabilities": [
+          0.8761413097381592,
+          0.026145560666918755,
+          0.09771321713924408
+        ],
+        "state": "empty",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "empty",
+        "confidence": 0.8937576413154602,
+        "probabilities": [
+          0.8937576413154602,
+          0.03485977277159691,
+          0.0713825672864914
+        ],
+        "state": "empty",
+        "correct": true
+      }
+    },
+    {
+      "id": "empty_03",
+      "expected_class": "empty",
+      "suite": "classification",
+      "path": "images/empty_03.png",
+      "sha256": "bfa3dd91442795f06bf2391ccb2d446342fb070eadb4e6a18425370357b476a1",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "empty",
+        "confidence": 0.9713109731674194,
+        "probabilities": [
+          0.9713109731674194,
+          0.016585055738687515,
+          0.012103882618248463
+        ],
+        "state": "empty",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "empty",
+        "confidence": 0.9639649391174316,
+        "probabilities": [
+          0.9639649391174316,
+          0.023909807205200195,
+          0.012125261127948761
+        ],
+        "state": "empty",
+        "correct": true
+      }
+    },
+    {
+      "id": "empty_04",
+      "expected_class": "empty",
+      "suite": "classification",
+      "path": "images/empty_04.png",
+      "sha256": "ff9f578818f0146e35302b7e8cf636ba17216594c02cf53786bec18ec35567c8",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "empty",
+        "confidence": 0.9833108186721802,
+        "probabilities": [
+          0.9833108186721802,
+          0.008492742665112019,
+          0.00819648802280426
+        ],
+        "state": "empty",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "empty",
+        "confidence": 0.9829339385032654,
+        "probabilities": [
+          0.9829339385032654,
+          0.009494599886238575,
+          0.00757149513810873
+        ],
+        "state": "empty",
+        "correct": true
+      }
+    },
+    {
+      "id": "empty_05",
+      "expected_class": "empty",
+      "suite": "classification",
+      "path": "images/empty_05.png",
+      "sha256": "ec5f9be3752549550ad2466a671d8a2e0fc6971a78d163904a1c819363fe1bfb",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "empty",
+        "confidence": 0.9874617457389832,
+        "probabilities": [
+          0.9874617457389832,
+          0.006470406427979469,
+          0.006067837588489056
+        ],
+        "state": "empty",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "empty",
+        "confidence": 0.9873232245445251,
+        "probabilities": [
+          0.9873232245445251,
+          0.007052638567984104,
+          0.005624146666377783
+        ],
+        "state": "empty",
+        "correct": true
+      }
+    },
+    {
+      "id": "empty_06",
+      "expected_class": "empty",
+      "suite": "classification",
+      "path": "images/empty_06.png",
+      "sha256": "0f80c50a9891ca2923344165e337ce00ca1b3e7c4fc52b9cb89a523c9d0e9599",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "empty",
+        "confidence": 0.988401472568512,
+        "probabilities": [
+          0.988401472568512,
+          0.005902307108044624,
+          0.005696254316717386
+        ],
+        "state": "empty",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "empty",
+        "confidence": 0.988035261631012,
+        "probabilities": [
+          0.988035261631012,
+          0.006544850300997496,
+          0.005419848952442408
+        ],
+        "state": "empty",
+        "correct": true
+      }
+    },
+    {
+      "id": "object_01",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "path": "images/object_01.png",
+      "sha256": "3a8fe9b204fb55e824208b378eec04cf527f5601dc5278a977ba63566f69f476",
+      "width": 1671,
+      "height": 941,
+      "fp32": {
+        "prediction": "object_present",
+        "confidence": 0.9537523984909058,
+        "probabilities": [
+          0.014334090054035187,
+          0.9537523984909058,
+          0.03191351145505905
+        ],
+        "state": "object_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "object_present",
+        "confidence": 0.9674901366233826,
+        "probabilities": [
+          0.012637436389923096,
+          0.9674901366233826,
+          0.019872339442372322
+        ],
+        "state": "object_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "object_02",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "path": "images/object_02.png",
+      "sha256": "1d91fa4a40ec2aa2c2a7f620e87ea8989e190fb875498d452d68bbf16ca29f04",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "object_present",
+        "confidence": 0.9946544170379639,
+        "probabilities": [
+          0.0012497463030740619,
+          0.9946544170379639,
+          0.004095787648111582
+        ],
+        "state": "object_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "object_present",
+        "confidence": 0.9957003593444824,
+        "probabilities": [
+          0.001078688190318644,
+          0.9957003593444824,
+          0.0032209823839366436
+        ],
+        "state": "object_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "object_03",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "path": "images/object_03.png",
+      "sha256": "45084fa4b490cc705c50b684dd9c9ddb66cf9b95e6cf49f1fd6d7aedef75d6fa",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "object_present",
+        "confidence": 0.9539490342140198,
+        "probabilities": [
+          0.01679646037518978,
+          0.9539490342140198,
+          0.02925441972911358
+        ],
+        "state": "object_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "object_present",
+        "confidence": 0.9700065851211548,
+        "probabilities": [
+          0.01220125611871481,
+          0.9700065851211548,
+          0.017792196944355965
+        ],
+        "state": "object_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "object_04",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "path": "images/object_04.png",
+      "sha256": "aa6f6cd096b765701314f3eee56d7e89dfbf59649486eaee108f4ed753de0b61",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "object_present",
+        "confidence": 0.9889295697212219,
+        "probabilities": [
+          0.004960311576724052,
+          0.9889295697212219,
+          0.006110080052167177
+        ],
+        "state": "object_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "object_present",
+        "confidence": 0.9911243319511414,
+        "probabilities": [
+          0.004020526073873043,
+          0.9911243319511414,
+          0.004855071194469929
+        ],
+        "state": "object_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "object_05",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "path": "images/object_05.png",
+      "sha256": "b2a4548ea4e53236f15e611e8b1a628fde619d56c986e45ce54df1daec792e90",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "object_present",
+        "confidence": 0.9768656492233276,
+        "probabilities": [
+          0.004458758980035782,
+          0.9768656492233276,
+          0.018675561994314194
+        ],
+        "state": "object_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "object_present",
+        "confidence": 0.9839224815368652,
+        "probabilities": [
+          0.003701268695294857,
+          0.9839224815368652,
+          0.012376297265291214
+        ],
+        "state": "object_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "object_06",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "path": "images/object_06.png",
+      "sha256": "3f0b9f47dbb4ccd79867720a3c937154a4ee887c52c9d184b97bf5903ae0bae9",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "object_present",
+        "confidence": 0.9843240976333618,
+        "probabilities": [
+          0.007056113798171282,
+          0.9843240976333618,
+          0.008619728498160839
+        ],
+        "state": "object_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "object_present",
+        "confidence": 0.9861137270927429,
+        "probabilities": [
+          0.006290305871516466,
+          0.9861137270927429,
+          0.00759598845615983
+        ],
+        "state": "object_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "hand_01",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "path": "images/hand_01.png",
+      "sha256": "2133a1d29f4a0191f192a41a3c7b2bd757e299c4b43f5a9cb4a1692dcb636b3f",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9932743310928345,
+        "probabilities": [
+          0.002574150450527668,
+          0.004151488188654184,
+          0.9932743310928345
+        ],
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9905875325202942,
+        "probabilities": [
+          0.003327630227431655,
+          0.006084923632442951,
+          0.9905875325202942
+        ],
+        "state": "hand_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "hand_02",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "path": "images/hand_02.png",
+      "sha256": "e6417a8611343f2b98226a065376bda854a230f9b327c6b17999f4f004959760",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9848564267158508,
+        "probabilities": [
+          0.00707686273381114,
+          0.008066684938967228,
+          0.9848564267158508
+        ],
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9814163446426392,
+        "probabilities": [
+          0.007559805177152157,
+          0.011023909784853458,
+          0.9814163446426392
+        ],
+        "state": "hand_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "hand_03",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "path": "images/hand_03.png",
+      "sha256": "63f55024caec6212faf76b736bd9460dc55a9f11721e8051a638659aca0f2569",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9983100891113281,
+        "probabilities": [
+          0.00120911980047822,
+          0.0004807861114386469,
+          0.9983100891113281
+        ],
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9974364638328552,
+        "probabilities": [
+          0.001764513086527586,
+          0.0007990841404534876,
+          0.9974364638328552
+        ],
+        "state": "hand_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "hand_04",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "path": "images/hand_04.png",
+      "sha256": "0cd4ebf21c57f080d42fa9e8ca654a4a40fd497686765bf520c7778c37bc61ed",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9995560050010681,
+        "probabilities": [
+          2.4002452846616507e-05,
+          0.0004200116381980479,
+          0.9995560050010681
+        ],
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9991627931594849,
+        "probabilities": [
+          6.638931517954916e-05,
+          0.0007708343327976763,
+          0.9991627931594849
+        ],
+        "state": "hand_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "hand_05",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "path": "images/hand_05.png",
+      "sha256": "0b2a6764f8300bc4c5598e5812d5950cc6e546de12c9c32676cd1588b68ec6d2",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9886330962181091,
+        "probabilities": [
+          0.0046292259357869625,
+          0.006737725809216499,
+          0.9886330962181091
+        ],
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9840839505195618,
+        "probabilities": [
+          0.006044973619282246,
+          0.009871132671833038,
+          0.9840839505195618
+        ],
+        "state": "hand_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "hand_06",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "path": "images/hand_06.png",
+      "sha256": "7202e01feb83e4ccc315c8be295d58962b7d8eacb68ea582def36f2f8a6ac198",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9968478083610535,
+        "probabilities": [
+          0.002407074673101306,
+          0.0007450875709764659,
+          0.9968478083610535
+        ],
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9960833787918091,
+        "probabilities": [
+          0.0028774517122656107,
+          0.0010391554096713662,
+          0.9960833787918091
+        ],
+        "state": "hand_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "challenge_off_belt",
+      "expected_class": null,
+      "suite": "out_of_scope",
+      "path": "images/challenge_off_belt.png",
+      "sha256": "740deea48f9be192c14877de08367f333340bd2a55a23273a6874148d8f74394",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "empty",
+        "confidence": 0.9760115146636963,
+        "probabilities": [
+          0.9760115146636963,
+          0.012509392574429512,
+          0.011479077860713005
+        ],
+        "state": "empty",
+        "correct": null
+      },
+      "int8": {
+        "prediction": "empty",
+        "confidence": 0.9751874208450317,
+        "probabilities": [
+          0.9751874208450317,
+          0.01426421944051981,
+          0.010548434220254421
+        ],
+        "state": "empty",
+        "correct": null
+      }
+    },
+    {
+      "id": "challenge_rail",
+      "expected_class": null,
+      "suite": "out_of_scope",
+      "path": "images/challenge_rail.png",
+      "sha256": "b98f09e2e53814c944e141946aea06a3334f130b6b96037bdc3da025b5e09a2f",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "object_present",
+        "confidence": 0.65105801820755,
+        "probabilities": [
+          0.2850700914859772,
+          0.65105801820755,
+          0.06387190520763397
+        ],
+        "state": "uncertain",
+        "correct": null
+      },
+      "int8": {
+        "prediction": "object_present",
+        "confidence": 0.6873379349708557,
+        "probabilities": [
+          0.2577657699584961,
+          0.6873379349708557,
+          0.05489625036716461
+        ],
+        "state": "uncertain",
+        "correct": null
+      }
+    }
+  ],
+  "fp32": {
+    "n": 18,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        6,
+        0
+      ],
+      [
+        0,
+        0,
+        6
+      ]
+    ],
+    "per_class": [
+      {
+        "class_name": "empty",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      },
+      {
+        "class_name": "object_present",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      },
+      {
+        "class_name": "hand_present",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      }
+    ],
+    "uncertain_count_at_0_8": 0
+  },
+  "int8": {
+    "n": 18,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        6,
+        0,
+        0
+      ],
+      [
+        0,
+        6,
+        0
+      ],
+      [
+        0,
+        0,
+        6
+      ]
+    ],
+    "per_class": [
+      {
+        "class_name": "empty",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      },
+      {
+        "class_name": "object_present",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      },
+      {
+        "class_name": "hand_present",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      }
+    ],
+    "uncertain_count_at_0_8": 0
+  },
+  "fp32_int8_agreement_all_20": 1.0
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "安路 PL-PS 联调"
+  short_description: "从启动链到 AXI、DMA、缓存和中断，定位软硬件接口故障"
+  default_prompt: "使用 $anlogic-soc-debug 根据日志、硬件平台和软件配置定位当前 SoC 故障。"

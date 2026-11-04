@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "T07",
+    "index": 7,
+    "lighting": "暗光",
+    "expected_class": "empty",
+    "instruction": "暗光：清空传送带，手移出画面",
+    "camera_pose": "fixed_session_A",
+    "split": "independent_real_validation"
+  },
+  "photo": {
+    "captured_utc": "1970-01-01T02:20:56.747Z",
+    "format": "jpg",
+    "frame_sequence": "24955",
+    "height": 1080,
+    "photo_id": "8eb21f9b-ce23-417f-a4de-1bb9dd4e6d3c",
+    "sha256": "3b70108fc4afe269abccd5b957fb7405a0c46eabc6583f2136caf65e37bef115",
+    "size": 194431,
+    "source": "imx415",
+    "width": 1920
+  },
+  "host_received_at": "2026-11-02T09:08:09.497318+00:00",
+  "split": "independent_real_validation",
+  "label_review_status": "visually_confirmed",
+  "model_freeze": {
+    "fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+    "selected_run": "scratch_v3"
+  },
+  "plan_sha256": "f364735c6c7adc4ca8e9edc1a0f24e6eee4105a67eafaf67b202205949c336e9",
+  "review_note": "空带且无手；整图与带面均比T01/T04略暗，属轻度变暗。背景瓶子已移走，带面边缘相对画面略有位移，不能作为完全控制其他因素的纯光照对照。"
+}

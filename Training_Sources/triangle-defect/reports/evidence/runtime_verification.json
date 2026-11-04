@@ -1,0 +1,890 @@
+{
+  "images": 142,
+  "all_cpu_gpu_torchscript_decisions_agree": true,
+  "max_torchscript_abs_diff": 0.0,
+  "max_cpu_gpu_abs_diff": 0.0006938427686691284,
+  "checks": [
+    {
+      "id": "blue_004_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.1390075087547302e-06,
+      "same_decision": true
+    },
+    {
+      "id": "blue_010_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 4.892796277999878e-05,
+      "same_decision": true
+    },
+    {
+      "id": "blue_014_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.759268343448639e-06,
+      "same_decision": true
+    },
+    {
+      "id": "blue_015_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 4.996545612812042e-07,
+      "same_decision": true
+    },
+    {
+      "id": "blue_019_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 3.1623058021068573e-06,
+      "same_decision": true
+    },
+    {
+      "id": "blue_021_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.4706514775753021e-05,
+      "same_decision": true
+    },
+    {
+      "id": "blue_022_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 8.265674114227295e-05,
+      "same_decision": true
+    },
+    {
+      "id": "blue_023_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.00013004615902900696,
+      "same_decision": true
+    },
+    {
+      "id": "blue_025_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.7406418919563293e-06,
+      "same_decision": true
+    },
+    {
+      "id": "blue_035_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0006938427686691284,
+      "same_decision": true
+    },
+    {
+      "id": "blue_036_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 4.161521792411804e-05,
+      "same_decision": true
+    },
+    {
+      "id": "blue_039_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 3.099348396062851e-05,
+      "same_decision": true
+    },
+    {
+      "id": "blue_040_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 4.01865690946579e-07,
+      "same_decision": true
+    },
+    {
+      "id": "blue_041_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.00031450390815734863,
+      "same_decision": true
+    },
+    {
+      "id": "blue_042_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 3.75993549823761e-05,
+      "same_decision": true
+    },
+    {
+      "id": "blue_043_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.2940727174282074e-05,
+      "same_decision": true
+    },
+    {
+      "id": "blue_044_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 4.308763891458511e-06,
+      "same_decision": true
+    },
+    {
+      "id": "blue_049_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.5876255929470062e-05,
+      "same_decision": true
+    },
+    {
+      "id": "blue_050_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.2065283954143524e-06,
+      "same_decision": true
+    },
+    {
+      "id": "blue_057_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "blue_060_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "blue_064_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 6.67572021484375e-06,
+      "same_decision": true
+    },
+    {
+      "id": "blue_065_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "blue_066_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.1920928955078125e-07,
+      "same_decision": true
+    },
+    {
+      "id": "blue_075_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.00012690387666225433,
+      "same_decision": true
+    },
+    {
+      "id": "blue_083_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "blue_086_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "blue_087_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 8.344650268554688e-07,
+      "same_decision": true
+    },
+    {
+      "id": "blue_095_historic",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.1920928955078125e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_0c10dc4bad6c2639",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 6.401445716619492e-06,
+      "same_decision": true
+    },
+    {
+      "id": "syn_236a7b26d011ae43",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 3.3909454941749573e-06,
+      "same_decision": true
+    },
+    {
+      "id": "syn_c3955ed32e0a3fcd",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 3.7928111851215363e-06,
+      "same_decision": true
+    },
+    {
+      "id": "syn_a29b43dd4e3e5760",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 3.3918768167495728e-06,
+      "same_decision": true
+    },
+    {
+      "id": "syn_92796f9397b1dc03",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_0c53bb50269c16e4",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_0538b9a2bf6148d7",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_ce7c88426109d9ce",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.1920928955078125e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_78effe7a154634e8",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 3.497116267681122e-06,
+      "same_decision": true
+    },
+    {
+      "id": "syn_16f8a9cb3559b1ba",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 5.760230123996735e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_df0b4c2887ca570a",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.4118850231170654e-06,
+      "same_decision": true
+    },
+    {
+      "id": "syn_5eda3c129d1adcca",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.183943822979927e-06,
+      "same_decision": true
+    },
+    {
+      "id": "syn_25f49ae43c8fc334",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 5.770474672317505e-06,
+      "same_decision": true
+    },
+    {
+      "id": "syn_9756b735fcf4a178",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 8.71485099196434e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_aaab1c07490bc7a4",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 2.923887223005295e-06,
+      "same_decision": true
+    },
+    {
+      "id": "syn_35782adfff09970f",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 6.365589797496796e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_9af70f1ad8d10578",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_3fe688cdec94e4bb",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_7122c41ce90bec00",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_8f6299485d91274d",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_a61379d5ba62de98",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_c6ba1438a0b0635c",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_143a5d622fb39c93",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_d1ca1630a0174a9f",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_2ad019610baed955",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_4642f1051f6a2f21",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_d7b07481070ac7b5",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_49f48fa8d6a7d22e",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.1920928955078125e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_69f9b44255ea569e",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 2.384185791015625e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_95f9a9a4cf085aaf",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_b95c33f6ce769fc9",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_1ea3746d9b348a20",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 2.384185791015625e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_e947815ef0a34204",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_f17864caad5c2d8f",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.0135117918252945e-06,
+      "same_decision": true
+    },
+    {
+      "id": "syn_f2623351c5abdb4a",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_14c748591e344e37",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.1920928955078125e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_0691986054f5e44c",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_f5292292d98821c3",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.1920928955078125e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_ec012c64f126230e",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.1920928955078125e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_9f11a04ebf145f76",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.1920928955078125e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_9ce6d46093874c6a",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_870a449fd1d0f773",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 2.384185791015625e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_d9ec8d5b309071f6",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.9073486328125e-06,
+      "same_decision": true
+    },
+    {
+      "id": "syn_15fce5d434e1b632",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_aeaa5968a9e9be95",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.1920928955078125e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_4fd0a3e6cc58c265",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_65b7daf0eacba752",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 2.0265579223632812e-06,
+      "same_decision": true
+    },
+    {
+      "id": "syn_5d271fcdf9ebbf36",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_c85d59e1cdef8e89",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.0013580322265625e-05,
+      "same_decision": true
+    },
+    {
+      "id": "syn_b851e20a5b5e24b0",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 2.384185791015625e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_be0b54d0b43dd72f",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_ed2406f004e7fe41",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 2.384185791015625e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_0dd7dc611be000f6",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 2.5033950805664062e-06,
+      "same_decision": true
+    },
+    {
+      "id": "syn_c5df908fd75e20ff",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 3.9604492485523224e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_476a8bc0e0b0df15",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 2.0265579223632812e-06,
+      "same_decision": true
+    },
+    {
+      "id": "syn_516e9a409c79644b",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 2.384185791015625e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_def7b1901e423c54",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "syn_66b5be41483c557d",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.1920928955078125e-06,
+      "same_decision": true
+    },
+    {
+      "id": "syn_e9660784562ab878",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 4.76837158203125e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_7458349d91eb2b11",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 2.384185791015625e-07,
+      "same_decision": true
+    },
+    {
+      "id": "syn_f65aedc940e381a1",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 3.5762786865234375e-07,
+      "same_decision": true
+    },
+    {
+      "id": "32fa36076124",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 5.977693945169449e-06,
+      "same_decision": true
+    },
+    {
+      "id": "974ce9f40bfa",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.3033859431743622e-05,
+      "same_decision": true
+    },
+    {
+      "id": "6241070cd079",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.1920928955078125e-07,
+      "same_decision": true
+    },
+    {
+      "id": "9a9226c641fc",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "79c9da36f192",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "37b3dcb3a258",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "4a06be56344b",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.00010154023766517639,
+      "same_decision": true
+    },
+    {
+      "id": "c5d4b4d9688d",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 4.3213367462158203e-07,
+      "same_decision": true
+    },
+    {
+      "id": "091721cf8378",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 3.2046809792518616e-06,
+      "same_decision": true
+    },
+    {
+      "id": "4c87efd88d71",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.5248078852891922e-06,
+      "same_decision": true
+    },
+    {
+      "id": "f1e61919489b",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 6.577465683221817e-07,
+      "same_decision": true
+    },
+    {
+      "id": "745570c90c69",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 4.0652230381965637e-07,
+      "same_decision": true
+    },
+    {
+      "id": "3bef1bd541b8",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 9.89530235528946e-07,
+      "same_decision": true
+    },
+    {
+      "id": "dab7e72d08db",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 3.477092832326889e-06,
+      "same_decision": true
+    },
+    {
+      "id": "1b9a712d3113",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "bbbb722d63bd",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "9d5bcf0bc746",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "0b9d5077e8e7",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "7d5c168f0266",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 8.098781108856201e-06,
+      "same_decision": true
+    },
+    {
+      "id": "9f62a1fa1002",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 8.831033483147621e-06,
+      "same_decision": true
+    },
+    {
+      "id": "31023366de09",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 7.699243724346161e-06,
+      "same_decision": true
+    },
+    {
+      "id": "1ba0b92682df",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 5.501788109540939e-07,
+      "same_decision": true
+    },
+    {
+      "id": "02e608d3d963",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 6.612390279769897e-07,
+      "same_decision": true
+    },
+    {
+      "id": "c133fc3702ed",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 8.091330528259277e-06,
+      "same_decision": true
+    },
+    {
+      "id": "6914328f8a17",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 4.694424569606781e-05,
+      "same_decision": true
+    },
+    {
+      "id": "dccee3209768",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "f61a73945c1d",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "86584c1a5bc5",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.1920928955078125e-07,
+      "same_decision": true
+    },
+    {
+      "id": "4a681e4e61c6",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "639b5175e9b8",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 2.413056790828705e-06,
+      "same_decision": true
+    },
+    {
+      "id": "aea933b37911",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 2.4959444999694824e-07,
+      "same_decision": true
+    },
+    {
+      "id": "08c9a1bea7e6",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "7e32ef46e0715d4e",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 9.178183972835541e-07,
+      "same_decision": true
+    },
+    {
+      "id": "793adfc3b06d6506",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 7.632188498973846e-07,
+      "same_decision": true
+    },
+    {
+      "id": "4a52491dc194e881",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.1450611054897308e-06,
+      "same_decision": true
+    },
+    {
+      "id": "2bb47441c5b8ed7e",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 5.224719643592834e-07,
+      "same_decision": true
+    },
+    {
+      "id": "310eec8c2c83093c",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 5.960464477539062e-07,
+      "same_decision": true
+    },
+    {
+      "id": "032a88d86d1b0fef",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 3.5762786865234375e-07,
+      "same_decision": true
+    },
+    {
+      "id": "635dbfac1fe1b3b9",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "107bfc5863a704be",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.0,
+      "same_decision": true
+    },
+    {
+      "id": "v23normal_blue_010_historic_dim",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 5.0809234380722046e-05,
+      "same_decision": true
+    },
+    {
+      "id": "v23normal_blue_010_historic_bright",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 3.3723190426826477e-06,
+      "same_decision": true
+    },
+    {
+      "id": "v23normal_blue_010_historic_left",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.6218051314353943e-05,
+      "same_decision": true
+    },
+    {
+      "id": "v23normal_blue_010_historic_right",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 7.020309567451477e-05,
+      "same_decision": true
+    },
+    {
+      "id": "v23normal_blue_010_historic_softshadow",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.00026548653841018677,
+      "same_decision": true
+    },
+    {
+      "id": "v23normal_blue_040_historic_dim",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.987908035516739e-06,
+      "same_decision": true
+    },
+    {
+      "id": "v23normal_blue_040_historic_bright",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.1641532182693481e-08,
+      "same_decision": true
+    },
+    {
+      "id": "v23normal_blue_040_historic_left",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 1.4272518455982208e-07,
+      "same_decision": true
+    },
+    {
+      "id": "v23normal_blue_040_historic_right",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 2.0456500351428986e-06,
+      "same_decision": true
+    },
+    {
+      "id": "v23normal_blue_040_historic_softshadow",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 8.596107363700867e-07,
+      "same_decision": true
+    },
+    {
+      "id": "S05",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 9.187497198581696e-07,
+      "same_decision": true
+    },
+    {
+      "id": "S10",
+      "torchscript_diff": 0.0,
+      "cpu_gpu_diff": 0.00039129704236984253,
+      "same_decision": true
+    }
+  ],
+  "brightness_sensitivity": {
+    "0.85": {
+      "confusion": [
+        [
+          67,
+          0
+        ],
+        [
+          2,
+          73
+        ]
+      ],
+      "accuracy": 0.9859154929577465,
+      "scope": "Same frozen test inputs with uniform gray intensity gain; correlated sensitivity probe, no tuning."
+    },
+    "1.15": {
+      "confusion": [
+        [
+          67,
+          0
+        ],
+        [
+          2,
+          73
+        ]
+      ],
+      "accuracy": 0.9859154929577465,
+      "scope": "Same frozen test inputs with uniform gray intensity gain; correlated sensitivity probe, no tuning."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "T12",
+    "index": 12,
+    "lighting": "暗光",
+    "expected_class": "hand_present",
+    "instruction": "暗光：两三根手指从画面边缘伸到带面上，保持不动",
+    "camera_pose": "fixed_session_A",
+    "split": "independent_real_validation"
+  },
+  "photo": {
+    "captured_utc": "1970-01-01T02:27:51.490Z",
+    "format": "jpg",
+    "frame_sequence": "32259",
+    "height": 1080,
+    "photo_id": "aa31b635-ca92-4f81-bf2f-d3872fe4a52b",
+    "sha256": "8427c4c136776b8f1803d7a507795032f0e0ef09b45d8f5303f91e195578e4ea",
+    "size": 193397,
+    "source": "imx415",
+    "width": 1920
+  },
+  "host_received_at": "2026-11-02T09:15:04.172686+00:00",
+  "split": "independent_real_validation",
+  "label_review_status": "visually_confirmed",
+  "model_freeze": {
+    "fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+    "selected_run": "scratch_v3"
+  },
+  "plan_sha256": "f364735c6c7adc4ca8e9edc1a0f24e6eee4105a67eafaf67b202205949c336e9",
+  "review_note": "当前暗光组，两根手指从下方伸入带面，部分手部可见，右端蓝块仍在；记录为 hand_present，不属于仅极少指尖可见。"
+}

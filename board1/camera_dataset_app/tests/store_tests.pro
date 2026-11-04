@@ -1,0 +1,9 @@
+QT += core gui
+QT -= widgets
+CONFIG += console c++11
+CONFIG -= app_bundle
+TEMPLATE = app
+TARGET = store_tests
+INCLUDEPATH += $$PWD/..
+SOURCES += $$PWD/store_tests.cpp $$PWD/../dataset_store.cpp
+HEADERS += $$PWD/../dataset_store.hpp

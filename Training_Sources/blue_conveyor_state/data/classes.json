@@ -1,0 +1,34 @@
+{
+  "task": "workcell_state_classification",
+  "primary_workflow_object": "blue_foam_cube",
+  "not_a_color_classifier": true,
+  "board1_quality_classes_are_separate": ["normal", "defect"],
+  "classes": [
+    {
+      "id": 0,
+      "name": "empty",
+      "zh": "空工位"
+    },
+    {
+      "id": 1,
+      "name": "object_present",
+      "zh": "物块在位"
+    },
+    {
+      "id": 2,
+      "name": "hand_present",
+      "zh": "人工干预"
+    }
+  ],
+  "priority": [
+    "hand_present",
+    "object_present",
+    "empty"
+  ],
+  "runtime_non_model_states": [
+    "uncertain",
+    "unavailable",
+    "model_unavailable"
+  ],
+  "uncertain_is_not_a_training_class": true
+}

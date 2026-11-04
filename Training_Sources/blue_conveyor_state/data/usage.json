@@ -1,0 +1,25 @@
+{
+  "active_model_revision": "v2",
+  "datasets": [
+    {
+      "path": "data/manifest.json",
+      "role": "264 gradient-training images and 67 internal-validation images; original split unchanged"
+    },
+    {
+      "path": "data/reference/manifest.json",
+      "role": "7 scene references; not gradient training or calibration"
+    },
+    {
+      "path": "data/test/manifest.json",
+      "role": "18 previous classification tests plus 2 boundary observations; v2 regression only"
+    },
+    {
+      "path": "data/test_batches/batch02/manifest.json",
+      "role": "24 known development images used for v2 checkpoint selection; 4 boundaries not used for selection; no gradient training"
+    },
+    {
+      "path": "data/test_batches/batch03/manifest.json",
+      "role": "18 newly generated post-freeze test images; no training, selection, calibration or threshold changes"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "checked_at": "2026-11-02T02:57:14.239200+00:00",
+  "training_smoke": {
+    "passed": true,
+    "epochs": 1,
+    "train_samples": 721,
+    "validation_samples": 146,
+    "device": "cuda",
+    "checkpoint_created": true,
+    "temporary_checkpoint_removed": true,
+    "purpose": "Execution check only; released V28 unchanged"
+  },
+  "files": {
+    "passed": true,
+    "curated_images": 1009,
+    "main_images": 961,
+    "original_captures": 101,
+    "counts": {
+      "val": {
+        "0": 69,
+        "1": 77
+      },
+      "train": {
+        "0": 342,
+        "1": 379
+      },
+      "test": {
+        "0": 67,
+        "1": 75
+      }
+    },
+    "groups": 118,
+    "manifest_sha256": "d7122a210e7f75baf2195d4f7b1c096375e0a591fb72937e3f4da31d84c7335e",
+    "model_hashes_unchanged": true,
+    "group_splits_disjoint": true
+  },
+  "relocation": {
+    "passed": true,
+    "called_from": "/tmp",
+    "folder_temporarily_renamed": true,
+    "absolute_input_prediction": true
+  },
+  "validation": {
+    "count": 146,
+    "confusion": [
+      [
+        69,
+        0
+      ],
+      [
+        0,
+        77
+      ]
+    ],
+    "accuracy": 1.0,
+    "defect_recall": 1.0,
+    "normal_specificity": 1.0
+  },
+  "torchscript_export": {
+    "passed": true,
+    "images": 2
+  },
+  "gui": {
+    "passed": true,
+    "window_hidden": true,
+    "images": 2,
+    "preview_and_table_checked": true
+  }
+}

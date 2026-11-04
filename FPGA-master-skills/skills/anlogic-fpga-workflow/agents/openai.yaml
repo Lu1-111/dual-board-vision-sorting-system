@@ -1,0 +1,4 @@
+interface:
+  display_name: "安路 FPGA / FPSoC 开发入口"
+  short_description: "按资料与工程证据组织 PL、PS、Linux、NPU 开发和集成验收"
+  default_prompt: "使用 $anlogic-fpga-workflow 根据当前工程证据完成请求的开发或调试任务。"

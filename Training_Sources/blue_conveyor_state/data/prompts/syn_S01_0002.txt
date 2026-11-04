@@ -1,0 +1,7 @@
+Use case: precise-object-edit.
+Asset type: single full camera frame, synthetic board2 object_present training supplement.
+Image 1 is the real camera EDIT TARGET; image 2 is only a composition/material reference. Preserve complete 16:9 landscape framing and the camera angle/perspective of image 1. Request native 1920x1080 if supported; otherwise keep native landscape resolution.
+Lock the green conveyor belt, diagonal metal rails, cardboard workbench, top wires and black base, pale-blue right tabletop, tape roll and ruler. Keep modest original camera noise and natural indoor texture; no studio or CGI appearance. Do not shift or crop camera.
+Exactly ONE blue foam cube, same material and approximate real size as reference. Repair the missing corner completely into straight intact edges and matching blue foam; all corners intact.
+Move cube to projected center approximately (600,620) on the real 1920x1080 canvas. Fully supported between rails with clearance, entire cube visible. Rotate about vertical axis 0 degrees relative to the original, physically coherent with the fixed view. Remove original-position cube entirely and reconstruct belt texture there. Soft physically coherent contact shadow under cube.
+Lighting: normal indoor illumination closely matching real mother image. No hand, fingers, wrist, forearm, glove or people anywhere. No other cube or colored blocks. No text, captions, annotations, bounding boxes, watermark, logos, arrows, panels or collage. Output one unannotated full workcell photograph.

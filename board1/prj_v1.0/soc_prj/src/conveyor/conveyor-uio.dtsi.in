@@ -1,0 +1,11 @@
+/* TEMPLATE ONLY: replace BASE_HI/BASE_LO/UNIT_ADDRESS after assigning an
+ * unused PS-visible PL AXI aperture in TD. Do not compile this template as-is.
+ * Merge under a bus with #address-cells=2, #size-cells=2 and verified ranges.
+ * No interrupt is needed: the application polls status every 20 ms.
+ */
+conveyor@UNIT_ADDRESS {
+    compatible = "generic-uio";
+    linux,uio-name = "conveyor";
+    reg = <BASE_HI BASE_LO 0x0 0x1000>;
+    status = "okay";
+};

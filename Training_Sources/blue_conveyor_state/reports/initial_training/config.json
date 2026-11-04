@@ -1,0 +1,33 @@
+{
+  "seed": 20261102,
+  "max_epochs": 140,
+  "batch_size": 24,
+  "learning_rate": 0.002,
+  "weight_decay": 0.008,
+  "optimizer": "AdamW",
+  "scheduler": "cosine",
+  "label_smoothing": 0.03,
+  "balanced_sampling": true,
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "torch": "2.7.1+cu128",
+  "cuda": "12.8",
+  "train_count": 264,
+  "internal_val_count": 67,
+  "train_class_counts": {
+    "0": 47,
+    "1": 83,
+    "2": 134
+  },
+  "val_class_counts": {
+    "0": 12,
+    "1": 21,
+    "2": 34
+  },
+  "validation_limitation": "Same original lineage; development diagnostics only, not independent real-world validation.",
+  "parameter_count": 89827,
+  "classes": [
+    "empty",
+    "object_present",
+    "hand_present"
+  ]
+}

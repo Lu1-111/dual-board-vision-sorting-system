@@ -1,0 +1,967 @@
+{
+  "warning": "全部18张原始实拍照片对应的缩放重编码副本均参与了本轮训练；本报告为训练集回看，不是独立测试。",
+  "classes": [
+    "empty",
+    "object_present",
+    "hand_present"
+  ],
+  "rows": [
+    {
+      "id": "T01",
+      "image": "test/T01.jpg",
+      "sha256": "6566faf6aa52b86224378adecc10335e493c396a3ee73ffefce03e4240bbc7dd",
+      "expected": "empty",
+      "lighting": "正常光",
+      "in_training": true,
+      "training_label": "empty",
+      "mobilenet_v3_small": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9993004,
+          "object_present": 0.0006782,
+          "hand_present": 2.13e-05
+        }
+      },
+      "mobilenet_v3_large": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9989716,
+          "object_present": 0.0009889,
+          "hand_present": 3.95e-05
+        }
+      },
+      "efficientnet_b0": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9992816,
+          "object_present": 0.0006303,
+          "hand_present": 8.81e-05
+        }
+      },
+      "resnet18": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9997203,
+          "object_present": 0.0002366,
+          "hand_present": 4.31e-05
+        }
+      }
+    },
+    {
+      "id": "T02",
+      "image": "test/T02.jpg",
+      "sha256": "b624323994797f574ae19774b9bafd512917bc3a5524d7682fa09108a8e4f551",
+      "expected": "object_present",
+      "lighting": "正常光",
+      "in_training": true,
+      "training_label": "object_present",
+      "mobilenet_v3_small": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 1.1e-06,
+          "object_present": 0.9999926,
+          "hand_present": 6.4e-06
+        }
+      },
+      "mobilenet_v3_large": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 3e-07,
+          "object_present": 0.999993,
+          "hand_present": 6.7e-06
+        }
+      },
+      "efficientnet_b0": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 3.15e-05,
+          "object_present": 0.9998425,
+          "hand_present": 0.0001259
+        }
+      },
+      "resnet18": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 4.32e-05,
+          "object_present": 0.9998832,
+          "hand_present": 7.36e-05
+        }
+      }
+    },
+    {
+      "id": "T03",
+      "image": "test/T03.jpg",
+      "sha256": "e579ce51b36d7e85089b1532efbb81bef25af7adecb12789456b8a2f5d8c8bf3",
+      "expected": "hand_present",
+      "lighting": "正常光",
+      "in_training": true,
+      "training_label": "hand_present",
+      "mobilenet_v3_small": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 3.57e-05,
+          "object_present": 0.0007749,
+          "hand_present": 0.9991894
+        }
+      },
+      "mobilenet_v3_large": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 1e-07,
+          "object_present": 1e-06,
+          "hand_present": 0.9999989
+        }
+      },
+      "efficientnet_b0": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.0004849,
+          "object_present": 0.000345,
+          "hand_present": 0.9991702
+        }
+      },
+      "resnet18": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.0001416,
+          "object_present": 7.13e-05,
+          "hand_present": 0.999787
+        }
+      }
+    },
+    {
+      "id": "T04",
+      "image": "test/T04.jpg",
+      "sha256": "57fbcc4f2c4db5c4053b4d11ce25d170def28d62fd54d86106f733a674782041",
+      "expected": "empty",
+      "lighting": "正常光",
+      "in_training": true,
+      "training_label": "empty",
+      "mobilenet_v3_small": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9993557,
+          "object_present": 0.0006211,
+          "hand_present": 2.31e-05
+        }
+      },
+      "mobilenet_v3_large": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9982417,
+          "object_present": 0.0016957,
+          "hand_present": 6.27e-05
+        }
+      },
+      "efficientnet_b0": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9993474,
+          "object_present": 0.0005643,
+          "hand_present": 8.83e-05
+        }
+      },
+      "resnet18": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9996941,
+          "object_present": 0.0002581,
+          "hand_present": 4.78e-05
+        }
+      }
+    },
+    {
+      "id": "T05",
+      "image": "test/T05.jpg",
+      "sha256": "d6f23fe80cc6c9228048ff798932b51f0d91022f4d762b23131b15fbef12ab66",
+      "expected": "object_present",
+      "lighting": "正常光",
+      "in_training": true,
+      "training_label": "object_present",
+      "mobilenet_v3_small": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.0002761,
+          "object_present": 0.9996688,
+          "hand_present": 5.5e-05
+        }
+      },
+      "mobilenet_v3_large": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 8.1e-06,
+          "object_present": 0.9998666,
+          "hand_present": 0.0001252
+        }
+      },
+      "efficientnet_b0": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 5.76e-05,
+          "object_present": 0.9996814,
+          "hand_present": 0.0002611
+        }
+      },
+      "resnet18": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.001151,
+          "object_present": 0.9987063,
+          "hand_present": 0.0001426
+        }
+      }
+    },
+    {
+      "id": "T06",
+      "image": "test/T06.jpg",
+      "sha256": "7ada6320a18d72400047d0542b632976461db6a9f74c5738003499b3c830c662",
+      "expected": "hand_present",
+      "lighting": "正常光",
+      "in_training": true,
+      "training_label": "hand_present",
+      "mobilenet_v3_small": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 7.25e-05,
+          "object_present": 0.0027982,
+          "hand_present": 0.9971293
+        }
+      },
+      "mobilenet_v3_large": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 2e-07,
+          "object_present": 0.0009106,
+          "hand_present": 0.9990892
+        }
+      },
+      "efficientnet_b0": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.0001055,
+          "object_present": 0.0003018,
+          "hand_present": 0.9995928
+        }
+      },
+      "resnet18": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 3e-07,
+          "object_present": 2.7e-06,
+          "hand_present": 0.999997
+        }
+      }
+    },
+    {
+      "id": "T07",
+      "image": "test/T07.jpg",
+      "sha256": "3b70108fc4afe269abccd5b957fb7405a0c46eabc6583f2136caf65e37bef115",
+      "expected": "empty",
+      "lighting": "暗光",
+      "in_training": true,
+      "training_label": "empty",
+      "mobilenet_v3_small": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9991352,
+          "object_present": 0.0008321,
+          "hand_present": 3.27e-05
+        }
+      },
+      "mobilenet_v3_large": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9984664,
+          "object_present": 0.001471,
+          "hand_present": 6.26e-05
+        }
+      },
+      "efficientnet_b0": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9997457,
+          "object_present": 0.0001928,
+          "hand_present": 6.17e-05
+        }
+      },
+      "resnet18": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9996017,
+          "object_present": 0.0003395,
+          "hand_present": 5.88e-05
+        }
+      }
+    },
+    {
+      "id": "T08",
+      "image": "test/T08.jpg",
+      "sha256": "ee95814363b732745b0ca47194d571284d7e6f8b85fae4e23ca921c68e087d4b",
+      "expected": "object_present",
+      "lighting": "暗光",
+      "in_training": true,
+      "training_label": "object_present",
+      "mobilenet_v3_small": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 1.02e-05,
+          "object_present": 0.9999734,
+          "hand_present": 1.64e-05
+        }
+      },
+      "mobilenet_v3_large": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 7.3e-06,
+          "object_present": 0.9999599,
+          "hand_present": 3.28e-05
+        }
+      },
+      "efficientnet_b0": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.0001042,
+          "object_present": 0.9997599,
+          "hand_present": 0.0001359
+        }
+      },
+      "resnet18": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 7.83e-05,
+          "object_present": 0.9998062,
+          "hand_present": 0.0001155
+        }
+      }
+    },
+    {
+      "id": "T09",
+      "image": "test/T09.jpg",
+      "sha256": "adfc0f25bda7ee898f7a6fbab4a3bcfe47e60169ecc417670e200211a3cbef16",
+      "expected": "hand_present",
+      "lighting": "暗光",
+      "in_training": true,
+      "training_label": "hand_present",
+      "mobilenet_v3_small": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 2.7e-05,
+          "object_present": 3.98e-05,
+          "hand_present": 0.9999332
+        }
+      },
+      "mobilenet_v3_large": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 4e-07,
+          "object_present": 1.7e-06,
+          "hand_present": 0.999998
+        }
+      },
+      "efficientnet_b0": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.0004181,
+          "object_present": 0.0001291,
+          "hand_present": 0.9994529
+        }
+      },
+      "resnet18": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 6.45e-05,
+          "object_present": 3.62e-05,
+          "hand_present": 0.9998993
+        }
+      }
+    },
+    {
+      "id": "T10",
+      "image": "test/T10.jpg",
+      "sha256": "d41133a7e452f8fda284b049b1493c1260e5eb1583f426c1ea2c0c98f1d3d1fc",
+      "expected": "empty",
+      "lighting": "暗光",
+      "in_training": true,
+      "training_label": "empty",
+      "mobilenet_v3_small": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.997955,
+          "object_present": 0.0019655,
+          "hand_present": 7.95e-05
+        }
+      },
+      "mobilenet_v3_large": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.997025,
+          "object_present": 0.002857,
+          "hand_present": 0.000118
+        }
+      },
+      "efficientnet_b0": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9996343,
+          "object_present": 0.0002431,
+          "hand_present": 0.0001227
+        }
+      },
+      "resnet18": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9996296,
+          "object_present": 0.0003147,
+          "hand_present": 5.57e-05
+        }
+      }
+    },
+    {
+      "id": "T11",
+      "image": "test/T11.jpg",
+      "sha256": "70a96054a151639598057e87f2132fc4b07ebdd26fc1a03b5e5a10d4f1a7b530",
+      "expected": "object_present",
+      "lighting": "暗光",
+      "in_training": true,
+      "training_label": "object_present",
+      "mobilenet_v3_small": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 5.51e-05,
+          "object_present": 0.9997537,
+          "hand_present": 0.0001913
+        }
+      },
+      "mobilenet_v3_large": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 2.8e-05,
+          "object_present": 0.9998102,
+          "hand_present": 0.0001618
+        }
+      },
+      "efficientnet_b0": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 5.94e-05,
+          "object_present": 0.9997873,
+          "hand_present": 0.0001534
+        }
+      },
+      "resnet18": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.0048381,
+          "object_present": 0.9944042,
+          "hand_present": 0.0007577
+        }
+      }
+    },
+    {
+      "id": "T12",
+      "image": "test/T12.jpg",
+      "sha256": "8427c4c136776b8f1803d7a507795032f0e0ef09b45d8f5303f91e195578e4ea",
+      "expected": "hand_present",
+      "lighting": "暗光",
+      "in_training": true,
+      "training_label": "hand_present",
+      "mobilenet_v3_small": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.0002292,
+          "object_present": 0.0267679,
+          "hand_present": 0.9730029
+        }
+      },
+      "mobilenet_v3_large": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 3e-07,
+          "object_present": 0.0001023,
+          "hand_present": 0.9998974
+        }
+      },
+      "efficientnet_b0": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.000141,
+          "object_present": 0.0017576,
+          "hand_present": 0.9981015
+        }
+      },
+      "resnet18": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.0,
+          "object_present": 0.0,
+          "hand_present": 1.0
+        }
+      }
+    },
+    {
+      "id": "T13",
+      "image": "test/T13.jpg",
+      "sha256": "063ae7d9756b856bebeabfb99aac8fafb4e5807412704f0b0d17517c1d1141a6",
+      "expected": "empty",
+      "lighting": "亮光",
+      "in_training": true,
+      "training_label": "empty",
+      "mobilenet_v3_small": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9991788,
+          "object_present": 0.0007845,
+          "hand_present": 3.67e-05
+        }
+      },
+      "mobilenet_v3_large": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9994361,
+          "object_present": 0.0005378,
+          "hand_present": 2.61e-05
+        }
+      },
+      "efficientnet_b0": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9997001,
+          "object_present": 0.0002366,
+          "hand_present": 6.34e-05
+        }
+      },
+      "resnet18": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.999726,
+          "object_present": 0.0002326,
+          "hand_present": 4.13e-05
+        }
+      }
+    },
+    {
+      "id": "T14",
+      "image": "test/T14.jpg",
+      "sha256": "f8bd04af63ba1dfb6044d3b688927cddbd083d01bc9a26dc5c7cc4bd2d09f345",
+      "expected": "object_present",
+      "lighting": "亮光",
+      "in_training": true,
+      "training_label": "object_present",
+      "mobilenet_v3_small": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 5e-06,
+          "object_present": 0.9999826,
+          "hand_present": 1.24e-05
+        }
+      },
+      "mobilenet_v3_large": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 5e-07,
+          "object_present": 0.9999928,
+          "hand_present": 6.7e-06
+        }
+      },
+      "efficientnet_b0": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 2.44e-05,
+          "object_present": 0.9998709,
+          "hand_present": 0.0001047
+        }
+      },
+      "resnet18": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 4.03e-05,
+          "object_present": 0.9998764,
+          "hand_present": 8.33e-05
+        }
+      }
+    },
+    {
+      "id": "T15",
+      "image": "test/T15.jpg",
+      "sha256": "2f766877dfb9e6c339c3567d3935f74827a330c356da9a0d6cc3d107db3f739b",
+      "expected": "hand_present",
+      "lighting": "亮光",
+      "in_training": true,
+      "training_label": "hand_present",
+      "mobilenet_v3_small": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 7.87e-05,
+          "object_present": 0.0030688,
+          "hand_present": 0.9968525
+        }
+      },
+      "mobilenet_v3_large": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.0,
+          "object_present": 6e-07,
+          "hand_present": 0.9999994
+        }
+      },
+      "efficientnet_b0": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 4.92e-05,
+          "object_present": 7.31e-05,
+          "hand_present": 0.9998776
+        }
+      },
+      "resnet18": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 2.82e-05,
+          "object_present": 2.42e-05,
+          "hand_present": 0.9999475
+        }
+      }
+    },
+    {
+      "id": "T16",
+      "image": "test/T16.jpg",
+      "sha256": "acb3d3c6351e1b0746626fe6d8b4fc850cdbaec2e40d0557aff8fce5fa47928f",
+      "expected": "empty",
+      "lighting": "亮光",
+      "in_training": true,
+      "training_label": "empty",
+      "mobilenet_v3_small": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9940915,
+          "object_present": 0.0050224,
+          "hand_present": 0.0008861
+        }
+      },
+      "mobilenet_v3_large": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9955511,
+          "object_present": 0.003859,
+          "hand_present": 0.00059
+        }
+      },
+      "efficientnet_b0": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9995155,
+          "object_present": 0.0002787,
+          "hand_present": 0.0002057
+        }
+      },
+      "resnet18": {
+        "prediction": "empty",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.9981846,
+          "object_present": 0.0015828,
+          "hand_present": 0.0002325
+        }
+      }
+    },
+    {
+      "id": "T17",
+      "image": "test/T17.jpg",
+      "sha256": "9a7504aa25619ecfeb0dc4f4f24f8772efc5f52898df6d87bf7c2a4c2c57d672",
+      "expected": "object_present",
+      "lighting": "亮光",
+      "in_training": true,
+      "training_label": "object_present",
+      "mobilenet_v3_small": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 4.47e-05,
+          "object_present": 0.9996753,
+          "hand_present": 0.0002801
+        }
+      },
+      "mobilenet_v3_large": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 7.5e-06,
+          "object_present": 0.9999623,
+          "hand_present": 3.02e-05
+        }
+      },
+      "efficientnet_b0": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.0004823,
+          "object_present": 0.9989423,
+          "hand_present": 0.0005754
+        }
+      },
+      "resnet18": {
+        "prediction": "object_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.0027279,
+          "object_present": 0.996704,
+          "hand_present": 0.000568
+        }
+      }
+    },
+    {
+      "id": "T18",
+      "image": "test/T18.jpg",
+      "sha256": "a78c0d4b7773940a645bd7adce19a2c9b1f5d673f5a2c13d748383decc721367",
+      "expected": "hand_present",
+      "lighting": "亮光",
+      "in_training": true,
+      "training_label": "hand_present",
+      "mobilenet_v3_small": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 1.49e-05,
+          "object_present": 0.0029671,
+          "hand_present": 0.9970181
+        }
+      },
+      "mobilenet_v3_large": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 0.0,
+          "object_present": 8.85e-05,
+          "hand_present": 0.9999114
+        }
+      },
+      "efficientnet_b0": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 9.27e-05,
+          "object_present": 9.61e-05,
+          "hand_present": 0.9998112
+        }
+      },
+      "resnet18": {
+        "prediction": "hand_present",
+        "correct": true,
+        "probabilities": {
+          "empty": 6e-07,
+          "object_present": 2e-06,
+          "hand_present": 0.9999974
+        }
+      }
+    }
+  ],
+  "models": {
+    "mobilenet_v3_small": {
+      "correct": 18,
+      "total": 18,
+      "per_class": {
+        "empty": {
+          "correct": 6,
+          "total": 6
+        },
+        "object_present": {
+          "correct": 6,
+          "total": 6
+        },
+        "hand_present": {
+          "correct": 6,
+          "total": 6
+        }
+      },
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          6
+        ]
+      ],
+      "model_sha256": "8f43dedea30a4ad2df95363701827419fc44f76a892e697682a82e9cd52262fe"
+    },
+    "mobilenet_v3_large": {
+      "correct": 18,
+      "total": 18,
+      "per_class": {
+        "empty": {
+          "correct": 6,
+          "total": 6
+        },
+        "object_present": {
+          "correct": 6,
+          "total": 6
+        },
+        "hand_present": {
+          "correct": 6,
+          "total": 6
+        }
+      },
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          6
+        ]
+      ],
+      "model_sha256": "3810ec5c6d5d47bc6840888fac6c48c92c5f4e7bc92664e1caa9c9665e344ec2"
+    },
+    "efficientnet_b0": {
+      "correct": 18,
+      "total": 18,
+      "per_class": {
+        "empty": {
+          "correct": 6,
+          "total": 6
+        },
+        "object_present": {
+          "correct": 6,
+          "total": 6
+        },
+        "hand_present": {
+          "correct": 6,
+          "total": 6
+        }
+      },
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          6
+        ]
+      ],
+      "model_sha256": "2786d825b9febc950680b79cfa07b83c30b8dd0b60989bce3d03c1bcf0cf6859"
+    },
+    "resnet18": {
+      "correct": 18,
+      "total": 18,
+      "per_class": {
+        "empty": {
+          "correct": 6,
+          "total": 6
+        },
+        "object_present": {
+          "correct": 6,
+          "total": 6
+        },
+        "hand_present": {
+          "correct": 6,
+          "total": 6
+        }
+      },
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          6
+        ]
+      ],
+      "model_sha256": "ad9e3b0fdb34e54da79402d218becffa47bc9071380eb1da304bdfb1605c271b"
+    }
+  },
+  "training_membership_verified": 18
+}

@@ -1,0 +1,4411 @@
+{
+  "use": "Original capture provenance only. Training and evaluation read data/manifest.json, never enumerate this folder.4 originally unjudgeable images remain for provenance and are not labeled training data.",
+  "count": 101,
+  "images": [
+    {
+      "index": 1,
+      "sha256": "3c3eb29a979c034bab3a8c6419de7ac1000a544c2bf1759d8466b4f700f3e98b",
+      "frame_sequence": 198,
+      "captured_utc": "1970-01-01T00:02:57.792Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_001.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_001_historic",
+      "crop_box_xyxy": [
+        164,
+        456,
+        690,
+        904
+      ],
+      "label": 0,
+      "review": {
+        "index": 1,
+        "image_sha256": "3c3eb29a979c034bab3a8c6419de7ac1000a544c2bf1759d8466b4f700f3e98b",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带左部，正面宽、左侧面窄，外轮廓连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:02:57.792Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "198",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000257792Z_88ff4b36-12e4-4280-9bb3-2d83c02ea43c.jpg",
+        "requested_utc": "1970-01-01T00:02:57.693Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 2,
+      "sha256": "0e69716f1a77b48ff0a3da609920448eb5d87d2d85c2c55ba57cf758ffd759f3",
+      "frame_sequence": 271,
+      "captured_utc": "1970-01-01T00:03:02.374Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_002.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_002_historic",
+      "crop_box_xyxy": [
+        636,
+        473,
+        1094,
+        859
+      ],
+      "label": 0,
+      "review": {
+        "index": 2,
+        "image_sha256": "0e69716f1a77b48ff0a3da609920448eb5d87d2d85c2c55ba57cf758ffd759f3",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带中右部，正面和较暗左侧面均可辨，边角连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:03:02.374Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "271",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000302374Z_a0b1fdf5-6342-4a7d-8321-287c0cae60ba.jpg",
+        "requested_utc": "1970-01-01T00:03:02.294Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 3,
+      "sha256": "8f3b81c4c9a6c65bb8845438b14b0473ffd3e5562c3e42f68f8387b396171e44",
+      "frame_sequence": 345,
+      "captured_utc": "1970-01-01T00:03:06.991Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_003.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_003_historic",
+      "crop_box_xyxy": [
+        1181,
+        409,
+        1543,
+        692
+      ],
+      "label": 0,
+      "review": {
+        "index": 3,
+        "image_sha256": "8f3b81c4c9a6c65bb8845438b14b0473ffd3e5562c3e42f68f8387b396171e44",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带右端，正面及暗侧面可辨，边角连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:03:06.991Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "345",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000306991Z_15e9280a-8921-4d90-b2fb-0a748acf65bc.jpg",
+        "requested_utc": "1970-01-01T00:03:06.927Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 4,
+      "sha256": "e71242c4fa1ae6e1d52363fcd6b65f65c57d101bdc6a071c788e2b5df7be2bb7",
+      "frame_sequence": 419,
+      "captured_utc": "1970-01-01T00:03:11.593Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_004.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_004_historic",
+      "crop_box_xyxy": [
+        1091,
+        511,
+        1495,
+        848
+      ],
+      "label": 0,
+      "review": {
+        "index": 4,
+        "image_sha256": "e71242c4fa1ae6e1d52363fcd6b65f65c57d101bdc6a071c788e2b5df7be2bb7",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "靠下方导轨，顶面和两个侧面可辨，轮廓完整；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:03:11.593Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "419",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000311593Z_965dd529-5287-46ff-ac3f-13e9f4e866c9.jpg",
+        "requested_utc": "1970-01-01T00:03:11.526Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 5,
+      "sha256": "f659fb00f254e2219e40b3993f05045101679f90ba90f451e6145f517776af2c",
+      "frame_sequence": 493,
+      "captured_utc": "1970-01-01T00:03:16.212Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_005.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_005_historic",
+      "crop_box_xyxy": [
+        796,
+        356,
+        1197,
+        685
+      ],
+      "label": 0,
+      "review": {
+        "index": 5,
+        "image_sha256": "f659fb00f254e2219e40b3993f05045101679f90ba90f451e6145f517776af2c",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带中部偏上，正面与左侧面可辨，轮廓完整；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:03:16.212Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "493",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000316212Z_ed399319-8096-40ec-9c77-8acfaaf6a325.jpg",
+        "requested_utc": "1970-01-01T00:03:16.110Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 6,
+      "sha256": "130540c5133bde99ab2de2f5fefa85c4446fa1eeda8d6bb2432df2a18d126f50",
+      "frame_sequence": 566,
+      "captured_utc": "1970-01-01T00:03:20.758Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_006.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_006_historic",
+      "crop_box_xyxy": [
+        94,
+        458,
+        619,
+        909
+      ],
+      "label": 0,
+      "review": {
+        "index": 6,
+        "image_sha256": "130540c5133bde99ab2de2f5fefa85c4446fa1eeda8d6bb2432df2a18d126f50",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带左部，正面占主要区域、左侧面较窄，轮廓完整；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:03:20.758Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "566",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000320758Z_3882a68a-b6a2-432a-996c-4a43b3b4b7c8.jpg",
+        "requested_utc": "1970-01-01T00:03:20.694Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 7,
+      "sha256": "514cca576ec62d0861e141d1e1ff68ebb239c8bdd2c218eb06c7243da62f2b24",
+      "frame_sequence": 640,
+      "captured_utc": "1970-01-01T00:03:25.376Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_007.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_007_historic",
+      "crop_box_xyxy": [
+        836,
+        406,
+        1238,
+        728
+      ],
+      "label": 0,
+      "review": {
+        "index": 7,
+        "image_sha256": "514cca576ec62d0861e141d1e1ff68ebb239c8bdd2c218eb06c7243da62f2b24",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带中部，两个面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:03:25.376Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "640",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000325376Z_463e0e64-d3b2-4ca6-b96e-de19076ffa69.jpg",
+        "requested_utc": "1970-01-01T00:03:25.309Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 8,
+      "sha256": "b4c5f2af8f04f2cbf0bd1f4ca1456adb9f75fb98ac2a2078288c2001e68b7a13",
+      "frame_sequence": 714,
+      "captured_utc": "1970-01-01T00:03:29.996Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_008.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_008_historic",
+      "crop_box_xyxy": [
+        992,
+        577,
+        1394,
+        891
+      ],
+      "label": 0,
+      "review": {
+        "index": 8,
+        "image_sha256": "b4c5f2af8f04f2cbf0bd1f4ca1456adb9f75fb98ac2a2078288c2001e68b7a13",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "靠下方导轨，两个面可辨，轮廓完整；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:03:29.996Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "714",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000329996Z_5057404d-e574-4d5d-a467-87efa80d492f.jpg",
+        "requested_utc": "1970-01-01T00:03:29.929Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 9,
+      "sha256": "b31830e1a8fc3978eb737de21c1cd0984e990ac2c18e1281cfa5c53cb553dfad",
+      "frame_sequence": 787,
+      "captured_utc": "1970-01-01T00:03:34.560Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_009.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_009_historic",
+      "crop_box_xyxy": [
+        917,
+        336,
+        1306,
+        649
+      ],
+      "label": 0,
+      "review": {
+        "index": 9,
+        "image_sha256": "b31830e1a8fc3978eb737de21c1cd0984e990ac2c18e1281cfa5c53cb553dfad",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "靠上方导轨，两个面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:03:34.560Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "787",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000334560Z_8f0d2cad-b747-469d-b7c4-7bc3387dd5e8.jpg",
+        "requested_utc": "1970-01-01T00:03:34.494Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 10,
+      "sha256": "5874ace047a13523004ec303d8f22e92dffefb76c109a3428f98dc9780d56291",
+      "frame_sequence": 861,
+      "captured_utc": "1970-01-01T00:03:39.179Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_010.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_010_historic",
+      "crop_box_xyxy": [
+        1246,
+        347,
+        1604,
+        635
+      ],
+      "label": 0,
+      "review": {
+        "index": 10,
+        "image_sha256": "5874ace047a13523004ec303d8f22e92dffefb76c109a3428f98dc9780d56291",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带右端，顶面和两个侧面可辨，外缘完整；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:03:39.179Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "861",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000339179Z_a169da5d-b755-4521-8f1a-4864661d9777.jpg",
+        "requested_utc": "1970-01-01T00:03:39.111Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 11,
+      "sha256": "b2b5627b934748dadd869b0d17ae6f72200299a1f92f807974db4c1eb5b0d8dc",
+      "frame_sequence": 935,
+      "captured_utc": "1970-01-01T00:03:43.797Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_011.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_011_historic",
+      "crop_box_xyxy": [
+        1006,
+        437,
+        1410,
+        770
+      ],
+      "label": 0,
+      "review": {
+        "index": 11,
+        "image_sha256": "b2b5627b934748dadd869b0d17ae6f72200299a1f92f807974db4c1eb5b0d8dc",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带右侧，正面、暗侧面及窄顶面可辨，轮廓连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:03:43.797Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "935",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000343797Z_ff5d0943-9297-4902-80ef-bfba37db9c98.jpg",
+        "requested_utc": "1970-01-01T00:03:43.733Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 12,
+      "sha256": "d917b5386d52c6dc012cbb4d4083a3097d91c15a35c4ceac2752794ce8e3c0f8",
+      "frame_sequence": 1009,
+      "captured_utc": "1970-01-01T00:03:48.380Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_012.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_012_historic",
+      "crop_box_xyxy": [
+        612,
+        458,
+        1094,
+        864
+      ],
+      "label": 0,
+      "review": {
+        "index": 12,
+        "image_sha256": "d917b5386d52c6dc012cbb4d4083a3097d91c15a35c4ceac2752794ce8e3c0f8",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带中右部，正面和侧面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:03:48.380Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "1009",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000348380Z_ed7a426b-0308-4bcb-8132-0c48e76b183b.jpg",
+        "requested_utc": "1970-01-01T00:03:48.313Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 13,
+      "sha256": "74fcb0fb33d79c290464a16177857896568778e5de612f23bd601c275c532c44",
+      "frame_sequence": 1083,
+      "captured_utc": "1970-01-01T00:03:52.999Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_013.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_013_historic",
+      "crop_box_xyxy": [
+        300,
+        369,
+        823,
+        807
+      ],
+      "label": 0,
+      "review": {
+        "index": 13,
+        "image_sha256": "74fcb0fb33d79c290464a16177857896568778e5de612f23bd601c275c532c44",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带左部，正面和左侧面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:03:52.999Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "1083",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000352999Z_38c745f9-4aa2-46c6-bf0f-521a23fc32af.jpg",
+        "requested_utc": "1970-01-01T00:03:52.932Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 14,
+      "sha256": "69fa2fc8b73f52a8815c4f40ce9ad5c8392d06709b1d51dbc48453683a1f6ba0",
+      "frame_sequence": 1156,
+      "captured_utc": "1970-01-01T00:03:57.562Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_014.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_014_historic",
+      "crop_box_xyxy": [
+        254,
+        344,
+        816,
+        833
+      ],
+      "label": 0,
+      "review": {
+        "index": 14,
+        "image_sha256": "69fa2fc8b73f52a8815c4f40ce9ad5c8392d06709b1d51dbc48453683a1f6ba0",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带左部，正面和暗侧面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:03:57.562Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "1156",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000357562Z_9d880f73-b558-4997-bdaf-81c12548848d.jpg",
+        "requested_utc": "1970-01-01T00:03:57.494Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 15,
+      "sha256": "37f5421faa0f2f91bb24dc1329f6d2dc59e541da6035756bfde338183af9317d",
+      "frame_sequence": 1231,
+      "captured_utc": "1970-01-01T00:04:02.202Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_015.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_015_historic",
+      "crop_box_xyxy": [
+        652,
+        435,
+        1146,
+        869
+      ],
+      "label": 0,
+      "review": {
+        "index": 15,
+        "image_sha256": "37f5421faa0f2f91bb24dc1329f6d2dc59e541da6035756bfde338183af9317d",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "靠下方导轨，旋转姿态的三个可见面边角连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:04:02.202Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "1231",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000402202Z_b3ccf6ae-5013-4173-afd8-3670caadd371.jpg",
+        "requested_utc": "1970-01-01T00:04:02.094Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 16,
+      "sha256": "b26f28c85b8abacba25ae461a4e1b9fe5e604ee1ef5accf2700da70edd044f56",
+      "frame_sequence": 1304,
+      "captured_utc": "1970-01-01T00:04:06.764Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_016.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_016_historic",
+      "crop_box_xyxy": [
+        1006,
+        230,
+        1417,
+        578
+      ],
+      "label": 0,
+      "review": {
+        "index": 16,
+        "image_sha256": "b26f28c85b8abacba25ae461a4e1b9fe5e604ee1ef5accf2700da70edd044f56",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带右上部，顶面与两个侧面可辨，轮廓连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:04:06.764Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "1304",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000406764Z_63672f20-7263-4daa-afdf-de46d8171447.jpg",
+        "requested_utc": "1970-01-01T00:04:06.694Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 17,
+      "sha256": "a4004b966376e3d11e7ba389a0e6c0d8accff66d3c7bbb1beb1d797b2f174efa",
+      "frame_sequence": 1378,
+      "captured_utc": "1970-01-01T00:04:11.363Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_017.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_017_historic",
+      "crop_box_xyxy": [
+        1226,
+        374,
+        1587,
+        646
+      ],
+      "label": 0,
+      "review": {
+        "index": 17,
+        "image_sha256": "a4004b966376e3d11e7ba389a0e6c0d8accff66d3c7bbb1beb1d797b2f174efa",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带右端并靠导轨，两个侧面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:04:11.363Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "1378",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000411363Z_e1c3a80a-e144-47a0-9265-858a0280481b.jpg",
+        "requested_utc": "1970-01-01T00:04:11.300Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 18,
+      "sha256": "7476a8e252939fd5c82da9de9294ae9b26987dfdd69fabae09cd69ffdb0c79cf",
+      "frame_sequence": 1452,
+      "captured_utc": "1970-01-01T00:04:15.964Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_018.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_018_historic",
+      "crop_box_xyxy": [
+        1261,
+        664,
+        1615,
+        956
+      ],
+      "label": 0,
+      "review": {
+        "index": 18,
+        "image_sha256": "7476a8e252939fd5c82da9de9294ae9b26987dfdd69fabae09cd69ffdb0c79cf",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带右端并靠导轨，两个侧面及底部窄面可辨，轮廓连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:04:15.964Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "1452",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000415964Z_960d5ba7-775a-4c9e-bb77-610237c925c7.jpg",
+        "requested_utc": "1970-01-01T00:04:15.900Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 19,
+      "sha256": "0f87350fc77ccf30dabb4a112a29f16433ca8b0f835752dce2dd3db6ba015ebf",
+      "frame_sequence": 1526,
+      "captured_utc": "1970-01-01T00:04:20.565Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_019.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_019_historic",
+      "crop_box_xyxy": [
+        886,
+        561,
+        1334,
+        973
+      ],
+      "label": 0,
+      "review": {
+        "index": 19,
+        "image_sha256": "0f87350fc77ccf30dabb4a112a29f16433ca8b0f835752dce2dd3db6ba015ebf",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "靠下方导轨，旋转姿态的三个可见面边角连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:04:20.565Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "1526",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000420565Z_0fc546b5-2763-4e78-8cca-e5aa7127dd6a.jpg",
+        "requested_utc": "1970-01-01T00:04:20.501Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 20,
+      "sha256": "dbde8a944809c2273e8f7377483e6d0bf45aa08cefbfa6468bcf4be2a7391f4d",
+      "frame_sequence": 1600,
+      "captured_utc": "1970-01-01T00:04:25.165Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_020.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_020_historic",
+      "crop_box_xyxy": [
+        336,
+        424,
+        866,
+        890
+      ],
+      "label": 0,
+      "review": {
+        "index": 20,
+        "image_sha256": "dbde8a944809c2273e8f7377483e6d0bf45aa08cefbfa6468bcf4be2a7391f4d",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带左部，正面和左侧面可辨，轮廓连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:04:25.165Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "1600",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000425165Z_96f920e3-1bfe-40e5-8fdd-26a87a2ab45e.jpg",
+        "requested_utc": "1970-01-01T00:04:25.102Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 21,
+      "sha256": "547b2c167063ff344ef692f56bdfc6c183328de694b07d31214f35375f1278f7",
+      "frame_sequence": 1674,
+      "captured_utc": "1970-01-01T00:04:29.766Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_021.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_021_historic",
+      "crop_box_xyxy": [
+        857,
+        450,
+        1293,
+        821
+      ],
+      "label": 0,
+      "review": {
+        "index": 21,
+        "image_sha256": "547b2c167063ff344ef692f56bdfc6c183328de694b07d31214f35375f1278f7",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带中右部，正面、侧面及窄顶面可辨，轮廓连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:04:29.766Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "1674",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000429766Z_d25c73a7-d91d-45f2-b58d-6fc2f4464b04.jpg",
+        "requested_utc": "1970-01-01T00:04:29.703Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 22,
+      "sha256": "8b4f26d28f443859067aac0c667e514bba8dc9e99d99afcebc8ebe1e4ca92e25",
+      "frame_sequence": 1748,
+      "captured_utc": "1970-01-01T00:04:34.367Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_022.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_022_historic",
+      "crop_box_xyxy": [
+        1267,
+        505,
+        1639,
+        822
+      ],
+      "label": 0,
+      "review": {
+        "index": 22,
+        "image_sha256": "8b4f26d28f443859067aac0c667e514bba8dc9e99d99afcebc8ebe1e4ca92e25",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带右端，顶面和两个侧面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:04:34.367Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "1748",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000434367Z_a09f1677-49d1-4f11-9585-c51a5b7bb167.jpg",
+        "requested_utc": "1970-01-01T00:04:34.303Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 23,
+      "sha256": "a96814f5c862d01fe03f7b98be921664a42bae6cd70f90743f96d28a4097e3b9",
+      "frame_sequence": 1823,
+      "captured_utc": "1970-01-01T00:04:39.008Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_023.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_023_historic",
+      "crop_box_xyxy": [
+        91,
+        438,
+        691,
+        969
+      ],
+      "label": 0,
+      "review": {
+        "index": 23,
+        "image_sha256": "a96814f5c862d01fe03f7b98be921664a42bae6cd70f90743f96d28a4097e3b9",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带左部，较大正面和窄侧面可辨，四周轮廓连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:04:39.008Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "1823",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000439008Z_e703c1c4-bce6-4943-adbe-cb22599ebca7.jpg",
+        "requested_utc": "1970-01-01T00:04:38.900Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 24,
+      "sha256": "8aee5460db99b04ea80babebf1af6bc070554ff35e0991676deb695cb22ddc98",
+      "frame_sequence": 1897,
+      "captured_utc": "1970-01-01T00:04:43.588Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_024.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_024_historic",
+      "crop_box_xyxy": [
+        860,
+        518,
+        1312,
+        933
+      ],
+      "label": 0,
+      "review": {
+        "index": 24,
+        "image_sha256": "8aee5460db99b04ea80babebf1af6bc070554ff35e0991676deb695cb22ddc98",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带中右部，旋转姿态的三个可见面边角连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:04:43.588Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "1897",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000443588Z_baa9e2d6-5e37-4e0f-b4d3-a3147fa21615.jpg",
+        "requested_utc": "1970-01-01T00:04:43.521Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 25,
+      "sha256": "06143e9fd6a5f2da0b5f8dfefa39cb07b7cb473c51163bf5f1061665ceeb95e7",
+      "frame_sequence": 1971,
+      "captured_utc": "1970-01-01T00:04:48.170Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_025.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_025_historic",
+      "crop_box_xyxy": [
+        1323,
+        604,
+        1683,
+        924
+      ],
+      "label": 0,
+      "review": {
+        "index": 25,
+        "image_sha256": "06143e9fd6a5f2da0b5f8dfefa39cb07b7cb473c51163bf5f1061665ceeb95e7",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带右端并靠导轨，三个可见面边角连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:04:48.170Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "1971",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000448170Z_819ce18b-8e2e-4ff6-bda2-5632d8daacc6.jpg",
+        "requested_utc": "1970-01-01T00:04:48.103Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 26,
+      "sha256": "6fd6db5748d5d9fdff1fe8da6266cdabb28c94146a33311f3456057f79515fce",
+      "frame_sequence": 2046,
+      "captured_utc": "1970-01-01T00:04:52.810Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_026.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_026_historic",
+      "crop_box_xyxy": [
+        979,
+        564,
+        1394,
+        922
+      ],
+      "label": 0,
+      "review": {
+        "index": 26,
+        "image_sha256": "6fd6db5748d5d9fdff1fe8da6266cdabb28c94146a33311f3456057f79515fce",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带中右部，正面、侧面及窄顶面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:04:52.810Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "2046",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000452810Z_517fa02c-0874-4776-b2bd-fb633dab51bb.jpg",
+        "requested_utc": "1970-01-01T00:04:52.702Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 27,
+      "sha256": "5ad58a9b574b3e8f98cdc41f46bde00ab72bc8094e2964ae02a92fb382fe04ca",
+      "frame_sequence": 2120,
+      "captured_utc": "1970-01-01T00:04:57.391Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_027.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_027_historic",
+      "crop_box_xyxy": [
+        923,
+        295,
+        1364,
+        675
+      ],
+      "label": 0,
+      "review": {
+        "index": 27,
+        "image_sha256": "5ad58a9b574b3e8f98cdc41f46bde00ab72bc8094e2964ae02a92fb382fe04ca",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带右上部，顶面和两个侧面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:04:57.391Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "2120",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000457391Z_9fa1944d-0747-46d3-ae03-7e4434f31ac6.jpg",
+        "requested_utc": "1970-01-01T00:04:57.323Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 28,
+      "sha256": "60caafa3fc7bd4c7f32aee13966a81205fe1c7002f1178a08aa448b32c771bd2",
+      "frame_sequence": 2194,
+      "captured_utc": "1970-01-01T00:05:01.973Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_028.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_028_historic",
+      "crop_box_xyxy": [
+        513,
+        379,
+        998,
+        780
+      ],
+      "label": 0,
+      "review": {
+        "index": 28,
+        "image_sha256": "60caafa3fc7bd4c7f32aee13966a81205fe1c7002f1178a08aa448b32c771bd2",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带左部，正面和左侧面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:05:01.973Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "2194",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000501973Z_e3cca4ad-ac77-4639-abb8-b5b1469215e1.jpg",
+        "requested_utc": "1970-01-01T00:05:01.906Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 29,
+      "sha256": "12e28680d2e94b76312eeb6e3d29f7660ac23712f678fd9b2baa08ed3d389e02",
+      "frame_sequence": 2269,
+      "captured_utc": "1970-01-01T00:05:06.613Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_029.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_029_historic",
+      "crop_box_xyxy": [
+        1102,
+        234,
+        1496,
+        596
+      ],
+      "label": 0,
+      "review": {
+        "index": 29,
+        "image_sha256": "12e28680d2e94b76312eeb6e3d29f7660ac23712f678fd9b2baa08ed3d389e02",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "靠右端导轨，旋转姿态的三个可见面边角连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:05:06.613Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "2269",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000506613Z_cc157356-081f-43b6-a655-ba601de99104.jpg",
+        "requested_utc": "1970-01-01T00:05:06.504Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 30,
+      "sha256": "25380dd9c3fd7e663014b83720387dfca7f2e72e5d54b348d6387c8223b865ab",
+      "frame_sequence": 2343,
+      "captured_utc": "1970-01-01T00:05:11.193Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_030.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_030_historic",
+      "crop_box_xyxy": [
+        764,
+        374,
+        1169,
+        706
+      ],
+      "label": 0,
+      "review": {
+        "index": 30,
+        "image_sha256": "25380dd9c3fd7e663014b83720387dfca7f2e72e5d54b348d6387c8223b865ab",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带中部，正面和左侧面可辨，轮廓连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:05:11.193Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "2343",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000511193Z_24fe9e3a-5f39-4293-802a-eeb73a253725.jpg",
+        "requested_utc": "1970-01-01T00:05:11.126Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 31,
+      "sha256": "2af36f3ae527b977e92dfdcc643b743ba61e16c895cdaaf70316dba3dba6dd66",
+      "frame_sequence": 2417,
+      "captured_utc": "1970-01-01T00:05:15.775Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_031.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_031_historic",
+      "crop_box_xyxy": [
+        113,
+        501,
+        649,
+        964
+      ],
+      "label": 0,
+      "review": {
+        "index": 31,
+        "image_sha256": "2af36f3ae527b977e92dfdcc643b743ba61e16c895cdaaf70316dba3dba6dd66",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带左部，正面占主要区域、左侧面较窄，四周轮廓连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:05:15.775Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "2417",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000515775Z_ba46a424-e8c8-401a-b523-c6da435b560d.jpg",
+        "requested_utc": "1970-01-01T00:05:15.707Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 32,
+      "sha256": "fcab8d0edc4ab87a363aafc58e05bf4e4fab9871788b805fc1d4019bbe6ef78c",
+      "frame_sequence": 2492,
+      "captured_utc": "1970-01-01T00:05:20.415Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_032.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_032_historic",
+      "crop_box_xyxy": [
+        726,
+        306,
+        1173,
+        674
+      ],
+      "label": 0,
+      "review": {
+        "index": 32,
+        "image_sha256": "fcab8d0edc4ab87a363aafc58e05bf4e4fab9871788b805fc1d4019bbe6ef78c",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带中部，正面和左侧面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:05:20.415Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "2492",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000520415Z_d1146b93-822b-4e2a-9285-d0d48674b174.jpg",
+        "requested_utc": "1970-01-01T00:05:20.307Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 33,
+      "sha256": "cf18c5a98c2da93f6d04590154d01111611e50b6b05ffc25df7624714d08db31",
+      "frame_sequence": 2566,
+      "captured_utc": "1970-01-01T00:05:24.995Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_033.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_033_historic",
+      "crop_box_xyxy": [
+        1157,
+        235,
+        1546,
+        575
+      ],
+      "label": 0,
+      "review": {
+        "index": 33,
+        "image_sha256": "cf18c5a98c2da93f6d04590154d01111611e50b6b05ffc25df7624714d08db31",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带右端并靠导轨，顶面和两个侧面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:05:24.995Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "2566",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000524995Z_e6579d7f-05b8-4d66-a1ae-3e33f31437ea.jpg",
+        "requested_utc": "1970-01-01T00:05:24.928Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 34,
+      "sha256": "fdec0665c1b2413b5e8a8a63fe968febf42957c51f3064dc86bb6b60e8f948e3",
+      "frame_sequence": 2640,
+      "captured_utc": "1970-01-01T00:05:29.577Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_034.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_034_historic",
+      "crop_box_xyxy": [
+        805,
+        382,
+        1268,
+        783
+      ],
+      "label": 0,
+      "review": {
+        "index": 34,
+        "image_sha256": "fdec0665c1b2413b5e8a8a63fe968febf42957c51f3064dc86bb6b60e8f948e3",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "靠下方导轨，正面、暗侧面及窄顶面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:05:29.577Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "2640",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000529577Z_97ca274e-d767-4ae7-8cf8-0a9df6e4521a.jpg",
+        "requested_utc": "1970-01-01T00:05:29.510Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 35,
+      "sha256": "0dd7c1450957c9d6d94378d642a928b99db23a6303bd99264c1c90ed99409f49",
+      "frame_sequence": 2715,
+      "captured_utc": "1970-01-01T00:05:34.217Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_035.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_035_historic",
+      "crop_box_xyxy": [
+        409,
+        551,
+        956,
+        1051
+      ],
+      "label": 0,
+      "review": {
+        "index": 35,
+        "image_sha256": "0dd7c1450957c9d6d94378d642a928b99db23a6303bd99264c1c90ed99409f49",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "靠下方导轨和传感器，正面与侧面可辨，外轮廓连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:05:34.217Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "2715",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000534217Z_4c819333-11b0-4b5f-833c-a9ce09f7f1db.jpg",
+        "requested_utc": "1970-01-01T00:05:34.109Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 36,
+      "sha256": "e4e18b05719630655589f506ca354875c1bfa18d4f02ec1794ca2e3c523af0e9",
+      "frame_sequence": 2789,
+      "captured_utc": "1970-01-01T00:05:38.797Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_036.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_036_historic",
+      "crop_box_xyxy": [
+        305,
+        342,
+        862,
+        817
+      ],
+      "label": 0,
+      "review": {
+        "index": 36,
+        "image_sha256": "e4e18b05719630655589f506ca354875c1bfa18d4f02ec1794ca2e3c523af0e9",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带左部，正面和左侧面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:05:38.797Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "2789",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000538797Z_5ce3194d-db90-4c2f-ab28-b70352c8b01e.jpg",
+        "requested_utc": "1970-01-01T00:05:38.730Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 37,
+      "sha256": "030ddd27ff51cd11e955748c89cabcae114a31d7b14731f8aafb5798dd0517a4",
+      "frame_sequence": 2863,
+      "captured_utc": "1970-01-01T00:05:43.379Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_037.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_037_historic",
+      "crop_box_xyxy": [
+        772,
+        315,
+        1247,
+        731
+      ],
+      "label": 0,
+      "review": {
+        "index": 37,
+        "image_sha256": "030ddd27ff51cd11e955748c89cabcae114a31d7b14731f8aafb5798dd0517a4",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带中部，旋转姿态的三个可见面边角连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:05:43.379Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "2863",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000543379Z_2a10281a-4ee5-4967-8bfc-17b30fb4e942.jpg",
+        "requested_utc": "1970-01-01T00:05:43.312Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 38,
+      "sha256": "01805430bdbc1121587b43137839afb2f20a7dbf11e81970b67e7023d137932f",
+      "frame_sequence": 2937,
+      "captured_utc": "1970-01-01T00:05:47.961Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_038.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_038_historic",
+      "crop_box_xyxy": [
+        1064,
+        174,
+        1471,
+        528
+      ],
+      "label": 0,
+      "review": {
+        "index": 38,
+        "image_sha256": "01805430bdbc1121587b43137839afb2f20a7dbf11e81970b67e7023d137932f",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带右上部，顶面和两个侧面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:05:47.961Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "2937",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000547961Z_eb7cc8ee-88e7-4e2d-91b3-8b69e165b020.jpg",
+        "requested_utc": "1970-01-01T00:05:47.894Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 39,
+      "sha256": "2145e4ccf5ea9f691cda1d1a696432c035a2bbf8d2e577d084cdc9b26dc1c97f",
+      "frame_sequence": 3012,
+      "captured_utc": "1970-01-01T00:05:52.601Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_039.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_039_historic",
+      "crop_box_xyxy": [
+        900,
+        218,
+        1338,
+        607
+      ],
+      "label": 0,
+      "review": {
+        "index": 39,
+        "image_sha256": "2145e4ccf5ea9f691cda1d1a696432c035a2bbf8d2e577d084cdc9b26dc1c97f",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带中右部，旋转姿态的三个可见面边角连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:05:52.601Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "3012",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000552601Z_a134d035-6f2d-49bd-811e-95519117717c.jpg",
+        "requested_utc": "1970-01-01T00:05:52.493Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 40,
+      "sha256": "46eaa158b7dde0a95340f6bb8ebc5779108854083cda1d3f351a36dfdad7bc09",
+      "frame_sequence": 3086,
+      "captured_utc": "1970-01-01T00:05:57.181Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_040.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_040_historic",
+      "crop_box_xyxy": [
+        228,
+        430,
+        776,
+        899
+      ],
+      "label": 0,
+      "review": {
+        "index": 40,
+        "image_sha256": "46eaa158b7dde0a95340f6bb8ebc5779108854083cda1d3f351a36dfdad7bc09",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带左部，正面和左侧面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:05:57.181Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "3086",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000557181Z_0ebd2a9c-4356-46a5-9060-37139c94d3e3.jpg",
+        "requested_utc": "1970-01-01T00:05:57.114Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 41,
+      "sha256": "5ee73a4845e66c16790413f924e8b4d80a123a09e4ae3bcb89cf2d030753d3b2",
+      "frame_sequence": 3160,
+      "captured_utc": "1970-01-01T00:06:01.763Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_041.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_041_historic",
+      "crop_box_xyxy": [
+        1247,
+        271,
+        1576,
+        557
+      ],
+      "label": 0,
+      "review": {
+        "index": 41,
+        "image_sha256": "5ee73a4845e66c16790413f924e8b4d80a123a09e4ae3bcb89cf2d030753d3b2",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带右端并靠导轨，两个侧面和底部窄面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:06:01.763Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "3160",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000601763Z_8c4ddc90-2918-4b8b-8867-8a08c8137d79.jpg",
+        "requested_utc": "1970-01-01T00:06:01.696Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 42,
+      "sha256": "6102872de65c0ea8a2554e09bc2e8c06f1c8589ce844727c8c98b8a269a303ac",
+      "frame_sequence": 3235,
+      "captured_utc": "1970-01-01T00:06:06.403Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_042.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_042_historic",
+      "crop_box_xyxy": [
+        1277,
+        529,
+        1628,
+        835
+      ],
+      "label": 0,
+      "review": {
+        "index": 42,
+        "image_sha256": "6102872de65c0ea8a2554e09bc2e8c06f1c8589ce844727c8c98b8a269a303ac",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带右端并靠导轨，两个侧面和底部窄面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:06:06.403Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "3235",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000606403Z_da2eff29-125f-4025-8ece-ea8208c3e099.jpg",
+        "requested_utc": "1970-01-01T00:06:06.295Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 43,
+      "sha256": "d95b16dc076f6118f852b57a32b375750b32a118796f13d9c2f5d6af9508ca23",
+      "frame_sequence": 3309,
+      "captured_utc": "1970-01-01T00:06:10.983Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_043.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_043_historic",
+      "crop_box_xyxy": [
+        836,
+        507,
+        1243,
+        859
+      ],
+      "label": 0,
+      "review": {
+        "index": 43,
+        "image_sha256": "d95b16dc076f6118f852b57a32b375750b32a118796f13d9c2f5d6af9508ca23",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带中部，正面、左侧面及底部窄面可辨，轮廓连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:06:10.983Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "3309",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000610983Z_d8b2baf7-0cbe-49b1-8e5a-a55d45611e0c.jpg",
+        "requested_utc": "1970-01-01T00:06:10.916Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 44,
+      "sha256": "2ef65ba27b5104ba82c558568f74a6685917738c4c8fe5d5ca802e37b7d081b9",
+      "frame_sequence": 3383,
+      "captured_utc": "1970-01-01T00:06:15.565Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_044.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_044_historic",
+      "crop_box_xyxy": [
+        0,
+        492,
+        518,
+        1036
+      ],
+      "label": 0,
+      "review": {
+        "index": 44,
+        "image_sha256": "2ef65ba27b5104ba82c558568f74a6685917738c4c8fe5d5ca802e37b7d081b9",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。 方块靠近画面左边缘但未出画。",
+        "evidence": "方块靠近画面左边界，原图左侧仍有窄条绿色背景，正面四周可见且边角连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:06:15.565Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "3383",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000615565Z_23e9cec6-0598-4bbe-8fc9-e00f28ffdc61.jpg",
+        "requested_utc": "1970-01-01T00:06:15.498Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 45,
+      "sha256": "9fbf8c85c8d993b8836572bd7beb45eabc8c2d8d240ecc9a1f0eb632c4513fd3",
+      "frame_sequence": 3458,
+      "captured_utc": "1970-01-01T00:06:20.205Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_045.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_045_historic",
+      "crop_box_xyxy": [
+        888,
+        416,
+        1318,
+        785
+      ],
+      "label": 0,
+      "review": {
+        "index": 45,
+        "image_sha256": "9fbf8c85c8d993b8836572bd7beb45eabc8c2d8d240ecc9a1f0eb632c4513fd3",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带中右部，正面与左侧面可辨，外缘连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:06:20.205Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "3458",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000620205Z_f29367fa-ea3c-4580-b91c-48a963196ad5.jpg",
+        "requested_utc": "1970-01-01T00:06:20.097Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 46,
+      "sha256": "f2a7f67e1a825f9581b75f4be9602e1f848e41437ffa32fd290913d2c21a7f43",
+      "frame_sequence": 3532,
+      "captured_utc": "1970-01-01T00:06:24.784Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_046.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_046_historic",
+      "crop_box_xyxy": [
+        1062,
+        523,
+        1489,
+        904
+      ],
+      "label": 0,
+      "review": {
+        "index": 46,
+        "image_sha256": "f2a7f67e1a825f9581b75f4be9602e1f848e41437ffa32fd290913d2c21a7f43",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "靠下方导轨，旋转姿态的三个可见面边角连续；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:06:24.784Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "3532",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000624784Z_e9b2a5f3-0f0d-4247-ad2a-32d836ce9cd8.jpg",
+        "requested_utc": "1970-01-01T00:06:24.721Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 47,
+      "sha256": "50add34849be508b4f823765db2668c2295a09c5e5ac6970b9ec313ce13d02cc",
+      "frame_sequence": 3607,
+      "captured_utc": "1970-01-01T00:06:29.405Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_047.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_047_historic",
+      "crop_box_xyxy": [
+        701,
+        458,
+        1205,
+        910
+      ],
+      "label": 0,
+      "review": {
+        "index": 47,
+        "image_sha256": "50add34849be508b4f823765db2668c2295a09c5e5ac6970b9ec313ce13d02cc",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带中部，旋转姿态的三个可见面及交汇角连续，未见切缺；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:06:29.405Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "3607",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000629405Z_fb7a204d-e1cf-40f8-9ee5-9f4358c3c858.jpg",
+        "requested_utc": "1970-01-01T00:06:29.306Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 48,
+      "sha256": "f0d5ddc3226ea3bef26a6526727e9b3126f4bbb71b8f1a9fb086f8a1b5382adf",
+      "frame_sequence": 3682,
+      "captured_utc": "1970-01-01T00:06:34.006Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_048.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_048_historic",
+      "crop_box_xyxy": [
+        392,
+        441,
+        943,
+        924
+      ],
+      "label": 0,
+      "review": {
+        "index": 48,
+        "image_sha256": "f0d5ddc3226ea3bef26a6526727e9b3126f4bbb71b8f1a9fb086f8a1b5382adf",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带中部偏左，正面和左侧面可辨，角点连续，未见切缺；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:06:34.006Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "3682",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000634006Z_a9441ef8-ad76-4ddf-9db5-01c5fe8d793b.jpg",
+        "requested_utc": "1970-01-01T00:06:33.903Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 49,
+      "sha256": "600d48ce0c69b0774a38ef2ecc4c89a4e439ec732bd5ab290172cd1ad801da78",
+      "frame_sequence": 3757,
+      "captured_utc": "1970-01-01T00:06:38.605Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_049.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_049_historic",
+      "crop_box_xyxy": [
+        965,
+        415,
+        1390,
+        778
+      ],
+      "label": 0,
+      "review": {
+        "index": 49,
+        "image_sha256": "600d48ce0c69b0774a38ef2ecc4c89a4e439ec732bd5ab290172cd1ad801da78",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带中右部，顶面和两个侧面可辨，角点连续，未见切缺；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:06:38.605Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "3757",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000638605Z_f9618f25-ee0f-4b15-be2b-a9c1693cc88b.jpg",
+        "requested_utc": "1970-01-01T00:06:38.541Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 50,
+      "sha256": "412df048a55fb664abbe81f5c651ffb19b0108f8365eece9dc63c7c02700afab",
+      "frame_sequence": 3832,
+      "captured_utc": "1970-01-01T00:06:43.207Z",
+      "expected_condition": "intact",
+      "reviewed": false,
+      "path": "data/originals/blue_050.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_050_historic",
+      "crop_box_xyxy": [
+        969,
+        301,
+        1391,
+        653
+      ],
+      "label": 0,
+      "review": {
+        "index": 50,
+        "image_sha256": "412df048a55fb664abbe81f5c651ffb19b0108f8365eece9dc63c7c02700afab",
+        "status": "normal",
+        "notes": "可见边缘完整，未见明显缺角；未见手部遮挡、明显模糊或方块出画。normal 为可见面候选，背面和隐藏角不可由此图确认。",
+        "evidence": "皮带中右部，顶面和两个侧面可辨，角点连续，未见切缺；已查看原图检视页及蓝块放大图。",
+        "reviewed": true
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:06:43.207Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "3832",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000643207Z_93209e4a-c347-44bf-ab8d-a43f9ab7453b.jpg",
+        "requested_utc": "1970-01-01T00:06:43.104Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 51,
+      "sha256": "406c9dd04e840ac54a58de52b3ce467f952a62f1051bd4566f9acec92099bb2a",
+      "frame_sequence": 4029,
+      "captured_utc": "1970-01-01T00:06:54.709Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_051.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_051_historic",
+      "crop_box_xyxy": [
+        918,
+        333,
+        1308,
+        673
+      ],
+      "label": 1,
+      "review": {
+        "index": 51,
+        "image_sha256": "406c9dd04e840ac54a58de52b3ce467f952a62f1051bd4566f9acec92099bb2a",
+        "status": "defect_visible",
+        "notes": "方块画面下方偏左的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。 与另一张姿态近似，但文件哈希不同。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_05.jpg",
+          "enlarged_crop_sheet": "agent051_tight_51.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": [
+          1042,
+          511,
+          1147,
+          599
+        ],
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:06:54.709Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "4029",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000654709Z_a11a9922-e180-4f21-a95e-0d47a707607d.jpg",
+        "requested_utc": "1970-01-01T00:06:54.610Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 52,
+      "sha256": "a31bae37ef0b0d8441c750ac32a06ea0378c9fe78063b57fb94137344e05b2fd",
+      "frame_sequence": 4104,
+      "captured_utc": "1970-01-01T00:06:59.308Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_052.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_052_historic",
+      "crop_box_xyxy": [
+        918,
+        333,
+        1308,
+        673
+      ],
+      "label": 1,
+      "review": {
+        "index": 52,
+        "image_sha256": "a31bae37ef0b0d8441c750ac32a06ea0378c9fe78063b57fb94137344e05b2fd",
+        "status": "defect_visible",
+        "notes": "方块画面下方偏左的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。 与另一张姿态近似，但文件哈希不同。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_05.jpg",
+          "enlarged_crop_sheet": "agent051_tight_51.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": [
+          1042,
+          511,
+          1147,
+          599
+        ],
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:06:59.308Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "4104",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000659308Z_ef42c6bf-a895-4fa6-ac94-11b132c4b18a.jpg",
+        "requested_utc": "1970-01-01T00:06:59.245Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 53,
+      "sha256": "84a23fd1b1dbc7ed09405997860bc2a14e0051b055b265bdf9fb8a096acc15f1",
+      "frame_sequence": 4179,
+      "captured_utc": "1970-01-01T00:07:03.909Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_053.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_053_historic",
+      "crop_box_xyxy": [
+        396,
+        309,
+        942,
+        772
+      ],
+      "label": 1,
+      "review": {
+        "index": 53,
+        "image_sha256": "84a23fd1b1dbc7ed09405997860bc2a14e0051b055b265bdf9fb8a096acc15f1",
+        "status": "defect_visible",
+        "notes": "方块画面下缘偏左角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_05.jpg",
+          "enlarged_crop_sheet": "agent051_tight_51.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:07:03.909Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "4179",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000703909Z_67a0d784-3253-4fc5-ad3a-01043fa14e19.jpg",
+        "requested_utc": "1970-01-01T00:07:03.845Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 54,
+      "sha256": "e1523834ae0753a9cfbd92685f635b0de3674e0e45baea56c1bccf1ec06e6115",
+      "frame_sequence": 4254,
+      "captured_utc": "1970-01-01T00:07:08.513Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_054.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_054_historic",
+      "crop_box_xyxy": [
+        1260,
+        284,
+        1600,
+        587
+      ],
+      "label": 1,
+      "review": {
+        "index": 54,
+        "image_sha256": "e1523834ae0753a9cfbd92685f635b0de3674e0e45baea56c1bccf1ec06e6115",
+        "status": "defect_visible",
+        "notes": "方块画面下方中央的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_05.jpg",
+          "enlarged_crop_sheet": "agent051_tight_51.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": [
+          1338,
+          430,
+          1468,
+          495
+        ],
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:07:08.513Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "4254",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000708513Z_705263cf-c660-413a-8e97-7cb0650d6cfd.jpg",
+        "requested_utc": "1970-01-01T00:07:08.410Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 55,
+      "sha256": "244b9cbe686680cdc49e9c3d404ff939c79039410845be80a56e4434d9a0cb2b",
+      "frame_sequence": 4328,
+      "captured_utc": "1970-01-01T00:07:13.093Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_055.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_055_historic",
+      "crop_box_xyxy": [
+        826,
+        400,
+        1252,
+        745
+      ],
+      "label": 1,
+      "review": {
+        "index": 55,
+        "image_sha256": "244b9cbe686680cdc49e9c3d404ff939c79039410845be80a56e4434d9a0cb2b",
+        "status": "defect_visible",
+        "notes": "方块画面下缘中央偏左角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_05.jpg",
+          "enlarged_crop_sheet": "agent051_tight_51.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": [
+          988,
+          616,
+          1088,
+          706
+        ],
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:07:13.093Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "4328",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000713093Z_9e2e8c84-9e6c-4234-8a4e-e438d1da070f.jpg",
+        "requested_utc": "1970-01-01T00:07:13.026Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 56,
+      "sha256": "af572a9e4c1cb54ac577d6133491a3d6bb1fe5fc13d653777e7362cb927a8456",
+      "frame_sequence": 4402,
+      "captured_utc": "1970-01-01T00:07:17.673Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_056.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_056_historic",
+      "crop_box_xyxy": [
+        113,
+        414,
+        733,
+        949
+      ],
+      "label": 1,
+      "review": {
+        "index": 56,
+        "image_sha256": "af572a9e4c1cb54ac577d6133491a3d6bb1fe5fc13d653777e7362cb927a8456",
+        "status": "defect_visible",
+        "notes": "方块画面下缘偏左的侧面交汇处可见不规则破损或截角；碎损朝侧缘或暗部，对比度较低但可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_05.jpg",
+          "enlarged_crop_sheet": "agent051_tight_51.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:07:17.673Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "4402",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000717673Z_fbeb1b56-1433-40f1-abe5-e66b03407744.jpg",
+        "requested_utc": "1970-01-01T00:07:17.610Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 57,
+      "sha256": "163bb3ab8a60e9d0065c1b307d7dae87abb1d07142a509d2f8459b8ffd4d0058",
+      "frame_sequence": 4477,
+      "captured_utc": "1970-01-01T00:07:22.277Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_057.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_057_historic",
+      "crop_box_xyxy": [
+        89,
+        415,
+        696,
+        943
+      ],
+      "label": 1,
+      "review": {
+        "index": 57,
+        "image_sha256": "163bb3ab8a60e9d0065c1b307d7dae87abb1d07142a509d2f8459b8ffd4d0058",
+        "status": "defect_visible",
+        "notes": "方块画面左下缘的侧面交汇处可见不规则破损或截角；碎损朝侧缘或暗部，对比度较低但可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_05.jpg",
+          "enlarged_crop_sheet": "agent051_tight_51.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:07:22.277Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "4477",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000722277Z_251a8b5a-e2a2-4432-89a1-17f6616520ad.jpg",
+        "requested_utc": "1970-01-01T00:07:22.210Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 58,
+      "sha256": "f5583ae1202f6cb4625841699b232e1e9221edbcb60964652060c27baef23b29",
+      "frame_sequence": 4552,
+      "captured_utc": "1970-01-01T00:07:26.916Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_058.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_058_historic",
+      "crop_box_xyxy": [
+        752,
+        371,
+        1228,
+        795
+      ],
+      "label": 1,
+      "review": {
+        "index": 58,
+        "image_sha256": "f5583ae1202f6cb4625841699b232e1e9221edbcb60964652060c27baef23b29",
+        "status": "defect_visible",
+        "notes": "方块画面左下方的三面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_05.jpg",
+          "enlarged_crop_sheet": "agent051_tight_51.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": [
+          871,
+          549,
+          976,
+          664
+        ],
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:07:26.916Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "4552",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000726916Z_032eb839-6279-44b6-be8e-4a1de6d32364.jpg",
+        "requested_utc": "1970-01-01T00:07:26.810Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 59,
+      "sha256": "57edb4531f39c72ba794ee63a89483cd73cda0f4c11de499f75dbe95057828d7",
+      "frame_sequence": 4626,
+      "captured_utc": "1970-01-01T00:07:31.496Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_059.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_059_historic",
+      "crop_box_xyxy": [
+        1184,
+        586,
+        1585,
+        947
+      ],
+      "label": 1,
+      "review": {
+        "index": 59,
+        "image_sha256": "57edb4531f39c72ba794ee63a89483cd73cda0f4c11de499f75dbe95057828d7",
+        "status": "defect_visible",
+        "notes": "方块画面左下方的三面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_05.jpg",
+          "enlarged_crop_sheet": "agent051_tight_51.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:07:31.496Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "4626",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000731496Z_7d029199-0c1e-47d8-a4ee-a04fbf5254a8.jpg",
+        "requested_utc": "1970-01-01T00:07:31.429Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 60,
+      "sha256": "1af8c953cc082c4bccc8f2129189a07aff2604d0471eb6181ce9d2ac180cc4c7",
+      "frame_sequence": 4700,
+      "captured_utc": "1970-01-01T00:07:36.076Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_060.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_060_historic",
+      "crop_box_xyxy": [
+        1323,
+        543,
+        1678,
+        839
+      ],
+      "label": 1,
+      "review": {
+        "index": 60,
+        "image_sha256": "1af8c953cc082c4bccc8f2129189a07aff2604d0471eb6181ce9d2ac180cc4c7",
+        "status": "defect_visible",
+        "notes": "方块画面下缘中央的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_05.jpg",
+          "enlarged_crop_sheet": "agent051_tight_60.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:07:36.076Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "4700",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000736076Z_9cf77862-8391-4462-b305-1237c74ce738.jpg",
+        "requested_utc": "1970-01-01T00:07:36.013Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 61,
+      "sha256": "f4fc29e1396ca5f93d2f334d11adf24cafc4c7e6fa72bbd0d75bda45acdbf32e",
+      "frame_sequence": 4775,
+      "captured_utc": "1970-01-01T00:07:40.699Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_061.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_061_historic",
+      "crop_box_xyxy": [
+        215,
+        368,
+        769,
+        846
+      ],
+      "label": 1,
+      "review": {
+        "index": 61,
+        "image_sha256": "f4fc29e1396ca5f93d2f334d11adf24cafc4c7e6fa72bbd0d75bda45acdbf32e",
+        "status": "defect_visible",
+        "notes": "方块画面左上方的顶面和左侧面交汇处可见不规则破损或截角；碎损朝侧缘或暗部，对比度较低但可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_06.jpg",
+          "enlarged_crop_sheet": "agent051_tight_60.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:07:40.699Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "4775",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000740699Z_d1e27a6d-e2cc-456c-af6f-501ae3d8120c.jpg",
+        "requested_utc": "1970-01-01T00:07:40.610Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 62,
+      "sha256": "0ce4d548c3cb439a268c91301527107d6b63ae58f5a106f7baf976e69a36ea72",
+      "frame_sequence": 4849,
+      "captured_utc": "1970-01-01T00:07:45.279Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_062.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_062_historic",
+      "crop_box_xyxy": [
+        200,
+        365,
+        782,
+        865
+      ],
+      "label": 1,
+      "review": {
+        "index": 62,
+        "image_sha256": "0ce4d548c3cb439a268c91301527107d6b63ae58f5a106f7baf976e69a36ea72",
+        "status": "defect_visible",
+        "notes": "方块画面左上方的顶面和左侧面交汇处可见不规则破损或截角；碎损朝侧缘或暗部，对比度较低但可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_06.jpg",
+          "enlarged_crop_sheet": "agent051_tight_60.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:07:45.279Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "4849",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000745279Z_5b4a7f26-3ecd-4e27-b049-394f4ec67dae.jpg",
+        "requested_utc": "1970-01-01T00:07:45.212Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 63,
+      "sha256": "e78fc1e427b635226dc0a85fa3aa1d7d9c489410ceed644406f9a4faf593ce81",
+      "frame_sequence": 4924,
+      "captured_utc": "1970-01-01T00:07:49.919Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_063.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_063_historic",
+      "crop_box_xyxy": [
+        505,
+        453,
+        1040,
+        920
+      ],
+      "label": 1,
+      "review": {
+        "index": 63,
+        "image_sha256": "e78fc1e427b635226dc0a85fa3aa1d7d9c489410ceed644406f9a4faf593ce81",
+        "status": "defect_visible",
+        "notes": "方块画面左上方的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_06.jpg",
+          "enlarged_crop_sheet": "agent051_tight_60.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:07:49.919Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "4924",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000749919Z_beca9daa-3be8-4f37-bd31-05cfd5983c0c.jpg",
+        "requested_utc": "1970-01-01T00:07:49.811Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 64,
+      "sha256": "a6d56aee2699d5bfbb6a3a3743eb07f5995a1e76005979aad09e44c53d2507fa",
+      "frame_sequence": 4998,
+      "captured_utc": "1970-01-01T00:07:54.499Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_064.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_064_historic",
+      "crop_box_xyxy": [
+        831,
+        306,
+        1294,
+        706
+      ],
+      "label": 1,
+      "review": {
+        "index": 64,
+        "image_sha256": "a6d56aee2699d5bfbb6a3a3743eb07f5995a1e76005979aad09e44c53d2507fa",
+        "status": "defect_visible",
+        "notes": "方块画面左上方的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_06.jpg",
+          "enlarged_crop_sheet": "agent051_tight_60.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:07:54.499Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "4998",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000754499Z_330948ef-3135-455c-9054-24bfb5d7d1f5.jpg",
+        "requested_utc": "1970-01-01T00:07:54.432Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 65,
+      "sha256": "896f7147d1e6f465517bf3feda35ba57b0701074ff7b46097f4a50c6d9f401be",
+      "frame_sequence": 5072,
+      "captured_utc": "1970-01-01T00:07:59.081Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_065.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_065_historic",
+      "crop_box_xyxy": [
+        995,
+        477,
+        1431,
+        850
+      ],
+      "label": 1,
+      "review": {
+        "index": 65,
+        "image_sha256": "896f7147d1e6f465517bf3feda35ba57b0701074ff7b46097f4a50c6d9f401be",
+        "status": "defect_visible",
+        "notes": "方块画面上缘偏左的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_06.jpg",
+          "enlarged_crop_sheet": "agent051_tight_60.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:07:59.081Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "5072",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000759081Z_42c2f92d-e915-486f-b080-834ab373ba01.jpg",
+        "requested_utc": "1970-01-01T00:07:59.014Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 66,
+      "sha256": "de688c6ee5b0d47b967f96e203e2b79e9d35670def131508240cbccb7b4a95eb",
+      "frame_sequence": 5147,
+      "captured_utc": "1970-01-01T00:08:03.722Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_066.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_066_historic",
+      "crop_box_xyxy": [
+        1261,
+        312,
+        1634,
+        636
+      ],
+      "label": 1,
+      "review": {
+        "index": 66,
+        "image_sha256": "de688c6ee5b0d47b967f96e203e2b79e9d35670def131508240cbccb7b4a95eb",
+        "status": "defect_visible",
+        "notes": "方块画面上缘偏左的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_06.jpg",
+          "enlarged_crop_sheet": "agent051_tight_60.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:08:03.722Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "5147",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000803722Z_3635b8eb-fb38-410f-8437-3e22483f6717.jpg",
+        "requested_utc": "1970-01-01T00:08:03.613Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 67,
+      "sha256": "6df20fe592fe97b255752a4725d195ca710dfbf0b523501a106c3cc2f8a04b29",
+      "frame_sequence": 5221,
+      "captured_utc": "1970-01-01T00:08:08.302Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_067.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_067_historic",
+      "crop_box_xyxy": [
+        1330,
+        419,
+        1683,
+        701
+      ],
+      "label": 1,
+      "review": {
+        "index": 67,
+        "image_sha256": "6df20fe592fe97b255752a4725d195ca710dfbf0b523501a106c3cc2f8a04b29",
+        "status": "defect_visible",
+        "notes": "方块画面上缘中央的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_06.jpg",
+          "enlarged_crop_sheet": "agent051_tight_60.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:08:08.302Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "5221",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000808302Z_580d80ae-a3fd-456c-8b9b-18addaacf833.jpg",
+        "requested_utc": "1970-01-01T00:08:08.234Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 68,
+      "sha256": "46e2f5360a523eb471d726d1cc0fcb2740d2c65199dad19b218f255b1ef82fcc",
+      "frame_sequence": 5295,
+      "captured_utc": "1970-01-01T00:08:12.884Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_068.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_068_historic",
+      "crop_box_xyxy": [
+        823,
+        452,
+        1233,
+        790
+      ],
+      "label": 1,
+      "review": {
+        "index": 68,
+        "image_sha256": "46e2f5360a523eb471d726d1cc0fcb2740d2c65199dad19b218f255b1ef82fcc",
+        "status": "defect_visible",
+        "notes": "方块画面下缘中央偏左的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_06.jpg",
+          "enlarged_crop_sheet": "agent051_tight_60.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": [
+          915,
+          645,
+          1040,
+          740
+        ],
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:08:12.884Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "5295",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000812884Z_2d15de7f-3ce2-44e9-bd3e-f216f1e98edf.jpg",
+        "requested_utc": "1970-01-01T00:08:12.816Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 69,
+      "sha256": "4f8461ccdebf0f53c838645638c6da076adc31b32133215043adc2ff6bdde49d",
+      "frame_sequence": 5370,
+      "captured_utc": "1970-01-01T00:08:17.524Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_069.jpg",
+      "included_in_curated_dataset": false,
+      "review": {
+        "index": 69,
+        "image_sha256": "4f8461ccdebf0f53c838645638c6da076adc31b32133215043adc2ff6bdde49d",
+        "status": "unjudgeable",
+        "notes": "左侧轮廓略不规则但受朝向和暗部影响，无法确认是否为缺角；不能据此判定完好。",
+        "evidence": {
+          "description": "方块在画面内，无手遮挡；参照原图及放大裁剪，当前角度不足以确定缺口是否可见。",
+          "original_contact_sheet": "original_06.jpg",
+          "enlarged_crop_sheet": "agent051_tight_69.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:08:17.524Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "5370",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000817524Z_bf44ce51-9175-44b7-89db-323d85e1bd95.jpg",
+        "requested_utc": "1970-01-01T00:08:17.416Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 70,
+      "sha256": "7742add8a0fd873b8a1b9fd44eec14524fb20af563dde9605e60e3f4085a3b68",
+      "frame_sequence": 5444,
+      "captured_utc": "1970-01-01T00:08:22.104Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_070.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_070_historic",
+      "crop_box_xyxy": [
+        145,
+        492,
+        689,
+        950
+      ],
+      "label": 1,
+      "review": {
+        "index": 70,
+        "image_sha256": "7742add8a0fd873b8a1b9fd44eec14524fb20af563dde9605e60e3f4085a3b68",
+        "status": "defect_visible",
+        "notes": "方块画面左下角与侧面交汇处可见不规则破损或截角；碎损朝侧缘或暗部，对比度较低但可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_06.jpg",
+          "enlarged_crop_sheet": "agent051_tight_69.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:08:22.104Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "5444",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000822104Z_1bc5481d-b53b-4374-aba4-b5f0eaac3939.jpg",
+        "requested_utc": "1970-01-01T00:08:22.038Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 71,
+      "sha256": "f6465f79d879036643c6afae13eb2dda9f5359563190c2d24ae73d0d6c2c0c36",
+      "frame_sequence": 5518,
+      "captured_utc": "1970-01-01T00:08:26.686Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_071.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_071_historic",
+      "crop_box_xyxy": [
+        838,
+        351,
+        1295,
+        755
+      ],
+      "label": 1,
+      "review": {
+        "index": 71,
+        "image_sha256": "f6465f79d879036643c6afae13eb2dda9f5359563190c2d24ae73d0d6c2c0c36",
+        "status": "defect_visible",
+        "notes": "方块画面右下侧边缘可见不规则破损或截角；碎损朝侧缘或暗部，对比度较低但可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_06.jpg",
+          "enlarged_crop_sheet": "agent051_tight_69.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:08:26.686Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "5518",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000826686Z_3127f549-773f-40c6-bb10-61114ab5df80.jpg",
+        "requested_utc": "1970-01-01T00:08:26.619Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 72,
+      "sha256": "9d9d3ddd971f594759518035de7755d0eb32bbc9398407d1f8859d918f106da2",
+      "frame_sequence": 5593,
+      "captured_utc": "1970-01-01T00:08:31.326Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_072.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_072_historic",
+      "crop_box_xyxy": [
+        1243,
+        353,
+        1625,
+        681
+      ],
+      "label": 1,
+      "review": {
+        "index": 72,
+        "image_sha256": "9d9d3ddd971f594759518035de7755d0eb32bbc9398407d1f8859d918f106da2",
+        "status": "defect_visible",
+        "notes": "方块画面左上方的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_06.jpg",
+          "enlarged_crop_sheet": "agent051_tight_69.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:08:31.326Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "5593",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000831326Z_893e119b-f865-4893-aa39-a25faccdf56b.jpg",
+        "requested_utc": "1970-01-01T00:08:31.218Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 73,
+      "sha256": "d971cd1497f6b221f425695750a3b267ee6f0191aa91588e2ac3bf89db7fd04a",
+      "frame_sequence": 5667,
+      "captured_utc": "1970-01-01T00:08:35.906Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_073.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_073_historic",
+      "crop_box_xyxy": [
+        1228,
+        378,
+        1578,
+        688
+      ],
+      "label": 1,
+      "review": {
+        "index": 73,
+        "image_sha256": "d971cd1497f6b221f425695750a3b267ee6f0191aa91588e2ac3bf89db7fd04a",
+        "status": "defect_visible",
+        "notes": "方块画面下方中央的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_07.jpg",
+          "enlarged_crop_sheet": "agent051_tight_69.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:08:35.906Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "5667",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000835906Z_0b183685-d1d3-4dc8-b116-351077a26fe7.jpg",
+        "requested_utc": "1970-01-01T00:08:35.839Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 74,
+      "sha256": "746b2c1fe43e73b21b96e1395ca264ad6b6a9cf5c081e31ba0d8d5b95dbaff25",
+      "frame_sequence": 5741,
+      "captured_utc": "1970-01-01T00:08:40.488Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_074.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_074_historic",
+      "crop_box_xyxy": [
+        783,
+        406,
+        1237,
+        788
+      ],
+      "label": 1,
+      "review": {
+        "index": 74,
+        "image_sha256": "746b2c1fe43e73b21b96e1395ca264ad6b6a9cf5c081e31ba0d8d5b95dbaff25",
+        "status": "defect_visible",
+        "notes": "方块画面下缘中央偏左的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_07.jpg",
+          "enlarged_crop_sheet": "agent051_tight_69.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:08:40.488Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "5741",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000840488Z_67025587-9591-4ce2-a356-60d82e084c07.jpg",
+        "requested_utc": "1970-01-01T00:08:40.421Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 75,
+      "sha256": "552b42d640e985d18c3469f4561da01004025de4919575a2be7dd8de421f6440",
+      "frame_sequence": 5816,
+      "captured_utc": "1970-01-01T00:08:45.128Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_075.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_075_historic",
+      "crop_box_xyxy": [
+        628,
+        424,
+        1083,
+        825
+      ],
+      "label": 1,
+      "review": {
+        "index": 75,
+        "image_sha256": "552b42d640e985d18c3469f4561da01004025de4919575a2be7dd8de421f6440",
+        "status": "defect_visible",
+        "notes": "方块画面右下外轮廓的截角可见不规则破损或截角；碎损朝侧缘或暗部，对比度较低但可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_07.jpg",
+          "enlarged_crop_sheet": "agent051_tight_69.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:08:45.128Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "5816",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000845128Z_1307096f-3027-4788-b5fa-306fc8ff8154.jpg",
+        "requested_utc": "1970-01-01T00:08:45.020Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 76,
+      "sha256": "4efa9b53acc6194fd864609a8ab733c89b38b8b3869f84f9bf5430f9ffc9a514",
+      "frame_sequence": 5890,
+      "captured_utc": "1970-01-01T00:08:49.708Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_076.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_076_historic",
+      "crop_box_xyxy": [
+        1077,
+        326,
+        1491,
+        689
+      ],
+      "label": 1,
+      "review": {
+        "index": 76,
+        "image_sha256": "4efa9b53acc6194fd864609a8ab733c89b38b8b3869f84f9bf5430f9ffc9a514",
+        "status": "defect_visible",
+        "notes": "方块画面右下侧边缘可见不规则破损或截角；碎损朝侧缘或暗部，对比度较低但可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_07.jpg",
+          "enlarged_crop_sheet": "agent051_tight_69.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:08:49.708Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "5890",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000849708Z_1ac96f97-fc43-4a0e-87c4-0569f52b17ab.jpg",
+        "requested_utc": "1970-01-01T00:08:49.641Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 77,
+      "sha256": "f94a7075401a78a91ddb91ced956f48856d8d453e762b3370c3a33cd800653f4",
+      "frame_sequence": 5964,
+      "captured_utc": "1970-01-01T00:08:54.290Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_077.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_077_historic",
+      "crop_box_xyxy": [
+        289,
+        431,
+        860,
+        923
+      ],
+      "label": 1,
+      "review": {
+        "index": 77,
+        "image_sha256": "f94a7075401a78a91ddb91ced956f48856d8d453e762b3370c3a33cd800653f4",
+        "status": "defect_visible",
+        "notes": "方块画面右下侧边缘可见不规则破损或截角；碎损朝侧缘或暗部，对比度较低但可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_07.jpg",
+          "enlarged_crop_sheet": "agent051_tight_69.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:08:54.290Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "5964",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000854290Z_6a6361db-196a-40ee-8013-b7c395fcce49.jpg",
+        "requested_utc": "1970-01-01T00:08:54.223Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 78,
+      "sha256": "d14a490ec64ca1fcf80684446051c62dd6b8ad0cc656f923fe83f0afd1625af1",
+      "frame_sequence": 6039,
+      "captured_utc": "1970-01-01T00:08:58.928Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_078.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_078_historic",
+      "crop_box_xyxy": [
+        361,
+        406,
+        899,
+        870
+      ],
+      "label": 1,
+      "review": {
+        "index": 78,
+        "image_sha256": "d14a490ec64ca1fcf80684446051c62dd6b8ad0cc656f923fe83f0afd1625af1",
+        "status": "defect_visible",
+        "notes": "方块画面左上方的两面交汇角可见不规则破损或截角；碎损朝侧缘或暗部，对比度较低但可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_07.jpg",
+          "enlarged_crop_sheet": "agent051_tight_78.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:08:58.928Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "6039",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000858928Z_067987cc-c234-4aa9-93d0-7bb9da32b4f9.jpg",
+        "requested_utc": "1970-01-01T00:08:58.826Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 79,
+      "sha256": "d135e3eca2251cade246bfa239beca58297519c2f5b12962b3aa7a6d4d887a04",
+      "frame_sequence": 6114,
+      "captured_utc": "1970-01-01T00:09:03.531Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_079.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_079_historic",
+      "crop_box_xyxy": [
+        853,
+        405,
+        1270,
+        759
+      ],
+      "label": 1,
+      "review": {
+        "index": 79,
+        "image_sha256": "d135e3eca2251cade246bfa239beca58297519c2f5b12962b3aa7a6d4d887a04",
+        "status": "defect_visible",
+        "notes": "方块画面上缘中央的两面交汇角可见不规则破损或截角；碎损朝侧缘或暗部，对比度较低但可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_07.jpg",
+          "enlarged_crop_sheet": "agent051_tight_78.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:09:03.531Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "6114",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000903531Z_ec704b24-46ab-470d-a91b-4a5a36433543.jpg",
+        "requested_utc": "1970-01-01T00:09:03.422Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 80,
+      "sha256": "efaa90c67a41aac0954e480ad33fa2569a17a920ed672339dcdd4ba56d802fa7",
+      "frame_sequence": 6188,
+      "captured_utc": "1970-01-01T00:09:08.109Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_080.jpg",
+      "included_in_curated_dataset": false,
+      "review": {
+        "index": 80,
+        "image_sha256": "efaa90c67a41aac0954e480ad33fa2569a17a920ed672339dcdd4ba56d802fa7",
+        "status": "unjudgeable",
+        "notes": "右上外轮廓有细窄不规则区域，但碎损面基本背向，无法排除轮廓及成像影响。",
+        "evidence": {
+          "description": "方块在画面内，无手遮挡；参照原图及放大裁剪，当前角度不足以确定缺口是否可见。",
+          "original_contact_sheet": "original_07.jpg",
+          "enlarged_crop_sheet": "agent051_tight_78.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:09:08.109Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "6188",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000908109Z_92ffce0a-74dc-4345-8d0c-3a53b3aa98c9.jpg",
+        "requested_utc": "1970-01-01T00:09:08.046Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 81,
+      "sha256": "ec09f9b8037f15960705fcd7d4a04e5c7211fd56161275d00bb1130790a98c7d",
+      "frame_sequence": 6263,
+      "captured_utc": "1970-01-01T00:09:12.713Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_081.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_081_historic",
+      "crop_box_xyxy": [
+        381,
+        480,
+        938,
+        975
+      ],
+      "label": 1,
+      "review": {
+        "index": 81,
+        "image_sha256": "ec09f9b8037f15960705fcd7d4a04e5c7211fd56161275d00bb1130790a98c7d",
+        "status": "defect_visible",
+        "notes": "方块画面左上方的两面交汇角可见不规则破损或截角；碎损朝侧缘或暗部，对比度较低但可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_07.jpg",
+          "enlarged_crop_sheet": "agent051_tight_78.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:09:12.713Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "6263",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000912713Z_2ff04e15-3427-4497-805f-8dc559690856.jpg",
+        "requested_utc": "1970-01-01T00:09:12.610Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 82,
+      "sha256": "9becaa33a006fb857af88b5cd294b0f3b2c5d3e76e1b2bde6ad80b85cafe3adf",
+      "frame_sequence": 6337,
+      "captured_utc": "1970-01-01T00:09:17.293Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_082.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_082_historic",
+      "crop_box_xyxy": [
+        962,
+        370,
+        1389,
+        746
+      ],
+      "label": 1,
+      "review": {
+        "index": 82,
+        "image_sha256": "9becaa33a006fb857af88b5cd294b0f3b2c5d3e76e1b2bde6ad80b85cafe3adf",
+        "status": "defect_visible",
+        "notes": "方块画面左下方的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_07.jpg",
+          "enlarged_crop_sheet": "agent051_tight_78.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:09:17.293Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "6337",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000917293Z_c8307484-c7e8-4e17-bca1-c789987d9d3e.jpg",
+        "requested_utc": "1970-01-01T00:09:17.226Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 83,
+      "sha256": "25f4808e290044ffc8fda581d866be9cd4c3013cba8c906b7084f6c89cb7ebf7",
+      "frame_sequence": 6411,
+      "captured_utc": "1970-01-01T00:09:21.874Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_083.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_083_historic",
+      "crop_box_xyxy": [
+        1310,
+        387,
+        1642,
+        644
+      ],
+      "label": 1,
+      "review": {
+        "index": 83,
+        "image_sha256": "25f4808e290044ffc8fda581d866be9cd4c3013cba8c906b7084f6c89cb7ebf7",
+        "status": "defect_visible",
+        "notes": "方块画面下缘中央的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_07.jpg",
+          "enlarged_crop_sheet": "agent051_tight_78.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:09:21.874Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "6411",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000921874Z_c4dd706e-ef3e-4076-ad34-23258f481077.jpg",
+        "requested_utc": "1970-01-01T00:09:21.811Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 84,
+      "sha256": "aefa2b87a2c1d04e2e888dfb71a84526f0fb605e3c37d5febe58a0741d519556",
+      "frame_sequence": 6486,
+      "captured_utc": "1970-01-01T00:09:26.478Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_084.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_084_historic",
+      "crop_box_xyxy": [
+        1303,
+        373,
+        1664,
+        670
+      ],
+      "label": 1,
+      "review": {
+        "index": 84,
+        "image_sha256": "aefa2b87a2c1d04e2e888dfb71a84526f0fb605e3c37d5febe58a0741d519556",
+        "status": "defect_visible",
+        "notes": "方块画面上缘中央的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_07.jpg",
+          "enlarged_crop_sheet": "agent051_tight_78.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:09:26.478Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "6486",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000926478Z_f84008aa-996e-43cc-bdfc-7f3e62123c16.jpg",
+        "requested_utc": "1970-01-01T00:09:26.411Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 85,
+      "sha256": "120a7d9de2aafcc7f2b10af3bd8881845aac011c2d1d3f08f373874403a2e08b",
+      "frame_sequence": 6561,
+      "captured_utc": "1970-01-01T00:09:31.116Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_085.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_085_historic",
+      "crop_box_xyxy": [
+        614,
+        434,
+        1099,
+        858
+      ],
+      "label": 1,
+      "review": {
+        "index": 85,
+        "image_sha256": "120a7d9de2aafcc7f2b10af3bd8881845aac011c2d1d3f08f373874403a2e08b",
+        "status": "defect_visible",
+        "notes": "方块画面左下方的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_08.jpg",
+          "enlarged_crop_sheet": "agent051_tight_78.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:09:31.116Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "6561",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000931116Z_2252cc9c-7152-4eac-8eb6-64cd82ee8cab.jpg",
+        "requested_utc": "1970-01-01T00:09:31.010Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 86,
+      "sha256": "fc3af06a5e4a774af6e416cf554b3db88bd8205a488a9d39a2f52b706847c249",
+      "frame_sequence": 6635,
+      "captured_utc": "1970-01-01T00:09:35.696Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_086.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_086_historic",
+      "crop_box_xyxy": [
+        964,
+        354,
+        1395,
+        718
+      ],
+      "label": 1,
+      "review": {
+        "index": 86,
+        "image_sha256": "fc3af06a5e4a774af6e416cf554b3db88bd8205a488a9d39a2f52b706847c249",
+        "status": "defect_visible",
+        "notes": "方块画面上缘偏左的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_08.jpg",
+          "enlarged_crop_sheet": "agent051_tight_78.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:09:35.696Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "6635",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000935696Z_6ab5a6c3-da79-4468-b026-8ff6b2345631.jpg",
+        "requested_utc": "1970-01-01T00:09:35.629Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 87,
+      "sha256": "c4e304df6e5bd343eae0292b3e51051175879ebd4df19ffab5acadf80aa8741d",
+      "frame_sequence": 6709,
+      "captured_utc": "1970-01-01T00:09:40.278Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_087.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_087_historic",
+      "crop_box_xyxy": [
+        356,
+        389,
+        872,
+        841
+      ],
+      "label": 1,
+      "review": {
+        "index": 87,
+        "image_sha256": "c4e304df6e5bd343eae0292b3e51051175879ebd4df19ffab5acadf80aa8741d",
+        "status": "defect_visible",
+        "notes": "方块画面左下方的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_08.jpg",
+          "enlarged_crop_sheet": "agent051_tight_87.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:09:40.278Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "6709",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000940278Z_3e3f7493-d112-4368-8551-e8131fbcca57.jpg",
+        "requested_utc": "1970-01-01T00:09:40.211Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 88,
+      "sha256": "ae395e044946f381db06e45d2f86a4db8b10a99c2e540b78eeb12d8a39682c83",
+      "frame_sequence": 6784,
+      "captured_utc": "1970-01-01T00:09:44.919Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_088.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_088_historic",
+      "crop_box_xyxy": [
+        927,
+        391,
+        1342,
+        756
+      ],
+      "label": 1,
+      "review": {
+        "index": 88,
+        "image_sha256": "ae395e044946f381db06e45d2f86a4db8b10a99c2e540b78eeb12d8a39682c83",
+        "status": "defect_visible",
+        "notes": "方块画面左下方的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_08.jpg",
+          "enlarged_crop_sheet": "agent051_tight_87.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:09:44.919Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "6784",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000944919Z_c1fcb878-7748-4dd9-9537-dd244148a814.jpg",
+        "requested_utc": "1970-01-01T00:09:44.810Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 89,
+      "sha256": "c4a0fd05a8f0c0dbc0d0932a830bcb426381f146b7ec10e828fbbe9e91d8e544",
+      "frame_sequence": 6858,
+      "captured_utc": "1970-01-01T00:09:49.497Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_089.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_089_historic",
+      "crop_box_xyxy": [
+        1127,
+        305,
+        1509,
+        622
+      ],
+      "label": 1,
+      "review": {
+        "index": 89,
+        "image_sha256": "c4a0fd05a8f0c0dbc0d0932a830bcb426381f146b7ec10e828fbbe9e91d8e544",
+        "status": "defect_visible",
+        "notes": "方块画面上缘中央的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_08.jpg",
+          "enlarged_crop_sheet": "agent051_tight_87.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:09:49.497Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "6858",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000949497Z_af15cd29-9bd4-4ea8-bbfb-75afe5a39ace.jpg",
+        "requested_utc": "1970-01-01T00:09:49.434Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 90,
+      "sha256": "e9e4cb708b0b653d452ad3e4d8a81ba8e76a1323e3a67d3168eeda57ddaa2e3e",
+      "frame_sequence": 6933,
+      "captured_utc": "1970-01-01T00:09:54.101Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_090.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_090_historic",
+      "crop_box_xyxy": [
+        1322,
+        386,
+        1666,
+        694
+      ],
+      "label": 1,
+      "review": {
+        "index": 90,
+        "image_sha256": "e9e4cb708b0b653d452ad3e4d8a81ba8e76a1323e3a67d3168eeda57ddaa2e3e",
+        "status": "defect_visible",
+        "notes": "方块画面下方中央的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_08.jpg",
+          "enlarged_crop_sheet": "agent051_tight_87.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:09:54.101Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "6933",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000954101Z_fdd87843-646a-46aa-aac1-daac05675010.jpg",
+        "requested_utc": "1970-01-01T00:09:54.010Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 91,
+      "sha256": "534b8f2a4c863d38fa559f04930db9d46ba4e16fab524010cb40d4ec6c087878",
+      "frame_sequence": 7007,
+      "captured_utc": "1970-01-01T00:09:58.681Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_091.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_091_historic",
+      "crop_box_xyxy": [
+        263,
+        495,
+        779,
+        936
+      ],
+      "label": 1,
+      "review": {
+        "index": 91,
+        "image_sha256": "534b8f2a4c863d38fa559f04930db9d46ba4e16fab524010cb40d4ec6c087878",
+        "status": "defect_visible",
+        "notes": "方块画面左下方的两面交汇角可见不规则破损或截角；碎损朝侧缘或暗部，对比度较低但可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_08.jpg",
+          "enlarged_crop_sheet": "agent051_tight_87.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:09:58.681Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "7007",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T000958681Z_c2f27730-a879-4002-8ea4-3da3c7c87e33.jpg",
+        "requested_utc": "1970-01-01T00:09:58.614Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 92,
+      "sha256": "384c2bf87e31fce989e3ffe2ca42a17450418f8bdd550df5173ca9b715fe1193",
+      "frame_sequence": 7082,
+      "captured_utc": "1970-01-01T00:10:03.321Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_092.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_092_historic",
+      "crop_box_xyxy": [
+        437,
+        425,
+        930,
+        862
+      ],
+      "label": 1,
+      "review": {
+        "index": 92,
+        "image_sha256": "384c2bf87e31fce989e3ffe2ca42a17450418f8bdd550df5173ca9b715fe1193",
+        "status": "defect_visible",
+        "notes": "方块画面左上方的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_08.jpg",
+          "enlarged_crop_sheet": "agent051_tight_87.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:10:03.321Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "7082",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T001003321Z_c4863e00-cbef-49bf-8226-d9b2955b968f.jpg",
+        "requested_utc": "1970-01-01T00:10:03.213Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 93,
+      "sha256": "53f1d4c768dc78fff0119cc8b35929d1b6b7ffe661bdaed800694ff2b525ff82",
+      "frame_sequence": 7156,
+      "captured_utc": "1970-01-01T00:10:07.901Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_093.jpg",
+      "included_in_curated_dataset": false,
+      "review": {
+        "index": 93,
+        "image_sha256": "53f1d4c768dc78fff0119cc8b35929d1b6b7ffe661bdaed800694ff2b525ff82",
+        "status": "unjudgeable",
+        "notes": "右侧外轮廓可见轻微缺口状不规则，但缺损面背向且细节不足，不能确认。",
+        "evidence": {
+          "description": "方块在画面内，无手遮挡；参照原图及放大裁剪，当前角度不足以确定缺口是否可见。",
+          "original_contact_sheet": "original_08.jpg",
+          "enlarged_crop_sheet": "agent051_tight_87.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:10:07.901Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "7156",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T001007901Z_6f401b2b-e17e-41d8-9271-29a0436b7425.jpg",
+        "requested_utc": "1970-01-01T00:10:07.834Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 94,
+      "sha256": "585b6921d12b79bcd093d26749ac9562e9ac77b30b10f51a7aee8b590f6b68c6",
+      "frame_sequence": 7230,
+      "captured_utc": "1970-01-01T00:10:12.483Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_094.jpg",
+      "included_in_curated_dataset": false,
+      "review": {
+        "index": 94,
+        "image_sha256": "585b6921d12b79bcd093d26749ac9562e9ac77b30b10f51a7aee8b590f6b68c6",
+        "status": "unjudgeable",
+        "notes": "右上外轮廓略不规则，碎损面疑似背向，无法可靠区分缺口与轮廓成像。",
+        "evidence": {
+          "description": "方块在画面内，无手遮挡；参照原图及放大裁剪，当前角度不足以确定缺口是否可见。",
+          "original_contact_sheet": "original_08.jpg",
+          "enlarged_crop_sheet": "agent051_tight_87.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:10:12.483Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "7230",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T001012483Z_b5899287-1d96-4934-ac3e-615644787bdb.jpg",
+        "requested_utc": "1970-01-01T00:10:12.416Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 95,
+      "sha256": "6997aa638428bca307e551c807b4ac4e4dc7f47d4677ac338d0d400063a68959",
+      "frame_sequence": 7305,
+      "captured_utc": "1970-01-01T00:10:17.123Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_095.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_095_historic",
+      "crop_box_xyxy": [
+        1125,
+        399,
+        1485,
+        680
+      ],
+      "label": 1,
+      "review": {
+        "index": 95,
+        "image_sha256": "6997aa638428bca307e551c807b4ac4e4dc7f47d4677ac338d0d400063a68959",
+        "status": "defect_visible",
+        "notes": "方块画面上缘中央的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_08.jpg",
+          "enlarged_crop_sheet": "agent051_tight_87.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:10:17.123Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "7305",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T001017123Z_231c4cdb-c90c-4bf7-982a-433102173e35.jpg",
+        "requested_utc": "1970-01-01T00:10:17.015Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 96,
+      "sha256": "208b80b7a4d52dec4228d086116f487dffb269515a5825431a3a8e41addac4b1",
+      "frame_sequence": 7379,
+      "captured_utc": "1970-01-01T00:10:21.704Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_096.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_096_historic",
+      "crop_box_xyxy": [
+        1181,
+        396,
+        1540,
+        666
+      ],
+      "label": 1,
+      "review": {
+        "index": 96,
+        "image_sha256": "208b80b7a4d52dec4228d086116f487dffb269515a5825431a3a8e41addac4b1",
+        "status": "defect_visible",
+        "notes": "方块画面下缘中央的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_08.jpg",
+          "enlarged_crop_sheet": "agent051_tight_96.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:10:21.704Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "7379",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T001021704Z_c7c8c137-f030-4448-b1b8-93ffb68bbe2e.jpg",
+        "requested_utc": "1970-01-01T00:10:21.636Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 97,
+      "sha256": "21a65f7a12f0fc5de2439e071108429cce4ebbdce1ab13261e196e2cf71f1d24",
+      "frame_sequence": 7453,
+      "captured_utc": "1970-01-01T00:10:26.284Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_097.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_097_historic",
+      "crop_box_xyxy": [
+        768,
+        453,
+        1192,
+        824
+      ],
+      "label": 1,
+      "review": {
+        "index": 97,
+        "image_sha256": "21a65f7a12f0fc5de2439e071108429cce4ebbdce1ab13261e196e2cf71f1d24",
+        "status": "defect_visible",
+        "notes": "方块画面下缘偏左的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_09.jpg",
+          "enlarged_crop_sheet": "agent051_tight_96.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:10:26.284Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "7453",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T001026284Z_69326d93-eaa2-4ac7-8983-380edef063f8.jpg",
+        "requested_utc": "1970-01-01T00:10:26.221Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 98,
+      "sha256": "54fec8c8179b49e62fdc2a01ba0bbeabbd3eaf179e051fbd19f71f68e970e5c0",
+      "frame_sequence": 7528,
+      "captured_utc": "1970-01-01T00:10:30.907Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_098.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_098_historic",
+      "crop_box_xyxy": [
+        205,
+        412,
+        803,
+        943
+      ],
+      "label": 1,
+      "review": {
+        "index": 98,
+        "image_sha256": "54fec8c8179b49e62fdc2a01ba0bbeabbd3eaf179e051fbd19f71f68e970e5c0",
+        "status": "defect_visible",
+        "notes": "方块画面左侧的两面交汇角可见不规则破损或截角；碎损朝侧缘或暗部，对比度较低但可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_09.jpg",
+          "enlarged_crop_sheet": "agent051_tight_96.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:10:30.907Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "7528",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T001030907Z_928185ef-b795-4478-8d47-46b0d547916d.jpg",
+        "requested_utc": "1970-01-01T00:10:30.810Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 99,
+      "sha256": "9ecaea511e765e14a9f1e85cd29ed052b33828ffe4a710e88663b98f90db41ef",
+      "frame_sequence": 7602,
+      "captured_utc": "1970-01-01T00:10:35.487Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_099.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_099_historic",
+      "crop_box_xyxy": [
+        200,
+        455,
+        729,
+        920
+      ],
+      "label": 1,
+      "review": {
+        "index": 99,
+        "image_sha256": "9ecaea511e765e14a9f1e85cd29ed052b33828ffe4a710e88663b98f90db41ef",
+        "status": "defect_visible",
+        "notes": "方块画面左上方的两面交汇角可见不规则破损或截角；碎损朝侧缘或暗部，对比度较低但可辨。方块完整入画，无手遮挡，无明显运动模糊。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_09.jpg",
+          "enlarged_crop_sheet": "agent051_tight_96.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": null,
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:10:35.487Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "7602",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T001035487Z_77ede2d4-9d07-49a0-b8f3-c10ef0e07a7d.jpg",
+        "requested_utc": "1970-01-01T00:10:35.420Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 100,
+      "sha256": "fcbf7fe8f01182f8f5973e0403ca8e91d9c2a86007555006568c1385d39e3788",
+      "frame_sequence": 7677,
+      "captured_utc": "1970-01-01T00:10:40.125Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_100.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_100_historic",
+      "crop_box_xyxy": [
+        882,
+        441,
+        1282,
+        769
+      ],
+      "label": 1,
+      "review": {
+        "index": 100,
+        "image_sha256": "fcbf7fe8f01182f8f5973e0403ca8e91d9c2a86007555006568c1385d39e3788",
+        "status": "defect_visible",
+        "notes": "方块画面上缘中央的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。 与另一张姿态近似，但文件哈希不同。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_09.jpg",
+          "enlarged_crop_sheet": "agent051_tight_96.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": [
+          1010,
+          486,
+          1125,
+          546
+        ],
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:10:40.125Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "7677",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T001040125Z_b945ea1d-2720-4283-890d-93ae34cc1aef.jpg",
+        "requested_utc": "1970-01-01T00:10:40.023Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    },
+    {
+      "index": 101,
+      "sha256": "3854c8ab66181d4602cc1cdacd8be93e4dd0827ef59e91daf9738bf3baadf0a8",
+      "frame_sequence": 7752,
+      "captured_utc": "1970-01-01T00:10:44.728Z",
+      "expected_condition": "defect_candidate",
+      "reviewed": false,
+      "path": "data/originals/blue_101.jpg",
+      "included_in_curated_dataset": true,
+      "curated_id": "blue_101_historic",
+      "crop_box_xyxy": [
+        883,
+        443,
+        1282,
+        766
+      ],
+      "label": 1,
+      "review": {
+        "index": 101,
+        "image_sha256": "3854c8ab66181d4602cc1cdacd8be93e4dd0827ef59e91daf9738bf3baadf0a8",
+        "status": "defect_visible",
+        "notes": "方块画面上缘中央的两面交汇角可见不规则破损或截角；碎损区域可辨。方块完整入画，无手遮挡，无明显运动模糊。 与另一张姿态近似，但文件哈希不同。",
+        "evidence": {
+          "description": "原图显示蓝色方块；放大图可见与参考一致的角部不规则破损形态。",
+          "original_contact_sheet": "original_09.jpg",
+          "enlarged_crop_sheet": "agent051_tight_96.jpg",
+          "reference": "../../reference/blue_defect_B_D01_reference.jpg"
+        },
+        "reviewed": true,
+        "visible_defect_bbox_xyxy_approx": [
+          1010,
+          487,
+          1125,
+          547
+        ],
+        "coordinate_system": "original 1920x1080 pixels; bbox approximate; null when not confidently bounded"
+      },
+      "capture_metadata": {
+        "annotation_status": "unannotated",
+        "captured_utc": "1970-01-01T00:10:44.728Z",
+        "dataset": "cube_defect_v4_20261101",
+        "format": "jpg",
+        "frame_sequence": "7752",
+        "height": 1080,
+        "image": "cube_defect_v4_20261101/images/blue_001_100/19700101T001044728Z_2516d430-6c6b-4a0b-9217-3adae381417a.jpg",
+        "requested_utc": "1970-01-01T00:10:44.622Z",
+        "scene": "blue_001_100",
+        "schema_version": 1,
+        "source": "imx415",
+        "width": 1920
+      }
+    }
+  ]
+}

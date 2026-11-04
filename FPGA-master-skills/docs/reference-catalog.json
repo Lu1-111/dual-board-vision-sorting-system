@@ -1,0 +1,724 @@
+{
+  "reference_root_at_packaging": "D:\\PRJ\\referrence",
+  "date": "2026-11-04",
+  "scope": "Human reference PDF/TXT/MD files; generated IP/runs directories excluded. Archives indexed without expansion or hashing.",
+  "documents": [
+    {
+      "path": "01_start/01_start_fpga/00_for_starter/米联客-安路FPGA TD软件快速入门课程.pdf",
+      "bytes": 15041731,
+      "sha256": "9f765cd41159b8950f2affa9ad1b529a718f1ebc5b710aa82efdb716a53f5ca5"
+    },
+    {
+      "path": "01_start/01_start_fpga/01_board_tset/米联客-安路FPGA开发板开机测试.pdf",
+      "bytes": 4327393,
+      "sha256": "5763784b7ffc4ac7631cab98206acbef4d763b219d68e3a29aa055df2816bc6f"
+    },
+    {
+      "path": "01_start/01_start_fpga/02_peripheral_demo/米联客-安路FPGA开发板演示demo教程.pdf",
+      "bytes": 11186738,
+      "sha256": "2e54e5dd101218fbed2c69f64831605aabc5e9ec986422388abc9640716a1423"
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_DAQ001/01_demo/米联客-安路 FPGA 子卡应用方案.pdf",
+      "bytes": 4954840,
+      "sha256": "1954ec8915cc0e6d0d6dbc88f1f2ec0c6dd1da4d51042e070276f4c159d01846"
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_DAQ002/01_demo/米联客-安路 FPGA 子卡应用方案.pdf",
+      "bytes": 3896905,
+      "sha256": "1ab17cc8d6abd80ac53892b5cd54c0b0c3ea12192979ed2e6b7120820cf87753"
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_DAQ002/02_hardware/更新日志.txt",
+      "bytes": 137,
+      "sha256": "625cee3a4d873cc141e5bf1150994f6f90fdab05f3bae9d13d0ad66d230e7f12"
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_DAQ006/01_demo/米联客-安路 FPGA 子卡应用方案.pdf",
+      "bytes": 5896239,
+      "sha256": "ea9799cf485afdfedd0482bb1ecdf56f3555dfdba2636edadcf7378ab34430b4"
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_HDMI7611/01_demo/米联客-安路 FPGA 子卡应用方案.pdf",
+      "bytes": 6249973,
+      "sha256": "8a8662c920d44ade71640feaa322cc8d2955229a836ff41e8860d9a025a3e287"
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_HDMI7611/02_hardware/FEP_HDMI7611_1V8.pdf",
+      "bytes": 644078,
+      "sha256": "363c9eb6cc1ce921452e14204966ad765c08b4f3aa306145293a8aa945b6c5d5"
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_VID005/01_demo/APUG030-MIPI DSI Host Example Design(1).pdf",
+      "bytes": 2617479,
+      "sha256": "590379c6da51505713efad48947afae677668e9852e373215f92f80d8e8b0318"
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_VID005/01_demo/APUG042-MIPI D-PHY Transmitter(TX).pdf",
+      "bytes": 1181388,
+      "sha256": "b13f662eadd1ea62a0d7746f0b8b5232ac055ee5344490e5a677520b71f6d304"
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_VID005/01_demo/APUG074-MIPI D-PHY Receiver(RX) Over Lvds.pdf",
+      "bytes": 1725399,
+      "sha256": "7c52041c102d981053d18f32b4736ac5c75568c1cbeb15267a79bbd7a8cf4d09"
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_VID005/01_demo/APUG076-MIPI D-PHY Receiver(RX) Over PH1A MIPIIO.pdf",
+      "bytes": 1390449,
+      "sha256": "6c8dca0e455b50f73180ba217e76ace6d611c2dd06660fcb91ba2752c269356d"
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_VID005/01_demo/文档提供说明.txt",
+      "bytes": 519,
+      "sha256": "75f7eec15c924e39669756e944be83d46e1c36381e5478d24c1958fad594809f"
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_VID006/01_demo/APUG074-MIPI D-PHY Receiver(RX) Over Lvds.pdf",
+      "bytes": 1725399,
+      "sha256": "7c52041c102d981053d18f32b4736ac5c75568c1cbeb15267a79bbd7a8cf4d09"
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_VID006/01_demo/APUG076-MIPI D-PHY Receiver(RX) Over PH1A MIPIIO.pdf",
+      "bytes": 1390449,
+      "sha256": "6c8dca0e455b50f73180ba217e76ace6d611c2dd06660fcb91ba2752c269356d"
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_VID006/01_demo/文档提供说明.txt",
+      "bytes": 519,
+      "sha256": "75f7eec15c924e39669756e944be83d46e1c36381e5478d24c1958fad594809f"
+    },
+    {
+      "path": "01_start/02_start_Linux/01_prepare/01-1_米联客-安路开发板部署虚拟机环境.pdf",
+      "bytes": 644491,
+      "sha256": "0b100b0420c6cac3af6a920c4437506a7b04e08f8c5c47eb33aee4920bb9e26b"
+    },
+    {
+      "path": "01_start/02_start_Linux/01_prepare/01-2_米联客-安路开发板PuTTY安装与使用.pdf",
+      "bytes": 716446,
+      "sha256": "e256c74eff9bbf6bac1b230ae0312035dad68e6397f5a1ab8b0d897d3e9f3bcf"
+    },
+    {
+      "path": "01_start/02_start_Linux/02_test_board/02-1_米联客-安路开发板Linux出厂系统测试.pdf",
+      "bytes": 3199178,
+      "sha256": "a89fc634f7fc46119c484e42b4672875a07c5c4c7c9c57b36cdcd7d42d3958ab"
+    },
+    {
+      "path": "01_start/02_start_Linux/03_restore_factory/03-1_米联客-安路开发板Linux恢复出厂设置.pdf",
+      "bytes": 2311655,
+      "sha256": "bf42426baa68b3d4f5264c5d4b6215b661055c055acfde5fdb9acd4fed882fb8"
+    },
+    {
+      "path": "01_start/02_start_Linux/03_restore_factory/03-1_米联客-安路开发板Linux恢复出厂设置.txt",
+      "bytes": 6419,
+      "sha256": "9ffa05a68f5332b94dd81eea01a963474295617a50a310d8bf5c858148ce0a04"
+    },
+    {
+      "path": "01_start/02_start_Linux/04_secondary_developmemt/04-1_米联客-安路开发板二次开发Buildroot篇.pdf",
+      "bytes": 1377262,
+      "sha256": "2a6be13ca8a37c1e3209d87214bbe2a8278e092c8947d289a9ddb58d90230a31"
+    },
+    {
+      "path": "01_start/02_start_Linux/05_application_demo/05-1_QT环境搭建及demo演示/05-1_米联客-安路F3P-CZ02开发板QT环境搭建及demo演示.pdf",
+      "bytes": 3645167,
+      "sha256": "c1d3fa040fe3b83222a668fa0268cf39facc1d546985015cf6adb4cc33624821"
+    },
+    {
+      "path": "01_start/02_start_Linux/05_application_demo/05-1_QT环境搭建及demo演示/soc_prj/uisrc/03_ip/alip/video_timing_controller_v20/video_timing_controller_v20_files/Other/video_timing_controller_changelog.txt",
+      "bytes": 1152,
+      "sha256": "07355d5fa64adfd3413d5145f6b8472e6c582b241919e3e281f96a630dc421d9"
+    },
+    {
+      "path": "01_start/02_start_Linux/05_application_demo/05-1_QT环境搭建及demo演示/soc_prj/uisrc/03_ip/uifdma/milianke_ip_uifdma_更新日志.txt",
+      "bytes": 1177,
+      "sha256": "a1298594ea2844c39c22dc5557523dcc838357a9e9def72f21fc4fabd5036d98"
+    },
+    {
+      "path": "01_start/02_start_Linux/05_application_demo/05-1_QT环境搭建及demo演示/soc_prj/uisrc/03_ip/uisetvbuf/project_1/project_1.ip_user_files/README.txt",
+      "bytes": 130,
+      "sha256": "fe9e48b0b3fcff2e6267f4bc6bdef859fa1201c41ac49c473b9e414120b0a8c4"
+    },
+    {
+      "path": "01_start/02_start_Linux/05_application_demo/05-2_Ubuntu桌面演示/05-2_米联客-安路F3P-CZ02开发板Ubuntu桌面演示.pdf",
+      "bytes": 739721,
+      "sha256": "05b134b18faffeda1efd5bfa64a4f551a323f5cd3ed8dd4c671f4861a9f75816"
+    },
+    {
+      "path": "01_start/02_start_Linux/05_application_demo/05-2_Ubuntu桌面演示/05-2_米联客-安路F3P-CZ02开发板Ubuntu桌面演示.txt",
+      "bytes": 5244,
+      "sha256": "24e06f3ea30d74efdbac725d082cd4fb40997ae66156d7d692ea940a402cb2c4"
+    },
+    {
+      "path": "01_start/02_start_Linux/05_application_demo/05-3_PL端多网口方案/05-3_米联客-安路F3P-CZ02开发板Linux下PL多网口演示.pdf",
+      "bytes": 2509143,
+      "sha256": "3a36b97bf7ab7aaa4d3f437d32d3b88f71aed376fcd0bf5ab70636a7a1518470"
+    },
+    {
+      "path": "01_start/02_start_Linux/05_application_demo/05-4_无线通信方案/05-4_米联客-安路F3P-CZ02开发板无线通信方案.pdf",
+      "bytes": 3295178,
+      "sha256": "ccdcd485bcb409a27daf9b1c515125add82b639485b236946f9c7513cfa1dfe6"
+    },
+    {
+      "path": "01_start/02_start_Linux/05_application_demo/05-5_NPU/05-5_米联客-安路F3P-CZ02开发板NPU开发.pdf",
+      "bytes": 2488900,
+      "sha256": "f3fd89cc47e08cfce0bbced13a9194ab06dc6b153c90c0e08c8539edf4badb90"
+    },
+    {
+      "path": "01_start/02_start_Linux/05_application_demo/05-5_NPU/05-5_米联客-安路F3P-CZ02开发板NPU开发.txt",
+      "bytes": 17345,
+      "sha256": "17e9ccab6be47029c81cadb762d30ff355ce241e4c21f291736c4b26ad34d18f"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/01_硬件手册/MLK_CZ02_DR1核心板硬件使用手册.pdf",
+      "bytes": 1172164,
+      "sha256": "1aa80e170690bb3d87bf75533bcfb2f08645b252d4e5de0b5399d39492f7ee06"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/01_硬件手册/MLK_CZ02_DR1核心板硬件使用手册.txt",
+      "bytes": 16300,
+      "sha256": "989aef488ae4c6d38a0e58dbb4d776119476b4093810ea75d0cfebd771f019be"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/01_硬件手册/MLK_F3P_CZ02_DR1开发板硬件使用手册.pdf",
+      "bytes": 1635948,
+      "sha256": "8f3389ace08f58882fd355233c8ef12efe358c722d1b3c18180e5331a95c4995"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/01_硬件手册/MLK_F3P_CZ02_DR1开发板硬件使用手册.txt",
+      "bytes": 28096,
+      "sha256": "dc7369ee94491436c2494c484e564d57f60695b460cb559eed369dd02dea8fa4"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/02_原理图/MLK_CZ02_DR1_240926.pdf",
+      "bytes": 391591,
+      "sha256": "491ed7de0fa94bfaf63bc0ac71af8a5bda30c2087d9747adb9690af941eb822d"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/02_原理图/MLK_F3P_DR1_250526.pdf",
+      "bytes": 661656,
+      "sha256": "2fc1a73a0ee7a954e436c8718fb40bd549f6c65f9475d12a62d49a407ecbdc8d"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/02_原理图/MLK_F3P_DR1_250526.txt",
+      "bytes": 33053,
+      "sha256": "fea9cb1724f4eff877ff0efa6761efe9a3858fd181ad3e2999cd51b5fe2a1182"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/02_原理图/版本型号说明.txt",
+      "bytes": 83,
+      "sha256": "9566b1f199ec979f0a44691634799fe35b13cd17ef16b726232aa4a2735ada98"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/03_核心板尺寸及器件封装/MLK_CZ02共用一块PCB.txt",
+      "bytes": 58,
+      "sha256": "5dde7e94901124312b56abd5b132011e238020dc6d2aaeca620465e0ce587925"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/04_核心板等长说明/MLK_CZ02核心板等长说明.txt",
+      "bytes": 436,
+      "sha256": "29dd82af5b40a766ca984e9523791368fc1a494517600aaf0d28eb545b839166"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/05_底板尺寸及器件封装/尺寸结构图/MLK_F3P_250526位号图.pdf",
+      "bytes": 1227598,
+      "sha256": "c4ee482c1affa1875ab18afbf70fafc32c874b1a015f270441449e37810afea7"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/01_DR1/DR1M90_DR1V90 VS 7020_rev0.7_customers_release-米联客.pdf",
+      "bytes": 5258390,
+      "sha256": "10b309332f4adba0513e44be777222432cc40b845bb6d321206f29f26e9661ee"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/01_DR1/DS1200_DR1_Datasheet_202411-米联客.pdf",
+      "bytes": 3821245,
+      "sha256": "f68b25ee9f822beab57936ec4954c8174052a1527413224e2396e4fb5aef556a"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/01_DR1/DS1200_DR1_Datasheet_202411-米联客.txt",
+      "bytes": 100813,
+      "sha256": "7a4d127cde41b7ee84c7907ca6983f6ed747531e81fa7f036033c0060b405b6c"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/01_DR1/DS1201_DR1_FamilyOverview-米联客.pdf",
+      "bytes": 1350947,
+      "sha256": "2edc070d46a2434b2141306af1468a972f26afcf9a46f95d62917047d031c38d"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/01_DR1/Dragon家族DR1M器件竞争力综述 -0305 for 米联客.pdf",
+      "bytes": 594049,
+      "sha256": "89c9a4532fd6a96bf1ef2aaecf3ba95b6a8320b8c6a4c63caaaa6b27a4b7acee"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/01_DR1/FD_DR1_User_Guide_V1.1-米联客.pdf",
+      "bytes": 2959646,
+      "sha256": "9f59580b48e48b45db7be90c9ff88e36a467ba9ec3888b9d442dd85762740f39"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/01_DR1/FD_DR1_User_Guide_V1.1-米联客.txt",
+      "bytes": 13965,
+      "sha256": "023c30222e979975cf47f63394350cb106c5a491e153eac3048aa8660ccbf558"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/01_DR1/FPSoC应用开发说明_alpha1.2--米联客.pdf",
+      "bytes": 4969626,
+      "sha256": "cf04eceebef6dbf7b6c86b11cb20ee9ce820fbed7625a3d4668311e95a91b7f3"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/01_DR1/FPSoC应用开发说明_alpha1.2.pdf",
+      "bytes": 4837214,
+      "sha256": "91bed8745ca6498873752646feb22031fc1b171a6f1d9729988b5c814246986b"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/01_DR1/UG1201_安路科技DR1系列FPSoC PLB用户手册-米联客.pdf",
+      "bytes": 1221633,
+      "sha256": "40c2098c8406414cba3bdfc1cbcce104509111a4742abd223bb7332d8cedc96a"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/01_DR1/UG1202_安路科技DR1系列FPSoC ERAM用户手册-米联客.pdf",
+      "bytes": 1244702,
+      "sha256": "ff953a8205ef3cc641e203d4bf230cf067790e9704a4716b921ba8bd97d03a83"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/01_DR1/UG1204_安路科技DR1系列FPSoC DSP用户手册-米联客.pdf",
+      "bytes": 1624300,
+      "sha256": "7a8e84bda34a7d7fe4541903395dc75f8c2126288810e162a5e4652f1178fc31"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/01_DR1/UG1206_安路科技DR1系列FPSoC PLL用户手册-米联客.pdf",
+      "bytes": 1938235,
+      "sha256": "b676a2751477f2bfd1bfe3dff453bc094a846c91b9f5a09228ae7b5d5f86ca7b"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/01_DR1/UG1210_安路科技DR1系列FPSoC IO用户手册-米联客.pdf",
+      "bytes": 1619962,
+      "sha256": "611a3be646045765654f8773e384dd08eb09f0e2f987d24d19a1c7c83212ddd7"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/01_DR1/UG1212_安路科技DR1系列FPSoc ADC用户手册-米联客.pdf",
+      "bytes": 1648099,
+      "sha256": "752ca3afc564cbd41109a7ab265c76625df111255b762c91f3bc6df2c1e714fb"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/01_DR1/UG1214_安路科技DR1系列FPSoC产品说明书.pdf",
+      "bytes": 10277644,
+      "sha256": "1d28043b8d29b81287b22ead0f1a5da7511567d03b9c9fc03fe61fb221cb8fe6"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/01_DR1/UG1214_安路科技DR1系列FPSoC产品说明书.txt",
+      "bytes": 390573,
+      "sha256": "9aa076dbdb87b19060854a44108128525f98f2d76f30143bd95c60c3338d7fea"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/02_POWER/MP2143DJ.pdf",
+      "bytes": 489837,
+      "sha256": "897ab1d9fc74b092cc72ecd38dbd8401bd1b4818ed838de3ab476c141f8013a1"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/02_POWER/tps3106.pdf",
+      "bytes": 1224256,
+      "sha256": "e0eb55a494bf68c0d5b3ad355fc437fb34062acd879aa98b2fc0ad496ba73cad"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/02_POWER/tps51206.pdf",
+      "bytes": 1388224,
+      "sha256": "3dd712f5806aef8420a86d72faf48badb1d4b7cc9330ccef2148994958e53246"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/02_POWER/tps563201.pdf",
+      "bytes": 1097001,
+      "sha256": "5823f74b3144730e8a41d12c6ee1b4723fa42ca175ba6ceaf3a4fcf3fa5d7568"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/03_DDR/4Gb_DDR3L.pdf",
+      "bytes": 3184894,
+      "sha256": "aa71e4a25901da402147abc017818e5d52fa214c88d73f6090c229edd558be7b"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/03_DDR/MT41K128M16JT.pdf",
+      "bytes": 16374917,
+      "sha256": "6361769f9e0ef03484a197abaf5101f133b84be9281b876a16f1369a531a2429"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/04_QSPI/C2758337_NOR+FLASH_GD25Q256DYIGR_规格书_WJ250937.PDF",
+      "bytes": 1562031,
+      "sha256": "8768aa3c2454945e390e63ccfa557c279aa35adc5a195d03d062f532cec6ad57"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/05_UART/CH342K.pdf",
+      "bytes": 199629,
+      "sha256": "c93c4b2fae1968d918290ee2a315a6e80b23d5d15065ec1de99b91ed4d3402d5"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/06_LAN/YT8531(D)H-CA_YT8531(D)C-CA_YT8531P-CA_Datasheet_v1.01.pdf",
+      "bytes": 5820696,
+      "sha256": "848fecf9ce687b00c55759a2c10e1a25867b06e29013f7eec37afb1b25ff880c"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/06_LAN/YT8531(D)H-CA_YT8531(D)C-CA_YT8531P-CA_应用说明v1.11.pdf",
+      "bytes": 4358275,
+      "sha256": "ae503293465d321e05909b2eea6f1ae27c69d9ef7eee986f0c8c593ce534020c"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/06_LAN/YT8531-CA_reference_design_V1.3_20230302.pdf",
+      "bytes": 90627,
+      "sha256": "c84d3e8ec6b49ed14bd91b89f5783642010967cf1787df06fb5424b3f34822f9"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/07_DF40/C424647_板对板与背板连接器_DF40C-60DP-0.4V(51)_规格书_WJ301237.PDF",
+      "bytes": 907413,
+      "sha256": "b806e4a9a488507525fbc3174b2ad9273a08efcd24d151c45a3ccb3db540e19f"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/07_DF40/C424649_板对板与背板连接器_DF40HC(3.0)-100DS-0.4V(51)_规格书_WJ301237.PDF",
+      "bytes": 907413,
+      "sha256": "b806e4a9a488507525fbc3174b2ad9273a08efcd24d151c45a3ccb3db540e19f"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/07_DF40/C531031_板对板与背板连接器_DF40C-100DP-0.4V(51)_规格书_WJ273865.PDF",
+      "bytes": 195854,
+      "sha256": "9aba1fa11097eaa2cc85b774a5001aa3dbde399b071c3e2df4584c9d7d47debb"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/07_DF40/C597943_板对板与背板连接器_DF40HC(3.0)-60DS-0.4V(51)_规格书_WJ08559.PDF",
+      "bytes": 962105,
+      "sha256": "d49c00f06336c89fbf2eda5d8db7c452d3376bbd53dd1732d125b480159dd370"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/08_FEP/0.8mm 公60p.pdf",
+      "bytes": 605274,
+      "sha256": "f6628143eac9b20ce60569e69c5d4346d76564a292199b518a8d0f2939f6f507"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/08_FEP/0.8mm 母60p.pdf",
+      "bytes": 420227,
+      "sha256": "3b84fcbefc672c040653ea5584031d047b64bfe4d79d433e0b38fc9ce61e335b"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/08_FEP/eng_cs_889092_0.8mm_fh_conn_0906.pdf",
+      "bytes": 431977,
+      "sha256": "b7c9789aa0f4c32dc523a5840cd7df0caba9cc66d17957ec65ec2d3e8a485bb4"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/09_EMMC/Integrated_Silicon_Solution_03_31_2024_Inc21_22EF0-3436648.pdf",
+      "bytes": 1616855,
+      "sha256": "deab6000b3adf428ff6c4a149be1e5b3217cd94a5a7ee61b03ce80a44bc53878"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/10_CAN/SN65HVD232DR.pdf",
+      "bytes": 1221599,
+      "sha256": "1d5143bcc6406cf72611b09d91958b06c2b1cfbac4fb77df9283c9f173a3287d"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/11_RS485/SP3485EN-L-TR.pdf",
+      "bytes": 641222,
+      "sha256": "1b2584d365a38e637f97113fff1ffbeda216b4740d929e6085c51f4226c3a686"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/12_other/24LC02B.pdf",
+      "bytes": 620077,
+      "sha256": "52c0259924bebdb394abe5dfb5b516f9c130ca2343a68f35f1b1ef54ceb05df7"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/12_other/CDCM61002.pdf",
+      "bytes": 886777,
+      "sha256": "bef99422995494cab2a9c5cd00191a73a3a9b606e05e0da4d212ac7b826714ef"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/12_other/DS1337.pdf",
+      "bytes": 372742,
+      "sha256": "26aeb5f50770bda4c5c333a350ccf181a2658c3843344b8c71be56bbf4cc7ee4"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/12_other/RCLAMP0522P.pdf",
+      "bytes": 636129,
+      "sha256": "5afe4a250892b415781ccc446021e44f5383eb3052adb77d6be23bfb4afb3d27"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/12_other/RCLAMP0524P.pdf",
+      "bytes": 636129,
+      "sha256": "5afe4a250892b415781ccc446021e44f5383eb3052adb77d6be23bfb4afb3d27"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/12_other/USB Micro AB.pdf",
+      "bytes": 145229,
+      "sha256": "30e81c0cdbac39758df24c0f3edd4f82cb6476dbc2289c8e30256bc2e6560d2d"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/06_芯片手册/13_USB2.0/USB3320_QFN32.pdf",
+      "bytes": 8075230,
+      "sha256": "ea558556c5c6ad8d45e8f801c8249a5b0845fd673da33105931e88f7caf4a8a1"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/07_板级连接器一体化封装说明/底板封装做成整体客户可以直接套用.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/08_框图及pinlist/MLK-CZ02/MLK-CZ02-系统框图.pdf",
+      "bytes": 74567,
+      "sha256": "3bfc8b7272a3d3f20bac2879893bdf1404a2f1fbf95ff81ccd993e2edd354178"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/08_框图及pinlist/MLK-CZ02/MLK-CZ02电源时序框图.pdf",
+      "bytes": 74520,
+      "sha256": "6f215239ad998a668748cbf9c8bde9e70fc99cdffab444e6888c4c97b664f4d0"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/08_框图及pinlist/MLK-F3P/MLK-F3P电源时序框图.pdf",
+      "bytes": 80242,
+      "sha256": "e0b1bf930c0d1e1890b98ccbaaaf524a21627fe5e1133864d2bac6093047f00d"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/08_框图及pinlist/MLK-F3P/MLK-F3P系统框图.pdf",
+      "bytes": 66975,
+      "sha256": "aa0bba48e7cff44c49fe7c52ea997618be5de9bcc6d6f39e9578b89c41f461bf"
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526/hardware_MLK_F3P_CZ02_DR1_20250526/09_ADJ修改/版本型号说明.txt",
+      "bytes": 33,
+      "sha256": "46d426961365e3e0b097bba43a7b4fd0f03b59a9c1b29e3ee0c3e2ba9d6290e9"
+    },
+    {
+      "path": "03_demo/3-0_book_all/3_1_00_米联客2024版FPGA程序设计Verilog语法入门篇(1).pdf",
+      "bytes": 3148148,
+      "sha256": "9d8cceb5d3bf1c7d1991bb4bace3e4fa257b0bfc20de3b4ae5b447e0c201d26e"
+    },
+    {
+      "path": "03_demo/3-0_book_all/3_1_00_米联客2024版FPGA程序设计Verilog语法入门篇.pdf",
+      "bytes": 3148148,
+      "sha256": "9d8cceb5d3bf1c7d1991bb4bace3e4fa257b0bfc20de3b4ae5b447e0c201d26e"
+    },
+    {
+      "path": "03_demo/3-0_book_all/3_1_01_米联客-安路 FPGA 课程基础篇(1).pdf",
+      "bytes": 32701825,
+      "sha256": "5ac857a237db14d968bfe2737ab0294aadfe9738615210996daf7fe75813cc96"
+    },
+    {
+      "path": "03_demo/3-0_book_all/3_1_02_米联客-安路 FPGA UDP以太网通信方案.pdf",
+      "bytes": 18331566,
+      "sha256": "527b620c7db840b24834c33d9e96dd781f099ffc786589e9739304ce61292266"
+    },
+    {
+      "path": "03_demo/3-0_book_all/3_1_03_米联客-安路 FPGA 图像处理高级篇(ISP算法).pdf",
+      "bytes": 21469461,
+      "sha256": "77fa48a6004ab794125d5e4f9edc6544fbc31e06239dce162c41c347586c0b1f"
+    },
+    {
+      "path": "03_demo/3-0_book_all/3_2_01_米联客2024版FPSoc_SDK入门篇.pdf",
+      "bytes": 53427149,
+      "sha256": "54e264fd9348f899886324e04393533f218d3a273d4ec06efec28f346bf88d0a"
+    },
+    {
+      "path": "03_demo/3-0_book_all/3_2_01_米联客2024版FPSoc_SDK入门篇.txt",
+      "bytes": 321589,
+      "sha256": "7b33314fc166de15fa8d5d81ff9dfde0ab37862dc1bf7e2f13c39f528568c249"
+    },
+    {
+      "path": "03_demo/3-0_book_all/3_2_02_米联客2025版FPSoc_SDK高级篇.pdf",
+      "bytes": 28808067,
+      "sha256": "72238e2383e2c6b4bd10d76e96eea6371ae24962546cef38ce2b55d6de01791d"
+    },
+    {
+      "path": "03_demo/3-0_book_all/3_2_02_米联客2025版FPSoc_SDK高级篇.txt",
+      "bytes": 188353,
+      "sha256": "10f4b05659bea2aae02979af3a81c60a5c8c9a368d082ea8783294fc4eca992f"
+    },
+    {
+      "path": "03_demo/3-1_ex_fpga/3_1_02_ex_fpga_udp/资料版本对应硬件搭配使用情况(必读!!!!!).txt",
+      "bytes": 127,
+      "sha256": "e86d0cd48f4f9f9b4a9a99e49e3dc0ef07c9539887ab267191e20cc0b7ea5c61"
+    },
+    {
+      "path": "03_demo/3-4_ex_soc_linux/ebook/3-4-01_米联客2024版安路F3P-CZ02-FPSoc Linux基础入门篇.pdf",
+      "bytes": 3735089,
+      "sha256": "68f27724c3e05be77ec3fa505427a3614ab589f5c5a4ff09272cb3e018201656"
+    },
+    {
+      "path": "03_demo/3-4_ex_soc_linux/ebook/3-4-01_米联客2024版安路F3P-CZ02-FPSoc Linux基础入门篇.txt",
+      "bytes": 75212,
+      "sha256": "31db7b4743c3a8dd0038d012cd7cdee658936de85ceab9665254451bb44f2198"
+    },
+    {
+      "path": "03_demo/3-4_ex_soc_linux/ebook/3-4-02_米联客2024版安路F3P-CZ02-FPSoC Linux驱动开发篇.pdf",
+      "bytes": 25547684,
+      "sha256": "d4521b7c2fd2a3a84f098b5c29ddcce521d6356c4960bd1abd732a38987a38b6"
+    },
+    {
+      "path": "03_demo/3-4_ex_soc_linux/ebook/3-4-02_米联客2024版安路F3P-CZ02-FPSoC Linux驱动开发篇.txt",
+      "bytes": 423101,
+      "sha256": "855652c2919440f28b0122c59558d4311b2f2fffbd52863e8872af5e9846ddec"
+    },
+    {
+      "path": "F3P_DR1M90G资料大纲.txt",
+      "bytes": 2355,
+      "sha256": "2a655a21f8483fb60a59d4d1f1950b6bfc4b85184055b665028d43c6b2d6b346"
+    },
+    {
+      "path": "soc_prj/Untitled.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "archives": [
+    {
+      "path": "01_start/01_start_fpga/00_for_starter/00_for_starter.zip",
+      "bytes": 4020011
+    },
+    {
+      "path": "01_start/01_start_fpga/01_board_tset/01_board_tset.zip",
+      "bytes": 478270
+    },
+    {
+      "path": "01_start/01_start_fpga/02_peripheral_demo/02_peripheral_demo.zip",
+      "bytes": 93308360
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_DAQ001/01_demo/02_adc_daq7606_wave.zip",
+      "bytes": 4750030
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_DAQ001/02_hardware/FEP-DAQ001-HW-20250108.zip",
+      "bytes": 7039527
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_DAQ002/01_demo/01_demo.zip",
+      "bytes": 9024668
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_DAQ002/02_hardware/FEP-DAQ002-HW-V20260622.rar",
+      "bytes": 16893864
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_DAQ006/01_demo/01_demo.zip",
+      "bytes": 9245119
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_DAQ006/02_hardware/01_hardware.rar",
+      "bytes": 4888506
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_HDMI7611/01_demo/01_demo.zip",
+      "bytes": 9005917
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_VID005/01_demo/01_demo.zip",
+      "bytes": 102918020
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_VID005/01_demo/米联客7寸MIPI总成资料.zip",
+      "bytes": 8611833
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_VID005/02_hardware/HW-FEP-VID005-MIPI.zip",
+      "bytes": 2544109
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_VID006/01_demo/01_demo.zip",
+      "bytes": 86735072
+    },
+    {
+      "path": "01_start/01_start_fpga/03_mlk_card_demo/MLK_FEP_VID006/02_hardware/HW-FEP-VID006-MIPI-CSIX2.zip",
+      "bytes": 2710973
+    },
+    {
+      "path": "01_start/01_start_fpga/04_software/software.rar",
+      "bytes": 93991420
+    },
+    {
+      "path": "01_start/02_start_Linux/04_secondary_developmemt/demo.zip",
+      "bytes": 114924599
+    },
+    {
+      "path": "01_start/02_start_Linux/05_application_demo/05-1_QT环境搭建及demo演示/demo.zip",
+      "bytes": 595638574
+    },
+    {
+      "path": "01_start/02_start_Linux/05_application_demo/05-1_QT环境搭建及demo演示/soc_prj.zip",
+      "bytes": 73257487
+    },
+    {
+      "path": "01_start/02_start_Linux/05_application_demo/05-3_PL端多网口方案/demo.zip",
+      "bytes": 291590577
+    },
+    {
+      "path": "01_start/02_start_Linux/05_application_demo/05-4_无线通信方案/4G.zip",
+      "bytes": 45230414
+    },
+    {
+      "path": "01_start/02_start_Linux/05_application_demo/05-4_无线通信方案/WIFI.zip",
+      "bytes": 70347759
+    },
+    {
+      "path": "01_start/02_start_Linux/05_application_demo/05-5_NPU/demo.zip",
+      "bytes": 279913795
+    },
+    {
+      "path": "01_start/02_start_Linux/05_application_demo/05-5_NPU/soc_prj.zip",
+      "bytes": 158702445
+    },
+    {
+      "path": "02_hardware/hardware_MLK_F3P_CZ02_DR1_20250526.zip",
+      "bytes": 81316506
+    },
+    {
+      "path": "03_demo/3-1_ex_fpga/3_1_01_fpga_base/3_1_01_fpga_base.zip",
+      "bytes": 66832954
+    },
+    {
+      "path": "03_demo/3-1_ex_fpga/3_1_02_ex_fpga_udp/3_1_02_fpga_udp.zip",
+      "bytes": 491321649
+    },
+    {
+      "path": "03_demo/3-1_ex_fpga/3_1_02_ex_fpga_udp/3_1_02_fpga_udp_down.rar",
+      "bytes": 475226114
+    },
+    {
+      "path": "03_demo/3-1_ex_fpga/3_1_03_ex_fpga_image_adv_cs500/3_1_03_ex_fpga_image_adv.zip",
+      "bytes": 1344076575
+    },
+    {
+      "path": "03_demo/3-1_ex_fpga/3_1_03_ex_fpga_image_adv_imx415/3_1_03_ex_fpga_image_adv_imx415.zip",
+      "bytes": 731114036
+    },
+    {
+      "path": "03_demo/3-2_ex_fpsoc/3_2_01_sdk_base.rar",
+      "bytes": 900414885
+    },
+    {
+      "path": "03_demo/3-2_ex_fpsoc/3_2_02_sdk_adv.rar",
+      "bytes": 815163471
+    },
+    {
+      "path": "03_demo/3-4_ex_soc_linux/01_ex_linux_base_F3P_DR1M90G.zip",
+      "bytes": 121364628
+    },
+    {
+      "path": "03_demo/3-4_ex_soc_linux/02_ex_linux_drive_F3P_DR1M90G.zip",
+      "bytes": 1040244482
+    },
+    {
+      "path": "04_培训demo/01_fdma_vdma_20251010/fdma_imx415_20251008.rar",
+      "bytes": 98050692
+    },
+    {
+      "path": "04_培训demo/01_fdma_vdma_20251010/fdma_test_20251008.rar",
+      "bytes": 51637373
+    },
+    {
+      "path": "04_培训demo/01_fdma_vdma_20251010/fdma_vdma_adc_20251008.rar",
+      "bytes": 78248078
+    },
+    {
+      "path": "04_培训demo/01_fdma_vdma_20251010/fdma_vdma_imx415_20251010.rar",
+      "bytes": 117528781
+    },
+    {
+      "path": "04_培训demo/01_fdma_vdma_20251010/fdma_vdma_tpg_20251010.rar",
+      "bytes": 75708497
+    },
+    {
+      "path": "04_培训demo/01_fdma_vdma_20251010/fdma_video_tpg_20251008.rar",
+      "bytes": 57650557
+    }
+  ]
+}

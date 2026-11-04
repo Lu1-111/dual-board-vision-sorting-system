@@ -1,0 +1,51 @@
+{
+  "files": 504,
+  "readable": 504,
+  "exact_unique": 504,
+  "training_candidates": 495,
+  "classes": {
+    "empty": 121,
+    "object_present": 149,
+    "hand_present": 225
+  },
+  "excluded": [
+    {
+      "file": "b02_25_challenge_off_belt_left.png",
+      "reason": "边界工况，原清单无三分类标签"
+    },
+    {
+      "file": "b02_26_challenge_off_belt_right.png",
+      "reason": "边界工况，原清单无三分类标签"
+    },
+    {
+      "file": "b02_27_challenge_upper_rail_straddle.png",
+      "reason": "边界工况，原清单无三分类标签"
+    },
+    {
+      "file": "b02_28_challenge_lower_rail_straddle.png",
+      "reason": "边界工况，原清单无三分类标签"
+    },
+    {
+      "file": "challenge_off_belt.png",
+      "reason": "边界工况，原清单无三分类标签"
+    },
+    {
+      "file": "challenge_rail.png",
+      "reason": "边界工况，原清单无三分类标签"
+    },
+    {
+      "file": "confusion_matrices.png",
+      "reason": "训练报告图表，不是场景照片"
+    },
+    {
+      "file": "training_curves.png",
+      "reason": "训练报告图表，不是场景照片"
+    },
+    {
+      "file": "training_curves_2092c40217.png",
+      "reason": "训练报告图表，不是场景照片"
+    }
+  ],
+  "review": "全部缩略图目视浏览并对照原清单；未做逐张全尺寸精细审核，未完成近重复聚类。",
+  "source_note": "包含331张原合成训练图、79张新增合成图及其他参考/测试照片。若全部用于新模型训练，原测试图不再是新模型的独立测试集。"
+}

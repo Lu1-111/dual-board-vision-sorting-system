@@ -1,0 +1,37 @@
+{
+  "torch": "2.7.1+cu128",
+  "cpu": "Intel Core Ultra7 255HX",
+  "cpu_threads": 4,
+  "batch_size": 1,
+  "warmup": 30,
+  "repeats": 200,
+  "scope": "FP32 current workstation. End-to-end includes disk image open, L conversion, bilinear interpolation and transfer. No FPGA/INT8 claim.",
+  "devices": {
+    "cpu": {
+      "hardware": "Intel Core Ultra7 255HX",
+      "forward": {
+        "median_ms": 2.5425005005672574,
+        "p95_ms": 2.63135630520992,
+        "median_fps": 393.31359021439323
+      },
+      "end_to_end": {
+        "median_ms": 3.5639135021483526,
+        "p95_ms": 3.7590034000459127,
+        "median_fps": 280.5904238128094
+      }
+    },
+    "cuda": {
+      "hardware": "NVIDIA GeForce RTX 5060 Laptop GPU",
+      "forward": {
+        "median_ms": 0.9842420040513389,
+        "p95_ms": 1.092820693156682,
+        "median_fps": 1016.0102859701151
+      },
+      "end_to_end": {
+        "median_ms": 1.904267497593537,
+        "p95_ms": 2.0624052012863103,
+        "median_fps": 525.1363063559721
+      }
+    }
+  }
+}

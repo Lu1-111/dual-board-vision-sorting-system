@@ -1,0 +1,12 @@
+{
+  "version": "V28",
+  "original_frozen_at": "2026-11-02T10:45:12.667723+08:00",
+  "selected_epoch": 95,
+  "threshold": 0.88,
+  "weights_sha256": "49eb907aaeee7733715083b60230c382ec6628ceb4de7678da011c9f3cc38f76",
+  "torchscript_sha256": "12132fef2dc03bd3902ec4cf27686d3911f1260675b5869f1b36e2ef3ded8de9",
+  "config_sha256": "6610c89dec5fcd814f29cdc2a8c7b345954e4812b94c1ff054868911b69a17a7",
+  "scope": "Only triangular corner defects; all main961 images preserved",
+  "evaluation_limitation": "Weights, threshold, preprocessing and aggregation fixed before142-image V28 regression evaluation. The retained142-image holdout was exposed during earlier development, so results are internal regression, not independent field validation. Model selection and threshold use only the146-image validation split.",
+  "reorganization": "Model parameter files unchanged. Source entrypoints and data paths moved; full dataset and inference parity checked separately."
+}

@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "confirmed": false,
+  "coordinate_frame": "arm_current_cm",
+  "unknown_class_policy": "hold",
+  "pick_z_cm": null,
+  "safe_lift_z_cm": null,
+  "gripper_open_deg": null,
+  "gripper_closed_deg": null,
+  "observation_pulses_us": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "zones": {
+    "red": {
+      "zone": "A",
+      "place_xyz_cm": [
+        null,
+        null,
+        null
+      ]
+    },
+    "yellow": {
+      "zone": "B",
+      "place_xyz_cm": [
+        null,
+        null,
+        null
+      ]
+    },
+    "blue": {
+      "zone": "C",
+      "place_xyz_cm": [
+        null,
+        null,
+        null
+      ]
+    },
+    "green_good": {
+      "zone": "D",
+      "place_xyz_cm": [
+        null,
+        null,
+        null
+      ]
+    },
+    "green_defect": {
+      "zone": "E",
+      "place_xyz_cm": [
+        null,
+        null,
+        null
+      ]
+    }
+  },
+  "pitch_deg": null,
+  "wrist_roll_deg": null,
+  "move_ms": 1000,
+  "grip_ms": 500,
+  "settle_ms": 300,
+  "vision_reference": {}
+}

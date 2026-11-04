@@ -1,0 +1,37 @@
+{
+  "input_name": "images",
+  "shape": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "dtype": "float32",
+  "channel_order": "RGB",
+  "scaling": "uint8 / 255.0; no additional mean/std",
+  "resize": "PIL bilinear; preserve aspect ratio",
+  "rounding": "int(original_dimension * min(224/width,224/height) + 0.5)",
+  "padding": {
+    "rgb": [
+      114,
+      114,
+      114
+    ],
+    "placement": "center; left/top use integer floor, remainder on right/bottom"
+  },
+  "roi": "full frame; must revalidate if changed",
+  "output_name": "logits",
+  "classes": [
+    "empty",
+    "object_present",
+    "hand_present"
+  ],
+  "softmax": "host side",
+  "provisional_uncertain_threshold": 0.8,
+  "uncertain_note": "Convenience threshold, not safety calibrated; high confidence does not prove in-distribution input.",
+  "interpretation": {
+    "empty": "No blue cube and no visible hand in the inspected workcell",
+    "object_present": "Blue cube visible, no hand; does not guarantee correct belt position or defect-free cube",
+    "hand_present": "Visible hand or forearm; takes precedence over cube presence"
+  }
+}

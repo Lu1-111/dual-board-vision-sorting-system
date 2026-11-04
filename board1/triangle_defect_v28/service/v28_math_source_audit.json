@@ -1,0 +1,29 @@
+{
+  "baseline_zip": "D:/QQ/document/triangle_defect_npu_v28.zip",
+  "member": "triangle_defect_npu_v28/board/main.cpp",
+  "original_main_sha256": "6e4d88ecc9935c5e5bab0b6204c27537f5bd938793fb6a54b3c823e73cf4a720",
+  "current_main_sha256": "c2d226c6232ef43e950f369b0388113618b341f7fdf84e0f5ee819d2a8fc65b6",
+  "math_functions": [
+    {
+      "function": "locate",
+      "unchanged": true,
+      "original_sha256": "3e4c8046f48cb0e4beeab0d7182fb90a9760a38e61f611a2d0e48de2adeaa66b"
+    },
+    {
+      "function": "input",
+      "unchanged": true,
+      "original_sha256": "bb81975372d3083f3d417b01ebabae42a1ec812e2cbc70061bf5359fba1b3c57"
+    },
+    {
+      "function": "infer",
+      "unchanged": true,
+      "original_sha256": "120b2914cf0e88c79221108386d9f009643df42232ca088f729c38da041d35c2"
+    },
+    {
+      "function": "process",
+      "unchanged": true,
+      "original_sha256": "856c06b5144b71d4528046892c14e6f4565cc261a96b93f6d8979a9c26a5a357"
+    }
+  ],
+  "scope": "Text equivalence against exact user zip; does not replace runtime/transport regression"
+}

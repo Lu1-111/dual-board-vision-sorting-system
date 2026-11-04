@@ -1,0 +1,7 @@
+{
+  "parameters": 250649,
+  "convolution_MACs": 167538304,
+  "MAC_scope": "Convolution only, excludes preprocessing and average pools, normalization, activation.1MAC is multiply-accumulate.",
+  "weights_bytes": 1074581,
+  "torchscript_bytes": 1297889
+}

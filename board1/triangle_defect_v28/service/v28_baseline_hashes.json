@@ -1,0 +1,30 @@
+{
+  "board/runtime_executor.cpp": {
+    "bytes": 21309,
+    "sha256": "4d5789f085c13ca6a17bafe357e9b7945c21d8069337debec64d8beea97ed32d"
+  },
+  "board/gray_resize.hpp": {
+    "bytes": 1659,
+    "sha256": "562de83f141a653ef915e1b8bad24aa5068587334c84b46b9af232fb6d24ee78"
+  },
+  "board/fast_tracker.hpp": {
+    "bytes": 12353,
+    "sha256": "e5bd1fc9ab68619787f11e4db9c0374eb4550efe9ba60a3a4345fd8d2410122c"
+  },
+  "board/indexed_executor.hpp": {
+    "bytes": 1387,
+    "sha256": "1b18406aa2e1cab2452d610254ecfff3880ff49a7fc4a6f221f63fe2d5f8b09c"
+  },
+  "package/deployment_contract.json": {
+    "bytes": 2146,
+    "sha256": "406694564bde77235946d3d77df6350ac6f23502cbb0f8ad369829adae0ac7ac"
+  },
+  "package/models/triangle_v28_features_fp32.onnx": {
+    "bytes": 793466,
+    "sha256": "108d66f9faeea396a22adba1d039c0b4bbeb4c547d48018589532b951f0ccbf7"
+  },
+  "package/models/triangle_v28_head_uint8.onnx": {
+    "bytes": 65831,
+    "sha256": "dcbe3b45e1eb3c0bb797aa93eb147ecd5c6f119f833abb588bb1f6c8cf0d2168"
+  }
+}

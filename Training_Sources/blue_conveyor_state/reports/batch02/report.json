@@ -1,0 +1,1091 @@
+{
+  "batch": "batch02",
+  "scope": "Same fixed conveyor, fixed viewpoint, blue cubes only. New post-training synthetic tests; no model updates.",
+  "n": 28,
+  "classification_count": 24,
+  "boundary_count": 4,
+  "threshold": 0.8,
+  "plan_sha256": "0ddf8525b55ec1bf05906bd460ffc87c553231489babfff974dfafff104f1422",
+  "manifest_sha256": "0987cb3c636719ec5c7ccb12512a0966e16f461ffc62ca713b339270f31dffd1",
+  "model_hashes": {
+    "best.pt": "1c48eba4c01271c51fcb1571e21e037fe3024923537a6625124bb8cbe23437ae",
+    "workcell_tiny_fp32.onnx": "fef255e8ba5078ad5b1ef065721cc6ff44d86c578f0abd8998441b35dbe2ab07",
+    "workcell_tiny_int8_qdq.onnx": "a68c9609ec23e50e1146f0f1b5ee6e0b0fe59fa203a0979eba032e87516aa3c7"
+  },
+  "model_or_threshold_changed": false,
+  "environment": {
+    "python": "3.11.17",
+    "numpy": "1.26.4",
+    "pillow": "13.0.0",
+    "onnxruntime": "1.22.1",
+    "provider": "CPUExecutionProvider"
+  },
+  "exact_duplicates_with_training_reference_or_previous_test": 0,
+  "fp32": {
+    "n": 24,
+    "correct": 22,
+    "accuracy": 0.9166666666666666,
+    "macro_f1": 0.9165032679738562,
+    "confusion_matrix": [
+      [
+        7,
+        1,
+        0
+      ],
+      [
+        0,
+        7,
+        1
+      ],
+      [
+        0,
+        0,
+        8
+      ]
+    ],
+    "per_class": [
+      {
+        "class_name": "empty",
+        "support": 8,
+        "correct": 7,
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1": 0.9333333333333333
+      },
+      {
+        "class_name": "object_present",
+        "support": 8,
+        "correct": 7,
+        "precision": 0.875,
+        "recall": 0.875,
+        "f1": 0.875
+      },
+      {
+        "class_name": "hand_present",
+        "support": 8,
+        "correct": 8,
+        "precision": 0.8888888888888888,
+        "recall": 1.0,
+        "f1": 0.9411764705882353
+      }
+    ],
+    "uncertain_count": 2,
+    "coverage": 0.9166666666666666,
+    "high_confidence_error_count": 0,
+    "minimum_max_probability": 0.4468279182910919
+  },
+  "int8": {
+    "n": 24,
+    "correct": 23,
+    "accuracy": 0.9583333333333334,
+    "macro_f1": 0.9581699346405229,
+    "confusion_matrix": [
+      [
+        7,
+        1,
+        0
+      ],
+      [
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        0,
+        8
+      ]
+    ],
+    "per_class": [
+      {
+        "class_name": "empty",
+        "support": 8,
+        "correct": 7,
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1": 0.9333333333333333
+      },
+      {
+        "class_name": "object_present",
+        "support": 8,
+        "correct": 8,
+        "precision": 0.8888888888888888,
+        "recall": 1.0,
+        "f1": 0.9411764705882353
+      },
+      {
+        "class_name": "hand_present",
+        "support": 8,
+        "correct": 8,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ],
+    "uncertain_count": 3,
+    "coverage": 0.875,
+    "high_confidence_error_count": 0,
+    "minimum_max_probability": 0.5094972848892212
+  },
+  "fp32_int8_prediction_agreement": 0.9642857142857143,
+  "boundary_int8_states": {
+    "empty": 2,
+    "uncertain": 1,
+    "object_present": 1
+  },
+  "evaluated_unix_time": 1793590466.3977268,
+  "predictions": [
+    {
+      "id": "b02_01_empty_diagonal_hard_shadow",
+      "title": "空带＋斜向硬阴影",
+      "expected_class": "empty",
+      "suite": "classification",
+      "condition": "diagonal_hard_shadow",
+      "path": "images/b02_01_empty_diagonal_hard_shadow.png",
+      "review_note": "空带无块无手，有斜向阴影；阴影边界比设计中的硬阴影更柔和。",
+      "sha256": "a2b296c4e87d23991566c0387a334fd5568ed231e04ee601996ef74c75d693b9",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "empty",
+        "confidence": 0.982053279876709,
+        "probabilities": {
+          "empty": 0.982053279876709,
+          "object_present": 0.009040755219757557,
+          "hand_present": 0.008906020782887936
+        },
+        "state": "empty",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "empty",
+        "confidence": 0.9822894930839539,
+        "probabilities": {
+          "empty": 0.9822894930839539,
+          "object_present": 0.00985313393175602,
+          "hand_present": 0.007857409305870533
+        },
+        "state": "empty",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_02_empty_hand_shaped_shadow",
+      "title": "空带＋手形阴影",
+      "expected_class": "empty",
+      "suite": "classification",
+      "condition": "hand_shaped_shadow",
+      "path": "images/b02_02_empty_hand_shaped_shadow.png",
+      "review_note": "空带无块无手，只有模糊手形阴影。",
+      "sha256": "74c49ae526fb8d5472a88875863458e85ba42a92dfbf8f36104e5319ec129a11",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "empty",
+        "confidence": 0.9843786358833313,
+        "probabilities": {
+          "empty": 0.9843786358833313,
+          "object_present": 0.008262082003057003,
+          "hand_present": 0.007359251845628023
+        },
+        "state": "empty",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "empty",
+        "confidence": 0.9832095503807068,
+        "probabilities": {
+          "empty": 0.9832095503807068,
+          "object_present": 0.009497261606156826,
+          "hand_present": 0.007293246686458588
+        },
+        "state": "empty",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_03_empty_warm_bright",
+      "title": "空带＋暖光高亮",
+      "expected_class": "empty",
+      "suite": "classification",
+      "condition": "warm_bright",
+      "path": "images/b02_03_empty_warm_bright.png",
+      "review_note": "空带无块无手，场景呈暖色高亮，金属边轨有暖光反射。",
+      "sha256": "abe439e3e84440de3c0a955be75b93857157062fbff07658ec319ffd175aabcb",
+      "width": 1671,
+      "height": 941,
+      "fp32": {
+        "prediction": "empty",
+        "confidence": 0.9818482398986816,
+        "probabilities": {
+          "empty": 0.9818482398986816,
+          "object_present": 0.00897475890815258,
+          "hand_present": 0.009176983498036861
+        },
+        "state": "empty",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "empty",
+        "confidence": 0.9829932451248169,
+        "probabilities": {
+          "empty": 0.9829932451248169,
+          "object_present": 0.009143667295575142,
+          "hand_present": 0.007863038219511509
+        },
+        "state": "empty",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_04_empty_cool_dim",
+      "title": "空带＋冷光偏暗",
+      "expected_class": "empty",
+      "suite": "classification",
+      "condition": "cool_dim",
+      "path": "images/b02_04_empty_cool_dim.png",
+      "review_note": "空带无块无手，整体为偏冷、偏暗光照，传送带仍清晰可辨。",
+      "sha256": "bc1ccb1f8807a53165879926a9a2fe2f5057eeb24e209b9d96aa1be575b9cb72",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "object_present",
+        "confidence": 0.5094010829925537,
+        "probabilities": {
+          "empty": 0.3422776460647583,
+          "object_present": 0.5094010829925537,
+          "hand_present": 0.1483212411403656
+        },
+        "state": "uncertain",
+        "correct": false
+      },
+      "int8": {
+        "prediction": "object_present",
+        "confidence": 0.6824474334716797,
+        "probabilities": {
+          "empty": 0.2285476177930832,
+          "object_present": 0.6824474334716797,
+          "hand_present": 0.08900496363639832
+        },
+        "state": "uncertain",
+        "correct": false
+      }
+    },
+    {
+      "id": "b02_05_empty_localized_glare",
+      "title": "空带＋局部反光",
+      "expected_class": "empty",
+      "suite": "classification",
+      "condition": "localized_glare",
+      "path": "images/b02_05_empty_localized_glare.png",
+      "review_note": "空带无块无手，带面中部有局部反光，主要结构保持一致。",
+      "sha256": "f0462b9fae2197b5d6df73e344a766b84ba9ccf33c7cf89b46b8cbb5064144cf",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "empty",
+        "confidence": 0.974042534828186,
+        "probabilities": {
+          "empty": 0.974042534828186,
+          "object_present": 0.012262362986803055,
+          "hand_present": 0.013695167377591133
+        },
+        "state": "empty",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "empty",
+        "confidence": 0.974470317363739,
+        "probabilities": {
+          "empty": 0.974470317363739,
+          "object_present": 0.013726064935326576,
+          "hand_present": 0.011803640983998775
+        },
+        "state": "empty",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_06_empty_soft_focus",
+      "title": "空带＋轻度失焦",
+      "expected_class": "empty",
+      "suite": "classification",
+      "condition": "soft_focus",
+      "path": "images/b02_06_empty_soft_focus.png",
+      "review_note": "空带无块无手，整幅画面呈轻度失焦。",
+      "sha256": "a89cac9e3ba73fa7845f6702f56bcbc10917a6e0e41ab60b0cd3d4a0d6e5a2e8",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "empty",
+        "confidence": 0.981917679309845,
+        "probabilities": {
+          "empty": 0.981917679309845,
+          "object_present": 0.009106425568461418,
+          "hand_present": 0.008975950069725513
+        },
+        "state": "empty",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "empty",
+        "confidence": 0.9822894930839539,
+        "probabilities": {
+          "empty": 0.9822894930839539,
+          "object_present": 0.00985313393175602,
+          "hand_present": 0.007857409305870533
+        },
+        "state": "empty",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_07_empty_grain_low_light",
+      "title": "空带＋低光噪声",
+      "expected_class": "empty",
+      "suite": "classification",
+      "condition": "grain_low_light",
+      "path": "images/b02_07_empty_grain_low_light.png",
+      "review_note": "空带无块无手，光照略暗，可见轻微颗粒；实际低光与噪声强度较轻。",
+      "sha256": "237f43a3a2aa053bf916d7cb4e4abbfdc2195625296e6dc228f971ad9a2de685",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "empty",
+        "confidence": 0.9842302203178406,
+        "probabilities": {
+          "empty": 0.9842302203178406,
+          "object_present": 0.006394718308001757,
+          "hand_present": 0.009375115856528282
+        },
+        "state": "empty",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "empty",
+        "confidence": 0.985104501247406,
+        "probabilities": {
+          "empty": 0.985104501247406,
+          "object_present": 0.007307303138077259,
+          "hand_present": 0.007588214706629515
+        },
+        "state": "empty",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_08_empty_banded_shadow",
+      "title": "空带＋条带阴影",
+      "expected_class": "empty",
+      "suite": "classification",
+      "condition": "banded_shadow",
+      "path": "images/b02_08_empty_banded_shadow.png",
+      "review_note": "空带无块无手，两条宽而柔和的条带阴影横跨带面。",
+      "sha256": "8e9506e1241cc894972267cbe22b3f9d5cecd9878507f6ac3bc4e31162f99322",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "empty",
+        "confidence": 0.9838811159133911,
+        "probabilities": {
+          "empty": 0.9838811159133911,
+          "object_present": 0.008499888703227043,
+          "hand_present": 0.0076190149411559105
+        },
+        "state": "empty",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "empty",
+        "confidence": 0.9844106435775757,
+        "probabilities": {
+          "empty": 0.9844106435775757,
+          "object_present": 0.008817870169878006,
+          "hand_present": 0.006771518848836422
+        },
+        "state": "empty",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_09_object_far_left",
+      "title": "蓝块在传送带左端",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "condition": "far_left",
+      "path": "images/b02_09_object_far_left.png",
+      "review_note": "蓝块位于传送带左端，完整在画面和带内，无手。",
+      "sha256": "9722c1e3ed7594d9c4fc419a08b033853a52e0ad2077e0c3b3057b5767563ebd",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "object_present",
+        "confidence": 0.991472601890564,
+        "probabilities": {
+          "empty": 0.004314355086535215,
+          "object_present": 0.991472601890564,
+          "hand_present": 0.00421303091570735
+        },
+        "state": "object_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "object_present",
+        "confidence": 0.9923794269561768,
+        "probabilities": {
+          "empty": 0.004025617614388466,
+          "object_present": 0.9923794269561768,
+          "hand_present": 0.0035948867443948984
+        },
+        "state": "object_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_10_object_near_upper_rail",
+      "title": "蓝块靠上边轨、完全在带内",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "condition": "near_upper_rail",
+      "path": "images/b02_10_object_near_upper_rail.png",
+      "review_note": "蓝块靠近上边轨，底部仍位于绿色传送带内，无手。",
+      "sha256": "e46ad20a59a9a651baa32bb2dc68aba12e3895ac9f530255636099a077896a0e",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "object_present",
+        "confidence": 0.9854832887649536,
+        "probabilities": {
+          "empty": 0.0012970180250704288,
+          "object_present": 0.9854832887649536,
+          "hand_present": 0.013219772838056087
+        },
+        "state": "object_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "object_present",
+        "confidence": 0.990497887134552,
+        "probabilities": {
+          "empty": 0.0009582379134371877,
+          "object_present": 0.990497887134552,
+          "hand_present": 0.008543944917619228
+        },
+        "state": "object_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_11_object_near_lower_rail",
+      "title": "蓝块靠下边轨、完全在带内",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "condition": "near_lower_rail",
+      "path": "images/b02_11_object_near_lower_rail.png",
+      "review_note": "蓝块靠近下边轨，底部完整位于绿色传送带内，无手。",
+      "sha256": "850a49b3a7fbc116efd2dc79341530e75bfe4828fc5ef31a3ec5c1383ef6f6b3",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.4468279182910919,
+        "probabilities": {
+          "empty": 0.17042233049869537,
+          "object_present": 0.38274967670440674,
+          "hand_present": 0.4468279182910919
+        },
+        "state": "uncertain",
+        "correct": false
+      },
+      "int8": {
+        "prediction": "object_present",
+        "confidence": 0.5094972848892212,
+        "probabilities": {
+          "empty": 0.2221911996603012,
+          "object_present": 0.5094972848892212,
+          "hand_present": 0.2683115303516388
+        },
+        "state": "uncertain",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_12_object_far_right_dim",
+      "title": "蓝块在传送带右端＋偏暗",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "condition": "far_right_dim",
+      "path": "images/b02_12_object_far_right_dim.png",
+      "review_note": "蓝块位于传送带右端，光照偏暗，无手。",
+      "sha256": "b6e957a21f6f19ef11396b396fef91312ff4c389245b10259f19164d29d1c3a0",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "object_present",
+        "confidence": 0.9766279458999634,
+        "probabilities": {
+          "empty": 0.005099134519696236,
+          "object_present": 0.9766279458999634,
+          "hand_present": 0.018272986635565758
+        },
+        "state": "object_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "object_present",
+        "confidence": 0.9861554503440857,
+        "probabilities": {
+          "empty": 0.0035723387263715267,
+          "object_present": 0.9861554503440857,
+          "hand_present": 0.010272182524204254
+        },
+        "state": "object_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_13_object_rotated_center",
+      "title": "蓝块居中旋转",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "condition": "rotated_center",
+      "path": "images/b02_13_object_rotated_center.png",
+      "review_note": "蓝块位于带面中央，明显旋转，无手。",
+      "sha256": "91278f8ff021a9653abdfcc973b48b8dc63c027c75685306f464c5f94713ca66",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "object_present",
+        "confidence": 0.9894223809242249,
+        "probabilities": {
+          "empty": 0.002936073113232851,
+          "object_present": 0.9894223809242249,
+          "hand_present": 0.007641526870429516
+        },
+        "state": "object_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "object_present",
+        "confidence": 0.9916704893112183,
+        "probabilities": {
+          "empty": 0.002463484415784478,
+          "object_present": 0.9916704893112183,
+          "hand_present": 0.005866069346666336
+        },
+        "state": "object_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_14_object_defect_left",
+      "title": "缺角蓝块在左侧",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "condition": "defect_left",
+      "path": "images/b02_14_object_defect_left.png",
+      "review_note": "蓝块在带面偏左，右上角有清晰缺损，无手；本模型的物块在位类别包含缺角蓝块。",
+      "sha256": "4a1d34caf8da03597a1a74ddbc0ab407489f24d8ec619fea5b685d0246bef692",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "object_present",
+        "confidence": 0.9983223080635071,
+        "probabilities": {
+          "empty": 0.00038749651866964996,
+          "object_present": 0.9983223080635071,
+          "hand_present": 0.0012902289163321257
+        },
+        "state": "object_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "object_present",
+        "confidence": 0.9987912774085999,
+        "probabilities": {
+          "empty": 0.0002782735100481659,
+          "object_present": 0.9987912774085999,
+          "hand_present": 0.0009304906707257032
+        },
+        "state": "object_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_15_object_shadow_over_cube",
+      "title": "蓝块＋遮光阴影",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "condition": "shadow_over_cube",
+      "path": "images/b02_15_object_shadow_over_cube.png",
+      "review_note": "蓝块位于带内，斜向阴影覆盖左侧部分，轮廓及蓝色仍可辨，无手。",
+      "sha256": "99919102ba098b9d5a7e8767979e18e1689907596883d057078e8b92bd1e7f92",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "object_present",
+        "confidence": 0.9777039289474487,
+        "probabilities": {
+          "empty": 0.004702671431005001,
+          "object_present": 0.9777039289474487,
+          "hand_present": 0.017593400552868843
+        },
+        "state": "object_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "object_present",
+        "confidence": 0.984187126159668,
+        "probabilities": {
+          "empty": 0.0034332263749092817,
+          "object_present": 0.984187126159668,
+          "hand_present": 0.012379626743495464
+        },
+        "state": "object_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_16_object_slight_motion_blur",
+      "title": "蓝块＋轻微运动模糊",
+      "expected_class": "object_present",
+      "suite": "classification",
+      "condition": "slight_motion_blur",
+      "path": "images/b02_16_object_slight_motion_blur.png",
+      "review_note": "蓝块在带内，沿传送方向有明显拖影，背景保持清晰，无手；运动模糊强于设计的轻微程度。",
+      "sha256": "05da2437c80514ef05bd2248474c872b788f1f08482e98078ef9f437bfab360b",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "object_present",
+        "confidence": 0.9928841590881348,
+        "probabilities": {
+          "empty": 0.0010680945124477148,
+          "object_present": 0.9928841590881348,
+          "hand_present": 0.0060477666556835175
+        },
+        "state": "object_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "object_present",
+        "confidence": 0.9947890043258667,
+        "probabilities": {
+          "empty": 0.0008594156242907047,
+          "object_present": 0.9947890043258667,
+          "hand_present": 0.004351617768406868
+        },
+        "state": "object_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_17_hand_two_fingertips",
+      "title": "两根手指刚伸入传送带",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "condition": "two_fingertips",
+      "path": "images/b02_17_hand_two_fingertips.png",
+      "review_note": "两根手指跨上轨进入传送带，手背也明显可见；不能代表只露出极少指尖的情况。",
+      "sha256": "e7262db41f59d67736dd28a3fa65b03c54d8d1c4874db47b87ea2d74acae8b88",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9336926937103271,
+        "probabilities": {
+          "empty": 0.000764957454521209,
+          "object_present": 0.0655423253774643,
+          "hand_present": 0.9336926937103271
+        },
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.8796680569648743,
+        "probabilities": {
+          "empty": 0.0011950364569202065,
+          "object_present": 0.11913689970970154,
+          "hand_present": 0.8796680569648743
+        },
+        "state": "hand_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_18_hand_partial_palm_empty",
+      "title": "空带＋部分手掌伸入",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "condition": "partial_palm_empty",
+      "path": "images/b02_18_hand_partial_palm_empty.png",
+      "review_note": "空带无块，左侧伸入一只可辨认的手；实际可见范围大于设计的半个手掌。",
+      "sha256": "75344bfc21f540b3b36eccae80f6dbae561b830b41932d438e074e822fd368d3",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.962685227394104,
+        "probabilities": {
+          "empty": 0.034186847507953644,
+          "object_present": 0.0031278859823942184,
+          "hand_present": 0.962685227394104
+        },
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9587174654006958,
+        "probabilities": {
+          "empty": 0.03739345446228981,
+          "object_present": 0.003889066632837057,
+          "hand_present": 0.9587174654006958
+        },
+        "state": "hand_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_19_hand_forearm_empty",
+      "title": "空带＋前臂横穿",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "condition": "forearm_empty",
+      "path": "images/b02_19_hand_forearm_empty.png",
+      "review_note": "裸露前臂横穿工作区，右上可见手，传送带上没有蓝块。",
+      "sha256": "3370094fbb5b69d50c1ec690ab57378c0694e3ddab2609ce7c73414024c9e8b2",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9989039897918701,
+        "probabilities": {
+          "empty": 0.0006578107713721693,
+          "object_present": 0.0004381744656711817,
+          "hand_present": 0.9989039897918701
+        },
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9985068440437317,
+        "probabilities": {
+          "empty": 0.0008306935196742415,
+          "object_present": 0.0006624392117373645,
+          "hand_present": 0.9985068440437317
+        },
+        "state": "hand_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_20_hand_left_pinch",
+      "title": "左手捏住蓝块上角",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "condition": "left_pinch",
+      "path": "images/b02_20_hand_left_pinch.png",
+      "review_note": "左侧伸入一只裸手，捏住传送带上蓝块的上角。",
+      "sha256": "36d401278be10641f4e3e4daf77148e2978233234e08fefb3659d5ffc5cbb532",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9499608278274536,
+        "probabilities": {
+          "empty": 0.010038691572844982,
+          "object_present": 0.04000050574541092,
+          "hand_present": 0.9499608278274536
+        },
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9141430258750916,
+        "probabilities": {
+          "empty": 0.015549058094620705,
+          "object_present": 0.07030788064002991,
+          "hand_present": 0.9141430258750916
+        },
+        "state": "hand_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_21_hand_dark_skin",
+      "title": "较深肤色手取蓝块",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "condition": "dark_skin",
+      "path": "images/b02_21_hand_dark_skin.png",
+      "review_note": "较深肤色的裸手从右侧抓住蓝块，手和蓝块均清晰可辨。",
+      "sha256": "905a793733f9aaf2016be9d64b6fa05f39e6929a7537c60a72372561da8c25c8",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9786262512207031,
+        "probabilities": {
+          "empty": 0.008939918130636215,
+          "object_present": 0.012433876283466816,
+          "hand_present": 0.9786262512207031
+        },
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9695144295692444,
+        "probabilities": {
+          "empty": 0.011308867484331131,
+          "object_present": 0.01917671598494053,
+          "hand_present": 0.9695144295692444
+        },
+        "state": "hand_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_22_hand_blue_sleeve",
+      "title": "蓝色袖口＋手扶蓝块",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "condition": "blue_sleeve",
+      "path": "images/b02_22_hand_blue_sleeve.png",
+      "review_note": "蓝色袖口伸入画面，裸手抓住蓝块；可见手部与袖口，不是仅有蓝色衣物。",
+      "sha256": "6d60b22029482ea4d494275eb69edf7d7e9ca4aea5d1da7ad7c24878e4ddad6b",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.8265853524208069,
+        "probabilities": {
+          "empty": 0.010157930664718151,
+          "object_present": 0.1632567197084427,
+          "hand_present": 0.8265853524208069
+        },
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.7340012788772583,
+        "probabilities": {
+          "empty": 0.01073635183274746,
+          "object_present": 0.2552623748779297,
+          "hand_present": 0.7340012788772583
+        },
+        "state": "uncertain",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_23_hand_shadowed_hand",
+      "title": "偏暗手部抓取",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "condition": "shadowed_hand",
+      "path": "images/b02_23_hand_shadowed_hand.png",
+      "review_note": "裸手抓住蓝块，手部和周围带面受阴影影响，实际暗化程度较轻。",
+      "sha256": "78f646c6677a08a16bb1b8a3cb9e27ce239efb45f8a852d686123758c2b697fe",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9947203397750854,
+        "probabilities": {
+          "empty": 0.0026882165111601353,
+          "object_present": 0.002591486321762204,
+          "hand_present": 0.9947203397750854
+        },
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.993141233921051,
+        "probabilities": {
+          "empty": 0.0029792417772114277,
+          "object_present": 0.003879568772390485,
+          "hand_present": 0.993141233921051
+        },
+        "state": "hand_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_24_hand_hand_over_empty_upper",
+      "title": "空带＋上方悬停手",
+      "expected_class": "hand_present",
+      "suite": "classification",
+      "condition": "hand_over_empty_upper",
+      "path": "images/b02_24_hand_hand_over_empty_upper.png",
+      "review_note": "裸手从画面上方伸入并悬在空带上方，传送带无蓝块。",
+      "sha256": "ea5a74e91b83fbaeb7b52d99531d48d8bc4d8d91f213b6947e3c6b4930bda20f",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9810836911201477,
+        "probabilities": {
+          "empty": 0.01634482480585575,
+          "object_present": 0.002571508288383484,
+          "hand_present": 0.9810836911201477
+        },
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9725168943405151,
+        "probabilities": {
+          "empty": 0.023228947073221207,
+          "object_present": 0.0042541902512311935,
+          "hand_present": 0.9725168943405151
+        },
+        "state": "hand_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "b02_25_challenge_off_belt_left",
+      "title": "蓝块掉到左下带外",
+      "expected_class": null,
+      "suite": "boundary",
+      "condition": "off_belt_left",
+      "path": "images/b02_25_challenge_off_belt_left.png",
+      "review_note": "蓝块完全在下边轨外的纸板上，传送带内为空，无手；作为未训练的边界工况，不计三分类准确率。",
+      "sha256": "f6b7dca54908cec01d876492211f36442e94b5299b591e168898782a6e0c543b",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "empty",
+        "confidence": 0.9674896001815796,
+        "probabilities": {
+          "empty": 0.9674896001815796,
+          "object_present": 0.015491372905671597,
+          "hand_present": 0.017018958926200867
+        },
+        "state": "empty",
+        "correct": null
+      },
+      "int8": {
+        "prediction": "empty",
+        "confidence": 0.9632022976875305,
+        "probabilities": {
+          "empty": 0.9632022976875305,
+          "object_present": 0.019784266129136086,
+          "hand_present": 0.01701335422694683
+        },
+        "state": "empty",
+        "correct": null
+      }
+    },
+    {
+      "id": "b02_26_challenge_off_belt_right",
+      "title": "蓝块掉到右侧带外",
+      "expected_class": null,
+      "suite": "boundary",
+      "condition": "off_belt_right",
+      "path": "images/b02_26_challenge_off_belt_right.png",
+      "review_note": "蓝块完全位于右下方纸板上，与下边轨有间隙，绿色传送带为空，无手；作为未训练的边界工况，不计三分类准确率。",
+      "sha256": "ec97a35bd4b2143ec32cd0807e70e44ccc4f9268a2f125f2f765296211e26d64",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "empty",
+        "confidence": 0.9615797400474548,
+        "probabilities": {
+          "empty": 0.9615797400474548,
+          "object_present": 0.023389559239149094,
+          "hand_present": 0.015030729584395885
+        },
+        "state": "empty",
+        "correct": null
+      },
+      "int8": {
+        "prediction": "empty",
+        "confidence": 0.9552221298217773,
+        "probabilities": {
+          "empty": 0.9552221298217773,
+          "object_present": 0.0297107957303524,
+          "hand_present": 0.01506708562374115
+        },
+        "state": "empty",
+        "correct": null
+      }
+    },
+    {
+      "id": "b02_27_challenge_upper_rail_straddle",
+      "title": "蓝块斜卡上边轨",
+      "expected_class": null,
+      "suite": "boundary",
+      "condition": "upper_rail_straddle",
+      "path": "images/b02_27_challenge_upper_rail_straddle.png",
+      "review_note": "蓝块倾斜跨在上边轨附近，部分位于带外，未完全平放在带面，无手；作为边界工况，不计三分类准确率。",
+      "sha256": "ea3e573975cefc2cec7d54131b8b48fd6fa423f77859f80713f488f0457f228c",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "empty",
+        "confidence": 0.812811017036438,
+        "probabilities": {
+          "empty": 0.812811017036438,
+          "object_present": 0.09831315279006958,
+          "hand_present": 0.08887580037117004
+        },
+        "state": "empty",
+        "correct": null
+      },
+      "int8": {
+        "prediction": "empty",
+        "confidence": 0.7878553867340088,
+        "probabilities": {
+          "empty": 0.7878553867340088,
+          "object_present": 0.14428924024105072,
+          "hand_present": 0.06785532087087631
+        },
+        "state": "uncertain",
+        "correct": null
+      }
+    },
+    {
+      "id": "b02_28_challenge_lower_rail_straddle",
+      "title": "蓝块斜卡下边轨",
+      "expected_class": null,
+      "suite": "boundary",
+      "condition": "lower_rail_straddle",
+      "path": "images/b02_28_challenge_lower_rail_straddle.png",
+      "review_note": "蓝块倾斜跨在下边轨附近，部分伸到带外，没有完全平放于带面，无手；作为边界工况，不计三分类准确率。",
+      "sha256": "06d8371b420ff2fc3ff12493e3a503625c14c61bbf993570053f972371553fd7",
+      "width": 1672,
+      "height": 941,
+      "fp32": {
+        "prediction": "object_present",
+        "confidence": 0.9062391519546509,
+        "probabilities": {
+          "empty": 0.05015456676483154,
+          "object_present": 0.9062391519546509,
+          "hand_present": 0.04360631853342056
+        },
+        "state": "object_present",
+        "correct": null
+      },
+      "int8": {
+        "prediction": "object_present",
+        "confidence": 0.9285996556282043,
+        "probabilities": {
+          "empty": 0.03905694931745529,
+          "object_present": 0.9285996556282043,
+          "hand_present": 0.03234342113137245
+        },
+        "state": "object_present",
+        "correct": null
+      }
+    }
+  ]
+}

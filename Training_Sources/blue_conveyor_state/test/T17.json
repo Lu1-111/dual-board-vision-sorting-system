@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "T17",
+    "index": 17,
+    "lighting": "亮光",
+    "expected_class": "object_present",
+    "instruction": "亮光：蓝块放在带面右侧，完整落在带面内，手移开",
+    "camera_pose": "fixed_session_A",
+    "split": "independent_real_validation"
+  },
+  "photo": {
+    "captured_utc": "1970-01-01T02:39:12.888Z",
+    "format": "jpg",
+    "frame_sequence": "44277",
+    "height": 1080,
+    "photo_id": "dc2b42e3-a04f-413b-a553-f88ee94e491a",
+    "sha256": "9a7504aa25619ecfeb0dc4f4f24f8772efc5f52898df6d87bf7c2a4c2c57d672",
+    "size": 200747,
+    "source": "imx415",
+    "width": 1920
+  },
+  "host_received_at": "2026-11-02T09:26:26.625750+00:00",
+  "split": "independent_real_validation",
+  "label_review_status": "visually_confirmed",
+  "model_freeze": {
+    "fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+    "selected_run": "scratch_v3"
+  },
+  "plan_sha256": "f364735c6c7adc4ca8e9edc1a0f24e6eee4105a67eafaf67b202205949c336e9",
+  "review_note": "亮光计划组，蓝块在带面右端靠边，画面无手；构图延续T16，记录为 object_present。"
+}

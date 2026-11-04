@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "T05",
+    "index": 5,
+    "lighting": "正常光",
+    "expected_class": "object_present",
+    "instruction": "正常光：蓝块放在带面右侧，完整落在带面内，手移开",
+    "camera_pose": "fixed_session_A",
+    "split": "independent_real_validation"
+  },
+  "photo": {
+    "captured_utc": "1970-01-01T02:14:48.710Z",
+    "format": "jpg",
+    "frame_sequence": "18460",
+    "height": 1080,
+    "photo_id": "7f992e73-5f53-4270-bba9-5d693328c8ae",
+    "sha256": "d6f23fe80cc6c9228048ff798932b51f0d91022f4d762b23131b15fbef12ab66",
+    "size": 202542,
+    "source": "imx415",
+    "width": 1920
+  },
+  "host_received_at": "2026-11-02T09:02:02.695387+00:00",
+  "split": "independent_real_validation",
+  "label_review_status": "visually_confirmed",
+  "model_freeze": {
+    "fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+    "selected_run": "scratch_v3"
+  },
+  "plan_sha256": "f364735c6c7adc4ca8e9edc1a0f24e6eee4105a67eafaf67b202205949c336e9",
+  "review_note": "蓝块位于带面右端靠边位置，画面无手；记录为 object_present。"
+}

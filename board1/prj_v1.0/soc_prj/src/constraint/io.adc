@@ -1,0 +1,76 @@
+
+# camera
+# Board CAN0 transceiver (MLK-F3P manual, CAN/RS485 pin table).
+set_pin_assignment { CAN0_TXD } { LOCATION = F20; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment { CAN0_RXD } { LOCATION = F19; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+# mipi
+set_pin_assignment	{ I_clk_hs_p     }	{ LOCATION = N18; IOSTANDARD = LVDS18; PULLTYPE = NONE; }
+
+set_pin_assignment	{ I_data_hs_p[0] }	{ LOCATION = N20; IOSTANDARD = LVDS18; PULLTYPE = NONE;  INDEL = 20;}
+set_pin_assignment	{ I_data_hs_p[1] }	{ LOCATION = R16; IOSTANDARD = LVDS18; PULLTYPE = NONE;  INDEL = 20;}
+set_pin_assignment	{ I_data_hs_p[2] }	{ LOCATION = N17; IOSTANDARD = LVDS18; PULLTYPE = NONE;  INDEL = 20;}
+set_pin_assignment	{ I_data_hs_p[3] }	{ LOCATION = T17; IOSTANDARD = LVDS18; PULLTYPE = NONE;  INDEL = 20;}
+
+set_pin_assignment	{ I_data_lp_p[0] }	{ LOCATION = Y18; IOSTANDARD = LVCMOS18; PULLTYPE = PULLUP; }
+set_pin_assignment	{ I_data_lp_n[0] }	{ LOCATION = Y19; IOSTANDARD = LVCMOS18; PULLTYPE = PULLUP; }
+set_pin_assignment	{ I_data_lp_p[1] }	{ LOCATION = V17; IOSTANDARD = LVCMOS18; PULLTYPE = PULLUP; }
+set_pin_assignment	{ I_data_lp_n[1] }	{ LOCATION = V18; IOSTANDARD = LVCMOS18; PULLTYPE = PULLUP; }
+set_pin_assignment	{ I_data_lp_p[2] }	{ LOCATION = Y16; IOSTANDARD = LVCMOS18; PULLTYPE = PULLUP; }
+set_pin_assignment	{ I_data_lp_n[2] }	{ LOCATION = Y17; IOSTANDARD = LVCMOS18; PULLTYPE = PULLUP; }
+set_pin_assignment	{ I_data_lp_p[3] }	{ LOCATION = W18; IOSTANDARD = LVCMOS18; PULLTYPE = PULLUP; }
+set_pin_assignment	{ I_data_lp_n[3] }	{ LOCATION = W19; IOSTANDARD = LVCMOS18; PULLTYPE = PULLUP; }
+
+# cam rst_n and clk
+set_pin_assignment	{ O_imax334_rst_n }		{ LOCATION = V20; IOSTANDARD = LVCMOS18; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ O_imx334_clk_24m }	{ LOCATION = W20; IOSTANDARD = LVCMOS18; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+
+# IIC0 -> MIPI Sensor
+# iic0 camera
+set_pin_assignment	{ SCL0 }	{ LOCATION = T20; IOSTANDARD = LVCMOS18; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment	{ SDA0 }	{ LOCATION = U20; IOSTANDARD = LVCMOS18; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+
+
+# hdmi
+set_pin_assignment	{ O_hdmi_clk_p   }	{ LOCATION = K17; IOSTANDARD = LVDS33_E; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ O_hdmi_tx_p[0] }	{ LOCATION = M14; IOSTANDARD = LVDS33_E; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ O_hdmi_tx_p[1] }	{ LOCATION = F16; IOSTANDARD = LVDS33_E; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ O_hdmi_tx_p[2] }	{ LOCATION = D19; IOSTANDARD = LVDS33_E; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+
+set_pin_assignment	{ led[0] }	{ LOCATION = T19;  IOSTANDARD = LVCMOS18; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ led[1] }	{ LOCATION = R19;  IOSTANDARD = LVCMOS18; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ led[2] }	{ LOCATION = J15;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+# Servo control signals on the CEP connector. Axis mapping is documented in doc/arm_servo.md.
+set_pin_assignment { servo_pwm[0] } { LOCATION = Y12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { servo_pwm[1] } { LOCATION = T9;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { servo_pwm[2] } { LOCATION = T5;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { servo_pwm[3] } { LOCATION = V6;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { servo_pwm[4] } { LOCATION = U7;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { servo_pwm[5] } { LOCATION = U9;  IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+# set_pin_assignment	{ pwm_3 }	{ LOCATION = M22; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+
+
+
+
+
+
+
+
+
+
+
+set_pin_assignment { bts_r_en } { LOCATION = Y8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLDOWN; }
+
+set_pin_assignment { bts_l_en } { LOCATION = W8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLDOWN; }
+
+set_pin_assignment { bts_rpwm } { LOCATION = W9; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLDOWN; }
+
+set_pin_assignment { bts_lpwm } { LOCATION = Y11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLDOWN; }
+
+set_pin_assignment { txs_oe } { LOCATION = W11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLDOWN; }
+
+set_pin_assignment { encoder_a } { LOCATION = Y6; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; }
+
+set_pin_assignment { encoder_b } { LOCATION = V10; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; }

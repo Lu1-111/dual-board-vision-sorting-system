@@ -1,0 +1,9 @@
+QT += core
+QT -= gui
+CONFIG += console c++11
+CONFIG -= app_bundle
+TEMPLATE = app
+TARGET = arm_console_smoke
+SOURCES += console_smoke.cpp ../arm_console.cpp
+HEADERS += ../arm_console.hpp
+QMAKE_CXXFLAGS += -Wall -Wextra

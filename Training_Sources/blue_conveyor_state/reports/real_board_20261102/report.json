@@ -1,0 +1,1020 @@
+{
+  "dataset": "/home/lululu/blue_conveyor_state/test",
+  "n": 18,
+  "threshold": 0.8,
+  "evaluated_at_utc": "2026-11-02T11:14:13.350557+00:00",
+  "environment": {
+    "provider": "CPUExecutionProvider",
+    "onnxruntime": "1.22.1",
+    "numpy": "1.26.4",
+    "pillow": "13.0.0",
+    "python": "3.11.17"
+  },
+  "model_hashes": {
+    "best.pt": "a29bf3994197273e8a2262cd59b901c6e04038750be9760433314030d0c6fe73",
+    "workcell_tiny_fp32.onnx": "1e1325ff056d80fe1e36aea4d2f01e7c83d8f8ff6f12f46302cd59820b4915b4",
+    "workcell_tiny_int8_qdq.onnx": "c13d238c21a36bd641ad2711b6e22b16abc763989cbdce1f857e6a85de08940a"
+  },
+  "metadata_recorded_fp32_hashes": [
+    "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259"
+  ],
+  "metadata_freeze_matches_current_fp32": false,
+  "exact_duplicate_training_images": 0,
+  "host_received_after_model_training_freeze": true,
+  "note": "Uses the project full-frame preprocessing and frozen threshold. Timestamp and exact-hash checks do not establish independence from all possible related images.",
+  "fp32": {
+    "count": 18,
+    "top1_correct": 6,
+    "top1_accuracy": 0.3333333333333333,
+    "uncertain": 0,
+    "explicit_correct": 6,
+    "explicit_wrong": 12,
+    "confusion_matrix_rows_actual_columns_predicted": [
+      [
+        0,
+        0,
+        6
+      ],
+      [
+        0,
+        0,
+        6
+      ],
+      [
+        0,
+        0,
+        6
+      ]
+    ],
+    "per_class": {
+      "empty": {
+        "count": 6,
+        "top1_correct": 0,
+        "uncertain": 0
+      },
+      "object_present": {
+        "count": 6,
+        "top1_correct": 0,
+        "uncertain": 0
+      },
+      "hand_present": {
+        "count": 6,
+        "top1_correct": 6,
+        "uncertain": 0
+      }
+    }
+  },
+  "int8": {
+    "count": 18,
+    "top1_correct": 6,
+    "top1_accuracy": 0.3333333333333333,
+    "uncertain": 0,
+    "explicit_correct": 6,
+    "explicit_wrong": 12,
+    "confusion_matrix_rows_actual_columns_predicted": [
+      [
+        0,
+        0,
+        6
+      ],
+      [
+        0,
+        0,
+        6
+      ],
+      [
+        0,
+        0,
+        6
+      ]
+    ],
+    "per_class": {
+      "empty": {
+        "count": 6,
+        "top1_correct": 0,
+        "uncertain": 0
+      },
+      "object_present": {
+        "count": 6,
+        "top1_correct": 0,
+        "uncertain": 0
+      },
+      "hand_present": {
+        "count": 6,
+        "top1_correct": 6,
+        "uncertain": 0
+      }
+    }
+  },
+  "per_lighting": {
+    "亮光": {
+      "fp32": {
+        "count": 6,
+        "top1_correct": 2,
+        "top1_accuracy": 0.3333333333333333,
+        "uncertain": 0,
+        "explicit_correct": 2,
+        "explicit_wrong": 4,
+        "confusion_matrix_rows_actual_columns_predicted": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "per_class": {
+          "empty": {
+            "count": 2,
+            "top1_correct": 0,
+            "uncertain": 0
+          },
+          "object_present": {
+            "count": 2,
+            "top1_correct": 0,
+            "uncertain": 0
+          },
+          "hand_present": {
+            "count": 2,
+            "top1_correct": 2,
+            "uncertain": 0
+          }
+        }
+      },
+      "int8": {
+        "count": 6,
+        "top1_correct": 2,
+        "top1_accuracy": 0.3333333333333333,
+        "uncertain": 0,
+        "explicit_correct": 2,
+        "explicit_wrong": 4,
+        "confusion_matrix_rows_actual_columns_predicted": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "per_class": {
+          "empty": {
+            "count": 2,
+            "top1_correct": 0,
+            "uncertain": 0
+          },
+          "object_present": {
+            "count": 2,
+            "top1_correct": 0,
+            "uncertain": 0
+          },
+          "hand_present": {
+            "count": 2,
+            "top1_correct": 2,
+            "uncertain": 0
+          }
+        }
+      }
+    },
+    "暗光": {
+      "fp32": {
+        "count": 6,
+        "top1_correct": 2,
+        "top1_accuracy": 0.3333333333333333,
+        "uncertain": 0,
+        "explicit_correct": 2,
+        "explicit_wrong": 4,
+        "confusion_matrix_rows_actual_columns_predicted": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "per_class": {
+          "empty": {
+            "count": 2,
+            "top1_correct": 0,
+            "uncertain": 0
+          },
+          "object_present": {
+            "count": 2,
+            "top1_correct": 0,
+            "uncertain": 0
+          },
+          "hand_present": {
+            "count": 2,
+            "top1_correct": 2,
+            "uncertain": 0
+          }
+        }
+      },
+      "int8": {
+        "count": 6,
+        "top1_correct": 2,
+        "top1_accuracy": 0.3333333333333333,
+        "uncertain": 0,
+        "explicit_correct": 2,
+        "explicit_wrong": 4,
+        "confusion_matrix_rows_actual_columns_predicted": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "per_class": {
+          "empty": {
+            "count": 2,
+            "top1_correct": 0,
+            "uncertain": 0
+          },
+          "object_present": {
+            "count": 2,
+            "top1_correct": 0,
+            "uncertain": 0
+          },
+          "hand_present": {
+            "count": 2,
+            "top1_correct": 2,
+            "uncertain": 0
+          }
+        }
+      }
+    },
+    "正常光": {
+      "fp32": {
+        "count": 6,
+        "top1_correct": 2,
+        "top1_accuracy": 0.3333333333333333,
+        "uncertain": 0,
+        "explicit_correct": 2,
+        "explicit_wrong": 4,
+        "confusion_matrix_rows_actual_columns_predicted": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "per_class": {
+          "empty": {
+            "count": 2,
+            "top1_correct": 0,
+            "uncertain": 0
+          },
+          "object_present": {
+            "count": 2,
+            "top1_correct": 0,
+            "uncertain": 0
+          },
+          "hand_present": {
+            "count": 2,
+            "top1_correct": 2,
+            "uncertain": 0
+          }
+        }
+      },
+      "int8": {
+        "count": 6,
+        "top1_correct": 2,
+        "top1_accuracy": 0.3333333333333333,
+        "uncertain": 0,
+        "explicit_correct": 2,
+        "explicit_wrong": 4,
+        "confusion_matrix_rows_actual_columns_predicted": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            2
+          ]
+        ],
+        "per_class": {
+          "empty": {
+            "count": 2,
+            "top1_correct": 0,
+            "uncertain": 0
+          },
+          "object_present": {
+            "count": 2,
+            "top1_correct": 0,
+            "uncertain": 0
+          },
+          "hand_present": {
+            "count": 2,
+            "top1_correct": 2,
+            "uncertain": 0
+          }
+        }
+      }
+    }
+  },
+  "fp32_int8_agreement": 18,
+  "predictions": [
+    {
+      "id": "T01",
+      "path": "test/T01.jpg",
+      "expected_class": "empty",
+      "lighting": "正常光",
+      "instruction": "正常光：清空传送带，手移出画面",
+      "review_note": "传送带内没有物体或手；带外绿色块作为背景干扰保留。",
+      "sha256": "6566faf6aa52b86224378adecc10335e493c396a3ee73ffefce03e4240bbc7dd",
+      "metadata_sha256": "f38638aaeface018626a8978b1e8d2daacfd95f497a3c99213ed2b901e860297",
+      "width": 1920,
+      "height": 1080,
+      "host_received_at": "2026-11-02T08:46:34.413861+00:00",
+      "metadata_recorded_freeze_fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9999905824661255,
+        "probabilities": {
+          "empty": 7.222301519504981e-06,
+          "object_present": 2.167087359339348e-06,
+          "hand_present": 0.9999905824661255
+        },
+        "state": "hand_present",
+        "correct": false
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9999493360519409,
+        "probabilities": {
+          "empty": 3.724398266058415e-05,
+          "object_present": 1.3432714695227332e-05,
+          "hand_present": 0.9999493360519409
+        },
+        "state": "hand_present",
+        "correct": false
+      }
+    },
+    {
+      "id": "T02",
+      "path": "test/T02.jpg",
+      "expected_class": "object_present",
+      "lighting": "正常光",
+      "instruction": "正常光：蓝块放在传送带中央，手移出画面",
+      "review_note": "蓝块完整位于带面内；画面中无手。",
+      "sha256": "b624323994797f574ae19774b9bafd512917bc3a5524d7682fa09108a8e4f551",
+      "metadata_sha256": "899c736179f9fb982b57b89f22c60ce9292e3e8d785f0ac3283b4992208bc8be",
+      "width": 1920,
+      "height": 1080,
+      "host_received_at": "2026-11-02T08:49:05.533796+00:00",
+      "metadata_recorded_freeze_fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9999587535858154,
+        "probabilities": {
+          "empty": 3.996534019279352e-07,
+          "object_present": 4.0875580452848226e-05,
+          "hand_present": 0.9999587535858154
+        },
+        "state": "hand_present",
+        "correct": false
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9997759461402893,
+        "probabilities": {
+          "empty": 7.351562999247108e-06,
+          "object_present": 0.0002167585480492562,
+          "hand_present": 0.9997759461402893
+        },
+        "state": "hand_present",
+        "correct": false
+      }
+    },
+    {
+      "id": "T03",
+      "path": "test/T03.jpg",
+      "expected_class": "hand_present",
+      "lighting": "正常光",
+      "instruction": "正常光：一只手握住中央蓝块，保持不动",
+      "review_note": "完整可见手握蓝块，目标位于传送带上方。",
+      "sha256": "e579ce51b36d7e85089b1532efbb81bef25af7adecb12789456b8a2f5d8c8bf3",
+      "metadata_sha256": "a695e164f4742e67d54dc77585f7bf375150a9a130409883d1e56c7b1ea12603",
+      "width": 1920,
+      "height": 1080,
+      "host_received_at": "2026-11-02T08:51:42.180753+00:00",
+      "metadata_recorded_freeze_fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 1.0,
+        "probabilities": {
+          "empty": 3.217552091427933e-08,
+          "object_present": 1.487490752793974e-08,
+          "hand_present": 1.0
+        },
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9999628067016602,
+        "probabilities": {
+          "empty": 1.774019983713515e-05,
+          "object_present": 1.9463521311990917e-05,
+          "hand_present": 0.9999628067016602
+        },
+        "state": "hand_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "T04",
+      "path": "test/T04.jpg",
+      "expected_class": "empty",
+      "lighting": "正常光",
+      "instruction": "正常光：移走蓝块和手，再次保持空带",
+      "review_note": "传送带重新清空；无手，带外物件保持为背景。",
+      "sha256": "57fbcc4f2c4db5c4053b4d11ce25d170def28d62fd54d86106f733a674782041",
+      "metadata_sha256": "7c291cf00e6f6e50b92bbd95edc3d354918d8eb8510e686efade54262ff194a6",
+      "width": 1920,
+      "height": 1080,
+      "host_received_at": "2026-11-02T08:54:59.645457+00:00",
+      "metadata_recorded_freeze_fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9999905824661255,
+        "probabilities": {
+          "empty": 7.391261533484794e-06,
+          "object_present": 2.030347786785569e-06,
+          "hand_present": 0.9999905824661255
+        },
+        "state": "hand_present",
+        "correct": false
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9999493360519409,
+        "probabilities": {
+          "empty": 3.724398266058415e-05,
+          "object_present": 1.3432714695227332e-05,
+          "hand_present": 0.9999493360519409
+        },
+        "state": "hand_present",
+        "correct": false
+      }
+    },
+    {
+      "id": "T05",
+      "path": "test/T05.jpg",
+      "expected_class": "object_present",
+      "lighting": "正常光",
+      "instruction": "正常光：蓝块放在带面右侧，完整落在带面内，手移开",
+      "review_note": "蓝块位于带面右端靠边位置，画面无手；记录为 object_present。",
+      "sha256": "d6f23fe80cc6c9228048ff798932b51f0d91022f4d762b23131b15fbef12ab66",
+      "metadata_sha256": "7d4ef06ceb6b645d9b9884367624da62f2f345dd630e0f75b12bac41a02ac115",
+      "width": 1920,
+      "height": 1080,
+      "host_received_at": "2026-11-02T09:02:02.695387+00:00",
+      "metadata_recorded_freeze_fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9999942779541016,
+        "probabilities": {
+          "empty": 2.835380200849613e-06,
+          "object_present": 2.829559207384591e-06,
+          "hand_present": 0.9999942779541016
+        },
+        "state": "hand_present",
+        "correct": false
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9999580383300781,
+        "probabilities": {
+          "empty": 1.8581804397399537e-05,
+          "object_present": 2.3428525310009718e-05,
+          "hand_present": 0.9999580383300781
+        },
+        "state": "hand_present",
+        "correct": false
+      }
+    },
+    {
+      "id": "T06",
+      "path": "test/T06.jpg",
+      "expected_class": "hand_present",
+      "lighting": "正常光",
+      "instruction": "正常光：两三根手指从画面边缘伸到带面上，保持不动",
+      "review_note": "两根手指伸到带面上，部分手掌也可见；蓝块仍在右端，记录为 hand_present；并非仅极少指尖可见。",
+      "sha256": "7ada6320a18d72400047d0542b632976461db6a9f74c5738003499b3c830c662",
+      "metadata_sha256": "96d95def2df242a8b83ddfeb0cbff53da067ab9b0e527ba37af430788130215e",
+      "width": 1920,
+      "height": 1080,
+      "host_received_at": "2026-11-02T09:03:44.325218+00:00",
+      "metadata_recorded_freeze_fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9999996423721313,
+        "probabilities": {
+          "empty": 2.1160228413918958e-07,
+          "object_present": 1.1458387660923108e-07,
+          "hand_present": 0.9999996423721313
+        },
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9999610185623169,
+        "probabilities": {
+          "empty": 1.946348675119225e-05,
+          "object_present": 1.946348675119225e-05,
+          "hand_present": 0.9999610185623169
+        },
+        "state": "hand_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "T07",
+      "path": "test/T07.jpg",
+      "expected_class": "empty",
+      "lighting": "暗光",
+      "instruction": "暗光：清空传送带，手移出画面",
+      "review_note": "空带且无手；整图与带面均比T01/T04略暗，属轻度变暗。背景瓶子已移走，带面边缘相对画面略有位移，不能作为完全控制其他因素的纯光照对照。",
+      "sha256": "3b70108fc4afe269abccd5b957fb7405a0c46eabc6583f2136caf65e37bef115",
+      "metadata_sha256": "c2e072664e0b6d532f3e0229abaaad99955593caad035c27b31f7278f1be9827",
+      "width": 1920,
+      "height": 1080,
+      "host_received_at": "2026-11-02T09:08:09.497318+00:00",
+      "metadata_recorded_freeze_fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9999885559082031,
+        "probabilities": {
+          "empty": 9.915409464156255e-06,
+          "object_present": 1.5534320709775784e-06,
+          "hand_present": 0.9999885559082031
+        },
+        "state": "hand_present",
+        "correct": false
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9999377727508545,
+        "probabilities": {
+          "empty": 5.151942605152726e-05,
+          "object_present": 1.0653719982656185e-05,
+          "hand_present": 0.9999377727508545
+        },
+        "state": "hand_present",
+        "correct": false
+      }
+    },
+    {
+      "id": "T08",
+      "path": "test/T08.jpg",
+      "expected_class": "object_present",
+      "lighting": "暗光",
+      "instruction": "暗光：蓝块放在传送带中央，手移出画面",
+      "review_note": "当前暗光组，中央偏右的带面上有蓝块，画面无手，记录为 object_present。",
+      "sha256": "ee95814363b732745b0ca47194d571284d7e6f8b85fae4e23ca921c68e087d4b",
+      "metadata_sha256": "b1e77c7137b8fa2f5dc3343e28543f9948be56c3f229225f22c3dfa931e1e530",
+      "width": 1920,
+      "height": 1080,
+      "host_received_at": "2026-11-02T09:09:50.473772+00:00",
+      "metadata_recorded_freeze_fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9999861717224121,
+        "probabilities": {
+          "empty": 4.675032414525049e-07,
+          "object_present": 1.3308844245329965e-05,
+          "hand_present": 0.9999861717224121
+        },
+        "state": "hand_present",
+        "correct": false
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9998739957809448,
+        "probabilities": {
+          "empty": 7.352284228545614e-06,
+          "object_present": 0.0001186614390462637,
+          "hand_present": 0.9998739957809448
+        },
+        "state": "hand_present",
+        "correct": false
+      }
+    },
+    {
+      "id": "T09",
+      "path": "test/T09.jpg",
+      "expected_class": "hand_present",
+      "lighting": "暗光",
+      "instruction": "暗光：一只手握住中央蓝块，保持不动",
+      "review_note": "当前暗光组，清楚可见一只手握住带面中央蓝块，记录为 hand_present。",
+      "sha256": "adfc0f25bda7ee898f7a6fbab4a3bcfe47e60169ecc417670e200211a3cbef16",
+      "metadata_sha256": "dc7a4366f6f4b40bf0f638c84ef80353c239b16e66ec49d14a3256e3e15f996a",
+      "width": 1920,
+      "height": 1080,
+      "host_received_at": "2026-11-02T09:11:16.797503+00:00",
+      "metadata_recorded_freeze_fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9999994039535522,
+        "probabilities": {
+          "empty": 4.613820010490599e-07,
+          "object_present": 1.9012379937066726e-07,
+          "hand_present": 0.9999994039535522
+        },
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9999606609344482,
+        "probabilities": {
+          "empty": 2.2367355995811522e-05,
+          "object_present": 1.693659942247905e-05,
+          "hand_present": 0.9999606609344482
+        },
+        "state": "hand_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "T10",
+      "path": "test/T10.jpg",
+      "expected_class": "empty",
+      "lighting": "暗光",
+      "instruction": "暗光：移走蓝块和手，再次保持空带",
+      "review_note": "当前暗光组，传送带已再次清空，画面无手，记录为 empty。",
+      "sha256": "d41133a7e452f8fda284b049b1493c1260e5eb1583f426c1ea2c0c98f1d3d1fc",
+      "metadata_sha256": "e845e414c12fbcd2579d76a7d8a2635f237bd766ded6c468be1e28288fa205be",
+      "width": 1920,
+      "height": 1080,
+      "host_received_at": "2026-11-02T09:12:27.449030+00:00",
+      "metadata_recorded_freeze_fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9999885559082031,
+        "probabilities": {
+          "empty": 9.956335816241335e-06,
+          "object_present": 1.4977639466451365e-06,
+          "hand_present": 0.9999885559082031
+        },
+        "state": "hand_present",
+        "correct": false
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9999401569366455,
+        "probabilities": {
+          "empty": 4.918589911540039e-05,
+          "object_present": 1.0653745448507834e-05,
+          "hand_present": 0.9999401569366455
+        },
+        "state": "hand_present",
+        "correct": false
+      }
+    },
+    {
+      "id": "T11",
+      "path": "test/T11.jpg",
+      "expected_class": "object_present",
+      "lighting": "暗光",
+      "instruction": "暗光：蓝块放在带面右侧，完整落在带面内，手移开",
+      "review_note": "当前暗光组，蓝块位于带面右端靠边，画面无手，记录为 object_present。",
+      "sha256": "70a96054a151639598057e87f2132fc4b07ebdd26fc1a03b5e5a10d4f1a7b530",
+      "metadata_sha256": "8f118648ab09777286642f8f2dcb86458504411c5b4ffe00446377ef304f36ed",
+      "width": 1920,
+      "height": 1080,
+      "host_received_at": "2026-11-02T09:13:43.018319+00:00",
+      "metadata_recorded_freeze_fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9999961853027344,
+        "probabilities": {
+          "empty": 2.7473374757391866e-06,
+          "object_present": 1.0570234962870018e-06,
+          "hand_present": 0.9999961853027344
+        },
+        "state": "hand_present",
+        "correct": false
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9999563694000244,
+        "probabilities": {
+          "empty": 2.8201378881931305e-05,
+          "object_present": 1.5436937246704474e-05,
+          "hand_present": 0.9999563694000244
+        },
+        "state": "hand_present",
+        "correct": false
+      }
+    },
+    {
+      "id": "T12",
+      "path": "test/T12.jpg",
+      "expected_class": "hand_present",
+      "lighting": "暗光",
+      "instruction": "暗光：两三根手指从画面边缘伸到带面上，保持不动",
+      "review_note": "当前暗光组，两根手指从下方伸入带面，部分手部可见，右端蓝块仍在；记录为 hand_present，不属于仅极少指尖可见。",
+      "sha256": "8427c4c136776b8f1803d7a507795032f0e0ef09b45d8f5303f91e195578e4ea",
+      "metadata_sha256": "16a3160f3fc88e7aab0c42add072d06201e1bb5ed7f257b3ce5033c00650bc7b",
+      "width": 1920,
+      "height": 1080,
+      "host_received_at": "2026-11-02T09:15:04.172686+00:00",
+      "metadata_recorded_freeze_fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9999990463256836,
+        "probabilities": {
+          "empty": 6.824585057074728e-07,
+          "object_present": 2.81674743973781e-07,
+          "hand_present": 0.9999990463256836
+        },
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9999592304229736,
+        "probabilities": {
+          "empty": 2.4540131562389433e-05,
+          "object_present": 1.6169409718713723e-05,
+          "hand_present": 0.9999592304229736
+        },
+        "state": "hand_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "T13",
+      "path": "test/T13.jpg",
+      "expected_class": "empty",
+      "lighting": "亮光",
+      "instruction": "亮光：清空传送带，手移出画面",
+      "review_note": "亮光计划组，传送带为空且无手；视觉比暗光更亮，实际亮度差由独立统计记录。",
+      "sha256": "063ae7d9756b856bebeabfb99aac8fafb4e5807412704f0b0d17517c1d1141a6",
+      "metadata_sha256": "a678991808323137677096b5c67af7b5a1f90136ce1dfd99c391886c11781ec6",
+      "width": 1920,
+      "height": 1080,
+      "host_received_at": "2026-11-02T09:16:27.152720+00:00",
+      "metadata_recorded_freeze_fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9999866485595703,
+        "probabilities": {
+          "empty": 1.1275603355898056e-05,
+          "object_present": 2.0993575162719935e-06,
+          "hand_present": 0.9999866485595703
+        },
+        "state": "hand_present",
+        "correct": false
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.999941349029541,
+        "probabilities": {
+          "empty": 4.695801544585265e-05,
+          "object_present": 1.16886858450016e-05,
+          "hand_present": 0.999941349029541
+        },
+        "state": "hand_present",
+        "correct": false
+      }
+    },
+    {
+      "id": "T14",
+      "path": "test/T14.jpg",
+      "expected_class": "object_present",
+      "lighting": "亮光",
+      "instruction": "亮光：蓝块放在传送带中央，手移出画面",
+      "review_note": "亮光计划组，带面中央偏右有蓝块，画面无手，记录为 object_present。",
+      "sha256": "f8bd04af63ba1dfb6044d3b688927cddbd083d01bc9a26dc5c7cc4bd2d09f345",
+      "metadata_sha256": "4edf367bbeaa79cf7bd31f92d4cf00a1ef32a62bf2677c125b7712e0bc776ca0",
+      "width": 1920,
+      "height": 1080,
+      "host_received_at": "2026-11-02T09:19:09.920493+00:00",
+      "metadata_recorded_freeze_fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9999639987945557,
+        "probabilities": {
+          "empty": 5.729634722229093e-07,
+          "object_present": 3.545915024005808e-05,
+          "hand_present": 0.9999639987945557
+        },
+        "state": "hand_present",
+        "correct": false
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9998207688331604,
+        "probabilities": {
+          "empty": 7.3518922363291495e-06,
+          "object_present": 0.00017192483937833458,
+          "hand_present": 0.9998207688331604
+        },
+        "state": "hand_present",
+        "correct": false
+      }
+    },
+    {
+      "id": "T15",
+      "path": "test/T15.jpg",
+      "expected_class": "hand_present",
+      "lighting": "亮光",
+      "instruction": "亮光：一只手握住中央蓝块，保持不动",
+      "review_note": "亮光计划组，手指触碰并扶住中央蓝块，大部分手可见，记录为 hand_present。",
+      "sha256": "2f766877dfb9e6c339c3567d3935f74827a330c356da9a0d6cc3d107db3f739b",
+      "metadata_sha256": "0e36fb7b8566fdadb01e319a2b88c6ecd22bbd950d13fbc414ed3c7254dfa822",
+      "width": 1920,
+      "height": 1080,
+      "host_received_at": "2026-11-02T09:22:13.214653+00:00",
+      "metadata_recorded_freeze_fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9999996423721313,
+        "probabilities": {
+          "empty": 1.783427165946705e-07,
+          "object_present": 1.2401528692862485e-07,
+          "hand_present": 0.9999996423721313
+        },
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9999624490737915,
+        "probabilities": {
+          "empty": 1.6169460650417022e-05,
+          "object_present": 2.135423528670799e-05,
+          "hand_present": 0.9999624490737915
+        },
+        "state": "hand_present",
+        "correct": true
+      }
+    },
+    {
+      "id": "T16",
+      "path": "test/T16.jpg",
+      "expected_class": "empty",
+      "lighting": "亮光",
+      "instruction": "亮光：移走蓝块和手，再次保持空带",
+      "review_note": "亮光计划组，空带且无手；与T13相比机位/构图发生可见位移与小角度变化，仍计空带分类，不能作严格固定机位光照对照。",
+      "sha256": "acb3d3c6351e1b0746626fe6d8b4fc850cdbaec2e40d0557aff8fce5fa47928f",
+      "metadata_sha256": "73a206c54d29f5b4e5b48965f1116ee0f4624dd6768364dde27d64e7b276e16a",
+      "width": 1920,
+      "height": 1080,
+      "host_received_at": "2026-11-02T09:24:20.563115+00:00",
+      "metadata_recorded_freeze_fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9999998807907104,
+        "probabilities": {
+          "empty": 1.0202836620010203e-07,
+          "object_present": 3.242212187615223e-08,
+          "hand_present": 0.9999998807907104
+        },
+        "state": "hand_present",
+        "correct": false
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9999595880508423,
+        "probabilities": {
+          "empty": 2.3428559870808385e-05,
+          "object_present": 1.6936581232585013e-05,
+          "hand_present": 0.9999595880508423
+        },
+        "state": "hand_present",
+        "correct": false
+      }
+    },
+    {
+      "id": "T17",
+      "path": "test/T17.jpg",
+      "expected_class": "object_present",
+      "lighting": "亮光",
+      "instruction": "亮光：蓝块放在带面右侧，完整落在带面内，手移开",
+      "review_note": "亮光计划组，蓝块在带面右端靠边，画面无手；构图延续T16，记录为 object_present。",
+      "sha256": "9a7504aa25619ecfeb0dc4f4f24f8772efc5f52898df6d87bf7c2a4c2c57d672",
+      "metadata_sha256": "86a1e600cba151b9ae7bcc66c42eac46f14d49ad1a9462ef0e4eae2c317c9c57",
+      "width": 1920,
+      "height": 1080,
+      "host_received_at": "2026-11-02T09:26:26.625750+00:00",
+      "metadata_recorded_freeze_fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 0.9999998807907104,
+        "probabilities": {
+          "empty": 3.912353818691372e-08,
+          "object_present": 2.5802419756359996e-08,
+          "hand_present": 0.9999998807907104
+        },
+        "state": "hand_present",
+        "correct": false
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9999624490737915,
+        "probabilities": {
+          "empty": 1.6169460650417022e-05,
+          "object_present": 2.135423528670799e-05,
+          "hand_present": 0.9999624490737915
+        },
+        "state": "hand_present",
+        "correct": false
+      }
+    },
+    {
+      "id": "T18",
+      "path": "test/T18.jpg",
+      "expected_class": "hand_present",
+      "lighting": "亮光",
+      "instruction": "亮光：两三根手指从画面边缘伸到带面上，保持不动",
+      "review_note": "亮光计划组，两根手指伸到带面，部分手掌可见，蓝块仍在右端；记录为 hand_present，不属于仅极少指尖可见。",
+      "sha256": "a78c0d4b7773940a645bd7adce19a2c9b1f5d673f5a2c13d748383decc721367",
+      "metadata_sha256": "269f4e4360fe19d08fbe8f5429798d224bca2bad42ee0e0771a582d3871723ae",
+      "width": 1920,
+      "height": 1080,
+      "host_received_at": "2026-11-02T09:28:18.314977+00:00",
+      "metadata_recorded_freeze_fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+      "fp32": {
+        "prediction": "hand_present",
+        "confidence": 1.0,
+        "probabilities": {
+          "empty": 1.3943305177122056e-08,
+          "object_present": 9.677735945956556e-09,
+          "hand_present": 1.0
+        },
+        "state": "hand_present",
+        "correct": true
+      },
+      "int8": {
+        "prediction": "hand_present",
+        "confidence": 0.9999635219573975,
+        "probabilities": {
+          "empty": 1.4070235920371488e-05,
+          "object_present": 2.2367419660440646e-05,
+          "hand_present": 0.9999635219573975
+        },
+        "state": "hand_present",
+        "correct": true
+      }
+    }
+  ]
+}

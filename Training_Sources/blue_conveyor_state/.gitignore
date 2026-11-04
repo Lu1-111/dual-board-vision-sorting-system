@@ -1,0 +1,22 @@
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Re-training/export scratch space; final artifacts live in models/
+runs/
+deps/
+*.log
+*.zip
+*.tmp
+
+# Python/editor caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+.vscode/
+.idea/

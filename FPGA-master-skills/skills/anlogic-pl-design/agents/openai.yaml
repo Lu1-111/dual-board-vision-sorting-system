@@ -1,0 +1,4 @@
+interface:
+  display_name: "安路 PL 设计与实现"
+  short_description: "依据板卡资料完成安路 RTL、IP、时钟约束和 TD 综合实现与时序检查"
+  default_prompt: "使用 $anlogic-pl-design 完成当前安路工程的 PL 设计，核验约束并汇总构建与时序结果。"

@@ -1,0 +1,9 @@
+QT += core
+QT -= gui
+CONFIG += console c++11
+CONFIG -= app_bundle
+TEMPLATE = app
+TARGET = arm_action_tests
+SOURCES += action_tests.cpp ../arm_actions.cpp ../../arm_servo_linux/arm_control.cpp
+HEADERS += ../arm_actions.hpp
+QMAKE_CXXFLAGS += -Wall -Wextra

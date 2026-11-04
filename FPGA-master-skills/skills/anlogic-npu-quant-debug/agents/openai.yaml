@@ -1,0 +1,4 @@
+interface:
+  display_name: "安路 NPU 量化与调试"
+  short_description: "定位 DR1 算子限制、量化误差、ArmNN 解析与板端数值和 CMA 故障"
+  default_prompt: "使用 $anlogic-npu-quant-debug 找到模型量化或实板推理中最早失配的阶段。"

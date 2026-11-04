@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-11-02T10:43:31.097468+08:00",
+  "seed": 20261128,
+  "depth": 0,
+  "epochs": 100,
+  "batch": 32,
+  "size": 320,
+  "dataset_sha256": "d30cfbd1343a8b412c67d9434c4b64b11dd88e3b3753f17984af73b33aa6b3b4",
+  "counts": {
+    "train": {
+      "0": 342,
+      "1": 379
+    },
+    "val": {
+      "0": 69,
+      "1": 77
+    },
+    "test": {
+      "0": 67,
+      "1": 75
+    }
+  },
+  "sampling": "Uniform shuffled pass over every training image per epoch, no real/AI source distinction; class-weighted BCE only. Known optional approximate boxes provide auxiliary localization.",
+  "selection": "Each5 epochs: optimize threshold on validation grid0.10..0.95 step0.01 for balanced accuracy, then fewer FN, then largest nearest score margin. Select checkpoint by balanced accuracy, fewer FN, then validation BCE. Test inaccessible during training.",
+  "initialization": "Torchvision official MobileNetV3Small ImageNet1K_V1 features0..8, grayscale replicated3 channels; lower learning rate0.1x for backbone; local8x and16x feature fusion; no RGB information",
+  "evaluation_scope": "Train/validation/test image groups remain unchanged after dropping the whole out-of-scope supplemental batch. These are internal grouped regression/holdout measurements; former model results were inspected during development, so not independent field validation.",
+  "aggregation": "Mean of4 highest local logits then sigmoid; full image scored; standard pretrained backbone padding.",
+  "legacy_unused_depth_argument": 6,
+  "reorganization_note": "Historical depth CLI argument6 was unused by the V28 feature-fusion architecture; canonical model depth metadata is0. dataset_sha256 refers to the pre-migration manifest text with old paths; image bytes and splits are unchanged."
+}

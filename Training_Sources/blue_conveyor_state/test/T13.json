@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "T13",
+    "index": 13,
+    "lighting": "亮光",
+    "expected_class": "empty",
+    "instruction": "亮光：清空传送带，手移出画面",
+    "camera_pose": "fixed_session_A",
+    "split": "independent_real_validation"
+  },
+  "photo": {
+    "captured_utc": "1970-01-01T02:29:13.191Z",
+    "format": "jpg",
+    "frame_sequence": "33698",
+    "height": 1080,
+    "photo_id": "ce94ed46-d8d6-4cb7-b5e7-47cddbd8c569",
+    "sha256": "063ae7d9756b856bebeabfb99aac8fafb4e5807412704f0b0d17517c1d1141a6",
+    "size": 201935,
+    "source": "imx415",
+    "width": 1920
+  },
+  "host_received_at": "2026-11-02T09:16:27.152720+00:00",
+  "split": "independent_real_validation",
+  "label_review_status": "visually_confirmed",
+  "model_freeze": {
+    "fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+    "selected_run": "scratch_v3"
+  },
+  "plan_sha256": "f364735c6c7adc4ca8e9edc1a0f24e6eee4105a67eafaf67b202205949c336e9",
+  "review_note": "亮光计划组，传送带为空且无手；视觉比暗光更亮，实际亮度差由独立统计记录。"
+}

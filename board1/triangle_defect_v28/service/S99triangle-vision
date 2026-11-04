@@ -1,0 +1,9 @@
+#!/bin/sh
+# Start only the shared camera and V28 visual inference; control UI has its own service.
+case "$1" in
+    start) /opt/triangle-live/board1_vision_service.sh start >/tmp/board1-vision-boot.log 2>&1;;
+    stop) /opt/triangle-live/board1_vision_service.sh stop;;
+    restart) /opt/triangle-live/board1_vision_service.sh restart;;
+    status) /opt/triangle-live/board1_vision_service.sh status;;
+    *) exit 2;;
+esac

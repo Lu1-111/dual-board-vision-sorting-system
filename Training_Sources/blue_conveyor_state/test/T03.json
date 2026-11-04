@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "T03",
+    "index": 3,
+    "lighting": "正常光",
+    "expected_class": "hand_present",
+    "instruction": "正常光：一只手握住中央蓝块，保持不动",
+    "camera_pose": "fixed_session_A",
+    "split": "independent_real_validation"
+  },
+  "photo": {
+    "captured_utc": "1970-01-01T02:04:28.705Z",
+    "format": "jpg",
+    "frame_sequence": "7510",
+    "height": 1080,
+    "photo_id": "89b879d6-121f-4fa6-b5c8-232177b4bc84",
+    "sha256": "e579ce51b36d7e85089b1532efbb81bef25af7adecb12789456b8a2f5d8c8bf3",
+    "size": 198656,
+    "source": "imx415",
+    "width": 1920
+  },
+  "host_received_at": "2026-11-02T08:51:42.180753+00:00",
+  "split": "independent_real_validation",
+  "label_review_status": "visually_confirmed",
+  "model_freeze": {
+    "fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+    "selected_run": "scratch_v3"
+  },
+  "plan_sha256": "f364735c6c7adc4ca8e9edc1a0f24e6eee4105a67eafaf67b202205949c336e9",
+  "review_note": "完整可见手握蓝块，目标位于传送带上方。"
+}

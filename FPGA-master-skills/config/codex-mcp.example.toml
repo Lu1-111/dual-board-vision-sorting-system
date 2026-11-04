@@ -1,0 +1,17 @@
+[mcp_servers.anlogic-td]
+command = '__KIT_DIR__/mcp/anlogic_mcp/.venv/Scripts/python.exe'
+args = ['__KIT_DIR__/mcp/anlogic_mcp/server.py', '--tool', 'td']
+
+[mcp_servers.anlogic-td.env]
+ANLOGIC_WORKSPACE = '__WORKSPACE__'
+ANLOGIC_TD_HOME = '__TD_HOME__'
+ANLOGIC_FD_HOME = '__FD_HOME__'
+
+[mcp_servers.anlogic-fd]
+command = '__KIT_DIR__/mcp/anlogic_mcp/.venv/Scripts/python.exe'
+args = ['__KIT_DIR__/mcp/anlogic_mcp/server.py', '--tool', 'fd']
+
+[mcp_servers.anlogic-fd.env]
+ANLOGIC_WORKSPACE = '__WORKSPACE__'
+ANLOGIC_TD_HOME = '__TD_HOME__'
+ANLOGIC_FD_HOME = '__FD_HOME__'

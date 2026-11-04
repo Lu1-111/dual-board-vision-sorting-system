@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "mode": "observe_only",
+  "measured": false,
+  "calibration_confirmed": false,
+  "region_confirmed": false,
+  "region": null,
+  "settle_ms": null,
+  "stable_frames": null,
+  "stable_radius_px": null,
+  "association_px": null,
+  "capture_guard_ms": null,
+  "v28_max_age_ms": null,
+  "mapping_id": "faf77b03777460fd3f10132c520221664204a884c7cc7ff3dee3f647e8340cd0",
+  "actions": {
+    "NORMAL": {"path": "/home/uisrc/qt_play/actions/fixed_pick_20261021/actions/perfect_selection.json", "sha256": "341225108b53f5abde14dd132d14806ab835f5db9e772e06d9bbc170b2b47614"},
+    "DEFECT": {"path": "/home/uisrc/qt_play/actions/fixed_pick_20261021/actions/defect_selection.json", "sha256": "3bf72fa7b35074a38f4002866846223f6ab23283c80768feaa2e4e5875ed01ef"}
+  },
+  "reference_only": {
+    "center_px": [1235,543],
+    "proposed_region_px": [1135,531,1335,555],
+    "gripper_range_mm": 75,
+    "block_side_mm": 40,
+    "belt_length_mm": 400,
+    "geometric_half_clearance_mm": 17.5,
+    "local_scale_estimate_px_per_mm": [6.075,6.2],
+    "note": "Reference only. Perspective, belt axis, stop latency/coasting and grasp clearance remain unmeasured. Cannot arm motion."
+  }
+}

@@ -1,0 +1,2306 @@
+{
+  "evaluated_at": "2026-11-02T03:44:05.176170+00:00",
+  "split": "test",
+  "device": "cpu",
+  "threshold": 0.88,
+  "metrics": {
+    "count": 142,
+    "confusion": [
+      [
+        67,
+        0
+      ],
+      [
+        2,
+        73
+      ]
+    ],
+    "accuracy": 0.9859154929577465,
+    "defect_recall": 0.9733333333333334,
+    "normal_specificity": 1.0
+  },
+  "errors": [
+    "blue_075_historic",
+    "S10"
+  ],
+  "scope": "Internal grouped regression; not independent field acceptance.",
+  "samples": [
+    {
+      "id": "blue_004_historic",
+      "path": "data/images/test/normal/blue_004_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004009769763797522,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8625,
+          0.7375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_010_historic",
+      "path": "data/images/test/normal/blue_010_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.06042260304093361,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.1875,
+          0.2125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_014_historic",
+      "path": "data/images/test/normal/blue_014_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.007801185827702284,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3125,
+          0.2125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_015_historic",
+      "path": "data/images/test/normal/blue_015_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0068015893921256065,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.1625,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_019_historic",
+      "path": "data/images/test/normal/blue_019_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.005133640952408314,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3875,
+          0.6875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_021_historic",
+      "path": "data/images/test/normal/blue_021_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.012623789720237255,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.7875,
+          0.8375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_022_historic",
+      "path": "data/images/test/normal/blue_022_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.08906718343496323,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2875,
+          0.1875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_023_historic",
+      "path": "data/images/test/normal/blue_023_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.04047521576285362,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3875,
+          0.2375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_025_historic",
+      "path": "data/images/test/normal/blue_025_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.00626747589558363,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.9375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_035_historic",
+      "path": "data/images/test/normal/blue_035_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.20787009596824646,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2125,
+          0.8875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_036_historic",
+      "path": "data/images/test/normal/blue_036_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.032471366226673126,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3375,
+          0.2125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_039_historic",
+      "path": "data/images/test/normal/blue_039_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.013485831208527088,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3625,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_040_historic",
+      "path": "data/images/test/normal/blue_040_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004320819396525621,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3375,
+          0.6625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_041_historic",
+      "path": "data/images/test/normal/blue_041_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.43694251775741577,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8125,
+          0.8875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_042_historic",
+      "path": "data/images/test/normal/blue_042_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.036513958126306534,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2625,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_043_historic",
+      "path": "data/images/test/normal/blue_043_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.011787247844040394,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5625,
+          0.2375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_044_historic",
+      "path": "data/images/test/normal/blue_044_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.005396360531449318,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.0625,
+          0.8375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_049_historic",
+      "path": "data/images/test/normal/blue_049_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.006843962706625462,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3625,
+          0.1375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_050_historic",
+      "path": "data/images/test/normal/blue_050_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.005408798344433308,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3625,
+          0.2375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_057_historic",
+      "path": "data/images/test/triangle_defect/blue_057_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998410940170288,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3875,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_060_historic",
+      "path": "data/images/test/triangle_defect/blue_060_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999921321868896,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5875,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_064_historic",
+      "path": "data/images/test/triangle_defect/blue_064_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9971423745155334,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.4375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_065_historic",
+      "path": "data/images/test/triangle_defect/blue_065_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9997506737709045,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_066_historic",
+      "path": "data/images/test/triangle_defect/blue_066_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9997023940086365,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4625,
+          0.4125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_075_historic",
+      "path": "data/images/test/triangle_defect/blue_075_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.023677188903093338,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8375,
+          0.7375
+        ]
+      },
+      "correct": false
+    },
+    {
+      "id": "blue_083_historic",
+      "path": "data/images/test/triangle_defect/blue_083_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999988079071045,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5375,
+          0.7375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_086_historic",
+      "path": "data/images/test/triangle_defect/blue_086_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999934434890747,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_087_historic",
+      "path": "data/images/test/triangle_defect/blue_087_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998171925544739,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2875,
+          0.6875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_095_historic",
+      "path": "data/images/test/triangle_defect/blue_095_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999767541885376,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4875,
+          0.1875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_0c10dc4bad6c2639",
+      "path": "data/images/test/normal/syn_0c10dc4bad6c2639.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.006199456285685301,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3375,
+          0.2625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_236a7b26d011ae43",
+      "path": "data/images/test/normal/syn_236a7b26d011ae43.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004092547111213207,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3875,
+          0.7125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_c3955ed32e0a3fcd",
+      "path": "data/images/test/normal/syn_c3955ed32e0a3fcd.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.006545829586684704,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8875,
+          0.9625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_a29b43dd4e3e5760",
+      "path": "data/images/test/normal/syn_a29b43dd4e3e5760.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.00645446265116334,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3375,
+          0.2625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_92796f9397b1dc03",
+      "path": "data/images/test/triangle_defect/syn_92796f9397b1dc03.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999986886978149,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_0c53bb50269c16e4",
+      "path": "data/images/test/triangle_defect/syn_0c53bb50269c16e4.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999657869338989,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_0538b9a2bf6148d7",
+      "path": "data/images/test/triangle_defect/syn_0538b9a2bf6148d7.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.999992847442627,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_ce7c88426109d9ce",
+      "path": "data/images/test/triangle_defect/syn_ce7c88426109d9ce.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.999991774559021,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_78effe7a154634e8",
+      "path": "data/images/test/normal/syn_78effe7a154634e8.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.005428858567029238,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3375,
+          0.2625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_16f8a9cb3559b1ba",
+      "path": "data/images/test/normal/syn_16f8a9cb3559b1ba.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0026854134630411863,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6375,
+          0.1375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_df0b4c2887ca570a",
+      "path": "data/images/test/normal/syn_df0b4c2887ca570a.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.005267473869025707,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3375,
+          0.2625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_5eda3c129d1adcca",
+      "path": "data/images/test/normal/syn_5eda3c129d1adcca.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0033410517498850822,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6125,
+          0.0875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_25f49ae43c8fc334",
+      "path": "data/images/test/normal/syn_25f49ae43c8fc334.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.005788058508187532,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3375,
+          0.2625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_9756b735fcf4a178",
+      "path": "data/images/test/normal/syn_9756b735fcf4a178.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0029131213668733835,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6875,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_aaab1c07490bc7a4",
+      "path": "data/images/test/normal/syn_aaab1c07490bc7a4.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004426713567227125,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2625,
+          0.8625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_35782adfff09970f",
+      "path": "data/images/test/normal/syn_35782adfff09970f.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0030081619042903185,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.0625,
+          0.3875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_9af70f1ad8d10578",
+      "path": "data/images/test/triangle_defect/syn_9af70f1ad8d10578.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999961853027344,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_3fe688cdec94e4bb",
+      "path": "data/images/test/triangle_defect/syn_3fe688cdec94e4bb.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999980926513672,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_7122c41ce90bec00",
+      "path": "data/images/test/triangle_defect/syn_7122c41ce90bec00.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.999998927116394,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_8f6299485d91274d",
+      "path": "data/images/test/triangle_defect/syn_8f6299485d91274d.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999691247940063,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_a61379d5ba62de98",
+      "path": "data/images/test/triangle_defect/syn_a61379d5ba62de98.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999934434890747,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3625,
+          0.5625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_c6ba1438a0b0635c",
+      "path": "data/images/test/triangle_defect/syn_c6ba1438a0b0635c.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999948740005493,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3625,
+          0.5625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_143a5d622fb39c93",
+      "path": "data/images/test/triangle_defect/syn_143a5d622fb39c93.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.999997615814209,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3625,
+          0.5625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_d1ca1630a0174a9f",
+      "path": "data/images/test/triangle_defect/syn_d1ca1630a0174a9f.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.999997615814209,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3625,
+          0.5625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_2ad019610baed955",
+      "path": "data/images/test/triangle_defect/syn_2ad019610baed955.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.999997615814209,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3625,
+          0.5625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_4642f1051f6a2f21",
+      "path": "data/images/test/triangle_defect/syn_4642f1051f6a2f21.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999920129776001,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3625,
+          0.5625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_d7b07481070ac7b5",
+      "path": "data/images/test/triangle_defect/syn_d7b07481070ac7b5.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.999993085861206,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_49f48fa8d6a7d22e",
+      "path": "data/images/test/triangle_defect/syn_49f48fa8d6a7d22e.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999819993972778,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_69f9b44255ea569e",
+      "path": "data/images/test/triangle_defect/syn_69f9b44255ea569e.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999581575393677,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_95f9a9a4cf085aaf",
+      "path": "data/images/test/triangle_defect/syn_95f9a9a4cf085aaf.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999878406524658,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_b95c33f6ce769fc9",
+      "path": "data/images/test/triangle_defect/syn_b95c33f6ce769fc9.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999502897262573,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_1ea3746d9b348a20",
+      "path": "data/images/test/triangle_defect/syn_1ea3746d9b348a20.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998916387557983,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_e947815ef0a34204",
+      "path": "data/images/test/triangle_defect/syn_e947815ef0a34204.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998952150344849,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_f17864caad5c2d8f",
+      "path": "data/images/test/normal/syn_f17864caad5c2d8f.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.002853963989764452,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.1875,
+          0.4125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_f2623351c5abdb4a",
+      "path": "data/images/test/triangle_defect/syn_f2623351c5abdb4a.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999655485153198,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_14c748591e344e37",
+      "path": "data/images/test/triangle_defect/syn_14c748591e344e37.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999867677688599,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_0691986054f5e44c",
+      "path": "data/images/test/triangle_defect/syn_0691986054f5e44c.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.999946117401123,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_f5292292d98821c3",
+      "path": "data/images/test/triangle_defect/syn_f5292292d98821c3.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998997449874878,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_ec012c64f126230e",
+      "path": "data/images/test/triangle_defect/syn_ec012c64f126230e.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999526739120483,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_9f11a04ebf145f76",
+      "path": "data/images/test/triangle_defect/syn_9f11a04ebf145f76.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999462366104126,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_9ce6d46093874c6a",
+      "path": "data/images/test/triangle_defect/syn_9ce6d46093874c6a.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999915361404419,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_870a449fd1d0f773",
+      "path": "data/images/test/triangle_defect/syn_870a449fd1d0f773.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999545812606812,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_d9ec8d5b309071f6",
+      "path": "data/images/test/triangle_defect/syn_d9ec8d5b309071f6.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9996546506881714,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_15fce5d434e1b632",
+      "path": "data/images/test/triangle_defect/syn_15fce5d434e1b632.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999514818191528,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_aeaa5968a9e9be95",
+      "path": "data/images/test/triangle_defect/syn_aeaa5968a9e9be95.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999721050262451,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_4fd0a3e6cc58c265",
+      "path": "data/images/test/triangle_defect/syn_4fd0a3e6cc58c265.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999794960021973,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_65b7daf0eacba752",
+      "path": "data/images/test/triangle_defect/syn_65b7daf0eacba752.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9992890357971191,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5375,
+          0.7375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_5d271fcdf9ebbf36",
+      "path": "data/images/test/triangle_defect/syn_5d271fcdf9ebbf36.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999955892562866,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_c85d59e1cdef8e89",
+      "path": "data/images/test/triangle_defect/syn_c85d59e1cdef8e89.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9953054189682007,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_b851e20a5b5e24b0",
+      "path": "data/images/test/triangle_defect/syn_b851e20a5b5e24b0.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999231100082397,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_be0b54d0b43dd72f",
+      "path": "data/images/test/triangle_defect/syn_be0b54d0b43dd72f.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.999944806098938,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_ed2406f004e7fe41",
+      "path": "data/images/test/triangle_defect/syn_ed2406f004e7fe41.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9994285702705383,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_0dd7dc611be000f6",
+      "path": "data/images/test/triangle_defect/syn_0dd7dc611be000f6.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.999028205871582,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5375,
+          0.7375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_c5df908fd75e20ff",
+      "path": "data/images/test/normal/syn_c5df908fd75e20ff.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0023461340460926294,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2125,
+          0.8625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_476a8bc0e0b0df15",
+      "path": "data/images/test/triangle_defect/syn_476a8bc0e0b0df15.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9979426264762878,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5375,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_516e9a409c79644b",
+      "path": "data/images/test/triangle_defect/syn_516e9a409c79644b.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998573064804077,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_def7b1901e423c54",
+      "path": "data/images/test/triangle_defect/syn_def7b1901e423c54.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998633861541748,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_66b5be41483c557d",
+      "path": "data/images/test/triangle_defect/syn_66b5be41483c557d.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9991078972816467,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_e9660784562ab878",
+      "path": "data/images/test/triangle_defect/syn_e9660784562ab878.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998890161514282,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5375,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_7458349d91eb2b11",
+      "path": "data/images/test/triangle_defect/syn_7458349d91eb2b11.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998753070831299,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5375,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_f65aedc940e381a1",
+      "path": "data/images/test/triangle_defect/syn_f65aedc940e381a1.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9995410442352295,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "32fa36076124",
+      "path": "data/images/test/normal/32fa36076124.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004847783129662275,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3375,
+          0.2625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "974ce9f40bfa",
+      "path": "data/images/test/normal/974ce9f40bfa.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004674431402236223,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2875,
+          0.2375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "6241070cd079",
+      "path": "data/images/test/triangle_defect/6241070cd079.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999946355819702,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "9a9226c641fc",
+      "path": "data/images/test/triangle_defect/9a9226c641fc.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999992847442627,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "79c9da36f192",
+      "path": "data/images/test/triangle_defect/79c9da36f192.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999996423721313,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "37b3dcb3a258",
+      "path": "data/images/test/triangle_defect/37b3dcb3a258.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999959468841553,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "4a06be56344b",
+      "path": "data/images/test/normal/4a06be56344b.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.02963043749332428,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2875,
+          0.2375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "c5d4b4d9688d",
+      "path": "data/images/test/normal/c5d4b4d9688d.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.002770590130239725,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.7125,
+          0.6875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "091721cf8378",
+      "path": "data/images/test/normal/091721cf8378.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.010495808906853199,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2875,
+          0.2375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "4c87efd88d71",
+      "path": "data/images/test/normal/4c87efd88d71.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.00317602651193738,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.7375,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "f1e61919489b",
+      "path": "data/images/test/normal/f1e61919489b.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0033828667365014553,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3875,
+          0.1375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "745570c90c69",
+      "path": "data/images/test/normal/745570c90c69.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.003201498882845044,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.0375,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "3bef1bd541b8",
+      "path": "data/images/test/normal/3bef1bd541b8.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0035160144325345755,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8625,
+          0.9375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "dab7e72d08db",
+      "path": "data/images/test/normal/dab7e72d08db.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.003585797967389226,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3375,
+          0.1375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "1b9a712d3113",
+      "path": "data/images/test/triangle_defect/1b9a712d3113.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999994039535522,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "bbbb722d63bd",
+      "path": "data/images/test/triangle_defect/bbbb722d63bd.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999936819076538,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "9d5bcf0bc746",
+      "path": "data/images/test/triangle_defect/9d5bcf0bc746.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999983310699463,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "0b9d5077e8e7",
+      "path": "data/images/test/triangle_defect/0b9d5077e8e7.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999990463256836,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "7d5c168f0266",
+      "path": "data/images/test/normal/7d5c168f0266.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.006326187402009964,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3875,
+          0.2375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "9f62a1fa1002",
+      "path": "data/images/test/normal/9f62a1fa1002.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0037773132789880037,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.1375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "31023366de09",
+      "path": "data/images/test/normal/31023366de09.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.007616130169481039,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3125,
+          0.2125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "1ba0b92682df",
+      "path": "data/images/test/normal/1ba0b92682df.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0038617674726992846,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6625,
+          0.2875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "02e608d3d963",
+      "path": "data/images/test/normal/02e608d3d963.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0034526900853961706,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3375,
+          0.2625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "c133fc3702ed",
+      "path": "data/images/test/normal/c133fc3702ed.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004034295678138733,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.7625,
+          0.9375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "6914328f8a17",
+      "path": "data/images/test/normal/6914328f8a17.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.01228204183280468,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3125,
+          0.2125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "dccee3209768",
+      "path": "data/images/test/triangle_defect/dccee3209768.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999994039535522,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "f61a73945c1d",
+      "path": "data/images/test/triangle_defect/f61a73945c1d.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999985694885254,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "86584c1a5bc5",
+      "path": "data/images/test/triangle_defect/86584c1a5bc5.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999847412109375,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "4a681e4e61c6",
+      "path": "data/images/test/triangle_defect/4a681e4e61c6.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999988079071045,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "639b5175e9b8",
+      "path": "data/images/test/normal/639b5175e9b8.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.003486847272142768,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8875,
+          0.9375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "aea933b37911",
+      "path": "data/images/test/normal/aea933b37911.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0033682784996926785,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.0375,
+          0.4125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "08c9a1bea7e6",
+      "path": "data/images/test/triangle_defect/08c9a1bea7e6.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999988079071045,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "7e32ef46e0715d4e",
+      "path": "data/images/test/normal/7e32ef46e0715d4e.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0032838161569088697,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.0625,
+          0.2125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "793adfc3b06d6506",
+      "path": "data/images/test/normal/793adfc3b06d6506.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004672548267990351,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2375,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "4a52491dc194e881",
+      "path": "data/images/test/normal/4a52491dc194e881.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.002542125293985009,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.9125,
+          0.7375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "2bb47441c5b8ed7e",
+      "path": "data/images/test/normal/2bb47441c5b8ed7e.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.003916750196367502,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2375,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "310eec8c2c83093c",
+      "path": "data/images/test/triangle_defect/310eec8c2c83093c.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999117851257324,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.2125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "032a88d86d1b0fef",
+      "path": "data/images/test/triangle_defect/032a88d86d1b0fef.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998012185096741,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6875,
+          0.2125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "635dbfac1fe1b3b9",
+      "path": "data/images/test/triangle_defect/635dbfac1fe1b3b9.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999992847442627,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.7875,
+          0.2125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "107bfc5863a704be",
+      "path": "data/images/test/triangle_defect/107bfc5863a704be.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999920129776001,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.7375,
+          0.1875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_010_historic_dim",
+      "path": "data/images/test/normal/v23normal_blue_010_historic_dim.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.020555509254336357,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2625,
+          0.1875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_010_historic_bright",
+      "path": "data/images/test/normal/v23normal_blue_010_historic_bright.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004457863047719002,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5875,
+          0.1625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_010_historic_left",
+      "path": "data/images/test/normal/v23normal_blue_010_historic_left.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.01603120006620884,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5875,
+          0.1375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_010_historic_right",
+      "path": "data/images/test/normal/v23normal_blue_010_historic_right.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.015217069536447525,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2375,
+          0.1875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_010_historic_softshadow",
+      "path": "data/images/test/normal/v23normal_blue_010_historic_softshadow.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0786692351102829,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2625,
+          0.1875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_040_historic_dim",
+      "path": "data/images/test/normal/v23normal_blue_040_historic_dim.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004603873938322067,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2875,
+          0.2375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_040_historic_bright",
+      "path": "data/images/test/normal/v23normal_blue_040_historic_bright.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004107966553419828,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3375,
+          0.6625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_040_historic_left",
+      "path": "data/images/test/normal/v23normal_blue_040_historic_left.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0038382024504244328,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3125,
+          0.0375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_040_historic_right",
+      "path": "data/images/test/normal/v23normal_blue_040_historic_right.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.00587228499352932,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3625,
+          0.8375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_040_historic_softshadow",
+      "path": "data/images/test/normal/v23normal_blue_040_historic_softshadow.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.006827032193541527,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3625,
+          0.6625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "S05",
+      "path": "data/images/test/normal/S05.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.003441586857661605,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3875,
+          0.4375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "S10",
+      "path": "data/images/test/triangle_defect/S10.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.051638275384902954,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8625,
+          0.6375
+        ]
+      },
+      "correct": false
+    }
+  ],
+  "release_comparison": {
+    "all_decisions_agree": true,
+    "max_score_difference": 0.0,
+    "max_torchscript_difference": 0.0
+  }
+}

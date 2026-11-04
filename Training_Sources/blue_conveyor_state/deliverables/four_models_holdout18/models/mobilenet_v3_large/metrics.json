@@ -1,0 +1,3077 @@
+{
+  "model": "mobilenet_v3_large",
+  "parameters": 4205875,
+  "training_seconds": 16.94,
+  "peak_gpu_gib": 0.767,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.5225137431072989,
+      "samples": 477
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.014743355321451393,
+      "samples": 477
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0024737400486987216,
+      "samples": 477
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.00023577139901961123,
+      "samples": 477
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0005977726663793271,
+      "samples": 477
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.006860704678094304,
+      "samples": 477
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.0028893004509996704,
+      "samples": 477
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.00020961930872554586,
+      "samples": 477
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.00010873140714957917,
+      "samples": 477
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.00014625710117601617,
+      "samples": 477
+    }
+  ],
+  "train": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        115,
+        0,
+        0
+      ],
+      [
+        0,
+        143,
+        0
+      ],
+      [
+        0,
+        0,
+        219
+      ]
+    ],
+    "predictions": [
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.983099,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999997,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.999728,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.999007,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.999271,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.998088,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.999038,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.99896,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.9998,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.999259,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.999762,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.999273,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.997845,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.998966,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.999651,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.998743,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.999339,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.999354,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.998622,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.999055,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.998737,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.997889,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.998838,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.998147,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.99864,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.99885,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.997659,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.998419,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.999188,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.999076,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.99884,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.99981,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.998312,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.999367,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.99825,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.997644,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.999519,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999988,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999996,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999996,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999767,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999968,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999921,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999969,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999948,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999987,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999995,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999991,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999991,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999995,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999994,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999994,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.99345,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.985737,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.998223,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.977396,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.99592,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.985568,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.983305,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.993709,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999996,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999991,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.974356,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.995655,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.993739,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.995632,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.995653,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.963128,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.998893,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.977316,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.996792,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.991864,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.994006,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.996754,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999984,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999988,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.987573,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.970078,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.98897,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.997545,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.972903,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.992006,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.978187,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.998616,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.983018,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.995512,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.978105,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.997319,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.992283,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.966491,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.984465,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.996403,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.967789,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.988432,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.997567,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.98567,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.985344,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.997691,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.998376,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.974524,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.992341,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.990994,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.995827,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.995266,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.972678,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.995117,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.992924,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.984039,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.995456,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.998299,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.992872,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.995856,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.99773,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.98272,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.996208,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.996033,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.99707,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.997642,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.992843,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.994392,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.991841,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.995019,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.993525,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.992087,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.998057,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.996183,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.997936,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.993286,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.991258,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.99505,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.985231,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.99126,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.988896,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.98924,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.980212,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.99999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999996,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999991,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999997,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999996,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999986,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999992,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999983,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999994,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999996,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999996,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999996,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999995,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999955,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999996,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999994,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999994,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999987,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999992,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999992,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999991,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.99999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999977,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999912,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999992,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999977,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999996,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999982,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999997,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999993,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999997,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999995,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.99996,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999625,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999949,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999987,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999995,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999999,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999998,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      }
+    ]
+  },
+  "heldout_real_test": {
+    "accuracy": 0.8333333134651184,
+    "macro_f1": 0.8222222222222223,
+    "confusion_matrix": [
+      [
+        6,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        6
+      ]
+    ],
+    "predictions": [
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.996951,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999982,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999681,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.996347,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "empty",
+        "confidence": 0.941131,
+        "correct": false
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.974688,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.997711,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999944,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999932,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.996507,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "empty",
+        "confidence": 0.943299,
+        "correct": false
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.999965,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.999288,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "object_present",
+        "confidence": 0.999982,
+        "correct": true
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "expected": "empty",
+        "predicted": "empty",
+        "confidence": 0.998513,
+        "correct": true
+      },
+      {
+        "expected": "object_present",
+        "predicted": "empty",
+        "confidence": 0.977232,
+        "correct": false
+      },
+      {
+        "expected": "hand_present",
+        "predicted": "hand_present",
+        "confidence": 0.988897,
+        "correct": true
+      }
+    ]
+  },
+  "train_count": 477,
+  "epochs": 10,
+  "batch_size": 32
+}

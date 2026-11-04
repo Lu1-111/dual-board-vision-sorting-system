@@ -1,0 +1,85 @@
+{
+  "completed_at": "2026-11-02T02:58:00.945614+00:00",
+  "removed": [
+    {
+      "location": "/home/lululu/Documents/Codex/2026-11-02/wei/outputs/blue_defect_v24_20261102",
+      "files": 34,
+      "bytes": 3282647
+    },
+    {
+      "location": "/home/lululu/Documents/Codex/2026-11-02/wei/outputs/V24冻结_20张合成测试数据与报告.zip",
+      "files": 1,
+      "bytes": 37276563
+    },
+    {
+      "location": "/home/lululu/Documents/Codex/2026-11-02/wei/outputs/缺角模型_V24实验候选与优化报告.zip",
+      "files": 1,
+      "bytes": 2680869
+    },
+    {
+      "location": "/home/lululu/Documents/Codex/2026-11-02/wei/outputs/三角缺角识别_V28_模型与报告.zip",
+      "files": 1,
+      "bytes": 3608669
+    },
+    {
+      "location": "/home/lululu/Documents/Codex/2026-11-02/wei/outputs/缺角识别_V26_全量数据_灰度插值",
+      "files": 24,
+      "bytes": 1305593
+    },
+    {
+      "location": "/home/lululu/Documents/Codex/2026-11-02/wei/outputs/缺角识别_V27_全量数据_灰度插值",
+      "files": 22,
+      "bytes": 1851710
+    },
+    {
+      "location": "/home/lululu/Documents/Codex/2026-11-02/wei/outputs/缺角测试_原场景",
+      "files": 39,
+      "bytes": 22971865
+    },
+    {
+      "location": "/home/lululu/Documents/Codex/2026-11-02/wei/outputs/缺角模型_10张原场景测试.zip",
+      "files": 1,
+      "bytes": 21055831
+    },
+    {
+      "location": "/home/lululu/Documents/Codex/2026-11-02/wei/outputs/缺角识别_V25_灰度插值",
+      "files": 52,
+      "bytes": 40225409
+    },
+    {
+      "location": "/home/lululu/Documents/Codex/2026-11-02/wei/outputs/V24冻结_合成测试_20261102",
+      "files": 72,
+      "bytes": 41225094
+    },
+    {
+      "location": "/home/lululu/Documents/Codex/2026-11-02/wei/outputs/三角缺角识别_V28_灰度插值",
+      "files": 38,
+      "bytes": 5447551
+    },
+    {
+      "location": "/home/lululu/cube_defect_smallcnn_20261101",
+      "files": 1207,
+      "bytes": 217454825
+    },
+    {
+      "location": "/home/lululu/cube_defect_v4_run",
+      "files": 298,
+      "bytes": 1721857227
+    },
+    {
+      "location": "/home/lululu/Documents/Codex/2026-11-02/wei/work",
+      "files": 294,
+      "bytes": 75646366
+    }
+  ],
+  "removed_bytes": 2195890219,
+  "removed_files": 2084,
+  "retained_project": "triangle-defect",
+  "verification_before_and_after_matches": true,
+  "retained": {
+    "curated_images": 1009,
+    "original_captures": 101,
+    "production_model": "V28"
+  },
+  "scope": "Obsolete task model versions, duplicate deliveries, experimental datasets and intermediate training directories. Shared runtimes, unrelated projects and platform caches preserved."
+}

@@ -1,0 +1,11 @@
+* text=auto
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.png binary
+*.pt binary
+*.onnx binary
+# Board-capture metadata is hashed byte-for-byte in evaluation reports.
+test/*.json -text whitespace=cr-at-eol

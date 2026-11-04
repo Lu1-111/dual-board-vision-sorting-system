@@ -1,0 +1,74 @@
+[
+  {
+    "image": "T01.jpg",
+    "label": "empty"
+  },
+  {
+    "image": "T02.jpg",
+    "label": "object_present"
+  },
+  {
+    "image": "T03.jpg",
+    "label": "hand_present"
+  },
+  {
+    "image": "T04.jpg",
+    "label": "empty"
+  },
+  {
+    "image": "T05.jpg",
+    "label": "object_present"
+  },
+  {
+    "image": "T06.jpg",
+    "label": "hand_present"
+  },
+  {
+    "image": "T07.jpg",
+    "label": "empty"
+  },
+  {
+    "image": "T08.jpg",
+    "label": "object_present"
+  },
+  {
+    "image": "T09.jpg",
+    "label": "hand_present"
+  },
+  {
+    "image": "T10.jpg",
+    "label": "empty"
+  },
+  {
+    "image": "T11.jpg",
+    "label": "object_present"
+  },
+  {
+    "image": "T12.jpg",
+    "label": "hand_present"
+  },
+  {
+    "image": "T13.jpg",
+    "label": "empty"
+  },
+  {
+    "image": "T14.jpg",
+    "label": "object_present"
+  },
+  {
+    "image": "T15.jpg",
+    "label": "hand_present"
+  },
+  {
+    "image": "T16.jpg",
+    "label": "empty"
+  },
+  {
+    "image": "T17.jpg",
+    "label": "object_present"
+  },
+  {
+    "image": "T18.jpg",
+    "label": "hand_present"
+  }
+]

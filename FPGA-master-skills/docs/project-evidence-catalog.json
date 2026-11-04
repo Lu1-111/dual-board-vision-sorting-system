@@ -1,0 +1,70 @@
+{
+  "root_at_packaging": "D:\\PRJ",
+  "files": [
+    {
+      "path": "sdk/blue_conveyor_state/board_validation/BOARD_VALIDATION.md",
+      "bytes": 5216,
+      "sha256": "f4e62827fe71fc3b5ff4f0ed372da9e29fb721ab48d91cc44995117b91097faf"
+    },
+    {
+      "path": "sdk/blue_conveyor_state/board_validation/PRECISION_FIX.md",
+      "bytes": 5515,
+      "sha256": "63d95cff123e6e0635253ec031670af812c1cec1b2fe28a93d32052f63cf82c5"
+    },
+    {
+      "path": "sdk/cube_defect_quant_v1/scripts/vendor_code/AL_onnx_pass.py",
+      "bytes": 4337,
+      "sha256": "f61bc7ab424726d08881f1e9ef8a3fbcfbee8fdcb612eeb6d944c450aed4540a"
+    },
+    {
+      "path": "sdk/cube_defect_quant_v1/scripts/vendor_code/check_onnx_model.py",
+      "bytes": 15590,
+      "sha256": "c00fe365aff2b95b07636bbfe351739e6c264c3e422131d79b90b3e18972a7b7"
+    },
+    {
+      "path": "sdk/cube_defect_quant_v1/scripts/vendor_code/data_reader.py",
+      "bytes": 4702,
+      "sha256": "0c358b31867a92e212ed04b031e246a1c48bf94730c762f9b13b6bc0bf0cc3db"
+    },
+    {
+      "path": "sdk/cube_defect_quant_v1/scripts/vendor_code/run_quant.py",
+      "bytes": 4514,
+      "sha256": "6032d059a9717568f4666f03f28c39ca02a20c047f8328b1f274f7cf0535ff2e"
+    },
+    {
+      "path": "sdk/cube_defect_quant_v1/scripts/vendor_code/split_convFC.py",
+      "bytes": 31418,
+      "sha256": "ac1292137560b61f608e9da3cdf2e3d6dc48a7f27030e374c17cec0e2d43e929"
+    },
+    {
+      "path": "sdk/cube_threecolor_quant_v1/reports/QUANTIZATION_REPORT.md",
+      "bytes": 2512,
+      "sha256": "493440cb1fa65d8b63368e99bd0444c8cc11de904a9477a46908f297905588a1"
+    },
+    {
+      "path": "sdk/triangle_defect_npu_retrain_20261103/reports/FINAL_REPORT.md",
+      "bytes": 18703,
+      "sha256": "216d111fc3d8ba4eb8ce8bce6dc65f3f62bed0e185cec9f4f2b105d1d4bfa89e"
+    },
+    {
+      "path": "sdk/triangle_defect_npu_v28/README.md",
+      "bytes": 6346,
+      "sha256": "8077e1f705aae126937ec382a1d342fe144065a045c088f3586dd12c78bdb68c"
+    },
+    {
+      "path": "sdk/triangle_defect_npu_v28/board/runtime_executor.cpp",
+      "bytes": 21309,
+      "sha256": "4d5789f085c13ca6a17bafe357e9b7945c21d8069337debec64d8beea97ed32d"
+    },
+    {
+      "path": "sdk/triangle_defect_npu_v28/reports/board_debug/tmp/triangle_image_003.log",
+      "bytes": 9605,
+      "sha256": "d8d7da0540d56765bf1a8b2cd389765e9649c746bf1712cf46b2720a70f19685"
+    },
+    {
+      "path": "sdk/triangle_defect_npu_v28/reports/board_vectors/cma_leak_analysis.md",
+      "bytes": 4882,
+      "sha256": "2cf4b831d47d93c1ad6aa236f2c0b303f1eaa3f6adfd9cbdb4312638cbcb45ed"
+    }
+  ]
+}

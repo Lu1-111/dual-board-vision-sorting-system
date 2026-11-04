@@ -1,0 +1,35 @@
+#!/bin/sh
+# Dedicated cable; no gateway or changes to the display/CAN/motor drivers.
+set -eu
+role=$(cat /etc/monitor-link-role)
+case "$role" in
+  board1) dev=eth0; address=172.22.203.1/30;;
+  board2) dev=eth1; address=172.22.203.2/30;;
+  *) echo 'Invalid monitor-link role'; exit 1;;
+esac
+case "${1:-start}" in
+  start)
+    if [ "$role" = board2 ] && [ "$(cat /sys/class/net/$dev/address)" != 02:78:a3:01:02:04 ]; then
+      ip link set "$dev" down
+      ip link set "$dev" address 02:78:a3:01:02:04
+    fi
+    ip link set "$dev" up
+    ip addr replace "$address" dev "$dev"
+    if [ "$role" = board2 ]; then
+      if [ -r /var/run/evidence-bridge.pid ]; then
+        pid=$(cat /var/run/evidence-bridge.pid)
+        if [ "$(cat /proc/$pid/comm 2>/dev/null)" = evidence_bridge ]; then exit 0; fi
+      fi
+      /opt/evidence-bridge/evidence_bridge --listen 172.22.203.2 >> /var/log/evidence-bridge.log 2>&1 &
+      echo $! > /var/run/evidence-bridge.pid
+    fi
+    ;;
+  stop)
+    if [ "$role" = board2 ] && [ -r /var/run/evidence-bridge.pid ]; then
+      pid=$(cat /var/run/evidence-bridge.pid)
+      if [ "$(cat /proc/$pid/comm 2>/dev/null)" = evidence_bridge ]; then kill "$pid"; fi
+      rm -f /var/run/evidence-bridge.pid
+    fi
+    ;;
+  *) echo 'Usage: S41monitor-link start|stop'; exit 1;;
+esac

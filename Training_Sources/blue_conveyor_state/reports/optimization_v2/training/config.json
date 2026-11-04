@@ -1,0 +1,43 @@
+{
+  "seed": 20261103,
+  "max_epochs": 100,
+  "batch_size": 24,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.005,
+  "label_smoothing": 0.015,
+  "optimizer": "AdamW",
+  "scheduler": "cosine",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "torch": "2.7.1+cu128",
+  "cuda": "12.8",
+  "parameter_count": 89827,
+  "classes": [
+    "empty",
+    "object_present",
+    "hand_present"
+  ],
+  "train_count": 264,
+  "internal_val_count": 67,
+  "known_dev_count": 24,
+  "initial_checkpoint_sha256": "1c48eba4c01271c51fcb1571e21e037fe3024923537a6625124bb8cbe23437ae",
+  "selection": "Maximize minimum internal/dev macro-F1, then mean macro-F1, then minimize mean cross entropy.",
+  "known_dev": "batch02 classification images, previously tested; used for checkpoint selection, not gradient updates.",
+  "augmentation": {
+    "brightness": 0.4,
+    "contrast": 0.25,
+    "saturation": 0.25,
+    "hue": 0.012,
+    "gamma": [
+      0.65,
+      1.65
+    ],
+    "red_blue_temperature": [
+      -0.2,
+      0.2
+    ],
+    "smooth_shadow_probability": 0.35,
+    "blur_probability": 0.15
+  },
+  "original_split_unchanged": true,
+  "new_test_used": false
+}

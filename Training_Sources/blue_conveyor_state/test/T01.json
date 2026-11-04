@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "T01",
+    "index": 1,
+    "lighting": "正常光",
+    "expected_class": "empty",
+    "instruction": "正常光：清空传送带，手移出画面",
+    "camera_pose": "fixed_session_A",
+    "split": "independent_real_validation"
+  },
+  "photo": {
+    "captured_utc": "1970-01-01T01:59:20.572Z",
+    "format": "jpg",
+    "frame_sequence": "2074",
+    "height": 1080,
+    "photo_id": "6e5cfaeb-de53-42c5-9c9b-1caab40b2c61",
+    "sha256": "6566faf6aa52b86224378adecc10335e493c396a3ee73ffefce03e4240bbc7dd",
+    "size": 201692,
+    "source": "imx415",
+    "width": 1920
+  },
+  "host_received_at": "2026-11-02T08:46:34.413861+00:00",
+  "split": "independent_real_validation",
+  "label_review_status": "visually_confirmed",
+  "model_freeze": {
+    "fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+    "selected_run": "scratch_v3"
+  },
+  "plan_sha256": "f364735c6c7adc4ca8e9edc1a0f24e6eee4105a67eafaf67b202205949c336e9",
+  "review_note": "传送带内没有物体或手；带外绿色块作为背景干扰保留。"
+}

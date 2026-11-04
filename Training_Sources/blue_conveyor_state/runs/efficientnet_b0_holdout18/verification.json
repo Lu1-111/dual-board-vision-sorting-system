@@ -1,0 +1,1 @@
+{"model": "efficientnet_b0", "max_abs_difference": 3.62396240234375e-05, "predictions": ["empty", "object_present", "hand_present", "empty", "empty", "hand_present", "empty", "object_present", "hand_present", "empty", "empty", "hand_present", "empty", "object_present", "hand_present", "empty", "object_present", "hand_present"]}

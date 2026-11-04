@@ -1,0 +1,5 @@
+{
+  "best.pt": "a29bf3994197273e8a2262cd59b901c6e04038750be9760433314030d0c6fe73",
+  "workcell_tiny_fp32.onnx": "1e1325ff056d80fe1e36aea4d2f01e7c83d8f8ff6f12f46302cd59820b4915b4",
+  "workcell_tiny_int8_qdq.onnx": "c13d238c21a36bd641ad2711b6e22b16abc763989cbdce1f857e6a85de08940a"
+}

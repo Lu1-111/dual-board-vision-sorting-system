@@ -1,0 +1,17 @@
+{
+  "version": "V28",
+  "depth": 0,
+  "input_size": 320,
+  "threshold": 0.88,
+  "preprocessing": "PIL convert L, then bilinear resize320x320, then float32 /255. Single-channel gray input; repeated grayscale channels with ImageNet mean/std inside feature extractor. No RGB information. No RGB gating.",
+  "aggregation": "Mean of4 largest local logits, then sigmoid; full output map, no omitted image border.",
+  "class_mapping": {
+    "normal": 0,
+    "defect": 1
+  },
+  "parameter_count": 250649,
+  "input_scope": "One complete workpiece crop in original conveyor inspection scene, same framing scale as dataset. Full camera frames with several objects require upstream cropping.",
+  "score_note": "Uncalibrated classifier score, not a probability guarantee.",
+  "selected_run": "triangle",
+  "selected_epoch": 95
+}

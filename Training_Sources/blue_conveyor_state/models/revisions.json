@@ -1,0 +1,27 @@
+{
+  "active": "v2",
+  "revisions": {
+    "v1": {
+      "model_hashes": {
+        "best.pt": "1c48eba4c01271c51fcb1571e21e037fe3024923537a6625124bb8cbe23437ae",
+        "workcell_tiny_fp32.onnx": "fef255e8ba5078ad5b1ef065721cc6ff44d86c578f0abd8998441b35dbe2ab07",
+        "workcell_tiny_int8_qdq.onnx": "a68c9609ec23e50e1146f0f1b5ee6e0b0fe59fa203a0979eba032e87516aa3c7"
+      },
+      "frozen_unix_time": 1793586947.7690043,
+      "export_report": "reports/initial_training/export_report.json",
+      "git_commit": "60bdb55a971e1125addfdfcb38d1d2a1ae44fd61",
+      "note": "Previous weights available in Git history only."
+    },
+    "v2": {
+      "model_hashes": {
+        "best.pt": "a29bf3994197273e8a2262cd59b901c6e04038750be9760433314030d0c6fe73",
+        "workcell_tiny_fp32.onnx": "1e1325ff056d80fe1e36aea4d2f01e7c83d8f8ff6f12f46302cd59820b4915b4",
+        "workcell_tiny_int8_qdq.onnx": "c13d238c21a36bd641ad2711b6e22b16abc763989cbdce1f857e6a85de08940a"
+      },
+      "frozen_unix_time": 1793590905.373158,
+      "export_report": "reports/optimization_v2/training/export_report.json",
+      "training_report": "reports/optimization_v2/README.md",
+      "fresh_test": "data/test_batches/batch03/manifest.json"
+    }
+  }
+}

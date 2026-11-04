@@ -1,0 +1,2362 @@
+{
+  "evaluated_at": "2026-11-02T02:57:17.670769+00:00",
+  "split": "val",
+  "device": "cpu",
+  "threshold": 0.88,
+  "metrics": {
+    "count": 146,
+    "confusion": [
+      [
+        69,
+        0
+      ],
+      [
+        0,
+        77
+      ]
+    ],
+    "accuracy": 1.0,
+    "defect_recall": 1.0,
+    "normal_specificity": 1.0
+  },
+  "errors": [],
+  "scope": "Internal grouped regression; not independent field acceptance.",
+  "samples": [
+    {
+      "id": "blue_001_historic",
+      "path": "data/images/val/normal/blue_001_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.006013799924403429,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3375,
+          0.2375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_006_historic",
+      "path": "data/images/val/normal/blue_006_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.006785422097891569,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3375,
+          0.7375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_008_historic",
+      "path": "data/images/val/normal/blue_008_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.022309886291623116,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.1125,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_011_historic",
+      "path": "data/images/val/normal/blue_011_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0034800691064447165,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3125,
+          0.3125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_016_historic",
+      "path": "data/images/val/normal/blue_016_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0061932397074997425,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2625,
+          0.2375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_020_historic",
+      "path": "data/images/val/normal/blue_020_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.008006792515516281,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2125,
+          0.3375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_026_historic",
+      "path": "data/images/val/normal/blue_026_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.003325925674289465,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6125,
+          0.2625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_029_historic",
+      "path": "data/images/val/normal/blue_029_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.020143982023000717,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8875,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_031_historic",
+      "path": "data/images/val/normal/blue_031_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.005903491750359535,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.7875,
+          0.9625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_033_historic",
+      "path": "data/images/val/normal/blue_033_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.3038051426410675,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8125,
+          0.7375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_034_historic",
+      "path": "data/images/val/normal/blue_034_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.031068023294210434,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2625,
+          0.4375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_037_historic",
+      "path": "data/images/val/normal/blue_037_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.022630708292126656,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2875,
+          0.5875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_038_historic",
+      "path": "data/images/val/normal/blue_038_historic.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.015332737937569618,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8125,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_053_historic",
+      "path": "data/images/val/triangle_defect/blue_053_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.999078631401062,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_054_historic",
+      "path": "data/images/val/triangle_defect/blue_054_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999974966049194,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.6375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_056_historic",
+      "path": "data/images/val/triangle_defect/blue_056_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9997585415840149,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4625,
+          0.8375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_059_historic",
+      "path": "data/images/val/triangle_defect/blue_059_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9997949004173279,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4625,
+          0.5625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_063_historic",
+      "path": "data/images/val/triangle_defect/blue_063_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9997606873512268,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3125,
+          0.4125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_067_historic",
+      "path": "data/images/val/triangle_defect/blue_067_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999463558197021,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4875,
+          0.3125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_068_historic",
+      "path": "data/images/val/triangle_defect/blue_068_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9997263550758362,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4625,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_071_historic",
+      "path": "data/images/val/triangle_defect/blue_071_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9175134301185608,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5875,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_072_historic",
+      "path": "data/images/val/triangle_defect/blue_072_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9997112154960632,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.4125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_089_historic",
+      "path": "data/images/val/triangle_defect/blue_089_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999778270721436,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.3375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_090_historic",
+      "path": "data/images/val/triangle_defect/blue_090_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999314546585083,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.5875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_091_historic",
+      "path": "data/images/val/triangle_defect/blue_091_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9985505938529968,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3125,
+          0.7125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "blue_098_historic",
+      "path": "data/images/val/triangle_defect/blue_098_historic.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9968788623809814,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2125,
+          0.5375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "fee57dd870",
+      "path": "data/images/val/normal/fee57dd870.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0027102488093078136,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8875,
+          0.9625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "aae0e64550",
+      "path": "data/images/val/normal/aae0e64550.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004983484745025635,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6875,
+          0.2125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_008946d5f89b1330",
+      "path": "data/images/val/normal/syn_008946d5f89b1330.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.005968840792775154,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8375,
+          0.8375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_a5776aabe49a16cf",
+      "path": "data/images/val/triangle_defect/syn_a5776aabe49a16cf.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999213218688965,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_a702a1eda7a35dd7",
+      "path": "data/images/val/triangle_defect/syn_a702a1eda7a35dd7.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999217987060547,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4625,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_1b118fd4a9d587d6",
+      "path": "data/images/val/triangle_defect/syn_1b118fd4a9d587d6.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9989287257194519,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4625,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_00a93bebcff5fa54",
+      "path": "data/images/val/triangle_defect/syn_00a93bebcff5fa54.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998005032539368,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4625,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_d19c7310943d27c1",
+      "path": "data/images/val/triangle_defect/syn_d19c7310943d27c1.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998120665550232,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4625,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_24fe9d1ba5515770",
+      "path": "data/images/val/triangle_defect/syn_24fe9d1ba5515770.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999356269836426,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_fdd82b14a89908f5",
+      "path": "data/images/val/triangle_defect/syn_fdd82b14a89908f5.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999921321868896,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_ec4f4163bbab094e",
+      "path": "data/images/val/normal/syn_ec4f4163bbab094e.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004012876655906439,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5625,
+          0.1375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_1365e403aeeb7827",
+      "path": "data/images/val/normal/syn_1365e403aeeb7827.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.005039816256612539,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2875,
+          0.5375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_be1f2a02c7b23ad5",
+      "path": "data/images/val/normal/syn_be1f2a02c7b23ad5.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0031934664584696293,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.0875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_0a6544e6d57677b5",
+      "path": "data/images/val/normal/syn_0a6544e6d57677b5.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.008338794112205505,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8375,
+          0.8625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_c3ffa9203dd070c7",
+      "path": "data/images/val/normal/syn_c3ffa9203dd070c7.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0035883730743080378,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3375,
+          0.1375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_a2890ff9721056ca",
+      "path": "data/images/val/normal/syn_a2890ff9721056ca.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.007234256714582443,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4875,
+          0.4625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_86c5d4d7bb03272c",
+      "path": "data/images/val/normal/syn_86c5d4d7bb03272c.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0042732045985758305,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.7625,
+          0.2125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_16e2383f43832031",
+      "path": "data/images/val/normal/syn_16e2383f43832031.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.005707116331905127,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.9625,
+          0.8375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_a9c23af00a02f6e2",
+      "path": "data/images/val/triangle_defect/syn_a9c23af00a02f6e2.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999732971191406,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_17a87053ffe32d01",
+      "path": "data/images/val/triangle_defect/syn_17a87053ffe32d01.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9997654557228088,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_2e656602c06856f0",
+      "path": "data/images/val/triangle_defect/syn_2e656602c06856f0.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998020529747009,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_a54c44468a440fa4",
+      "path": "data/images/val/triangle_defect/syn_a54c44468a440fa4.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999411106109619,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_e317fe7b51429c41",
+      "path": "data/images/val/triangle_defect/syn_e317fe7b51429c41.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999489784240723,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_e9530e88bc70bb25",
+      "path": "data/images/val/triangle_defect/syn_e9530e88bc70bb25.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999520778656006,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_0159e5b0aa916641",
+      "path": "data/images/val/triangle_defect/syn_0159e5b0aa916641.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.999984622001648,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_36cd1492c3e062bc",
+      "path": "data/images/val/triangle_defect/syn_36cd1492c3e062bc.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9988957643508911,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4625,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_14ecd9c72e1a7ed5",
+      "path": "data/images/val/triangle_defect/syn_14ecd9c72e1a7ed5.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9997392296791077,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_ab5d190ded4dc5cb",
+      "path": "data/images/val/triangle_defect/syn_ab5d190ded4dc5cb.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999982118606567,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3625,
+          0.5625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_6b90836c7191b231",
+      "path": "data/images/val/triangle_defect/syn_6b90836c7191b231.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999352693557739,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_44b48bfaba1b0156",
+      "path": "data/images/val/triangle_defect/syn_44b48bfaba1b0156.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999834299087524,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_8c2ad44df8a1b89a",
+      "path": "data/images/val/triangle_defect/syn_8c2ad44df8a1b89a.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.999995231628418,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_2d2b8e40d23c1e52",
+      "path": "data/images/val/normal/syn_2d2b8e40d23c1e52.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004851359408348799,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2875,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_f8db580bb34a2e73",
+      "path": "data/images/val/triangle_defect/syn_f8db580bb34a2e73.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999895095825195,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_8143c947261448bd",
+      "path": "data/images/val/normal/syn_8143c947261448bd.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004255245439708233,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8875,
+          0.0625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "syn_3154041dd38406d7",
+      "path": "data/images/val/normal/syn_3154041dd38406d7.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0026064682751893997,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5375,
+          0.6375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "bfa31d8228c4",
+      "path": "data/images/val/normal/bfa31d8228c4.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0032990637701004744,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5875,
+          0.7375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "2eb105966abb",
+      "path": "data/images/val/normal/2eb105966abb.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0026667413767427206,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6875,
+          0.1875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "45bc9c093158",
+      "path": "data/images/val/normal/45bc9c093158.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004559248220175505,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6375,
+          0.2125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "056916692166",
+      "path": "data/images/val/triangle_defect/056916692166.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998829364776611,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4875,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "ad55a15d1ed5",
+      "path": "data/images/val/triangle_defect/ad55a15d1ed5.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998904466629028,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "70fcc9500973",
+      "path": "data/images/val/triangle_defect/70fcc9500973.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9995715022087097,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "9da4f4f23ce8",
+      "path": "data/images/val/triangle_defect/9da4f4f23ce8.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998917579650879,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4875,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "0e7e3c8aa0a7",
+      "path": "data/images/val/normal/0e7e3c8aa0a7.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.007571008056402206,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.7125,
+          0.1375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "a14c67ebf7b1",
+      "path": "data/images/val/normal/a14c67ebf7b1.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.006196069531142712,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5375,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "710e8f947d22",
+      "path": "data/images/val/normal/710e8f947d22.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.008987356908619404,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "c3a38e6606b1",
+      "path": "data/images/val/normal/c3a38e6606b1.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.006417263764888048,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6125,
+          0.2375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "63b730ee91be",
+      "path": "data/images/val/triangle_defect/63b730ee91be.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9997902512550354,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "0df02729a83b",
+      "path": "data/images/val/triangle_defect/0df02729a83b.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9993959665298462,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4875,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "15b45976bf80",
+      "path": "data/images/val/triangle_defect/15b45976bf80.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998499155044556,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "06887046fe1c",
+      "path": "data/images/val/triangle_defect/06887046fe1c.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9987890124320984,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "7ceb8b3394a2",
+      "path": "data/images/val/normal/7ceb8b3394a2.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.005581086501479149,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6375,
+          0.2625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "b0fbf14d789f",
+      "path": "data/images/val/normal/b0fbf14d789f.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.007260807789862156,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8375,
+          0.8625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "b59456bd5644",
+      "path": "data/images/val/normal/b59456bd5644.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.007072800770401955,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.5375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "dcb2284971bc",
+      "path": "data/images/val/normal/dcb2284971bc.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.01390925794839859,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8375,
+          0.8625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "682b548848fa",
+      "path": "data/images/val/triangle_defect/682b548848fa.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999696016311646,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "502af5984072",
+      "path": "data/images/val/triangle_defect/502af5984072.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9991042017936707,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4875,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "1ee43d8362e9",
+      "path": "data/images/val/triangle_defect/1ee43d8362e9.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999076128005981,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "15e13e76f7f8",
+      "path": "data/images/val/normal/15e13e76f7f8.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.00581787945702672,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6375,
+          0.2125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "1f4bdeccc64a",
+      "path": "data/images/val/normal/1f4bdeccc64a.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.008709746412932873,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3875,
+          0.3375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "f2a4bb4e34d8",
+      "path": "data/images/val/normal/f2a4bb4e34d8.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.012049941346049309,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5375,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "8e61a1915721",
+      "path": "data/images/val/normal/8e61a1915721.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.005518647842109203,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8375,
+          0.8375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "e669fa3b2dcd",
+      "path": "data/images/val/triangle_defect/e669fa3b2dcd.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999899864196777,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "9d20571e16e8",
+      "path": "data/images/val/triangle_defect/9d20571e16e8.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998575448989868,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "3e80229beaed",
+      "path": "data/images/val/triangle_defect/3e80229beaed.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999308586120605,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "9cfa0eb9556e",
+      "path": "data/images/val/triangle_defect/9cfa0eb9556e.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999047517776489,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4625,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "e44931847da6",
+      "path": "data/images/val/normal/e44931847da6.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.006335132289677858,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5375,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "561995e6c1c7",
+      "path": "data/images/val/normal/561995e6c1c7.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.01375601440668106,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8125,
+          0.7125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "00118ae48122",
+      "path": "data/images/val/normal/00118ae48122.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.008093580603599548,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4875,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "e6609dfc2096",
+      "path": "data/images/val/triangle_defect/e6609dfc2096.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999281167984009,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4625,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "049000f22eff",
+      "path": "data/images/val/triangle_defect/049000f22eff.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998268485069275,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4625,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "ed3125be437f",
+      "path": "data/images/val/triangle_defect/ed3125be437f.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9994478821754456,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "e2ae3485b2da",
+      "path": "data/images/val/normal/e2ae3485b2da.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004407641477882862,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.9625,
+          0.8375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "41c640f51633",
+      "path": "data/images/val/triangle_defect/41c640f51633.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999688863754272,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "1e4ec6a18b95e752",
+      "path": "data/images/val/triangle_defect/1e4ec6a18b95e752.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999700784683228,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.7125,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "55de8f3b18f875cb",
+      "path": "data/images/val/triangle_defect/55de8f3b18f875cb.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998310804367065,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4125,
+          0.1875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "ed6c1a4b68e22744",
+      "path": "data/images/val/triangle_defect/ed6c1a4b68e22744.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999922513961792,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4875,
+          0.1875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "4c6292389c6848ef",
+      "path": "data/images/val/triangle_defect/4c6292389c6848ef.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999722242355347,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6875,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "d34fafbac4423bf4",
+      "path": "data/images/val/triangle_defect/d34fafbac4423bf4.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999053478240967,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.1875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "dc88bc9f92e58408",
+      "path": "data/images/val/triangle_defect/dc88bc9f92e58408.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999992847442627,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4875,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "2c18ccebb9387ac6",
+      "path": "data/images/val/triangle_defect/2c18ccebb9387ac6.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999940395355225,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4875,
+          0.1875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "76788331d66e8cb1",
+      "path": "data/images/val/triangle_defect/76788331d66e8cb1.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999431371688843,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6625,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "fb014af7409d5a72",
+      "path": "data/images/val/triangle_defect/fb014af7409d5a72.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999961853027344,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6375,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "297b82bf35c00e7a",
+      "path": "data/images/val/normal/297b82bf35c00e7a.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.010785493068397045,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3125,
+          0.4625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "f4a3268fc073bf71",
+      "path": "data/images/val/normal/f4a3268fc073bf71.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0033570711966603994,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.7625,
+          0.5125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "1221d288bb9cd205",
+      "path": "data/images/val/normal/1221d288bb9cd205.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.005218115169554949,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2375,
+          0.8875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "7ed119d5d7abefbe",
+      "path": "data/images/val/normal/7ed119d5d7abefbe.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.003715767292305827,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.0375,
+          0.6125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "bf9502bb5c0f67ec",
+      "path": "data/images/val/normal/bf9502bb5c0f67ec.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0046293530613183975,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3125,
+          0.4625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "77af52193bd99f30",
+      "path": "data/images/val/normal/77af52193bd99f30.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0035603668075054884,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.0625,
+          0.5125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "a13a3c6906fc2719",
+      "path": "data/images/val/normal/a13a3c6906fc2719.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.005435574799776077,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8625,
+          0.6625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "11d0daf07df0574f",
+      "path": "data/images/val/normal/11d0daf07df0574f.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004051727708429098,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.7625,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "615a52bfb60599a3",
+      "path": "data/images/val/triangle_defect/615a52bfb60599a3.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998464584350586,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8375,
+          0.4125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "3787caeb7cd5728d",
+      "path": "data/images/val/triangle_defect/3787caeb7cd5728d.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999830722808838,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6625,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "52fdd12dfbd187d9",
+      "path": "data/images/val/normal/52fdd12dfbd187d9.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.004698240663856268,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2875,
+          0.6125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "7185880724ddb878",
+      "path": "data/images/val/normal/7185880724ddb878.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0036139986477792263,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.0625,
+          0.4375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "bb635ca472bb7b3f",
+      "path": "data/images/val/normal/bb635ca472bb7b3f.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.009813996031880379,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.1875,
+          0.6375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "376ad468b912c2f0",
+      "path": "data/images/val/normal/376ad468b912c2f0.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.8406708240509033,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4875,
+          0.1875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "8d013fbf1e9d2cf1",
+      "path": "data/images/val/triangle_defect/8d013fbf1e9d2cf1.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9997280240058899,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6625,
+          0.2625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "b3b118c25ffdb5f3",
+      "path": "data/images/val/triangle_defect/b3b118c25ffdb5f3.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9990997314453125,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4875,
+          0.1875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "209c5f2c1c2f94d3",
+      "path": "data/images/val/triangle_defect/209c5f2c1c2f94d3.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999877214431763,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.7625,
+          0.3625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "c0cd708d5f9dd38c",
+      "path": "data/images/val/triangle_defect/c0cd708d5f9dd38c.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9907675385475159,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.7375,
+          0.3125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "63f69860ed2248c7",
+      "path": "data/images/val/triangle_defect/63f69860ed2248c7.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999082088470459,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5875,
+          0.2125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "4971d43c05172bf8",
+      "path": "data/images/val/triangle_defect/4971d43c05172bf8.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999794960021973,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5875,
+          0.1875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "443cc3777ee27573",
+      "path": "data/images/val/triangle_defect/443cc3777ee27573.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9997854828834534,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8125,
+          0.3875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_001_historic_dim",
+      "path": "data/images/val/normal/v23normal_blue_001_historic_dim.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.01489260420203209,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2375,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_001_historic_bright",
+      "path": "data/images/val/normal/v23normal_blue_001_historic_bright.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.01350400410592556,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2375,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_001_historic_left",
+      "path": "data/images/val/normal/v23normal_blue_001_historic_left.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.0031867900397628546,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4625,
+          0.8875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_001_historic_right",
+      "path": "data/images/val/normal/v23normal_blue_001_historic_right.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.023433171212673187,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2375,
+          0.7875
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_001_historic_softshadow",
+      "path": "data/images/val/normal/v23normal_blue_001_historic_softshadow.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.054602403193712234,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2375,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_020_historic_dim",
+      "path": "data/images/val/normal/v23normal_blue_020_historic_dim.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.020973898470401764,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2625,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_020_historic_bright",
+      "path": "data/images/val/normal/v23normal_blue_020_historic_bright.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.003980142995715141,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6625,
+          0.2375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_020_historic_left",
+      "path": "data/images/val/normal/v23normal_blue_020_historic_left.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.003424218390136957,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.6375,
+          0.6625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_020_historic_right",
+      "path": "data/images/val/normal/v23normal_blue_020_historic_right.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.01204167865216732,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.2875,
+          0.7625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "v23normal_blue_020_historic_softshadow",
+      "path": "data/images/val/normal/v23normal_blue_020_historic_softshadow.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.008352112956345081,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.7125,
+          0.4125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "defect_063_bright",
+      "path": "data/images/val/triangle_defect/defect_063_bright.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9998911619186401,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3375,
+          0.4375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "defect_063_dim",
+      "path": "data/images/val/triangle_defect/defect_063_dim.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9994450211524963,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3375,
+          0.4375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "defect_063_right",
+      "path": "data/images/val/triangle_defect/defect_063_right.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999895095825195,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3375,
+          0.4375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "defect_063_soft_shadow",
+      "path": "data/images/val/triangle_defect/defect_063_soft_shadow.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9997819066047668,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.3125,
+          0.4625
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "S02",
+      "path": "data/images/val/normal/S02.png",
+      "label": 0,
+      "prediction": {
+        "class_id": 0,
+        "label": "normal",
+        "score": 0.025544896721839905,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.8125,
+          0.2375
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "S06",
+      "path": "data/images/val/triangle_defect/S06.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.999438464641571,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.5125,
+          0.8125
+        ]
+      },
+      "correct": true
+    },
+    {
+      "id": "S09",
+      "path": "data/images/val/triangle_defect/S09.png",
+      "label": 1,
+      "prediction": {
+        "class_id": 1,
+        "label": "defect",
+        "score": 0.9999830722808838,
+        "threshold": 0.88,
+        "peak_xy_normalized": [
+          0.4375,
+          0.7375
+        ]
+      },
+      "correct": true
+    }
+  ]
+}

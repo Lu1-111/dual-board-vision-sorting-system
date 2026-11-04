@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "T18",
+    "index": 18,
+    "lighting": "亮光",
+    "expected_class": "hand_present",
+    "instruction": "亮光：两三根手指从画面边缘伸到带面上，保持不动",
+    "camera_pose": "fixed_session_A",
+    "split": "independent_real_validation"
+  },
+  "photo": {
+    "captured_utc": "1970-01-01T02:41:05.095Z",
+    "format": "jpg",
+    "frame_sequence": "46255",
+    "height": 1080,
+    "photo_id": "1e12bc2e-03a9-4547-952e-ebd36fa75e22",
+    "sha256": "a78c0d4b7773940a645bd7adce19a2c9b1f5d673f5a2c13d748383decc721367",
+    "size": 196733,
+    "source": "imx415",
+    "width": 1920
+  },
+  "host_received_at": "2026-11-02T09:28:18.314977+00:00",
+  "split": "independent_real_validation",
+  "label_review_status": "visually_confirmed",
+  "model_freeze": {
+    "fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+    "selected_run": "scratch_v3"
+  },
+  "plan_sha256": "f364735c6c7adc4ca8e9edc1a0f24e6eee4105a67eafaf67b202205949c336e9",
+  "review_note": "亮光计划组，两根手指伸到带面，部分手掌可见，蓝块仍在右端；记录为 hand_present，不属于仅极少指尖可见。"
+}

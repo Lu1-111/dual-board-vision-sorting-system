@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "T02",
+    "index": 2,
+    "lighting": "正常光",
+    "expected_class": "object_present",
+    "instruction": "正常光：蓝块放在传送带中央，手移出画面",
+    "camera_pose": "fixed_session_A",
+    "split": "independent_real_validation"
+  },
+  "photo": {
+    "captured_utc": "1970-01-01T02:01:51.544Z",
+    "format": "jpg",
+    "frame_sequence": "4737",
+    "height": 1080,
+    "photo_id": "4f764fb2-b178-4324-a6ff-96f6cf765fe5",
+    "sha256": "b624323994797f574ae19774b9bafd512917bc3a5524d7682fa09108a8e4f551",
+    "size": 202817,
+    "source": "imx415",
+    "width": 1920
+  },
+  "host_received_at": "2026-11-02T08:49:05.533796+00:00",
+  "split": "independent_real_validation",
+  "label_review_status": "visually_confirmed",
+  "model_freeze": {
+    "fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+    "selected_run": "scratch_v3"
+  },
+  "plan_sha256": "f364735c6c7adc4ca8e9edc1a0f24e6eee4105a67eafaf67b202205949c336e9",
+  "review_note": "蓝块完整位于带面内；画面中无手。"
+}

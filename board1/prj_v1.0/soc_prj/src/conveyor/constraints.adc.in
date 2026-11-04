@@ -1,0 +1,11 @@
+# TEMPLATE ONLY. Replace the pin and I/O standard tokens after wiring is known.
+# Clock, reset and AXI signals stay internal to the design.
+# BTS7960 outputs: both enables are controlled; do not tie them permanently high.
+# set_pin_assignment { bts_rpwm } { LOCATION = RPWM_BALL; IOSTANDARD = IO_STANDARD; }
+# set_pin_assignment { bts_lpwm } { LOCATION = LPWM_BALL; IOSTANDARD = IO_STANDARD; }
+# set_pin_assignment { bts_r_en } { LOCATION = R_EN_BALL; IOSTANDARD = IO_STANDARD; }
+# set_pin_assignment { bts_l_en } { LOCATION = L_EN_BALL; IOSTANDARD = IO_STANDARD; }
+# set_pin_assignment { encoder_a } { LOCATION = ENCODER_A_BALL; IOSTANDARD = IO_STANDARD; }
+# set_pin_assignment { encoder_b } { LOCATION = ENCODER_B_BALL; IOSTANDARD = IO_STANDARD; }
+# set_pin_assignment { conveyor_estop } { LOCATION = ESTOP_BALL; IOSTANDARD = IO_STANDARD; }
+# set_pin_assignment { conveyor_fault } { LOCATION = FAULT_BALL; IOSTANDARD = IO_STANDARD; }

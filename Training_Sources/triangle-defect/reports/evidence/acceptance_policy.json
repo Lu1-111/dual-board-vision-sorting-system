@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-11-02T10:43:28.228528+08:00",
+  "task": "Only the triangular chipped corner seen in the original dataset. Texture and size may vary. Other arbitrary notch shapes are outside this task.",
+  "data": {
+    "train": {
+      "0": 342,
+      "1": 379
+    },
+    "val": {
+      "0": 69,
+      "1": 77
+    },
+    "test": {
+      "0": 67,
+      "1": 75
+    }
+  },
+  "selection": "Validation balanced accuracy, then fewer FN, then BCE; thresholds chosen only with validation.",
+  "internal_acceptance": {
+    "accuracy": 0.95,
+    "defect_recall": 0.95,
+    "normal_specificity": 0.95
+  },
+  "scope": "Train/validation/test image groups remain unchanged after dropping the whole out-of-scope supplemental batch. These are internal grouped regression/holdout measurements; former model results were inspected during development, so not independent field validation."
+}

@@ -1,0 +1,26 @@
+#!/bin/sh
+set -eu
+base=/opt/can-monitor
+pidfile=/run/line-telemetry.pid
+running() {
+ test -r "$pidfile" || return 1
+ pid=$(cat "$pidfile")
+ case "$pid" in ''|*[!0-9]*) return 1;; esac
+ test "$(readlink /proc/$pid/exe 2>/dev/null)" = "$base/telemetry_publisher" || return 1
+ ! grep -q '^State:.*Z' /proc/$pid/status 2>/dev/null
+}
+case "${1:-}" in
+ start)
+ running && exit 0
+ export LD_LIBRARY_PATH=/home/uisrc/qt_play/qt_lib/lib
+ "$base/telemetry_publisher" >/var/log/line-telemetry.log 2>&1 </dev/null &
+ echo $! >"$pidfile"
+ sleep 1
+ running
+ ;;
+ stop)
+ if running; then kill "$pid"; fi
+ ;;
+ status) running ;;
+ *) exit 2 ;;
+esac

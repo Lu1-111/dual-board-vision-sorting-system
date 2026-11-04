@@ -1,0 +1,42 @@
+{
+  "files": [
+    {
+      "file": "latest_frame_server.hpp",
+      "modified": true
+    },
+    {
+      "file": "latest_frame_server.cpp",
+      "modified": true
+    },
+    {
+      "file": "main.cpp",
+      "modified": true
+    },
+    {
+      "file": "mainwindow.hpp",
+      "modified": true
+    },
+    {
+      "file": "mainwindow.cpp",
+      "modified": true
+    },
+    {
+      "file": "capture_worker.hpp",
+      "modified": true
+    },
+    {
+      "file": "capture_worker.cpp",
+      "modified": true
+    },
+    {
+      "file": "tests/live_stream_fixture.cpp",
+      "modified": true
+    }
+  ],
+  "new_and_original_tests_python36_syntax": true,
+  "cli_single_definition": true,
+  "dma_owned_copy_before_network_offer": true,
+  "compiled": false,
+  "native_tests_run": false,
+  "target_tests_run": false
+}

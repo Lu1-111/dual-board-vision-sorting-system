@@ -1,0 +1,904 @@
+{
+  "train_count": 477,
+  "test_count": 18,
+  "epochs": 10,
+  "classes": [
+    "empty",
+    "object_present",
+    "hand_present"
+  ],
+  "models": {
+    "mobilenet_v3_small": {
+      "correct": 17,
+      "total": 18,
+      "accuracy": 0.9444444444444444,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          1,
+          5
+        ]
+      ],
+      "rows": [
+        {
+          "image": "T01.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9973113536834717,
+            "object_present": 0.002547232434153557,
+            "hand_present": 0.00014153224765323102
+          }
+        },
+        {
+          "image": "T02.jpg",
+          "label": "object_present",
+          "prediction": "object_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.00011355198512319475,
+            "object_present": 0.9998600482940674,
+            "hand_present": 2.631401366670616e-05
+          }
+        },
+        {
+          "image": "T03.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.00010495794413145632,
+            "object_present": 0.002475937595590949,
+            "hand_present": 0.9974191188812256
+          }
+        },
+        {
+          "image": "T04.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9979155659675598,
+            "object_present": 0.0019445960642769933,
+            "hand_present": 0.00013973977183923125
+          }
+        },
+        {
+          "image": "T05.jpg",
+          "label": "object_present",
+          "prediction": "object_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.15450899302959442,
+            "object_present": 0.8445704579353333,
+            "hand_present": 0.0009205883834511042
+          }
+        },
+        {
+          "image": "T06.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.05076099932193756,
+            "object_present": 0.3615138530731201,
+            "hand_present": 0.5877251625061035
+          }
+        },
+        {
+          "image": "T07.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9974019527435303,
+            "object_present": 0.002345940563827753,
+            "hand_present": 0.00025218279915861785
+          }
+        },
+        {
+          "image": "T08.jpg",
+          "label": "object_present",
+          "prediction": "object_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.0009704524418339133,
+            "object_present": 0.9988988637924194,
+            "hand_present": 0.00013057488831691444
+          }
+        },
+        {
+          "image": "T09.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.0017629972426220775,
+            "object_present": 0.002291112206876278,
+            "hand_present": 0.9959458708763123
+          }
+        },
+        {
+          "image": "T10.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9947137236595154,
+            "object_present": 0.004848732613027096,
+            "hand_present": 0.00043750827899202704
+          }
+        },
+        {
+          "image": "T11.jpg",
+          "label": "object_present",
+          "prediction": "object_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.12123022973537445,
+            "object_present": 0.8759834170341492,
+            "hand_present": 0.0027863418217748404
+          }
+        },
+        {
+          "image": "T12.jpg",
+          "label": "hand_present",
+          "prediction": "object_present",
+          "correct": false,
+          "probabilities": {
+            "empty": 0.06934192776679993,
+            "object_present": 0.5685915350914001,
+            "hand_present": 0.36206650733947754
+          }
+        },
+        {
+          "image": "T13.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9983281493186951,
+            "object_present": 0.001466458779759705,
+            "hand_present": 0.00020537547243293375
+          }
+        },
+        {
+          "image": "T14.jpg",
+          "label": "object_present",
+          "prediction": "object_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.0003916895657312125,
+            "object_present": 0.9994822144508362,
+            "hand_present": 0.0001261951110791415
+          }
+        },
+        {
+          "image": "T15.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.011262468062341213,
+            "object_present": 0.017938975244760513,
+            "hand_present": 0.9707985520362854
+          }
+        },
+        {
+          "image": "T16.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9626933932304382,
+            "object_present": 0.0322776734828949,
+            "hand_present": 0.005028837360441685
+          }
+        },
+        {
+          "image": "T17.jpg",
+          "label": "object_present",
+          "prediction": "object_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.3820878267288208,
+            "object_present": 0.6020890474319458,
+            "hand_present": 0.01582317240536213
+          }
+        },
+        {
+          "image": "T18.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.024086223915219307,
+            "object_present": 0.07779458165168762,
+            "hand_present": 0.8981192708015442
+          }
+        }
+      ],
+      "model_sha256": "28bd600d9c4be8303643cb82074b3b655869f2e8351ff9c8566c144b3f76a735"
+    },
+    "mobilenet_v3_large": {
+      "correct": 15,
+      "total": 18,
+      "accuracy": 0.8333333333333334,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          6
+        ]
+      ],
+      "rows": [
+        {
+          "image": "T01.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9969398975372314,
+            "object_present": 0.0026557755190879107,
+            "hand_present": 0.00040433535468764603
+          }
+        },
+        {
+          "image": "T02.jpg",
+          "label": "object_present",
+          "prediction": "object_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 3.9632931247979286e-07,
+            "object_present": 0.9999817609786987,
+            "hand_present": 1.7903788830153644e-05
+          }
+        },
+        {
+          "image": "T03.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 6.7720543484028894e-06,
+            "object_present": 0.00030787571449764073,
+            "hand_present": 0.9996854066848755
+          }
+        },
+        {
+          "image": "T04.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9963148236274719,
+            "object_present": 0.003172952914610505,
+            "hand_present": 0.0005123140872456133
+          }
+        },
+        {
+          "image": "T05.jpg",
+          "label": "object_present",
+          "prediction": "empty",
+          "correct": false,
+          "probabilities": {
+            "empty": 0.9404622316360474,
+            "object_present": 0.05691741034388542,
+            "hand_present": 0.0026204404421150684
+          }
+        },
+        {
+          "image": "T06.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.002416671719402075,
+            "object_present": 0.023445261642336845,
+            "hand_present": 0.974138081073761
+          }
+        },
+        {
+          "image": "T07.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9977231621742249,
+            "object_present": 0.0019781235605478287,
+            "hand_present": 0.00029864159296266735
+          }
+        },
+        {
+          "image": "T08.jpg",
+          "label": "object_present",
+          "prediction": "object_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 1.1527598871907685e-05,
+            "object_present": 0.9999457597732544,
+            "hand_present": 4.266894393367693e-05
+          }
+        },
+        {
+          "image": "T09.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 7.132442533475114e-06,
+            "object_present": 6.157907046144828e-05,
+            "hand_present": 0.9999313354492188
+          }
+        },
+        {
+          "image": "T10.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9965330362319946,
+            "object_present": 0.002969085704535246,
+            "hand_present": 0.0004978248034603894
+          }
+        },
+        {
+          "image": "T11.jpg",
+          "label": "object_present",
+          "prediction": "empty",
+          "correct": false,
+          "probabilities": {
+            "empty": 0.9426774978637695,
+            "object_present": 0.053726255893707275,
+            "hand_present": 0.0035962385591119528
+          }
+        },
+        {
+          "image": "T12.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 9.89566706266487e-06,
+            "object_present": 2.5280125555582345e-05,
+            "hand_present": 0.9999648332595825
+          }
+        },
+        {
+          "image": "T13.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9992863535881042,
+            "object_present": 0.0006367327878251672,
+            "hand_present": 7.692660437896848e-05
+          }
+        },
+        {
+          "image": "T14.jpg",
+          "label": "object_present",
+          "prediction": "object_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 1.2468915429053595e-06,
+            "object_present": 0.9999812841415405,
+            "hand_present": 1.7509048120700754e-05
+          }
+        },
+        {
+          "image": "T15.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 3.1336044870045043e-10,
+            "object_present": 2.9039398441454978e-08,
+            "hand_present": 1.0
+          }
+        },
+        {
+          "image": "T16.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9985136389732361,
+            "object_present": 0.001320216222666204,
+            "hand_present": 0.0001662020367803052
+          }
+        },
+        {
+          "image": "T17.jpg",
+          "label": "object_present",
+          "prediction": "empty",
+          "correct": false,
+          "probabilities": {
+            "empty": 0.9772176146507263,
+            "object_present": 0.021738000214099884,
+            "hand_present": 0.0010443344945088029
+          }
+        },
+        {
+          "image": "T18.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 2.3080465325620025e-05,
+            "object_present": 0.011379199102520943,
+            "hand_present": 0.9885977506637573
+          }
+        }
+      ],
+      "model_sha256": "93ee872687e2137c067490b178d898c253dad6d26edcf0b858b40fa1282b47b0"
+    },
+    "efficientnet_b0": {
+      "correct": 16,
+      "total": 18,
+      "accuracy": 0.8888888888888888,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0
+        ],
+        [
+          2,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          6
+        ]
+      ],
+      "rows": [
+        {
+          "image": "T01.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9996325969696045,
+            "object_present": 0.00023620524734724313,
+            "hand_present": 0.0001311886153416708
+          }
+        },
+        {
+          "image": "T02.jpg",
+          "label": "object_present",
+          "prediction": "object_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.00015469419304281473,
+            "object_present": 0.9995880722999573,
+            "hand_present": 0.0002572844095993787
+          }
+        },
+        {
+          "image": "T03.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.0004963368410244584,
+            "object_present": 0.0005758843617513776,
+            "hand_present": 0.9989277720451355
+          }
+        },
+        {
+          "image": "T04.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9996557235717773,
+            "object_present": 0.00021433578513097018,
+            "hand_present": 0.0001299118739552796
+          }
+        },
+        {
+          "image": "T05.jpg",
+          "label": "object_present",
+          "prediction": "empty",
+          "correct": false,
+          "probabilities": {
+            "empty": 0.9211536049842834,
+            "object_present": 0.07614865154027939,
+            "hand_present": 0.0026977271772921085
+          }
+        },
+        {
+          "image": "T06.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.009546060115098953,
+            "object_present": 0.03777693584561348,
+            "hand_present": 0.9526770114898682
+          }
+        },
+        {
+          "image": "T07.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9995467066764832,
+            "object_present": 0.00026416193577460945,
+            "hand_present": 0.00018914863176178187
+          }
+        },
+        {
+          "image": "T08.jpg",
+          "label": "object_present",
+          "prediction": "object_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.006424205843359232,
+            "object_present": 0.9925373196601868,
+            "hand_present": 0.0010384598281234503
+          }
+        },
+        {
+          "image": "T09.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.0031465855427086353,
+            "object_present": 0.0003163528745062649,
+            "hand_present": 0.9965370893478394
+          }
+        },
+        {
+          "image": "T10.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9992496371269226,
+            "object_present": 0.00040660289232619107,
+            "hand_present": 0.0003438255225773901
+          }
+        },
+        {
+          "image": "T11.jpg",
+          "label": "object_present",
+          "prediction": "empty",
+          "correct": false,
+          "probabilities": {
+            "empty": 0.5049283504486084,
+            "object_present": 0.48634499311447144,
+            "hand_present": 0.008726745843887329
+          }
+        },
+        {
+          "image": "T12.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.01884748972952366,
+            "object_present": 0.05450672656297684,
+            "hand_present": 0.9266457557678223
+          }
+        },
+        {
+          "image": "T13.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.999401330947876,
+            "object_present": 0.00036941998405382037,
+            "hand_present": 0.0002292314893566072
+          }
+        },
+        {
+          "image": "T14.jpg",
+          "label": "object_present",
+          "prediction": "object_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.00019987452833447605,
+            "object_present": 0.9995248317718506,
+            "hand_present": 0.0002753214503172785
+          }
+        },
+        {
+          "image": "T15.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.0003951644175685942,
+            "object_present": 0.0006679401267319918,
+            "hand_present": 0.9989369511604309
+          }
+        },
+        {
+          "image": "T16.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9932774901390076,
+            "object_present": 0.003823282662779093,
+            "hand_present": 0.0028991715516895056
+          }
+        },
+        {
+          "image": "T17.jpg",
+          "label": "object_present",
+          "prediction": "object_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.022795792669057846,
+            "object_present": 0.9732470512390137,
+            "hand_present": 0.0039571779780089855
+          }
+        },
+        {
+          "image": "T18.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.002892593154683709,
+            "object_present": 0.022236840799450874,
+            "hand_present": 0.9748705625534058
+          }
+        }
+      ],
+      "model_sha256": "54b70001f38f27600b76c6e27639ec02781935211e48c4394afafd52c5c49353"
+    },
+    "resnet18": {
+      "correct": 17,
+      "total": 18,
+      "accuracy": 0.9444444444444444,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          0
+        ],
+        [
+          1,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          6
+        ]
+      ],
+      "rows": [
+        {
+          "image": "T01.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9996862411499023,
+            "object_present": 0.00025046494556590915,
+            "hand_present": 6.324525747913867e-05
+          }
+        },
+        {
+          "image": "T02.jpg",
+          "label": "object_present",
+          "prediction": "object_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 2.4540825052099535e-06,
+            "object_present": 0.9999747276306152,
+            "hand_present": 2.2796719349571504e-05
+          }
+        },
+        {
+          "image": "T03.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 6.307717558229342e-05,
+            "object_present": 2.7871792553924024e-05,
+            "hand_present": 0.9999090433120728
+          }
+        },
+        {
+          "image": "T04.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9996525049209595,
+            "object_present": 0.0002773517044261098,
+            "hand_present": 7.01681783539243e-05
+          }
+        },
+        {
+          "image": "T05.jpg",
+          "label": "object_present",
+          "prediction": "object_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.1689969003200531,
+            "object_present": 0.8290548920631409,
+            "hand_present": 0.0019481126219034195
+          }
+        },
+        {
+          "image": "T06.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.0011124296579509974,
+            "object_present": 0.0015203406801447272,
+            "hand_present": 0.9973672032356262
+          }
+        },
+        {
+          "image": "T07.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9997338652610779,
+            "object_present": 0.00021024869056418538,
+            "hand_present": 5.5949523812159896e-05
+          }
+        },
+        {
+          "image": "T08.jpg",
+          "label": "object_present",
+          "prediction": "object_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 7.004310191405239e-06,
+            "object_present": 0.9999574422836304,
+            "hand_present": 3.5577304515754804e-05
+          }
+        },
+        {
+          "image": "T09.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.002250061370432377,
+            "object_present": 0.0005549151101149619,
+            "hand_present": 0.9971950054168701
+          }
+        },
+        {
+          "image": "T10.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9996726512908936,
+            "object_present": 0.00026845242246054113,
+            "hand_present": 5.881895776838064e-05
+          }
+        },
+        {
+          "image": "T11.jpg",
+          "label": "object_present",
+          "prediction": "object_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.2318487912416458,
+            "object_present": 0.7623652815818787,
+            "hand_present": 0.005785910878330469
+          }
+        },
+        {
+          "image": "T12.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.00041158535168506205,
+            "object_present": 0.0035211697686463594,
+            "hand_present": 0.996067225933075
+          }
+        },
+        {
+          "image": "T13.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9997736811637878,
+            "object_present": 0.00018517997523304075,
+            "hand_present": 4.108418579562567e-05
+          }
+        },
+        {
+          "image": "T14.jpg",
+          "label": "object_present",
+          "prediction": "object_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 4.262449238012778e-06,
+            "object_present": 0.9999644756317139,
+            "hand_present": 3.128985918010585e-05
+          }
+        },
+        {
+          "image": "T15.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.0011755519080907106,
+            "object_present": 0.0038279108703136444,
+            "hand_present": 0.9949965476989746
+          }
+        },
+        {
+          "image": "T16.jpg",
+          "label": "empty",
+          "prediction": "empty",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.9996287822723389,
+            "object_present": 0.0002556392864789814,
+            "hand_present": 0.00011554941011127084
+          }
+        },
+        {
+          "image": "T17.jpg",
+          "label": "object_present",
+          "prediction": "empty",
+          "correct": false,
+          "probabilities": {
+            "empty": 0.689342200756073,
+            "object_present": 0.3024708032608032,
+            "hand_present": 0.008187015540897846
+          }
+        },
+        {
+          "image": "T18.jpg",
+          "label": "hand_present",
+          "prediction": "hand_present",
+          "correct": true,
+          "probabilities": {
+            "empty": 0.0038492970634251833,
+            "object_present": 0.005276588723063469,
+            "hand_present": 0.9908740520477295
+          }
+        }
+      ],
+      "model_sha256": "47bab20299da467e617cbe2b0f796c57afa1436701127b5def21ec35bf4ee742"
+    }
+  }
+}

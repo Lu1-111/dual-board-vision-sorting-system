@@ -1,0 +1,113 @@
+{
+  "batch": "first_test",
+  "threshold": 0.8,
+  "scope": "Original 20 generated images, initially evaluated with v1. Metadata plan reconstructed from the original manifest; use regression mode with later models.",
+  "reconstructed_from_original_manifest": true,
+  "model_hashes": {
+    "best.pt": "1c48eba4c01271c51fcb1571e21e037fe3024923537a6625124bb8cbe23437ae",
+    "workcell_tiny_fp32.onnx": "fef255e8ba5078ad5b1ef065721cc6ff44d86c578f0abd8998441b35dbe2ab07",
+    "workcell_tiny_int8_qdq.onnx": "a68c9609ec23e50e1146f0f1b5ee6e0b0fe59fa203a0979eba032e87516aa3c7"
+  },
+  "tests": [
+    {
+      "id": "empty_01",
+      "expected_class": "empty",
+      "suite": "classification"
+    },
+    {
+      "id": "empty_02",
+      "expected_class": "empty",
+      "suite": "classification"
+    },
+    {
+      "id": "empty_03",
+      "expected_class": "empty",
+      "suite": "classification"
+    },
+    {
+      "id": "empty_04",
+      "expected_class": "empty",
+      "suite": "classification"
+    },
+    {
+      "id": "empty_05",
+      "expected_class": "empty",
+      "suite": "classification"
+    },
+    {
+      "id": "empty_06",
+      "expected_class": "empty",
+      "suite": "classification"
+    },
+    {
+      "id": "object_01",
+      "expected_class": "object_present",
+      "suite": "classification"
+    },
+    {
+      "id": "object_02",
+      "expected_class": "object_present",
+      "suite": "classification"
+    },
+    {
+      "id": "object_03",
+      "expected_class": "object_present",
+      "suite": "classification"
+    },
+    {
+      "id": "object_04",
+      "expected_class": "object_present",
+      "suite": "classification"
+    },
+    {
+      "id": "object_05",
+      "expected_class": "object_present",
+      "suite": "classification"
+    },
+    {
+      "id": "object_06",
+      "expected_class": "object_present",
+      "suite": "classification"
+    },
+    {
+      "id": "hand_01",
+      "expected_class": "hand_present",
+      "suite": "classification"
+    },
+    {
+      "id": "hand_02",
+      "expected_class": "hand_present",
+      "suite": "classification"
+    },
+    {
+      "id": "hand_03",
+      "expected_class": "hand_present",
+      "suite": "classification"
+    },
+    {
+      "id": "hand_04",
+      "expected_class": "hand_present",
+      "suite": "classification"
+    },
+    {
+      "id": "hand_05",
+      "expected_class": "hand_present",
+      "suite": "classification"
+    },
+    {
+      "id": "hand_06",
+      "expected_class": "hand_present",
+      "suite": "classification"
+    },
+    {
+      "id": "challenge_off_belt",
+      "expected_class": null,
+      "suite": "boundary"
+    },
+    {
+      "id": "challenge_rail",
+      "expected_class": null,
+      "suite": "boundary"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "安路 NPU 模型部署"
+  short_description: "核查 DR1 模型兼容性、量化契约和 PL/PS/NPU 部署与实板证据"
+  default_prompt: "使用 $anlogic-npu-deploy 评估这个模型在 DR1M90 上的部署路径并验证输入输出契约。"

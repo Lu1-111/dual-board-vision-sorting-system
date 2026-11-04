@@ -1,0 +1,9 @@
+{
+  "errors": [
+    "blue_075_historic",
+    "S10"
+  ],
+  "relationship": "S10 is a lighting edit of original image75, so these2 errors share the same underlying defect view.",
+  "observation": "Defect fracture face is barely visible in this side view; the observed outline loss is relatively subtle. Both retained and reported, not removed from main dataset.",
+  "scope": "Observed failure mode; no new threshold tuning after retained142-image regression."
+}

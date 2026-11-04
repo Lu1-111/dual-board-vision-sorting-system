@@ -1,0 +1,107 @@
+/*
+ * Copyright (c) 2023, Anlogic Inc. and Contributors. All rights reserved.
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+
+#include <stdio.h>
+
+#include "al_reg_io.h"
+
+#include "alfsbl_sd.h"
+#include "alfsbl_misc.h"
+#include "alfsbl_boot.h"
+#include "al_utils_def.h"
+
+FIL fil;
+FATFS fs;
+
+static const char sd_drv0[] = DISK_LABEL(FATFS_DRV_SD);      // "1:"
+static const char sd_drv1[] = DISK_LABEL(FATFS_DRV_EMMC);    // "2:"
+static const char sd_drv2[] = DISK_LABEL(FATFS_DRV_EMMC1);   // "3:"
+
+uint32_t AlFsbl_SdInit(void)
+{
+	FRESULT rc = FR_OK;
+	char buffer[MAX_PATH_LEN]={0U};
+	char *boot_file = buffer;
+	uint32_t multibootoffset = 0;
+	uint32_t drvnum;
+
+	drvnum = AL_REG32_READ(SYSCTRL_NS_BOOT_MODE);
+	multibootoffset = AL_REG32_READ(SYSCTRL_S_MULTI_BOOT);
+	AL_LOG(AL_LOG_LEVEL_INFO,  "multi boot offset is %d\r\n", multibootoffset);
+
+	if(drvnum == ALFSBL_SD_DRV_NUM_0){
+		rc = f_mount(&fs, sd_drv0, 1);
+		AL_LOG(AL_LOG_LEVEL_INFO,  "drv is sd\r\n");
+	}
+	else if(drvnum == ALFSBL_SD_DRV_NUM_1){
+		rc = f_mount(&fs, sd_drv1, 1);
+		AL_LOG(AL_LOG_LEVEL_INFO,  "drv is emmc\r\n");
+	}
+	else if(drvnum == ALFSBL_SD_DRV_NUM_2){
+		rc = f_mount(&fs, sd_drv2, 1);
+		AL_LOG(AL_LOG_LEVEL_INFO,  "drv is emmc1\r\n");
+	}
+
+	if(rc != FR_OK){
+		AL_LOG(AL_LOG_LEVEL_ERROR,  "drv disk error:%d\r\n", rc);
+		rc = rc | ((ALFSBL_BOOTMODE_SD << 16));
+		return rc;
+	}
+
+	AlFsbl_MakeSdFileName(boot_file, multibootoffset, drvnum);
+
+	if(boot_file[0] != 0){
+		rc = f_open(&fil, boot_file, FA_OPEN_EXISTING | FA_READ);
+		if(rc != FR_OK){
+			rc = rc | ((ALFSBL_BOOTMODE_SD << 16));
+			return rc;
+		}
+	}
+	else{
+		rc = FR_NO_FILE;
+	}
+
+	if(rc != 0) {
+		rc = rc | ((ALFSBL_BOOTMODE_SD << 16));
+	}
+	return rc;
+}
+
+
+uint32_t AlFsbl_SdCopy(uint64_t SrcAddress, PTRSIZE DestAddress, uint32_t Length, SecureInfo *pSecureInfo)
+{
+	FRESULT rc = FR_OK;
+	uint32_t br = 0;
+
+	rc = f_lseek(&fil, SrcAddress - IMAGE_FLASH_OFFSET);
+	if(rc != FR_OK){
+		rc = rc | ((ALFSBL_BOOTMODE_SD << 16));
+		return rc;
+	}
+	rc = f_read(&fil, (uint8_t *)DestAddress, Length, &br);
+	if(rc != FR_OK){
+		rc = rc | ((ALFSBL_BOOTMODE_SD << 16));
+		return rc;
+	}
+
+	if(rc != 0) {
+		rc = rc | ((ALFSBL_BOOTMODE_SD << 16));
+	}
+	return rc;
+}
+
+
+uint32_t AlFsbl_SdRelease(void)
+{
+	FRESULT rc = FR_OK;
+
+	rc = f_close(&fil);
+
+	if(rc != FR_OK){
+		rc = rc | ((ALFSBL_BOOTMODE_SD << 16));
+	}
+	return rc;
+}

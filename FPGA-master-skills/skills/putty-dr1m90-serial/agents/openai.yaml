@@ -1,0 +1,3 @@
+interface:
+  display_name: "DR1M90 PuTTY 串口"
+  short_description: "动态查找开发板 COM 口并操作 Linux 串口控制台"

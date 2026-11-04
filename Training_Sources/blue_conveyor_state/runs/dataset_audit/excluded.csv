@@ -1,0 +1,10 @@
+﻿file,reason
+b02_25_challenge_off_belt_left.png,边界工况，原清单无三分类标签
+b02_26_challenge_off_belt_right.png,边界工况，原清单无三分类标签
+b02_27_challenge_upper_rail_straddle.png,边界工况，原清单无三分类标签
+b02_28_challenge_lower_rail_straddle.png,边界工况，原清单无三分类标签
+challenge_off_belt.png,边界工况，原清单无三分类标签
+challenge_rail.png,边界工况，原清单无三分类标签
+confusion_matrices.png,训练报告图表，不是场景照片
+training_curves.png,训练报告图表，不是场景照片
+training_curves_2092c40217.png,训练报告图表，不是场景照片

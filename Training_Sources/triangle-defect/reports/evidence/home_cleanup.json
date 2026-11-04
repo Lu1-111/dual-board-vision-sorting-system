@@ -1,0 +1,42 @@
+{
+  "completed_at": "2026-11-02T03:04:10.801192+00:00",
+  "project_moved_from": "/home/lululu/Documents/Codex/2026-11-02/wei/outputs/triangle-defect",
+  "project_location": "/home/lululu/triangle-defect",
+  "original_archive_images_verified": 101,
+  "original_capture_metadata_merged_into": "data/originals/index.json",
+  "removed": [
+    "/home/lululu/cube_defect_v4_20261101",
+    "/home/lululu/dataset_fpga2_20261102_095636",
+    "/home/lululu/cube_defect_v4_run_setup.sh"
+  ],
+  "verification_after_move": {
+    "passed": true,
+    "curated_images": 1009,
+    "main_images": 961,
+    "original_captures": 101,
+    "counts": {
+      "val": {
+        "0": 69,
+        "1": 77
+      },
+      "train": {
+        "0": 342,
+        "1": 379
+      },
+      "test": {
+        "0": 67,
+        "1": 75
+      }
+    },
+    "groups": 118,
+    "manifest_sha256": "d7122a210e7f75baf2195d4f7b1c096375e0a591fb72937e3f4da31d84c7335e",
+    "model_hashes_unchanged": true,
+    "group_splits_disjoint": true
+  },
+  "independent_project": "/home/lululu/cube_yolo_threecolor_v3_20261101",
+  "independent_project_action": "Deleted after explicit user instruction: also delete the three-color localization project",
+  "independent_project_deleted_at": "2026-11-02T03:05:27.218783+00:00",
+  "independent_project_removed_files": 1962,
+  "independent_project_removed_bytes": 4724946617,
+  "shared_runtime_preserved": "/home/lululu/.venvs/cube-threecolor-cu128"
+}

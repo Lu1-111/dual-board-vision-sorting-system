@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "T04",
+    "index": 4,
+    "lighting": "正常光",
+    "expected_class": "empty",
+    "instruction": "正常光：移走蓝块和手，再次保持空带",
+    "camera_pose": "fixed_session_A",
+    "split": "independent_real_validation"
+  },
+  "photo": {
+    "captured_utc": "1970-01-01T02:07:45.687Z",
+    "format": "jpg",
+    "frame_sequence": "10987",
+    "height": 1080,
+    "photo_id": "4c3d5a9c-1d88-41b3-8a45-33e897cbc158",
+    "sha256": "57fbcc4f2c4db5c4053b4d11ce25d170def28d62fd54d86106f733a674782041",
+    "size": 201977,
+    "source": "imx415",
+    "width": 1920
+  },
+  "host_received_at": "2026-11-02T08:54:59.645457+00:00",
+  "split": "independent_real_validation",
+  "label_review_status": "visually_confirmed",
+  "model_freeze": {
+    "fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+    "selected_run": "scratch_v3"
+  },
+  "plan_sha256": "f364735c6c7adc4ca8e9edc1a0f24e6eee4105a67eafaf67b202205949c336e9",
+  "review_note": "传送带重新清空；无手，带外物件保持为背景。"
+}

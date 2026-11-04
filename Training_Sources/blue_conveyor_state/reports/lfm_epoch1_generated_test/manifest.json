@@ -1,0 +1,17 @@
+[
+  {
+    "image": "reports/lfm_epoch1_generated_test/images/01_empty.png",
+    "expected": "empty",
+    "sha256": "77e08b90dc949ac8aab68b5f95e10bd981a957f004aa61643a386fb87865eac9"
+  },
+  {
+    "image": "reports/lfm_epoch1_generated_test/images/02_object_present.png",
+    "expected": "object_present",
+    "sha256": "226dfd96026d608295f951bf4be0c943bd950af9ea641c7eeecd8277aa44f2ea"
+  },
+  {
+    "image": "reports/lfm_epoch1_generated_test/images/03_hand_present.png",
+    "expected": "hand_present",
+    "sha256": "0af3240557580da4de58830b689193cdd3139ffd256b25fac6f33268511c0131"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "version": "blue-locator-1",
+  "method": "HSV blue segmentation with connected-component shape filtering",
+  "hsv_lower": [100, 80, 30],
+  "hsv_upper": [135, 255, 255],
+  "min_area_fraction": 0.001,
+  "min_area_pixels": 64,
+  "min_side_pixels": 24,
+  "aspect_ratio_range": [0.45, 2.2],
+  "min_solidity": 0.8,
+  "min_extent": 0.5,
+  "close_kernel": 3,
+  "crop_padding_fraction": 0.15,
+  "crop_reference_size": 224,
+  "scope": "Separated blue workpieces in the original conveyor inspection scene. RGB is used only for localization. Defect classification uses frozen V28 grayscale processing. Touching or occluded objects require further validation.",
+  "coordinate_convention": "Original decoded image pixels; xyxy right and bottom exclusive. Center is the axis-aligned box center, not a calibrated physical or grasp coordinate.",
+  "development": "Localization checked on42 original training-split photos before the remaining originals. Padding follows existing crop context; grayscale->bilinear224 reproduces the archived training-image preparation. No defect weights or threshold fitted."
+}

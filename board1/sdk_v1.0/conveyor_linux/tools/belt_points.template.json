@@ -1,0 +1,9 @@
+{
+  "note": "Fill with measured non-collinear points on the same fixed-height plane. pixel=[u,v], xyCm=[X,Y]. At least 4 points; prefer 6-9 across the belt. null is intentionally not runnable.",
+  "points": [
+    {"pixel": [null, null], "xyCm": [null, null]},
+    {"pixel": [null, null], "xyCm": [null, null]},
+    {"pixel": [null, null], "xyCm": [null, null]},
+    {"pixel": [null, null], "xyCm": [null, null]}
+  ]
+}

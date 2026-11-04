@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "status": "native_monitor_and_cross_pass_not_deployed_by_agent",
+  "baseline_binary_sha256": "a24bcec5bc7a7576e9f108e51b7815fe3410170e786fd6a0e08381f168c273d1",
+  "binary_sha256": "35010a45ba53363f8f7a3afc77a94a9c0e22a8e424801c125dc736fd63c82d86",
+  "binary_gzip_sha256": "43bd9afe9fad2364bedc250c2b0429414d62ba6bef9e46a696d0a1a4e22ceb62",
+  "timing_constants_ms": {
+    "StateAgeMs": 1000,
+    "RequestMs": 500,
+    "InitialWaitMs": 500,
+    "PollIntervalMs": 40
+  },
+  "timestamp": "goodAt remains request-start CLOCK_MONOTONIC; late reply rejected before JSON accept/stamp update; poll uses fresh time after events",
+  "unchanged_ms": {
+    "drive_heartbeat_max_gap": 20,
+    "hardware_watchdog": 250,
+    "software_active_max": 7500,
+    "hardware_run_max": 8000
+  },
+  "tests": {
+    "implementation": "actual production ArmMonitor, temporary real Unix sockets, injected monotonic clock for exact boundaries",
+    "count": 6,
+    "cases": [
+      "state age999/1000 accepted1001 rejected",
+      "reply500 accepted",
+      "reply501 rejected before updating current/stamp despite evidence within1000ms",
+      "processEvents time included in pending deadline",
+      "40ms request interval preserved",
+      "reply499 accepted and elapsed diagnostics499"
+    ],
+    "cross": "AArch64 PASS zero warnings"
+  },
+  "new_final_output": {
+    "arm_monitor": [
+      "requests",
+      "accepted_replies",
+      "pending",
+      "last_reply_elapsed_ms",
+      "max_reply_elapsed_ms",
+      "current_request_age_ms",
+      "accepted_evidence_age_ms",
+      "request_timeout_ms",
+      "state_max_age_ms",
+      "initial_wait_ms",
+      "request_interval_ms"
+    ],
+    "performance": "only scalar counters inside monitor; JSON composed once after success stop or failure stop; no per-loop logging",
+    "scope": "no phase/center fields added after completed build"
+  },
+  "source_changes": [
+    {
+      "path": "continuous_traverse.pro",
+      "before_sha256": "ec5519437d1a84c81e6f5ee0b839fa2d5f21b0d7a7899abf3c142d761ec2da77",
+      "after_sha256": "75e12831e94e7502b18b8d91aeb37d0e922619b659b5566ed46688cdde52870e"
+    },
+    {
+      "path": "main.cpp",
+      "before_sha256": "3b05470dc3d19bcddaac4d6ecb282d525ade9aa7491d4af2587b8a5465069fa8",
+      "after_sha256": "0cd37bfcd4f772f167c6042677c688e33b0deda45cd6975ee66f65078059a2e7"
+    },
+    {
+      "path": "README.txt",
+      "before_sha256": "c2aead0c5c26435bb879b956c0d20c1f7ce5471d3d070bbe7f098c528091cf37",
+      "after_sha256": "be5a63854b35031602466489358220b9b9d88fde37fb6baf31ae84e0d8661074"
+    },
+    {
+      "path": "test_arm_monitor.cpp",
+      "before_sha256": "6724c832a6747af3659d1e405fabb0d1fb218a56423f3bd837fafadd29bd14b8",
+      "after_sha256": "8f77e50c4c2ffe8a36eb9df8d95bd7b0b595d050275099b3dfd9aabc9bbf7737"
+    }
+  ],
+  "all_vision_drive_uio_sources_byte_identical": true,
+  "not_performed": [
+    "board access",
+    "motion",
+    "UI restart",
+    "automatic retry"
+  ]
+}

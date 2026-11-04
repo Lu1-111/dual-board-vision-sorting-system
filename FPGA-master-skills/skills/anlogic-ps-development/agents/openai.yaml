@@ -1,0 +1,4 @@
+interface:
+  display_name: "安路 PS 与 Linux 开发"
+  short_description: "核对 HPF 与 BSP，开发裸机、FSBL、Linux 系统及外设驱动"
+  default_prompt: "使用 $anlogic-ps-development 检查当前硬件平台与软件产物，完成 PS 开发和验证。"

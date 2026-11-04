@@ -1,0 +1,333 @@
+{
+  "locked_at": "2026-11-02T03:23:34.536094+00:00",
+  "reviewer": "Codex visual inspection before first classifier inference",
+  "records": [
+    {
+      "id": "N01",
+      "actual_label": 0,
+      "in_scope": true,
+      "note": "两可见平面连续，底部与顶部顶点完整，无缺料。",
+      "image": "images/N01.png",
+      "image_sha256": "2277a1448cd7ac7aa914f2404d5e60a29e47ef6bddd1dc9a848d883edda25719",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "标准正常",
+      "reference": "data/images/train/normal/blue_005_historic.png",
+      "generator_output_basename": "exec-c06eb95b-b2ed-46ba-b022-9628875d40b4.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "N02",
+      "actual_label": 0,
+      "in_scope": true,
+      "note": "偏暗照明，所有可见顶点完整。",
+      "image": "images/N02.png",
+      "image_sha256": "d5e1435d90cbdb2b50d47d95b6a580007f9a87b46b0dc6ba2de85403da17ae5d",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "正常·偏暗",
+      "reference": "data/images/train/normal/blue_005_historic.png",
+      "generator_output_basename": "exec-d84047b2-c460-4236-9e5c-be00810a8dc7.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "N03",
+      "actual_label": 0,
+      "in_scope": true,
+      "note": "偏亮照明与顶部窄面可见，轮廓连续，无缺料。",
+      "image": "images/N03.png",
+      "image_sha256": "02d4de900234970221eab19a545094ccd836228ee6b7de60534fdde49c5f1f39",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "正常·偏亮",
+      "reference": "data/images/train/normal/blue_005_historic.png",
+      "generator_output_basename": "exec-9c87d223-ffa1-46c9-ab77-78c9bae8c5e2.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "N04",
+      "actual_label": 0,
+      "in_scope": true,
+      "note": "斜向摆放，边缘与下部顶点完整。",
+      "image": "images/N04.png",
+      "image_sha256": "6b9431f151c69bf7e426bcc8a10994c9a88370896fc77d2cdf7e0f38cdb9a286",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "正常·旋转视角",
+      "reference": "data/images/train/normal/blue_002_historic.png",
+      "generator_output_basename": "exec-885d78fe-4c32-4ec6-b0df-78233b587031.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "N05",
+      "actual_label": 0,
+      "in_scope": true,
+      "note": "工件画面占比稍小，顶部与两个可见侧面完整，无三角缺料。",
+      "image": "images/N05.png",
+      "image_sha256": "e3991bdeca5645a46f0a166ba3920be2b36bf6a301ae8e5dd1c68c2bf7b6d6f2",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "正常·较小占比",
+      "reference": "data/images/train/normal/blue_002_historic.png",
+      "generator_output_basename": "exec-7d290790-f7a1-4e60-86b6-3c704d37710c.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "N06",
+      "actual_label": 0,
+      "in_scope": true,
+      "note": "近距离完整工件，三面交点与所有可见边角完整。尺寸差异较轻微。",
+      "image": "images/N06.png",
+      "image_sha256": "17918626807bfe348768ffc56b9b59a7f121096a82495b9feec230976f6c96e3",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "正常·较大占比",
+      "reference": "data/images/train/normal/blue_005_historic.png",
+      "generator_output_basename": "exec-f6fd1d4b-fc27-4ddb-b7a9-9a94c6fcf51c.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "N07",
+      "actual_label": 0,
+      "in_scope": true,
+      "note": "表面只有轻微明暗变化，几何完整；生成的斜向阴影较弱，不能代表强阴影测试。",
+      "image": "images/N07.png",
+      "image_sha256": "f79772329b97ad5f2cefbde8f791dcb9c690ba327cc44b6d0c7b50a009cd175f",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "正常·斜向阴影",
+      "reference": "data/images/train/normal/blue_005_historic.png",
+      "generator_output_basename": "exec-4384f7c0-4ddb-46fe-87eb-e101f091042e.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "N08",
+      "actual_label": 0,
+      "in_scope": true,
+      "note": "表面斑驳与颗粒稍明显，仍为连续平面，没有缺角。",
+      "image": "images/N08.png",
+      "image_sha256": "3022f24bdec012583cbc0a838805dcba50fd5b0f2d3e39ed9e0552b73dfc4369",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "正常·表面斑驳",
+      "reference": "data/images/train/normal/blue_002_historic.png",
+      "generator_output_basename": "exec-3ed6916d-87a0-45e2-8e87-194a2822b8a4.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "N09",
+      "actual_label": 0,
+      "in_scope": true,
+      "note": "中央棱有细反光线，工件几何完整。",
+      "image": "images/N09.png",
+      "image_sha256": "6628b26b31cf208d2a044774ab2efacd790ba21b6d0e59916f7081fc1a590f6a",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "正常·边缘反光",
+      "reference": "data/images/train/normal/blue_005_historic.png",
+      "generator_output_basename": "exec-bb7d8ac5-777c-45c2-a343-af772b0efe2a.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "N10",
+      "actual_label": 0,
+      "in_scope": true,
+      "note": "画面略柔和，中央棱和下部顶点仍完整，无缺料。",
+      "image": "images/N10.png",
+      "image_sha256": "e7fbc48e2ec4018ad1fd40d2b37e49cb8a397a4a80629b1cb6bdd004d0f24238",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "正常·轻微失焦",
+      "reference": "data/images/train/normal/blue_002_historic.png",
+      "generator_output_basename": "exec-df3d98bf-9479-421a-8658-cf65beba544f.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "D01",
+      "actual_label": 1,
+      "in_scope": true,
+      "note": "下部交汇顶角有清晰三角断面及缺料，形态与原图一致。",
+      "image": "images/D01.png",
+      "image_sha256": "cb3d351f8fd92022db4cf7f669ba982a9c8a053d4b8618f029b194920e3d89cc",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "标准三角缺角",
+      "reference": "data/images/train/triangle_defect/blue_051_historic.png",
+      "generator_output_basename": "exec-687731b6-7be0-45fb-9351-71118e7789e9.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "D02",
+      "actual_label": 1,
+      "in_scope": true,
+      "note": "下部中央有比D01更小的三角缺角，仍清晰可见。",
+      "image": "images/D02.png",
+      "image_sha256": "4643b1414fe3d93accb422f1bffdb23943b06e54dbbe82cf7dec6afe1fb7fc54",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "较小三角缺角",
+      "reference": "data/images/train/triangle_defect/blue_051_historic.png",
+      "generator_output_basename": "exec-70fe082b-c9c3-42d2-9793-7d27ff26e112.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "D03",
+      "actual_label": 1,
+      "in_scope": true,
+      "note": "下部中央较大三角断面，内部纹理粗糙，外轮廓仍为三角截角。",
+      "image": "images/D03.png",
+      "image_sha256": "16f72755bb673ba97d1adf06d270e048334c1c451e5a27bba09965f3e863c678",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "较大三角缺角",
+      "reference": "data/images/train/triangle_defect/blue_051_historic.png",
+      "generator_output_basename": "exec-006e1098-0aba-41d9-bc6e-2c5ee0c233e8.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "D04",
+      "actual_label": 1,
+      "in_scope": true,
+      "note": "下部中央三角截角可见，断面略柔和，实际仍有粗糙纹理。",
+      "image": "images/D04.png",
+      "image_sha256": "d1e0e7df04bd51648924442b785bf70627f9561de02081a3ade959a73d76bca7",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "三角缺角·细腻断面",
+      "reference": "data/images/train/triangle_defect/blue_051_historic.png",
+      "generator_output_basename": "exec-f12f2a92-f6a1-4a24-bcb4-ef3aa6216a3e.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "D05",
+      "actual_label": 1,
+      "in_scope": true,
+      "note": "下部中央三角缺角边界清晰，断面颗粒较粗，其他边角完整。",
+      "image": "images/D05.png",
+      "image_sha256": "bf6c348b4697fdeb55e9dd070528692035f80ec4290fa8f52d71391afc94f13b",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "三角缺角·粗糙断面",
+      "reference": "data/images/train/triangle_defect/blue_051_historic.png",
+      "generator_output_basename": "exec-3a18ab9e-39e2-4dd1-a58a-eaa7bdbb65cd.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "D06",
+      "actual_label": 1,
+      "in_scope": true,
+      "note": "上部左侧顶角有三角截角，断面与缺失几何清晰。",
+      "image": "images/D06.png",
+      "image_sha256": "34ef26b6925cfd56bd04739fbc6a2cc4bf2a623cd39bc3bab75ba4bfca2285ce",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "上部三角缺角",
+      "reference": "data/images/train/triangle_defect/blue_062_historic.png",
+      "generator_output_basename": "exec-a1380c9a-3308-4a7d-8ae1-cd5c5c184b4b.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "D07",
+      "actual_label": 1,
+      "in_scope": true,
+      "note": "顶部中央顶角被三角断面截去，形态与原顶角参考图一致。",
+      "image": "images/D07.png",
+      "image_sha256": "2f39553ba74089843a18038a67493bb86a5b525665c5fba2d16913cbb0d60891",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "顶角三角缺角",
+      "reference": "data/images/train/triangle_defect/blue_079_historic.png",
+      "generator_output_basename": "exec-0d2e6b88-c81d-4321-8ea6-fe58a8e75821.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "D08",
+      "actual_label": 1,
+      "in_scope": true,
+      "note": "较暗照明下，下部中央三角缺角仍可见，断面较粗糙。",
+      "image": "images/D08.png",
+      "image_sha256": "0fbed5b2b8359e71cf78c9aa6a3726b36d2a8586c8b467f6e06a9041e3ee0030",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "三角缺角·偏暗",
+      "reference": "data/images/train/triangle_defect/blue_051_historic.png",
+      "generator_output_basename": "exec-952a54de-0799-4adf-b754-d688b7edde55.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "D09",
+      "actual_label": 1,
+      "in_scope": true,
+      "note": "较亮照明下，上部左侧有明显三角断面，其他顶点完整。",
+      "image": "images/D09.png",
+      "image_sha256": "1bd239d6db07ba01f6d864e6a2052152f82bfa762d048d7c939f3aecaa29e91b",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "三角缺角·偏亮",
+      "reference": "data/images/train/triangle_defect/blue_062_historic.png",
+      "generator_output_basename": "exec-599af0cc-87da-4ed1-a9bd-a35325256316.png",
+      "byte_identical_to_training": false
+    },
+    {
+      "id": "D10",
+      "actual_label": 1,
+      "in_scope": true,
+      "note": "轻微斜视，下部中央三角截角仍暴露，实际角度变化较轻微。",
+      "image": "images/D10.png",
+      "image_sha256": "7a067ee000db2ea3c1ac2403734246d13abdf16978a0f0e1a34957090e64b725",
+      "image_size": [
+        1254,
+        1254
+      ],
+      "scenario": "三角缺角·斜视",
+      "reference": "data/images/train/triangle_defect/blue_051_historic.png",
+      "generator_output_basename": "exec-09cec618-b674-4f9e-bf29-442bd926009f.png",
+      "byte_identical_to_training": false
+    }
+  ],
+  "counts": {
+    "normal": 10,
+    "triangle_defect": 10
+  },
+  "excluded": [],
+  "plan_sha256": "0242180382ff7ae1b91470641d85673674ecdec8d76023f54bc7c40bf7d301e0",
+  "notes": "All20 generated images retained. Actual labels locked from visual geometry before classifier access. Requested exposure/scale/angle percentages are qualitative generation targets, not calibrated measured changes. N07 shadow is weak; N06/D10 pose and scale changes are modest."
+}

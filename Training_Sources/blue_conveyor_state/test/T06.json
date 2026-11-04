@@ -1,0 +1,31 @@
+{
+  "task": {
+    "id": "T06",
+    "index": 6,
+    "lighting": "正常光",
+    "expected_class": "hand_present",
+    "instruction": "正常光：两三根手指从画面边缘伸到带面上，保持不动",
+    "camera_pose": "fixed_session_A",
+    "split": "independent_real_validation"
+  },
+  "photo": {
+    "captured_utc": "1970-01-01T02:16:30.849Z",
+    "format": "jpg",
+    "frame_sequence": "20260",
+    "height": 1080,
+    "photo_id": "6cf9d76f-8cb8-4ac8-b442-8efae118c8ec",
+    "sha256": "7ada6320a18d72400047d0542b632976461db6a9f74c5738003499b3c830c662",
+    "size": 199468,
+    "source": "imx415",
+    "width": 1920
+  },
+  "host_received_at": "2026-11-02T09:03:44.325218+00:00",
+  "split": "independent_real_validation",
+  "label_review_status": "visually_confirmed",
+  "model_freeze": {
+    "fp32_sha256": "d4a3435b45ff922d1fdfd1d2f203ebc9f535580a7fa0f2a23f0f26c4accc2259",
+    "selected_run": "scratch_v3"
+  },
+  "plan_sha256": "f364735c6c7adc4ca8e9edc1a0f24e6eee4105a67eafaf67b202205949c336e9",
+  "review_note": "两根手指伸到带面上，部分手掌也可见；蓝块仍在右端，记录为 hand_present；并非仅极少指尖可见。"
+}
