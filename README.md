@@ -4,6 +4,14 @@
 
 缺角识别采用 **V28**，工况识别采用 **EfficientNet-B0**。本仓库汇总 FPGA 工程、板端应用、模型训练源码及配套 AI 开发技能。
 
+## 参赛背景
+
+本项目为 **2026 年全国大学生嵌入式芯片与系统设计竞赛 · FPGA 创新设计赛道**参赛作品，选用上海安路信息科技股份有限公司（Anlogic）命题的**选题四：基于安路飞龙系列 SoC 的智能工业应用系统**。
+
+项目基于安路飞龙 DR1M90 异构 SoC 平台，构建双板协同的视觉智能分拣系统，集成 PL/PS 协同控制、端侧 AI 推理、机器视觉、工业总线通信与自动化执行机构，实现工件识别、缺陷分类、自动分拣与运行状态监控。
+
+竞赛官方资料：[2026 年 FPGA 创新设计赛道选题指南（安路科技）](https://www.anlogic.com/support/university/competitions/eda/news1/42.html)（[选题指南 PDF](https://www.anlogic.com/Public/Uploads/ueditor/upload/file/20260826/1787734941769836.pdf)）
+
 ## 两板职责
 
 | 单元 | 主要功能 |
